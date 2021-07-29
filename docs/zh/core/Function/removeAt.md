@@ -1,0 +1,36 @@
+## Functions: removeAt
+
+### removeAt
+
+
+___
+▸ **removeAt**<`void`\>(`array: undefined, index: number`): `void`
+___
+
+
+
+**`zh`** 
+移除指定索引的数组元素。
+
+
+#### Type parameters
+| Name |
+| :------ |
+| `T` |
+
+#### Parameters
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `array` | - | 数组。  |
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `index` | `number` | 待移除元素的索引。  |
+
+
+#### Returns `void` 
+___
+
+
+##### Defined in &nbsp;   [cocos/core/utils/array.ts:43](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/array.ts#L43)&nbsp;

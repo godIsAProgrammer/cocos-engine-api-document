@@ -1,0 +1,250 @@
+
+## Class: GbufferStage
+
+
+`extend:`
+[RenderStage](docs/en/pipeline/Class/RenderStage.md)
+
+
+
+
+
+
+
+
+
+
+
+
+**`en`** The gbuffer render stage
+
+
+<div class="table-of-content">
+<h2>Table of contents</h2>
+
+
+### Properties
+
+- [ name](#name)
+- [ priority](#priority)
+- [ tag](#tag)
+
+### Constructors
+
+- [ constructor](#constructor)
+
+### Methods
+
+- [ activate](#activate)
+- [ destroy](#destroy)
+- [ initialize](#initialize)
+- [ render](#render)
+
+### Object literals
+
+- [ **`static`**  initInfo](#initInfo)
+</div>
+
+## Properties
+
+
+### name
+<div style="margin-left: 10px;">
+
+
+
+
+**`en`** Name of the current stage
+
+
+
+
+•  **name**:
+ ``string`` 
+</div>
+
+##### Defined in &nbsp;   [cocos/core/pipeline/render-stage.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-stage.ts#L62)&nbsp;
+
+
+___
+
+
+### priority
+<div style="margin-left: 10px;">
+
+
+
+
+**`en`** Priority of the current stage
+
+
+
+
+•  **priority**:
+ ``number`` 
+</div>
+
+##### Defined in &nbsp;   [cocos/core/pipeline/render-stage.ts:70](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-stage.ts#L70)&nbsp;
+
+
+___
+
+
+### tag
+<div style="margin-left: 10px;">
+
+
+
+
+**`en`** Tag of the current stage
+
+
+
+
+•  **tag**:
+ ``number`` 
+</div>
+
+##### Defined in &nbsp;   [cocos/core/pipeline/render-stage.ts:78](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-stage.ts#L78)&nbsp;
+
+
+___
+
+<!---->
+## Constructors
+
+
+### constructor
+<div style="margin-left: 10px;">
+
+• **new GbufferStage**()
+
+#### Parameters
+</div>
+
+##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L83)&nbsp;
+
+
+---
+
+<!---->
+## Methods
+
+### activate
+<div style="margin-left: 10px;">
+
+▸   **activate**<`void`\>(`pipeline: DeferredPipeline, flow: GbufferFlow`) : `void`
+
+
+
+
+<!---->
+<!--    #### Returns `void` -->
+<!---->
+
+#### Parameters
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `pipeline` | `DeferredPipeline` | - |
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `flow` | `GbufferFlow` | - |
+
+
+
+##### Returns `void`
+
+
+
+
+</div>
+
+##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:99](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L99)&nbsp;
+___
+### destroy
+<div style="margin-left: 10px;">
+
+▸   **destroy**<`void`\> : `void`
+
+
+
+
+<!---->
+<!--    #### Returns `void` -->
+<!---->
+
+
+##### Returns `void`
+
+
+
+
+</div>
+
+##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L126)&nbsp;
+___
+### initialize
+<div style="margin-left: 10px;">
+
+▸   **initialize**<`boolean`\>(`info: IRenderStageInfo`) : `boolean`
+
+
+
+
+<!---->
+<!--    #### Returns `boolean` -->
+<!---->
+
+#### Parameters
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `info` | `IRenderStageInfo` | - |
+
+
+
+##### Returns `boolean`
+
+
+
+
+</div>
+
+##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L91)&nbsp;
+___
+### render
+<div style="margin-left: 10px;">
+
+▸   **render**<`void`\>(`camera: Camera`) : `void`
+
+
+
+
+<!---->
+<!--    #### Returns `void` -->
+<!---->
+
+#### Parameters
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `camera` | `Camera` | - |
+
+
+
+##### Returns `void`
+
+
+
+
+</div>
+
+##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L129)&nbsp;
+___
+<!---->
+<!---->
+
+
+

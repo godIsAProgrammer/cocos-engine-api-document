@@ -1,0 +1,40 @@
+## Functions: pt_point_line
+
+### pt_point_line
+
+
+___
+▸ **pt_point_line**<`void`\>(`out: Vec3, point: Vec3, linePointA: Vec3, linePointB: Vec3`): `void`
+___
+
+
+
+**`zh`** 
+计算给定点距离直线上最近的一点。
+
+
+
+#### Parameters
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `out` | `Vec3` | 最近点  |
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `point` | `Vec3` | 给定点  |
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `linePointA` | `Vec3` | 线上的某点 A  |
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `linePointB` | `Vec3` | 线上的某点 B  |
+
+
+#### Returns `void` 
+___
+
+
+##### Defined in &nbsp;   [cocos/core/geometry/distance.ts:157](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/distance.ts#L157)&nbsp;

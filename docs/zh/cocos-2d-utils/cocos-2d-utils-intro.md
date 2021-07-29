@@ -1,0 +1,21 @@
+## Module: cocos/2d/utils
+
+
+<div class="table-of-content">
+<h2> Table of contents </h2>
+
+
+### Classes
+
+- [LRUCache](docs/zh/cocos-2d-utils/Class/LRUCache.md)
+
+
+### Functions
+
+- [fragmentText](docs/zh/cocos-2d-utils/Function/fragmentText.md)
+- [getBaselineOffset](docs/zh/cocos-2d-utils/Function/getBaselineOffset.md)
+- [isUnicodeCJK](docs/zh/cocos-2d-utils/Function/isUnicodeCJK.md)
+- [isUnicodeSpace](docs/zh/cocos-2d-utils/Function/isUnicodeSpace.md)
+- [safeMeasureText](docs/zh/cocos-2d-utils/Function/safeMeasureText.md)
+
+</div>

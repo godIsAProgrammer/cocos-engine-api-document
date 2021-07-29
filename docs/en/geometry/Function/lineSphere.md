@@ -1,0 +1,33 @@
+## Functions: lineSphere
+
+### lineSphere
+
+
+___
+▸ **lineSphere**<`number`\>(`line: Line, sphere: Sphere`): `number`
+___
+
+
+
+**`en`** 
+line-sphere intersect detect.
+
+
+
+#### Parameters
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `line` | `Line` | 线段  |
+
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| `sphere` | `Sphere` | 球  |
+
+
+#### Returns `number` 0 或 非0
+
+___
+
+
+##### Defined in &nbsp;   [cocos/core/geometry/intersect.ts:683](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/intersect.ts#L683)&nbsp;
