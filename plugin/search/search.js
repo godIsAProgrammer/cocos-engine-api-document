@@ -191,7 +191,7 @@ export function ignoreDiacriticalMarks(keyword) {
     if (keywords.length !== 1) {
       keywords = [].concat(query, keywords);
     }
-  
+
     for (let i = 0; i < data.length; i++) {
       const post = data[i];
       let matchesScore = 0;
@@ -220,26 +220,26 @@ export function ignoreDiacriticalMarks(keyword) {
           handlePostContent = postContent
             ? escapeHtml(ignoreDiacriticalMarks(postContent))
             : postContent;
-  
+
           indexTitle = postTitle ? handlePostTitle.search(regEx) : -1;
           indexContent = postContent ? handlePostContent.search(regEx) : -1;
-  
+
           if (indexTitle >= 0 || indexContent >= 0) {
             matchesScore += indexTitle >= 0 ? 3 : indexContent >= 0 ? 2 : 0;
             if (indexContent < 0) {
               indexContent = 0;
             }
-  
+
             let start = 0;
             let end = 0;
-  
+
             start = indexContent < 11 ? 0 : indexContent - 10;
             end = start === 0 ? 70 : indexContent + keyword.length + 60;
-  
+
             if (postContent && end > postContent.length) {
               end = postContent.length;
             }
-  
+
             const matchContent =
               '...' +
               handlePostContent
@@ -249,11 +249,11 @@ export function ignoreDiacriticalMarks(keyword) {
                   word => `<em class="search-keyword">${word}</em>`
                 ) +
               '...';
-  
+
             resultStr += matchContent;
           }
         });
-  
+
         if (matchesScore > 0) {
           const matchingPost = {
             title: handlePostTitle,
@@ -261,7 +261,7 @@ export function ignoreDiacriticalMarks(keyword) {
             url: postUrl,
             score: matchesScore,
           };
-  
+
           matchingResults.push(matchingPost);
         }
       }
@@ -283,27 +283,27 @@ export function ignoreDiacriticalMarks(keyword) {
 		const firstMatch = new RegExp('Class: ' + keywords[0], 'gi');
         const secondMatch = new RegExp('Functions: ' + keywords[0], 'gi');
         const tMatch = new RegExp('Methods: ' + keywords[0], 'gi');
-		
+
 		if (fMatch.test(title)) {
 			const step =  `Module: ${keywords[0]}`.length - title.length;
 			count = 9000 + parseInt(step);
-		} 
+		}
 
 		if (firstMatch.test(title)) {
 			const step =  `Class: ${keywords[0]}`.length - title.length;
 			count = 8000 + parseInt(step);
-		} 
+		}
 
 		if (secondMatch.test(title)) {
 			const step =  `Functions: ${keywords[0]}`.length - title.length;
 			count = 7000 + parseInt(step);
-		} 
+		}
 
 		if (tMatch.test(title)) {
 			const step =  `Methods: ${keywords[0]}`.length - title.length;
 			count = 6000 + parseInt(step);
 		}
-	
+
 		return {
 			...v,
 			title: title.replace(regEx,word => `<em class="search-keyword">${word}</em>`),
@@ -326,8 +326,8 @@ export function init(config, vm) {
 
   //清空搜索结果
   const $panel = Docsify.dom.find('.results-panel');
-  $panel.innerHTML = '';  
-  
+  $panel.innerHTML = '';
+
   // auto
   if (paths.length && isAuto && config.pathNamespaces) {
     const path = paths[0];
@@ -363,7 +363,7 @@ export function init(config, vm) {
   // INDEXS = searchData[indexKey];
 
 
-  Docsify.get('/plugin/search/search.json', false, vm.config.requestHeaders).then(
+  Docsify.get('/cocos-engine-api-document/plugin/search/search.json', false, vm.config.requestHeaders).then(
     async (result) => {
       // 添加数据
       addData(dbName, tableName, JSON.parse(result));
@@ -371,7 +371,7 @@ export function init(config, vm) {
       getData(dbName, tableName, '/', (event) => {
         INDEXS = event.target.result[langKey];
       })
-      
+
     }
   );
 
@@ -384,9 +384,9 @@ export function init(config, vm) {
   // const len = paths.length;
   // let count = 0;
 
- 
 
- 
+
+
 
   // paths.forEach(path => {
   //   if (INDEXS[path]) {
