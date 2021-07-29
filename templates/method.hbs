@@ -1,0 +1,43 @@
+## {{data.title}}
+
+{{#each data.children}}
+### {{this.name}}
+<div style="margin-left: 10px;">
+{{#each this.signatures}}
+
+▸ {{#if ../flags/isStatic}}`static`{{/if}}  **{{this.name}}**{{#if this.type.name}}<`{{this.type.name}}`\>{{/if}}{{#if this.parameters}}(`{{#eachArg this.parameters}}{{/eachArg}}`){{/if}}{{#if this.type.name}} : `{{this.type.name}}`{{/if}}
+
+{{> tags data=this.comment.tags}}
+
+{{#if this.comment.shortText}}
+{{this.comment.shortText}}
+{{/if}}
+
+
+<!--{{#if this.type.name}}-->
+<!--    #### Returns `{{this.type.name}}` {{this.comment.returns}}-->
+<!--{{/if}}-->
+
+{{#if this.parameters}}
+#### Parameters
+
+{{#each this.parameters}}
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| {{#if this.name}}`{{this.name}}`{{else}}-{{/if}} | {{#if this.type}}{{#eachMethodType this.type}}{{/eachMethodType}}{{else}}-{{/if}} | {{#if this.comment.text}}{{#replaceEscapes this.comment.text}}{{/replaceEscapes}} {{else}}-{{/if}} |
+
+{{/each}}
+
+{{/if}}
+
+##### Returns `{{#if this.type.name}}{{this.type.name}}{{else}}void{{/if}}`
+
+{{/each}}
+
+
+
+</div>
+
+##### Defined in &nbsp;{{#each this.sources}}   [{{this.fileName}}:{{this.line}}](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/{{this.fileName}}#L{{this.line}})&nbsp;{{/each }}
+___
+{{/each}}

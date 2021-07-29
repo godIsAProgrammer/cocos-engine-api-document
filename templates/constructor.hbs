@@ -1,0 +1,32 @@
+## {{data.title}}
+
+{{#each data.children}}
+
+### {{this.name}}
+<div style="margin-left: 10px;">
+
+{{#each this.signatures}}
+• **{{this.name}}**({{#if this.parameters}}`{{#eachArg this.parameters}}{{/eachArg}}`{{/if}})
+
+#### Parameters
+{{#each this.parameters}}
+| Name | Type |
+| :------ | :------ |
+| `{{this.name}}` | `{{this.type.name}}` |
+
+{{!-- #### Overrides --}}
+
+{{!-- [Mesh](/classes/mesh.md).[constructor](/classes/mesh.md#constructor) --}}
+
+
+
+{{/each}}
+{{/each}}
+</div>
+
+##### Defined in &nbsp;{{#each this.sources}}   [{{this.fileName}}:{{this.line}}](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/{{this.fileName}}#L{{this.line}})&nbsp;{{/each }}
+
+{{/each}}
+
+---
+

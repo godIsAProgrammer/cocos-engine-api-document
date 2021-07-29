@@ -1,0 +1,17 @@
+{{#each data}}
+
+{{#if (isValue this.text)}}
+
+
+{{#if (isExample this.tag)}}
+**`{{this.tag}}`**
+
+```ts
+{{#filterEscapes this.text}}{{/filterEscapes}}
+```
+{{else}}
+**`{{this.tag}}`** {{#filterEscapes this.text}}{{/filterEscapes}}
+{{/if}}
+
+{{/if}}
+{{/each}}

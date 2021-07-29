@@ -1,0 +1,15 @@
+## {{data.name}}
+
+<div class="table-of-content">
+<h2>Table of contents</h2> 
+
+{{#each data.groups}}
+
+### {{this.title}}
+
+{{#each this.children}}
+- [{{this.name}}]({{../../data.filePath}}{{#handleWidthFilePath this.name}}{{/handleWidthFilePath}})
+{{/each}}
+
+{{/each}}
+</div>

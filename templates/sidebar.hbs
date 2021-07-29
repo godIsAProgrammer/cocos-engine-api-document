@@ -1,0 +1,27 @@
+
+{{#each sidebarConfig}}
+- [{{this.name}}]({{this.url}} "{{this.name}}")
+{{#if this.children}}
+    {{#each this.children}}
+    - [{{this.name}}]({{this.url}} "{{this.name}}")
+    {{#if this.Class}}
+        - Class
+        {{#each this.Class}}
+            - [{{this.name}}]({{this.url}} "{{this.name}}")
+        {{/each}}
+    {{/if}}
+    {{#if this.Function}}
+        - Function
+        {{#each this.Function}}
+            - [{{this.name}}]({{this.url}} "{{this.name}}")
+        {{/each}}
+    {{/if}}
+    {{#if this.Interface}}
+        - Interface
+        {{#each this.Interface}}
+            - [{{this.name}}]({{this.url}} "{{this.name}}")
+        {{/each}}
+    {{/if}}
+    {{/each}}
+{{/if}}
+{{/each}}

@@ -1,0 +1,49 @@
+
+## Class: {{classData.name}}
+
+{{#if classData.extendedTypes}}
+{{#each classData.extendedTypes}}
+
+{{#if this.id}}
+`extend:`
+[{{this.source.name}}]({{this.source.filePath}})
+{{/if}}
+
+
+{{#if this.types}}
+`extend: `
+{{#each this.types}}
+[{{this.source.name}}]({{this.source.filePath}})&nbsp;
+{{/each}}
+{{/if}}
+
+{{/each}}
+
+
+
+{{/if}}
+
+{{classData.comment.shortText}}
+
+{{> tags data=classData.comment.tags}}
+
+{{> tableOfContent data=classData}}
+
+
+{{#each classData.groups}}
+{{#if (isProperties this.title)}}
+{{> properties data=this}}
+{{/if}}
+{{#if (isConstructors this.title)}}
+{{> constructor data=this}}
+{{/if}}
+{{#if (isMethods this.title)}}
+{{> method data=this}}
+{{/if}}
+<!--{{#if (isAccessors this.title)}}-->
+<!--{{> accessors data=this}}-->
+<!--{{/if}}-->
+{{/each}}
+
+
+

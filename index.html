@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+ <link rel="stylesheet" href="/plugin/sidebarCollapse/sidebar.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@latest/lib/themes/vue.css">
+
+<style type="text/css">
+  .level-1>a{
+    font-size: 22px !important;
+  }
+
+  .level-2>a{
+    font-size: 16px !important;
+  }
+
+  .level-3{
+    font-size: 14px !important;
+  }
+
+  .file>a{
+    font-size: 14px !important;
+  }
+
+  .app-nav{
+    position: absolute;
+    right: 270px;
+  }
+
+  #docsify-darklight-theme{
+    right: 270px;
+  }
+
+  .markdown-section pre>code{
+    padding: 0 1.4rem;
+  }
+</style>
+</head>
+<body>
+  <div data-app id="app"></div>
+  <script>
+    window.$docsify = {
+      nav: [
+        { title: 'EN', code: 'en' },
+        { title: '简体中文', code: 'zh' }
+      ],
+      // basePath: '/docs/',
+      // homePage: '/docs/en/',
+      alias: {
+      '/docs/en/README': '/docs/en/',
+      '/docs/zh/README': '/docs/zh/',
+      // '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      fallbackLanguages: ['en', 'zh'],
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      repo: 'https://github.com/cocos-creator/engine',
+      auto2top: true,
+      loadSidebar: true,
+      // loadNavbar: true,
+      subMaxLevel: 1,
+      sidebarDisplayLevel: 1,
+      logo: 'https://www.cocos.com/wp-content/themes/cocos/image/logo.png',
+      search: {
+        // hideOtherSidebarContent: false,
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto', // [] or 'auto'
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        // 搜索标题的最大层级, 1 - 6
+        depth: 2,
+        // 避免搜索索引冲突
+        // 同一域下的多个网站之间
+        namespace: 'cocos',
+      },
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@latest"></script>
+   <script type="module" src="/plugin/sidebarCollapse/index.js"></script>
+  <script type="module" src="/plugin/search/index.js"></script>
+  <!-- <script src="//pyecharts.org/static/search.js"></script> -->
+ <script type="module" src="/plugin/pageSidebar/index.js"></script>
+ <script type="module" src="/plugin/goToTop/index.js"></script>
+ <script type="module" src="/plugin/nav/index.js"></script>
+</body>
+</html>

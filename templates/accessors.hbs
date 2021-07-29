@@ -1,0 +1,33 @@
+## {{data.title}}
+
+{{#each data.children}}
+### {{this.name}}
+
+{{> tags data=this.comment.tags}}
+
+{{!-- {{#each this.getSignature}}
+• `get` **{{this.name}}**()
+
+ {{> tags data=this.comment.tags}} --}}
+
+
+##### Defined in &nbsp;{{#each this.sources}}   [{{this.fileName}}:{{this.line}}](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/{{this.fileName}}#L{{this.line}})&nbsp;{{/each }}
+
+
+{{#each this.setSignature}}
+
+{{!-- • `set` **{{this.name}}**(`value`): `{{#if this.type.name}}{{this.type.name}}{{else}}void{{/if}}` --}}
+
+#### Parameters
+{{#each this.parameters}}
+| Name | Type |
+| :------ | :------ |
+| `{{this.name}}` | `{{this.type.name}}` |
+{{/each}}
+#### Returns `{{#if this.type.name}}{{this.type.name}}{{else}}void{{/if}}`
+
+##### Defined in &nbsp;{{#each this.sources}}   [{{this.fileName}}:{{this.line}}](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/{{this.fileName}}#L{{this.line}})&nbsp;{{/each }}
+
+{{/each}}
+___
+{{/each}}

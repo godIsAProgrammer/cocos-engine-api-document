@@ -1,0 +1,39 @@
+## Functions: {{data.name}}
+
+{{#each data.signatures}}
+### {{this.name}}
+
+{{#if this.comment}}
+{{this.comment.shortText}}
+{{/if}}
+___
+▸ **{{this.name}}**{{#if this.type.name}}<`{{this.type.name}}`\>{{/if}}(`{{#eachArg this.parameters}}{{/eachArg}}`){{#if this.type.name}}: `{{this.type.name}}`{{/if}}
+___
+{{> tags data=this.comment.tags}}
+
+{{#if this.typeParameter}}
+#### Type parameters
+{{#each this.typeParameter}}
+| Name |
+| :------ |
+| `{{this.name}}` |
+{{/each}}
+{{/if}}
+
+#### Parameters
+
+{{#each this.parameters}}
+| Name | Type | Description |
+| :------: | :------: | :------: |
+| {{#if this.name}}`{{this.name}}`{{else}}-{{/if}} | {{#if this.type.name}}`{{this.type.name}}`{{else}}-{{/if}} | {{#if this.comment.text}}{{#replaceEscapes this.comment.text}}{{/replaceEscapes}} {{else}}-{{/if}} |
+
+{{/each}}
+
+{{#if this.type.name}}
+#### Returns `{{this.type.name}}` {{this.comment.returns}}
+{{/if}}
+___
+
+{{/each}}
+
+##### Defined in &nbsp;{{#each data.sources}}   [{{this.fileName}}:{{this.line}}](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/{{this.fileName}}#L{{this.line}})&nbsp;{{/each }}

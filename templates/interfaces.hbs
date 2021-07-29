@@ -1,0 +1,43 @@
+## Interface: {{data.name}}
+
+{{#each data.children}}
+- [{{this.name}}]({{data.filePath}}#{{this.name}})
+{{/each}}
+
+### Properties
+
+{{#if data.children }}
+{{#each data.children}}
+#### {{this.name}}
+
+<div style="margin-left: 10px;">
+
+{{>tags data=this.comment.tags}}
+
+• **{{this.name}}**{{#if this.type}}: `{{#propertyType this.type}}{{/propertyType}}`{{/if}}
+
+</div>
+
+
+##### Defined in &nbsp;{{#each this.sources}}   [{{this.fileName}}:{{this.line}}](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/{{this.fileName}}#L{{this.line}})&nbsp;{{/each }}
+
+___
+{{/each}}
+{{else}}
+
+{{#each data.indexSignature}}
+#### {{this.name}}
+
+<div style="margin-left: 10px;">
+
+{{>tags data=this.comment.tags}}
+
+• **{{this.name}}**{{#if this.type}}: `{{#propertyType this.type}}{{/propertyType}}`{{/if}}
+
+</div>
+{{/each}}
+
+##### Defined in &nbsp;{{#each data.sources}}   [{{this.fileName}}:{{this.line}}](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/{{this.fileName}}#L{{this.line}})&nbsp;{{/each }}
+___
+
+{{/if}}

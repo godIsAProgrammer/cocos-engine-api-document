@@ -1,0 +1,14 @@
+<div class="table-of-content">
+<h2>Table of contents</h2>
+
+{{#each data.groups}}
+
+{{#if this.children}}
+### {{this.title}}
+
+{{#each this.children}}
+- [{{#if this.flags.isStatic}} **`static`** {{/if}} {{this.name}}]({{data.filePath}}#{{this.name}})
+{{/each}}
+{{/if}}
+{{/each}}
+</div>
