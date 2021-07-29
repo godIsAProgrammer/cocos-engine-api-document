@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -61,14 +60,10 @@ ___
 • **new ReusableInvoker**(`invokeFunc: any`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `invokeFunc` | `any` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L101)&nbsp;
@@ -80,16 +75,12 @@ ___
 ## Methods
 
 ### add
+
 <div style="margin-left: 10px;">
 
 ▸   **add**<`void`\>(`comp: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -98,27 +89,18 @@ ___
 | `comp` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:162](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L162)&nbsp;
 ___
 ### invoke
+
 <div style="margin-left: 10px;">
 
 ▸   **invoke**<`void`\>(`dt: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -127,27 +109,18 @@ ___
 | `dt` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:190](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L190)&nbsp;
 ___
 ### remove
+
 <div style="margin-left: 10px;">
 
 ▸   **remove**<`void`\>(`comp: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -156,12 +129,7 @@ ___
 | `comp` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:177](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L177)&nbsp;

@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
-
 
 #### Returns `number` 
 ___

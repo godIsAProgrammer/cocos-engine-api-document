@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 生成一个环面。
 
@@ -19,15 +18,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radius` | `number` | 环面半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tube` | `number` | 管形大小。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `RecursivePartial` | 参数选项。  |
-
 
 ___
 

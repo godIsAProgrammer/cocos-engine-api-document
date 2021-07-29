@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** GFX input assembler.
 
 
@@ -58,7 +56,6 @@
 
 
 
-
 **`en`** Get current attributes.
 
 
@@ -76,7 +73,6 @@ ___
 
 ### attributesHash
 <div style="margin-left: 10px;">
-
 
 
 
@@ -100,7 +96,6 @@ ___
 
 
 
-
 **`en`** Get starting index.
 
 
@@ -121,7 +116,6 @@ ___
 
 
 
-
 **`en`** Get starting instance.
 
 
@@ -139,7 +133,6 @@ ___
 
 ### firstVertex
 <div style="margin-left: 10px;">
-
 
 
 
@@ -179,7 +172,6 @@ ___
 
 
 
-
 **`en`** Get current index buffer.
 
 
@@ -197,7 +189,6 @@ ___
 
 ### indexCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -221,7 +212,6 @@ ___
 
 
 
-
 **`en`** Get the indirect buffer, if present.
 
 
@@ -239,7 +229,6 @@ ___
 
 ### instanceCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -263,7 +252,6 @@ ___
 
 
 
-
 **`en`** Get current vertex buffers.
 
 
@@ -284,7 +272,6 @@ ___
 
 
 
-
 **`en`** Get current vertex count.
 
 
@@ -302,7 +289,6 @@ ___
 
 ### vertexOffset
 <div style="margin-left: 10px;">
-
 
 
 
@@ -330,14 +316,10 @@ ___
 • **new InputAssembler**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/input-assembler.ts:189](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/input-assembler.ts#L189)&nbsp;
@@ -349,6 +331,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -356,34 +339,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/input-assembler.ts:219](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/input-assembler.ts#L219)&nbsp;
 ___
 ### getVertexBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **getVertexBuffer**(`stream: number`)
 
 
 
-
 **`en`** Get the specified vertex buffer.
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -392,27 +363,18 @@ ___
 | `stream` | `number` | The stream index of the vertex buffer.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/input-assembler.ts:201](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/input-assembler.ts#L201)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: InputAssemblerInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -421,12 +383,7 @@ ___
 | `info` | `InputAssemblerInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/input-assembler.ts:218](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/input-assembler.ts#L218)&nbsp;

@@ -18,9 +18,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:139](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L139)&nbsp;
-
 ___
 #### glActiveUniforms
 
@@ -31,9 +29,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:143](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L143)&nbsp;
-
 ___
 #### glUniforms
 
@@ -44,9 +40,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:142](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L142)&nbsp;
-
 ___
 #### name
 
@@ -57,9 +51,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:140](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L140)&nbsp;
-
 ___
 #### set
 
@@ -70,9 +62,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:138](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L138)&nbsp;
-
 ___
 #### size
 
@@ -83,7 +73,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L141)&nbsp;
-
 ___

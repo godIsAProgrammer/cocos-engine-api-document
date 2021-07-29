@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:164](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L164)&nbsp;
-
 ___
 #### source
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:163](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L163)&nbsp;
-
 ___
 #### type
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:162](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L162)&nbsp;
-
 ___

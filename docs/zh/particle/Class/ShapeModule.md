@@ -49,7 +49,6 @@
 
 
 
-
 **`zh`** 根据粒子的初始方向决定粒子的移动方向。
 
 
@@ -68,7 +67,6 @@ ___
 
 ### arcMode
 <div style="margin-left: 10px;">
-
 
 
 
@@ -93,7 +91,6 @@ ___
 
 
 
-
 **`zh`** 粒子沿圆周发射的速度。
 
 
@@ -112,7 +109,6 @@ ___
 
 ### arcSpread
 <div style="margin-left: 10px;">
-
 
 
 
@@ -137,7 +133,6 @@ ___
 
 
 
-
 **`zh`** 粒子发射器发射位置（针对 Box 类型的粒子发射器）。
 
 
@@ -159,7 +154,6 @@ ___
 
 
 
-
 **`zh`** 粒子从发射器哪个部位发射 [[EmitLocation]]。
 
 
@@ -178,7 +172,6 @@ ___
 
 ### length
 <div style="margin-left: 10px;">
-
 
 
 
@@ -204,7 +197,6 @@ ___
 
 
 
-
 **`zh`** 粒子发射器半径。
 
 
@@ -223,7 +215,6 @@ ___
 
 ### radiusThickness
 <div style="margin-left: 10px;">
-
 
 
 
@@ -251,7 +242,6 @@ ___
 
 
 
-
 **`zh`** 粒子生成方向随机设定。
 
 
@@ -270,7 +260,6 @@ ___
 
 ### randomPositionAmount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -295,7 +284,6 @@ ___
 
 
 
-
 **`zh`** 表示当前发射方向与当前位置到结点中心连线方向的插值。
 
 
@@ -314,7 +302,6 @@ ___
 
 ### angle
 <div style="margin-left: 10px;">
-
 
 
 
@@ -340,7 +327,6 @@ ___
 
 
 
-
 **`zh`** 粒子发射器在一个扇形范围内发射。
 
 
@@ -359,7 +345,6 @@ ___
 
 ### enable
 <div style="margin-left: 10px;">
-
 
 
 
@@ -384,7 +369,6 @@ ___
 
 
 
-
 **`zh`** 粒子发射器位置。
 
 
@@ -406,7 +390,6 @@ ___
 
 
 
-
 **`zh`** 粒子发射器旋转角度。
 
 
@@ -425,7 +408,6 @@ ___
 
 ### scale
 <div style="margin-left: 10px;">
-
 
 
 
@@ -470,6 +452,9 @@ ___
 • **new ShapeModule**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/emitter/shape-module.ts:284](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/emitter/shape-module.ts#L284)&nbsp;
@@ -481,16 +466,12 @@ ___
 ## Methods
 
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`p: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -499,27 +480,18 @@ ___
 | `p` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/emitter/shape-module.ts:300](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/emitter/shape-module.ts#L300)&nbsp;
 ___
 ### onInit
+
 <div style="margin-left: 10px;">
 
 ▸   **onInit**<`void`\>(`ps: ParticleSystem`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -528,12 +500,7 @@ ___
 | `ps` | `ParticleSystem` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/emitter/shape-module.ts:294](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/emitter/shape-module.ts#L294)&nbsp;

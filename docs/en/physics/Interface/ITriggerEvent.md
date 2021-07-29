@@ -13,10 +13,8 @@
 
 
 
-
 **`en`** 
 Gets the lowLevel object, through which all the exposed properties can be accessed.
-
 
 
 
@@ -29,9 +27,7 @@ Gets the lowLevel object, through which all the exposed properties can be access
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L71)&nbsp;
-
 ___
 #### otherCollider
 
@@ -39,10 +35,8 @@ ___
 
 
 
-
 **`en`** 
 Trigger another collider in event.
-
 
 
 
@@ -55,9 +49,7 @@ Trigger another collider in event.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L63)&nbsp;
-
 ___
 #### selfCollider
 
@@ -65,10 +57,8 @@ ___
 
 
 
-
 **`en`** 
 The collider component instance of the event owner.
-
 
 
 
@@ -81,9 +71,7 @@ The collider component instance of the event owner.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:55](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L55)&nbsp;
-
 ___
 #### type
 
@@ -91,10 +79,8 @@ ___
 
 
 
-
 **`en`** 
 The type of trigger event.
-
 
 
 
@@ -107,7 +93,5 @@ The type of trigger event.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L47)&nbsp;
-
 ___

@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `dss` | `DepthStencilState` | - |
 
-
 #### Returns `string` 
 ___
 

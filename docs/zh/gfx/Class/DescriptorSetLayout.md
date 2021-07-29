@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** GFX 描述符集布局。
 
 
@@ -117,14 +115,10 @@ ___
 • **new DescriptorSetLayout**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/descriptor-set-layout.ts:57](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/descriptor-set-layout.ts#L57)&nbsp;
@@ -136,6 +130,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -143,31 +138,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/descriptor-set-layout.ts:66](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/descriptor-set-layout.ts#L66)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: DescriptorSetLayoutInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -176,12 +158,7 @@ ___
 | `info` | `DescriptorSetLayoutInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/descriptor-set-layout.ts:64](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/descriptor-set-layout.ts#L64)&nbsp;

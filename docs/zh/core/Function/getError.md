@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 通过 error id 和必要的参数来获取错误信息。
 
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `errorId` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param` | - | - |
-
 
 #### Returns `string` 
 ___

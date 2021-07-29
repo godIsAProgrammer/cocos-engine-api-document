@@ -13,14 +13,11 @@
 
 
 
-
 **`en`** The pixel format
 
 
 
-
 **`zh`** 像素格式。
-
 
 
 
@@ -32,9 +29,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-2d.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-2d.ts#L63)&nbsp;
-
 ___
 #### height
 
@@ -42,9 +37,7 @@ ___
 
 
 
-
 **`en`** The pixel height
-
 
 
 
@@ -56,9 +49,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-2d.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-2d.ts#L56)&nbsp;
-
 ___
 #### mipmapLevel
 
@@ -66,14 +57,11 @@ ___
 
 
 
-
 **`en`** The mipmap level count
 
 
 
-
 **`zh`** mipmap 层级。
-
 
 
 
@@ -85,9 +73,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-2d.ts:70](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-2d.ts#L70)&nbsp;
-
 ___
 #### width
 
@@ -95,9 +81,7 @@ ___
 
 
 
-
 **`en`** The pixel width
-
 
 
 
@@ -109,7 +93,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-2d.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-2d.ts#L50)&nbsp;
-
 ___

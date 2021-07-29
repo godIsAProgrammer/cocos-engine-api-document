@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 
 键盘事件。
 
@@ -64,7 +62,6 @@
 
 
 
-
 **`zh`** 
 加速器事件类型。
 
@@ -84,7 +81,6 @@ ___
 
 ### KEYBOARD
 <div style="margin-left: 10px;">
-
 
 
 
@@ -110,7 +106,6 @@ ___
 
 
 
-
 **`zh`** 
 鼠标事件类型。
 
@@ -130,7 +125,6 @@ ___
 
 ### NONE
 <div style="margin-left: 10px;">
-
 
 
 
@@ -156,7 +150,6 @@ ___
 
 
 
-
 **`zh`** 
 触摸事件类型。
 
@@ -176,7 +169,6 @@ ___
 
 ### bubbles
 <div style="margin-left: 10px;">
-
 
 
 
@@ -202,7 +194,6 @@ ___
 
 
 
-
 **`zh`** 
 当前目标。
 
@@ -222,7 +213,6 @@ ___
 
 ### eventPhase
 <div style="margin-left: 10px;">
-
 
 
 
@@ -248,7 +238,6 @@ ___
 
 
 
-
 **`zh`** 表示当前按键是否正在被按下
 
 
@@ -267,7 +256,6 @@ ___
 
 ### keyCode
 <div style="margin-left: 10px;">
-
 
 
 
@@ -294,7 +282,6 @@ ___
 
 
 
-
 **`zh`** 
 立即停止当前事件的传递，事件甚至不会被分派到所连接的当前目标。
 
@@ -314,7 +301,6 @@ ___
 
 ### propagationStopped
 <div style="margin-left: 10px;">
-
 
 
 
@@ -340,7 +326,6 @@ ___
 
 
 
-
 **`zh`** 原始 DOM KeyboardEvent 事件对象
 
 
@@ -359,7 +344,6 @@ ___
 
 ### target
 <div style="margin-left: 10px;">
-
 
 
 
@@ -382,7 +366,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -412,30 +395,12 @@ ___
 • **new EventKeyboard**(`keyCode: number | KeyboardEvent, isPressed: boolean, bubbles: undefined | false | true`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `keyCode` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isPressed` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `bubbles` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:612](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L612)&nbsp;
@@ -447,10 +412,10 @@ ___
 ## Methods
 
 ### getCurrentTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **getCurrentTarget**
-
 
 
 
@@ -460,23 +425,16 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:273](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L273)&nbsp;
 ___
 ### getType
+
 <div style="margin-left: 10px;">
 
 ▸   **getType**<`string`\> : `string`
-
 
 
 
@@ -487,25 +445,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:283](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L283)&nbsp;
 ___
 ### isStopped
+
 <div style="margin-left: 10px;">
 
 ▸   **isStopped**<`boolean`\> : `boolean`
-
 
 
 
@@ -516,25 +465,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:260](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L260)&nbsp;
 ___
 ### reuse
+
 <div style="margin-left: 10px;">
 
 ▸   **reuse**<`void`\>(`type: string, bubbles: undefined | false | true`) : `void`
-
 
 
 
@@ -543,37 +483,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | The name of the event (case-sensitive), e.g. "click", "fire", or "submit"  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bubbles` | `undefined \| false \| true` | A boolean indicating whether the event bubbles up through the tree or not  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:231](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L231)&nbsp;
 ___
 ### unuse
+
 <div style="margin-left: 10px;">
 
 ▸   **unuse**<`void`\> : `void`
-
 
 
 
@@ -584,16 +511,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:214](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L214)&nbsp;

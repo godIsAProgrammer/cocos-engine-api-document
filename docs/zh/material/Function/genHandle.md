@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `pt` | `PropertyType` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `set` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `binding` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `Type` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `number` | - |
-
 
 #### Returns `number` 
 ___

@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Environment lighting information in the Scene
 
 
@@ -33,7 +32,6 @@
 
 
 
-
 **`en`** Ground color
 
 
@@ -51,7 +49,6 @@ ___
 
 ### skyColor
 <div style="margin-left: 10px;">
-
 
 
 
@@ -75,7 +72,6 @@ ___
 
 
 
-
 **`en`** Sky illuminance
 
 
@@ -94,16 +90,12 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`resource: Ambient`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -112,12 +104,7 @@ ___
 | `resource` | `Ambient` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:98](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L98)&nbsp;

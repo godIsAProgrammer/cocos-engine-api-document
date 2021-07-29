@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/capsule.ts:43](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/capsule.ts#L43)&nbsp;
-
 ___
 #### capped
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/capsule.ts:42](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/capsule.ts#L42)&nbsp;
-
 ___
 #### heightSegments
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/capsule.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/capsule.ts#L41)&nbsp;
-
 ___
 #### sides
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/capsule.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/capsule.ts#L40)&nbsp;
-
 ___

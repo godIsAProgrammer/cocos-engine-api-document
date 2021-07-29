@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 
 基础图形网格，可以在运行时构建一些基础的网格。
 
@@ -106,7 +104,6 @@ ___
 
 
 
-
 **`zh`** 
 创建此基础图形网格的可选参数，请在 onLoaded 调用之前设置。
 
@@ -142,7 +139,6 @@ ___
 
 ### loaded
 <div style="margin-left: 10px;">
-
 
 
 
@@ -184,7 +180,6 @@ ___
 
 
 
-
 **`zh`** 
 此基础图形网格的类型，请在 onLoaded 调用之前设置。
 
@@ -204,7 +199,6 @@ ___
 
 ### data
 <div style="margin-left: 10px;">
-
 
 
 
@@ -229,7 +223,6 @@ ___
 
 
 
-
 **`zh`** 此网格的哈希值。
 
 
@@ -248,7 +241,6 @@ ___
 
 ### hideFlags
 <div style="margin-left: 10px;">
-
 
 
 
@@ -273,7 +265,6 @@ ___
 
 
 
-
 **`zh`** 
 表示该对象是否可用（被 destroy 后将不可用）。<br>
 当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。<br>
@@ -282,9 +273,7 @@ ___
 
 
 
-
 **`default`** true
-
 
 
 
@@ -341,9 +330,7 @@ ___
 
 
 
-
 **`zh`** （各分量都）大于等于此网格任何顶点位置的最大位置。
-
 
 
 
@@ -368,9 +355,7 @@ ___
 
 
 
-
 **`zh`** （各分量都）小于等于此网格任何顶点位置的最大位置。
-
 
 
 
@@ -395,14 +380,11 @@ ___
 
 
 
-
 **`zh`** 该对象的名称。
 
 
 
-
 **`default`** ""
-
 
 
 
@@ -434,10 +416,8 @@ ___
 
 
 
-
 **`zh`** 
 返回该资源对应的目标平台资源的 URL，如果没有将返回一个空字符串。
-
 
 
 
@@ -459,7 +439,6 @@ ___
 
 ### refCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -485,7 +464,6 @@ ___
 
 
 
-
 **`zh`** 此网格创建的渲染网格。
 
 
@@ -504,7 +482,6 @@ ___
 
 ### struct
 <div style="margin-left: 10px;">
-
 
 
 
@@ -529,9 +506,7 @@ ___
 
 
 
-
 **`zh`** 此网格的子网格数量。
-
 
 
 
@@ -560,14 +535,10 @@ ___
 • **new Primitive**(`type: PrimitiveType`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `type` | `PrimitiveType` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/primitive/primitive.ts:77](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/primitive.ts#L77)&nbsp;
@@ -579,10 +550,10 @@ ___
 ## Methods
 
 ### deserialize
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **deserialize**<`any`\>(`data: any`) : `any`
-
 
 
 
@@ -591,12 +562,6 @@ ___
 
 应 AssetDB 要求提供这个方法。
 
-
-<!---->
-<!--    #### Returns `any` 
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -604,21 +569,16 @@ ___
 | `data` | `any` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L71)&nbsp;
 ___
 ### addRef
+
 <div style="margin-left: 10px;">
 
 ▸   **addRef**<`Asset`\> : `Asset`
-
 
 
 
@@ -629,32 +589,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Asset` itself
-
--->
-<!---->
-
-
 ##### Returns `Asset`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L263)&nbsp;
 ___
 ### assign
+
 <div style="margin-left: 10px;">
 
 ▸   **assign**<`void`\>(`struct: IStruct, data: Uint8Array`) : `void`
 
 
 
-
 **`zh`** 重置此网格的结构和数据。
-
 
 
 
@@ -663,37 +611,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `struct` | `IStruct` | The new struct  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `data` | `Uint8Array` | The new data  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:420](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L420)&nbsp;
 ___
 ### copyAttribute
+
 <div style="margin-left: 10px;">
 
 ▸   **copyAttribute**<`boolean`\>(`primitiveIndex: number, attributeName: AttributeName, buffer: ArrayBuffer, stride: number, offset: number`) : `boolean`
-
 
 
 
@@ -701,50 +636,27 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` Return false if failed to access attribute, return true otherwise.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `primitiveIndex` | `number` | Sub mesh index  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attributeName` | `AttributeName` | Attribute name  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `buffer` | `ArrayBuffer` | The target array buffer  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `stride` | `number` | Byte distance between two attributes in the target buffer  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `number` | The offset of the first attribute in the target buffer  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:909](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L909)&nbsp;
 ___
 ### copyIndices
+
 <div style="margin-left: 10px;">
 
 ▸   **copyIndices**<`boolean`\>(`primitiveIndex: number, outputArray: array<number> | ArrayBufferView`) : `boolean`
-
 
 
 
@@ -752,38 +664,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` Return false if failed to access the indices data, return true otherwise.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `primitiveIndex` | `number` | Sub mesh index  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `outputArray` | `array<number> \| ArrayBufferView` | The target output array  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:979](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L979)&nbsp;
 ___
 ### createNode
+
 <div style="margin-left: 10px;">
 
 ▸   **createNode**<`void`\>(`callback: CreateNodeCallback`) : `void`
-
 
 
 
@@ -794,11 +692,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -806,21 +699,16 @@ ___
 | `callback` | `CreateNodeCallback` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:233](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L233)&nbsp;
 ___
 ### decRef
+
 <div style="margin-left: 10px;">
 
 ▸   **decRef**<`Asset`\>(`autoRelease: boolean`) : `Asset`
-
 
 
 
@@ -830,13 +718,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Asset` itself
-
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -844,21 +725,16 @@ ___
 | `autoRelease` | `boolean` | - |
 
 
-
 ##### Returns `Asset`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:278](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L278)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
-
 
 
 
@@ -868,25 +744,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:394](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L394)&nbsp;
 ___
 ### destroyRenderingMesh
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyRenderingMesh**<`void`\> : `void`
-
 
 
 
@@ -896,25 +763,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:403](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L403)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`type: EventType, arg0: any, arg1: any, arg2: any, arg3: any, arg4: any`) : `void`
-
 
 
 
@@ -922,62 +780,34 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | event type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg2` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg3` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg4` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L141)&nbsp;
 ___
 ### getBoneSpaceBounds
+
 <div style="margin-left: 10px;">
 
 ▸   **getBoneSpaceBounds**(`skeleton: Skeleton`)
 
 
 
-
 **`zh`** 获取骨骼变换空间内下的 [[AABB]] 包围盒
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -986,21 +816,16 @@ ___
 | `skeleton` | `Skeleton` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:447](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L447)&nbsp;
 ___
 ### hasEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **hasEventListener**<`boolean`\>(`type: string, callback: undefined | , target: any`) : `boolean`
-
 
 
 
@@ -1008,47 +833,27 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | Event type.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `undefined \| ` | Callback function when event triggered.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | Callback callee.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L52)&nbsp;
 ___
 ### initDefault
+
 <div style="margin-left: 10px;">
 
 ▸   **initDefault**<`void`\>(`uuid: undefined | string`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1057,17 +862,13 @@ ___
 | `uuid` | `undefined \| string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:1037](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L1037)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\> : `void`
@@ -1075,25 +876,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:300](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L300)&nbsp;
 ___
 ### merge
+
 <div style="margin-left: 10px;">
 
 ▸   **merge**<`boolean`\>(`mesh: Mesh, worldMatrix: Mat4, validate: undefined | false | true`) : `boolean`
-
 
 
 
@@ -1101,48 +893,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` Check the mesh state and return the validation result.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `mesh` | `Mesh` | The mesh to be merged  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `worldMatrix` | `Mat4` | The world matrix of the given mesh  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `validate` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:495](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L495)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: EventType, callback: TFunction, thisArg: any`) : `void`
 
 
 
-
 **`zh`** 
 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
-
 
 
 
@@ -1165,47 +939,30 @@ eventTarget.off('fire');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type being removed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback to remove.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L114)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**(`type: EventType, callback: TFunction, thisArg: any, once: undefined | false | true`)
 
 
 
-
 **`zh`** 
 注册事件目标的特定事件类型回调。这种类型的事件应该被 `emit` 触发。
-
 
 
 
@@ -1223,43 +980,26 @@ eventTarget.on('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `once` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L72)&nbsp;
 ___
 ### onLoaded
+
 <div style="margin-left: 10px;">
 
 ▸   **onLoaded**<`void`\> : `void`
-
 
 
 
@@ -1270,31 +1010,21 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/primitive/primitive.ts:90](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/primitive.ts#L90)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**(`type: EventType, callback: TFunction, thisArg: any`)
 
 
 
-
 **`zh`** 
 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-
 
 
 
@@ -1312,39 +1042,25 @@ eventTarget.once('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L91)&nbsp;
 ___
 ### readAttribute
+
 <div style="margin-left: 10px;">
 
 ▸   **readAttribute**(`primitiveIndex: number, attributeName: AttributeName`)
-
 
 
 
@@ -1352,35 +1068,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `primitiveIndex` | `number` | Sub mesh index  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attributeName` | `AttributeName` | Attribute name  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:866](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L866)&nbsp;
 ___
 ### readIndices
+
 <div style="margin-left: 10px;">
 
 ▸   **readIndices**(`primitiveIndex: number`)
-
 
 
 
@@ -1388,9 +1093,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1398,32 +1100,22 @@ ___
 | `primitiveIndex` | `number` | Sub mesh index  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:959](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L959)&nbsp;
 ___
 ### removeAll
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAll**<`void`\>(`typeOrTarget: any`) : `void`
 
 
 
-
 **`zh`** 移除在特定事件类型中注册的所有回调或在某个目标中注册的所有回调。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1432,32 +1124,22 @@ ___
 | `typeOrTarget` | `any` | The event type or target with which the listeners will be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L133)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\>(`info: ICreateInfo`) : `void`
 
 
 
-
 **`zh`** 重置此网格。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1466,21 +1148,16 @@ ___
 | `info` | `ICreateInfo` | Mesh creation information including struct and data  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:432](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L432)&nbsp;
 ___
 ### targetOff
+
 <div style="margin-left: 10px;">
 
 ▸   **targetOff**<`void`\>(`typeOrTarget: any`) : `void`
-
 
 
 
@@ -1490,11 +1167,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1502,21 +1174,16 @@ ___
 | `typeOrTarget` | `any` | The target to be searched for all related listeners  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L126)&nbsp;
 ___
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸   **toString**<`string`\> : `string`
-
 
 
 
@@ -1532,28 +1199,18 @@ JavaScript 会自动调用 toString() 方法。<br>
 
 
 
-
 **`method`** toString
 
 
 
 
-<!---->
-<!--    #### Returns `string` 
--->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:192](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L192)&nbsp;
 ___
 ### validate
+
 <div style="margin-left: 10px;">
 
 ▸   **validate**<`boolean`\> : `boolean`
@@ -1561,25 +1218,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:1048](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L1048)&nbsp;
 ___
 ### validateMergingMesh
+
 <div style="margin-left: 10px;">
 
 ▸   **validateMergingMesh**<`boolean`\>(`mesh: Mesh`) : `boolean`
-
 
 
 
@@ -1598,11 +1246,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1610,12 +1253,7 @@ ___
 | `mesh` | `Mesh` | The other mesh to be validated  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/assets/mesh.ts:807](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/assets/mesh.ts#L807)&nbsp;

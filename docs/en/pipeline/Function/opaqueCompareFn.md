@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Comparison sorting function. Opaque objects are sorted by priority -> depth front to back -> shader ID.
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `IRenderPass` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `IRenderPass` | - |
-
 
 #### Returns `number` 
 ___

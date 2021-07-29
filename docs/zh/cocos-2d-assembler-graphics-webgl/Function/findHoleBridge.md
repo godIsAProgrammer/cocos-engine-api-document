@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `hole` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `outerNode` | `Aim` | - |
-
 
 ___
 

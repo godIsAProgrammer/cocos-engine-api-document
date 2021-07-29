@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `tex` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `blendMode` | `BlendMode` | - |
-
 
 ___
 

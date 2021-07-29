@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** GFX 深度模板状态。
 
 
@@ -381,158 +380,28 @@ ___
 • **new DepthStencilState**(`depthTest: boolean, depthWrite: boolean, depthFunc: ComparisonFunc, stencilTestFront: boolean, stencilFuncFront: ComparisonFunc, stencilReadMaskFront: number, stencilWriteMaskFront: number, stencilFailOpFront: StencilOp, stencilZFailOpFront: StencilOp, stencilPassOpFront: StencilOp, stencilRefFront: number, stencilTestBack: boolean, stencilFuncBack: ComparisonFunc, stencilReadMaskBack: number, stencilWriteMaskBack: number, stencilFailOpBack: StencilOp, stencilZFailOpBack: StencilOp, stencilPassOpBack: StencilOp, stencilRefBack: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `depthTest` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthWrite` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthFunc` | `ComparisonFunc` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilTestFront` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilFuncFront` | `ComparisonFunc` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilReadMaskFront` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilWriteMaskFront` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilFailOpFront` | `StencilOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilZFailOpFront` | `StencilOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilPassOpFront` | `StencilOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilRefFront` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilTestBack` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilFuncBack` | `ComparisonFunc` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilReadMaskBack` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilWriteMaskBack` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilFailOpBack` | `StencilOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilZFailOpBack` | `StencilOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilPassOpBack` | `StencilOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilRefBack` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L106)&nbsp;
@@ -544,16 +413,12 @@ ___
 ## Methods
 
 ### assign
+
 <div style="margin-left: 10px;">
 
 ▸   **assign**<`void`\>(`dss: DepthStencilState`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -562,17 +427,13 @@ ___
 | `dss` | `DepthStencilState` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:152](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L152)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -580,21 +441,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:158](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L158)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
@@ -602,16 +455,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:130](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L130)&nbsp;

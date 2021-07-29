@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `object` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propertyName` | `string` | - |
-
 
 ___
 

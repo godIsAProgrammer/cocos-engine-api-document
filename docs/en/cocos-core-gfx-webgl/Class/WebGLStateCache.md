@@ -295,34 +295,22 @@ ___
 ## Methods
 
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`texUnit: number, vertexAttributes: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `texUnit` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `vertexAttributes` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-state-cache.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-state-cache.ts#L51)&nbsp;

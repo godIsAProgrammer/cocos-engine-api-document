@@ -13,9 +13,7 @@
 
 
 
-
 **`en`** The bounding box
-
 
 
 
@@ -27,9 +25,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:77](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L77)&nbsp;
-
 ___
 #### doubleSided
 
@@ -37,9 +33,7 @@ ___
 
 
 
-
 **`en`** Whether the geometry is treated as double sided
-
 
 
 
@@ -51,9 +45,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L71)&nbsp;
-
 ___
 #### indices
 
@@ -61,9 +53,7 @@ ___
 
 
 
-
 **`en`** Indices data
-
 
 
 
@@ -75,9 +65,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:65](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L65)&nbsp;
-
 ___
 #### positions
 
@@ -85,9 +73,7 @@ ___
 
 
 
-
 **`en`** Vertex positions
-
 
 
 
@@ -99,7 +85,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:59](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L59)&nbsp;
-
 ___

@@ -6,12 +6,10 @@
 
 
 
-
 **`zh`** 循环对象池。这种池子被设计为每次使用都完整复用。
 它没有回收和提取的函数，通过获取 [[data]] 可以获取池子中所有元素，全部都应该被当做新对象来使用。
 开发者不应该在相互交叉的不同逻辑中同时使用同一个循环对象池。
 池子尺寸可以在池子满时自动扩充，也可以手动调整。
-
 
 
 
@@ -48,7 +46,6 @@
 
 
 
-
 **`zh`** 实际对象池数组。
 
 
@@ -67,7 +64,6 @@ ___
 
 ### length
 <div style="margin-left: 10px;">
-
 
 
 
@@ -96,22 +92,11 @@ ___
 • **new RecyclePool**(`fn: undefined, size: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `fn` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `size` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/recycle-pool.ts:45](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/recycle-pool.ts#L45)&nbsp;
@@ -123,10 +108,10 @@ ___
 ## Methods
 
 ### add
+
 <div style="margin-left: 10px;">
 
 ▸   **add**<`T`\> : `T`
-
 
 
 
@@ -135,36 +120,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `T` -->
-<!---->
-
-
 ##### Returns `T`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/recycle-pool.ts:104](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/recycle-pool.ts#L104)&nbsp;
 ___
 ### removeAt
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAt**<`void`\>(`idx: number`) : `void`
 
 
 
-
 **`zh`** 移除对象池中的一个元素，同时会减小池子尺寸。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -173,21 +144,16 @@ ___
 | `idx` | `number` | The index of the element to be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/recycle-pool.ts:117](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/recycle-pool.ts#L117)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
-
 
 
 
@@ -197,36 +163,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/recycle-pool.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/recycle-pool.ts#L82)&nbsp;
 ___
 ### resize
+
 <div style="margin-left: 10px;">
 
 ▸   **resize**<`void`\>(`size: number`) : `void`
 
 
 
-
 **`zh`** 设置对象池大小，并填充新的元素。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -235,12 +187,7 @@ ___
 | `size` | `number` | The new size of the pool  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/recycle-pool.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/recycle-pool.ts#L91)&nbsp;

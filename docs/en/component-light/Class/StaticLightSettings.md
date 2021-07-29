@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** static light settings.
 
 
@@ -27,7 +26,6 @@
 
 ### bakeable
 <div style="margin-left: 10px;">
-
 
 
 
@@ -69,7 +67,6 @@ ___
 
 
 
-
 **`en`** cast shadow.
 
 
@@ -87,7 +84,6 @@ ___
 
 ### editorOnly
 <div style="margin-left: 10px;">
-
 
 
 

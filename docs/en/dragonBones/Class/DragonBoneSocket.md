@@ -44,7 +44,6 @@ ___
 
 
 
-
 **`en`** Path of the target joint.
 
 
@@ -62,7 +61,6 @@ ___
 
 ### target
 <div style="margin-left: 10px;">
-
 
 
 
@@ -90,22 +88,11 @@ ___
 • **new DragonBoneSocket**(`path: string, target: Node | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `path` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `target` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:99](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L99)&nbsp;

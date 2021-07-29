@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `node` | `Element` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `map` | `PropertiesInfo` | - |
-
 
 #### Returns `PropertiesInfo` 
 ___

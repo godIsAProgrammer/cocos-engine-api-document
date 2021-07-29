@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `module` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `uuid` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `script` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `importMeta` | `any` | - |
-
 
 #### Returns `void` 
 ___

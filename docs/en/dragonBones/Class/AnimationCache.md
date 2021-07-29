@@ -93,6 +93,9 @@ ___
 • **new AnimationCache**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L82)&nbsp;
@@ -104,6 +107,7 @@ ___
 ## Methods
 
 ### begin
+
 <div style="margin-left: 10px;">
 
 ▸   **begin**<`void`\> : `void`
@@ -111,21 +115,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:103](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L103)&nbsp;
 ___
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`void`\> : `void`
@@ -133,21 +129,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:94](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L94)&nbsp;
 ___
 ### enableCacheAttachedInfo
+
 <div style="margin-left: 10px;">
 
 ▸   **enableCacheAttachedInfo**<`void`\> : `void`
@@ -155,21 +143,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:182](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L182)&nbsp;
 ___
 ### end
+
 <div style="margin-left: 10px;">
 
 ▸   **end**<`void`\> : `void`
@@ -177,54 +157,34 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L126)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\>(`armatureInfo: ArmatureInfo, animationName: string`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `armatureInfo` | `ArmatureInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `animationName` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:87](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L87)&nbsp;
 ___
 ### invalidAllFrame
+
 <div style="margin-left: 10px;">
 
 ▸   **invalidAllFrame**<`void`\> : `void`
@@ -232,21 +192,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:172](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L172)&nbsp;
 ___
 ### isInited
+
 <div style="margin-left: 10px;">
 
 ▸   **isInited**<`boolean`\> : `boolean`
@@ -254,21 +206,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:164](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L164)&nbsp;
 ___
 ### isInvalid
+
 <div style="margin-left: 10px;">
 
 ▸   **isInvalid**<`boolean`\> : `boolean`
@@ -276,21 +220,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:168](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L168)&nbsp;
 ___
 ### updateAllFrame
+
 <div style="margin-left: 10px;">
 
 ▸   **updateAllFrame**<`void`\> : `void`
@@ -298,31 +234,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:177](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L177)&nbsp;
 ___
 ### updateToFrame
+
 <div style="margin-left: 10px;">
 
 ▸   **updateToFrame**<`void`\>(`toFrameIdx: undefined | number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -331,12 +254,7 @@ ___
 | `toFrameIdx` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:143](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L143)&nbsp;

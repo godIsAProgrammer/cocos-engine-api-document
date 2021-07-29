@@ -8,13 +8,13 @@ ___
 ___
 
 
-
 **`zh`** 
 应用默认的几何参数选项。
 
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `GeometryOptions` |
@@ -24,7 +24,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `RecursivePartial` | - |
-
 
 #### Returns `GeometryOptions` 
 ___

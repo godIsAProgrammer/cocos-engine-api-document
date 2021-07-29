@@ -13,20 +13,20 @@ ___
 
 {{#if this.typeParameter}}
 #### Type parameters
-{{#each this.typeParameter}}
+
 | Name |
 | :------ |
+{{#each this.typeParameter}}
 | `{{this.name}}` |
 {{/each}}
 {{/if}}
 
 #### Parameters
 
-{{#each this.parameters}}
 | Name | Type | Description |
 | :------: | :------: | :------: |
+{{#each this.parameters}}
 | {{#if this.name}}`{{this.name}}`{{else}}-{{/if}} | {{#if this.type.name}}`{{this.type.name}}`{{else}}-{{/if}} | {{#if this.comment.text}}{{#replaceEscapes this.comment.text}}{{/replaceEscapes}} {{else}}-{{/if}} |
-
 {{/each}}
 
 {{#if this.type.name}}

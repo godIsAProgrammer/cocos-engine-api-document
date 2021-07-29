@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 
 AnimationState 完全控制动画播放过程。<br/>
 大多数情况下 动画组件 是足够和易于使用的。如果您需要更多的动画控制接口，请使用 AnimationState。
@@ -80,9 +78,7 @@ AnimationState 完全控制动画播放过程。<br/>
 
 
 
-
 **`zh`** 单次动画的持续时间，秒。（动画长度）
-
 
 
 
@@ -123,9 +119,7 @@ ___
 
 
 
-
 **`zh`** 播放速率。
-
 
 
 
@@ -150,9 +144,7 @@ ___
 
 
 
-
 **`zh`** 动画当前**累计播放**的时间，单位为秒。
-
 
 
 
@@ -195,7 +187,6 @@ ___
 
 
 
-
 **`zh`** 此动画状态正在播放的剪辑。
 
 
@@ -214,7 +205,6 @@ ___
 
 ### current
 <div style="margin-left: 10px;">
-
 
 
 
@@ -257,9 +247,7 @@ ___
 
 
 
-
 **`zh`** 延迟多少秒播放。
-
 
 
 
@@ -284,7 +272,6 @@ ___
 
 
 
-
 **`zh`** 该 `Playable` 是否已被暂停或停止。
 
 
@@ -306,9 +293,7 @@ ___
 
 
 
-
 **`zh`** 该 `Playable` 是否已被暂停。
-
 
 
 
@@ -333,9 +318,7 @@ ___
 
 
 
-
 **`zh`** 该 `Playable` 是否正在播放状态。
-
 
 
 
@@ -376,7 +359,6 @@ ___
 
 
 
-
 **`zh`** 动画的名字。
 
 
@@ -395,7 +377,6 @@ ___
 
 ### playbackRange
 <div style="margin-left: 10px;">
-
 
 
 
@@ -424,7 +405,6 @@ ___
 
 
 
-
 **`zh`** 获取动画播放的比例时间。
 
 
@@ -446,9 +426,7 @@ ___
 
 
 
-
 **`zh`** 迭代次数，指动画播放多少次后结束, normalize time。 如 2.5（2次半）。
-
 
 
 
@@ -474,11 +452,9 @@ ___
 
 
 
-
 **`zh`** 
 动画循环方式。
 需要注意的是，动态修改 wrapMode 时，会重置 time 以及 repeatCount。
-
 
 
 
@@ -507,22 +483,11 @@ ___
 • **new AnimationState**(`clip: AnimationClip, name: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `clip` | `AnimationClip` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:378](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L378)&nbsp;
@@ -534,10 +499,10 @@ ___
 ## Methods
 
 ### allowLastFrameEvent
+
 <div style="margin-left: 10px;">
 
 ▸   **allowLastFrameEvent**<`void`\>(`allowed: boolean`) : `void`
-
 
 
 
@@ -547,11 +512,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -559,17 +519,13 @@ ___
 | `allowed` | `boolean` | True if the last frame events may be triggered.This method is only used for internal purpose only.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:590](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L590)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -577,25 +533,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:525](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L525)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`args: undefined`) : `void`
-
 
 
 
@@ -604,11 +551,6 @@ To process animation events, use `Animation` instead.
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -617,182 +559,121 @@ To process animation events, use `Animation` instead.
 | `args` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:540](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L540)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`root: Node, propertyCurves: undefined`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `root` | `Node` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propertyCurves` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:401](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L401)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: string, callback: Function, target: any`) : `void`
 
 
 
-
 **`deprecated`** Since V1.1.1, animation states were no longer defined as event targets.
 To process animation events, use `Animation` instead.
 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `Function` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:575](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L575)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**(`type: string, callback: Function, target: any`)
 
 
 
-
 **`deprecated`** Since V1.1.1, animation states were no longer defined as event targets.
 To process animation events, use `Animation` instead.
 
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `Function` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:549](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L549)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**(`type: string, callback: Function, target: any`)
 
 
 
-
 **`deprecated`** Since V1.1.1, animation states were no longer defined as event targets.
 To process animation events, use `Animation` instead.
 
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `Function` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:562](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L562)&nbsp;
 ___
 ### pause
+
 <div style="margin-left: 10px;">
 
 ▸   **pause**<`void`\> : `void`
-
 
 
 
@@ -802,25 +683,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/playable.ts:100](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/playable.ts#L100)&nbsp;
 ___
 ### play
+
 <div style="margin-left: 10px;">
 
 ▸   **play**<`void`\> : `void`
-
 
 
 
@@ -830,25 +702,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/playable.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/playable.ts#L68)&nbsp;
 ___
 ### resume
+
 <div style="margin-left: 10px;">
 
 ▸   **resume**<`void`\> : `void`
-
 
 
 
@@ -858,21 +721,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/playable.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/playable.ts#L111)&nbsp;
 ___
 ### sample
+
 <div style="margin-left: 10px;">
 
 ▸   **sample**<`WrappedInfo`\> : `WrappedInfo`
@@ -880,31 +735,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `WrappedInfo` -->
-<!---->
-
-
 ##### Returns `WrappedInfo`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:648](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L648)&nbsp;
 ___
 ### setTime
+
 <div style="margin-left: 10px;">
 
 ▸   **setTime**<`void`\>(`time: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -913,21 +755,16 @@ ___
 | `time` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:601](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L601)&nbsp;
 ___
 ### step
+
 <div style="margin-left: 10px;">
 
 ▸   **step**<`void`\> : `void`
-
 
 
 
@@ -937,25 +774,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/playable.ts:122](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/playable.ts#L122)&nbsp;
 ___
 ### stop
+
 <div style="margin-left: 10px;">
 
 ▸   **stop**<`void`\> : `void`
-
 
 
 
@@ -965,31 +793,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/playable.ts:86](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/playable.ts#L86)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`delta: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -998,12 +813,7 @@ ___
 | `delta` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:625](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L625)&nbsp;

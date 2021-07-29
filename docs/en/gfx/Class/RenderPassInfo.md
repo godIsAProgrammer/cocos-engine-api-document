@@ -84,30 +84,12 @@ ___
 • **new RenderPassInfo**(`colorAttachments: undefined, depthStencilAttachment: DepthStencilAttachment, subpasses: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `colorAttachments` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthStencilAttachment` | `DepthStencilAttachment` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `subpasses` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1445](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1445)&nbsp;
@@ -119,16 +101,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: RenderPassInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -137,12 +115,7 @@ ___
 | `info` | `RenderPassInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1453](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1453)&nbsp;

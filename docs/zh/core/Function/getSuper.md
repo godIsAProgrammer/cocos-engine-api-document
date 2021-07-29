@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `constructor` | `Function` | The constructor of subclass.  |
 
-
 #### Returns `any` 
 ___
 

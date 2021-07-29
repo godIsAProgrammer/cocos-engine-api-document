@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** All scene related global parameters, it affects all content in the corresponding scene
 
 
@@ -31,7 +30,6 @@
 
 ### ambient
 <div style="margin-left: 10px;">
-
 
 
 
@@ -71,7 +69,6 @@ ___
 
 
 
-
 **`en`** Scene level planar shadow related information
 
 
@@ -89,7 +86,6 @@ ___
 
 ### skybox
 <div style="margin-left: 10px;">
-
 
 
 
@@ -111,6 +107,7 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\> : `void`
@@ -118,16 +115,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:747](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L747)&nbsp;

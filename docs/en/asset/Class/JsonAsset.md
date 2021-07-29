@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** Json asset, it will automatically parse the json to a JS object.
 
 
@@ -82,7 +80,6 @@ ___
 
 
 
-
 **`en`** The parsed JS object
 
 
@@ -100,7 +97,6 @@ ___
 
 ### loaded
 <div style="margin-left: 10px;">
-
 
 
 
@@ -125,7 +121,6 @@ ___
 
 
 
-
 **`en`** After inheriting CCObject objects, control whether you need to hide, lock, serialize, and other functions.
 
 
@@ -146,7 +141,6 @@ ___
 
 
 
-
 **`en`** 
 Indicates whether the object is not yet destroyed. (It will not be available after being destroyed)<br>
 When an object's `destroy` is called, it is actually destroyed after the end of this frame.
@@ -157,9 +151,7 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`default`** true
-
 
 
 
@@ -198,14 +190,11 @@ ___
 
 
 
-
 **`en`** The name of the object.
 
 
 
-
 **`default`** ""
-
 
 
 
@@ -237,10 +226,8 @@ ___
 
 
 
-
 **`en`** 
 Returns the url of this asset's native object, if none it will returns an empty string.
-
 
 
 
@@ -262,7 +249,6 @@ ___
 
 ### refCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -292,14 +278,10 @@ ___
 • **new JsonAsset**(`args: ConstructorParameters`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `args` | `ConstructorParameters` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:151](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L151)&nbsp;
@@ -311,10 +293,10 @@ ___
 ## Methods
 
 ### deserialize
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **deserialize**<`any`\>(`data: any`) : `any`
-
 
 
 
@@ -323,12 +305,6 @@ ___
 
 应 AssetDB 要求提供这个方法。
 
-
-<!---->
-<!--    #### Returns `any` 
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -336,21 +312,16 @@ ___
 | `data` | `any` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L71)&nbsp;
 ___
 ### addRef
+
 <div style="margin-left: 10px;">
 
 ▸   **addRef**<`Asset`\> : `Asset`
-
 
 
 
@@ -361,27 +332,16 @@ Add references of asset
 
 
 
-<!---->
-<!--    #### Returns `Asset` itself
-
--->
-<!---->
-
-
 ##### Returns `Asset`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L263)&nbsp;
 ___
 ### createNode
+
 <div style="margin-left: 10px;">
 
 ▸   **createNode**<`void`\>(`callback: CreateNodeCallback`) : `void`
-
 
 
 
@@ -391,11 +351,6 @@ If this type of asset dont have its corresponding node type, this method should 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -403,21 +358,16 @@ If this type of asset dont have its corresponding node type, this method should 
 | `callback` | `CreateNodeCallback` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:233](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L233)&nbsp;
 ___
 ### decRef
+
 <div style="margin-left: 10px;">
 
 ▸   **decRef**<`Asset`\>(`autoRelease: boolean`) : `Asset`
-
 
 
 
@@ -427,13 +377,6 @@ Reduce references of asset and it will be auto released when refCount equals 0.
 
 
 
-
-<!---->
-<!--    #### Returns `Asset` itself
-
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -441,21 +384,16 @@ Reduce references of asset and it will be auto released when refCount equals 0.
 | `autoRelease` | `boolean` | - |
 
 
-
 ##### Returns `Asset`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:278](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L278)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
-
 
 
 
@@ -464,7 +402,6 @@ Destroy this Object, and release all its own references to other objects.<br/>
 Actual object destruction will delayed until before rendering.
 From the next frame, this object is not usable any more.
 You can use `isValid(obj)` to check whether the object is destroyed before accessing it.
-
 
 
 
@@ -481,25 +418,16 @@ obj.destroy();
 
 
 
-<!---->
-<!--    #### Returns `boolean` whether it is the first time the destroy being called-->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:286](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L286)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`type: EventType, arg0: any, arg1: any, arg2: any, arg3: any, arg4: any`) : `void`
-
 
 
 
@@ -507,53 +435,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | event type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg2` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg3` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg4` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L141)&nbsp;
 ___
 ### hasEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **hasEventListener**<`boolean`\>(`type: string, callback: undefined | , target: any`) : `boolean`
-
 
 
 
@@ -561,47 +464,27 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | Event type.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `undefined \| ` | Callback function when event triggered.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | Callback callee.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L52)&nbsp;
 ___
 ### initDefault
+
 <div style="margin-left: 10px;">
 
 ▸   **initDefault**<`void`\>(`uuid: undefined | string`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -610,28 +493,22 @@ ___
 | `uuid` | `undefined \| string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L290)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: EventType, callback: TFunction, thisArg: any`) : `void`
 
 
 
-
 **`en`** 
 Removes the listeners previously registered with the same type, callback, target and or useCapture,
 if only type is passed as parameter, all listeners registered with that type will be removed.
-
 
 
 
@@ -653,48 +530,31 @@ eventTarget.off('fire');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type being removed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback to remove.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L114)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**(`type: EventType, callback: TFunction, thisArg: any, once: undefined | false | true`)
 
 
 
-
 **`en`** 
 Register an callback of a specific event type on the EventTarget.
 This type of event should be triggered via `emit`.
-
 
 
 
@@ -711,39 +571,23 @@ eventTarget.on('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `once` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L72)&nbsp;
 ___
 ### onLoaded
+
 <div style="margin-left: 10px;">
 
 ▸   **onLoaded**<`void`\> : `void`
@@ -751,32 +595,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:288](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L288)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**(`type: EventType, callback: TFunction, thisArg: any`)
 
 
 
-
 **`en`** 
 Register an callback of a specific event type on the EventTarget,
 the callback will remove itself after the first time it is triggered.
-
 
 
 
@@ -793,50 +627,31 @@ eventTarget.once('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L91)&nbsp;
 ___
 ### removeAll
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAll**<`void`\>(`typeOrTarget: any`) : `void`
 
 
 
-
 **`en`** Removes all callbacks registered in a certain event type or all callbacks registered with a certain target
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -845,21 +660,16 @@ ___
 | `typeOrTarget` | `any` | The event type or target with which the listeners will be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L133)&nbsp;
 ___
 ### targetOff
+
 <div style="margin-left: 10px;">
 
 ▸   **targetOff**<`void`\>(`typeOrTarget: any`) : `void`
-
 
 
 
@@ -870,11 +680,6 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -882,21 +687,16 @@ It's only for removing all listeners (callback and target couple) registered on 
 | `typeOrTarget` | `any` | The target to be searched for all related listeners  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L126)&nbsp;
 ___
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸   **toString**<`string`\> : `string`
-
 
 
 
@@ -912,28 +712,18 @@ This method may be overwritten by subclasses.
 
 
 
-
 **`method`** toString
 
 
 
 
-<!---->
-<!--    #### Returns `string` 
--->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:192](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L192)&nbsp;
 ___
 ### validate
+
 <div style="margin-left: 10px;">
 
 ▸   **validate**<`boolean`\> : `boolean`
@@ -941,16 +731,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:295](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L295)&nbsp;

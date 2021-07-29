@@ -84,30 +84,12 @@ ___
 • **new BufferViewInfo**(`buffer: Buffer, offset: number, range: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `buffer` | `Buffer` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `offset` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `range` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:961](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L961)&nbsp;
@@ -119,16 +101,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: BufferViewInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -137,12 +115,7 @@ ___
 | `info` | `BufferViewInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:969](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L969)&nbsp;

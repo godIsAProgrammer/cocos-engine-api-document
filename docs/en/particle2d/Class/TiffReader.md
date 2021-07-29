@@ -6,7 +6,6 @@ cc.tiffReader is a singleton object, it&#x27;s a tiff file reader, it can parse 
 
 
 
-
 **`name`** tiffReader
 
 
@@ -46,6 +45,9 @@ cc.tiffReader is a singleton object, it&#x27;s a tiff file reader, it can parse 
 • **new TiffReader**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:59](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L59)&nbsp;
@@ -57,6 +59,7 @@ cc.tiffReader is a singleton object, it&#x27;s a tiff file reader, it can parse 
 ## Methods
 
 ### checkLittleEndian
+
 <div style="margin-left: 10px;">
 
 ▸   **checkLittleEndian**<`boolean`\> : `boolean`
@@ -64,132 +67,82 @@ cc.tiffReader is a singleton object, it&#x27;s a tiff file reader, it can parse 
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:79](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L79)&nbsp;
 ___
 ### clampColorSample
+
 <div style="margin-left: 10px;">
 
 ▸   **clampColorSample**<`number`\>(`colorSample: any, bitsPerSample: any`) : `number`
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `colorSample` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bitsPerSample` | `any` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L247)&nbsp;
 ___
 ### getBits
+
 <div style="margin-left: 10px;">
 
 ▸   **getBits**(`numBits: any, byteOffset: any, bitOffset: any`)
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `numBits` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `byteOffset` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bitOffset` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:189](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L189)&nbsp;
 ___
 ### getBytes
+
 <div style="margin-left: 10px;">
 
 ▸   **getBytes**<`number`\>(`numBytes: any, offset: any`) : `number`
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `numBytes` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `any` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:171](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L171)&nbsp;
 ___
 ### getFieldTagName
+
 <div style="margin-left: 10px;">
 
 ▸   **getFieldTagName**<`any`\>(`fieldTag: any`) : `any`
 
 
-
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
 
 #### Parameters
 
@@ -198,25 +151,18 @@ ___
 | `fieldTag` | `any` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L111)&nbsp;
 ___
 ### getFieldTypeLength
+
 <div style="margin-left: 10px;">
 
 ▸   **getFieldTypeLength**(`fieldTypeName: any`)
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -225,27 +171,18 @@ ___
 | `fieldTypeName` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:122](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L122)&nbsp;
 ___
 ### getFieldTypeName
+
 <div style="margin-left: 10px;">
 
 ▸   **getFieldTypeName**<`any`\>(`fieldType: any`) : `any`
 
 
-
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
 
 #### Parameters
 
@@ -254,67 +191,42 @@ ___
 | `fieldType` | `any` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:103](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L103)&nbsp;
 ___
 ### getFieldValues
+
 <div style="margin-left: 10px;">
 
 ▸   **getFieldValues**(`fieldTagName: any, fieldTypeName: any, typeCount: any, valueOffset: any`)
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `fieldTagName` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `fieldTypeName` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `typeCount` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `valueOffset` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:136](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L136)&nbsp;
 ___
 ### getUint16
+
 <div style="margin-left: 10px;">
 
 ▸   **getUint16**<`number`\>(`offset: any`) : `number`
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -322,28 +234,19 @@ ___
 | `offset` | `any` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L68)&nbsp;
 ___
 ### getUint32
+
 <div style="margin-left: 10px;">
 
 ▸   **getUint32**<`number`\>(`offset: any`) : `number`
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -351,28 +254,19 @@ ___
 | `offset` | `any` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:73](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L73)&nbsp;
 ___
 ### getUint8
+
 <div style="margin-left: 10px;">
 
 ▸   **getUint8**<`never`\>(`offset: any`) : `never`
 
 
 
-
-<!---->
-<!--    #### Returns `never` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -380,17 +274,13 @@ ___
 | `offset` | `any` | - |
 
 
-
 ##### Returns `never`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:64](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L64)&nbsp;
 ___
 ### hasTowel
+
 <div style="margin-left: 10px;">
 
 ▸   **hasTowel**<`boolean`\> : `boolean`
@@ -398,31 +288,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:94](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L94)&nbsp;
 ___
 ### parseFileDirectory
+
 <div style="margin-left: 10px;">
 
 ▸   **parseFileDirectory**<`void`\>(`offset: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -431,17 +308,13 @@ ___
 | `offset` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:220](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L220)&nbsp;
 ___
 ### parseTIFF
+
 <div style="margin-left: 10px;">
 
 ▸   **parseTIFF**<`any`\>(`tiffData: any, canvas: any`) : `any`
@@ -449,29 +322,15 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `any` 
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `tiffData` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `canvas` | `any` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:259](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L259)&nbsp;

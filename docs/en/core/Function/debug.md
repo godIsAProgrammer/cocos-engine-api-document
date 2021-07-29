@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Outputs a message at the "debug" log level.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `data` | - | - |
-
 
 #### Returns `void` 
 ___

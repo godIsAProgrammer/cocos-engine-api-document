@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | The array to search in.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `number` | The value to search.  |
-
 
 #### Returns `number` The index of the searched element in the sorted array, if one is found;
 otherwise, a negative number that is the bitwise complement of the index of the next element that is large than the searched value or,

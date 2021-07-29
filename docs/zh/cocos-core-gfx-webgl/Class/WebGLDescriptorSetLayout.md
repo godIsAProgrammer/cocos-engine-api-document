@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -128,14 +127,10 @@ ___
 • **new WebGLDescriptorSetLayout**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/descriptor-set-layout.ts:57](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/descriptor-set-layout.ts#L57)&nbsp;
@@ -147,6 +142,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -154,31 +150,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-descriptor-set-layout.ts:75](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-descriptor-set-layout.ts#L75)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: DescriptorSetLayoutInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -187,12 +170,7 @@ ___
 | `info` | `DescriptorSetLayoutInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-descriptor-set-layout.ts:35](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-descriptor-set-layout.ts#L35)&nbsp;

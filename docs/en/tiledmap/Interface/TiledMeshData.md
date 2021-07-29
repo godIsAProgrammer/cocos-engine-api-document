@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L68)&nbsp;
-
 ___
 #### texture
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:69](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L69)&nbsp;
-
 ___

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Declare the property as the given type
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | - |   |
-
 
 #### Returns `PropertyDecorator` 
 ___
@@ -31,6 +29,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -40,7 +39,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | - | - |
-
 
 #### Returns `PropertyDecorator` 
 ___

@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 The base class of most of all the objects in Fireball.
 
@@ -38,7 +37,6 @@ The base class of most of all the objects in Fireball.
 
 
 
-
 **`en`** After inheriting CCObject objects, control whether you need to hide, lock, serialize, and other functions.
 
 
@@ -59,7 +57,6 @@ ___
 
 
 
-
 **`en`** 
 Indicates whether the object is not yet destroyed. (It will not be available after being destroyed)<br>
 When an object's `destroy` is called, it is actually destroyed after the end of this frame.
@@ -70,9 +67,7 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`default`** true
-
 
 
 
@@ -111,14 +106,11 @@ ___
 
 
 
-
 **`en`** The name of the object.
 
 
 
-
 **`default`** ""
-
 
 
 
@@ -154,14 +146,10 @@ ___
 • **new CCObject**(`name: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:194](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L194)&nbsp;
@@ -173,10 +161,10 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
-
 
 
 
@@ -185,7 +173,6 @@ Destroy this Object, and release all its own references to other objects.<br/>
 Actual object destruction will delayed until before rendering.
 From the next frame, this object is not usable any more.
 You can use `isValid(obj)` to check whether the object is destroyed before accessing it.
-
 
 
 
@@ -202,16 +189,7 @@ obj.destroy();
 
 
 
-<!---->
-<!--    #### Returns `boolean` whether it is the first time the destroy being called-->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:286](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L286)&nbsp;

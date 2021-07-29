@@ -11,6 +11,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `TValue` |
@@ -20,11 +21,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `propertyName` | `string` | The editor property.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `defaultValue` | `TValue` | - |
-
 
 ___
 

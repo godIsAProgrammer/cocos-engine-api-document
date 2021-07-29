@@ -125,22 +125,11 @@ ___
 • **new ResolutionPolicy**(`containerStg: ContainerStrategy, contentStg: ContentStrategy`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `containerStg` | `ContainerStrategy` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `contentStg` | `ContentStrategy` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:1276](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L1276)&nbsp;
@@ -152,10 +141,10 @@ ___
 ## Methods
 
 ### apply
+
 <div style="margin-left: 10px;">
 
 ▸   **apply**<`AdaptResult`\>(`_view: View, designedResolution: Size`) : `AdaptResult`
-
 
 
 
@@ -163,38 +152,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `AdaptResult` An object contains the scale X/Y values and the viewport rect
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `_view` | `View` | The target view  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `designedResolution` | `Size` | The user defined design resolution  |
 
 
-
 ##### Returns `AdaptResult`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:1313](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L1313)&nbsp;
 ___
 ### postApply
+
 <div style="margin-left: 10px;">
 
 ▸   **postApply**<`void`\>(`_view: View`) : `void`
-
 
 
 
@@ -202,11 +177,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -214,21 +184,16 @@ ___
 | `_view` | `View` | The target view  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:1323](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L1323)&nbsp;
 ___
 ### preApply
+
 <div style="margin-left: 10px;">
 
 ▸   **preApply**<`void`\>(`_view: View`) : `void`
-
 
 
 
@@ -236,11 +201,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -248,32 +208,22 @@ ___
 | `_view` | `View` | The target view  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:1299](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L1299)&nbsp;
 ___
 ### setContainerStrategy
+
 <div style="margin-left: 10px;">
 
 ▸   **setContainerStrategy**<`void`\>(`containerStg: ContainerStrategy`) : `void`
 
 
 
-
 **`zh`** 设置容器的适配策略
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -282,32 +232,22 @@ ___
 | `containerStg` | `ContainerStrategy` | The container strategy  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:1333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L1333)&nbsp;
 ___
 ### setContentStrategy
+
 <div style="margin-left: 10px;">
 
 ▸   **setContentStrategy**<`void`\>(`contentStg: ContentStrategy`) : `void`
 
 
 
-
 **`zh`** 设置内容的适配策略
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -316,12 +256,7 @@ ___
 | `contentStg` | `ContentStrategy` | The content strategy  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:1344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L1344)&nbsp;

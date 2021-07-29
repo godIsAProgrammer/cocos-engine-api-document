@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Scene level planar shadow related information
 
 
@@ -49,7 +48,6 @@
 
 
 
-
 **`en`** get or set shadow camera aspect.
 
 
@@ -67,7 +65,6 @@ ___
 
 ### autoAdapt
 <div style="margin-left: 10px;">
-
 
 
 
@@ -91,7 +88,6 @@ ___
 
 
 
-
 **`en`** get or set shadow map sampler offset
 
 
@@ -109,7 +105,6 @@ ___
 
 ### distance
 <div style="margin-left: 10px;">
-
 
 
 
@@ -133,7 +128,6 @@ ___
 
 
 
-
 **`en`** Whether activate planar shadow
 
 
@@ -151,7 +145,6 @@ ___
 
 ### far
 <div style="margin-left: 10px;">
-
 
 
 
@@ -175,7 +168,6 @@ ___
 
 
 
-
 **`en`** on or off linear depth.
 
 
@@ -193,7 +185,6 @@ ___
 
 ### maxReceived
 <div style="margin-left: 10px;">
-
 
 
 
@@ -217,7 +208,6 @@ ___
 
 
 
-
 **`en`** get or set shadow camera near
 
 
@@ -235,7 +225,6 @@ ___
 
 ### normal
 <div style="margin-left: 10px;">
-
 
 
 
@@ -259,7 +248,6 @@ ___
 
 
 
-
 **`en`** on or off Self-shadowing.
 
 
@@ -277,7 +265,6 @@ ___
 
 ### orthoSize
 <div style="margin-left: 10px;">
-
 
 
 
@@ -301,7 +288,6 @@ ___
 
 
 
-
 **`en`** on or off packing depth.
 
 
@@ -319,7 +305,6 @@ ___
 
 ### pcf
 <div style="margin-left: 10px;">
-
 
 
 
@@ -343,7 +328,6 @@ ___
 
 
 
-
 **`en`** on or off Self-shadowing.
 
 
@@ -364,7 +348,6 @@ ___
 
 
 
-
 **`en`** Shadow color
 
 
@@ -382,7 +365,6 @@ ___
 
 ### shadowMapSize
 <div style="margin-left: 10px;">
-
 
 
 
@@ -420,16 +402,12 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`resource: Shadows`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -438,32 +416,22 @@ ___
 | `resource` | `Shadows` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:700](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L700)&nbsp;
 ___
 ### setPlaneFromNode
+
 <div style="margin-left: 10px;">
 
 ▸   **setPlaneFromNode**<`void`\>(`node: Node`) : `void`
 
 
 
-
 **`en`** Set plane which receives shadow with the given node's world transformation
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -472,12 +440,7 @@ ___
 | `node` | `Node` | The node for setting up the plane  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:693](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L693)&nbsp;

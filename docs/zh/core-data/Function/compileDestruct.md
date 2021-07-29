@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `obj` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ctor` | `any` | - |
-
 
 #### Returns `Function` 
 ___

@@ -13,27 +13,11 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `WebGL2Device` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `src` | `IWebGL2GPUFramebuffer` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dst` | `IWebGL2GPUFramebuffer` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `srcRect` | `Rect` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dstRect` | `Rect` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `filter` | `Filter` | - |
-
 
 #### Returns `void` 
 ___

@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `curve` | `AnimCurve` | 动画曲线。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sampler` | `RatioSampler` | 采样器。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | 采样比率。  |
-
 
 #### Returns `any` 
 ___

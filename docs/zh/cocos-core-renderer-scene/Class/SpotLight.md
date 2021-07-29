@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -369,6 +368,9 @@ ___
 • **new SpotLight**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/spot-light.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/spot-light.ts#L121)&nbsp;
@@ -380,16 +382,12 @@ ___
 ## Methods
 
 ### attachToScene
+
 <div style="margin-left: 10px;">
 
 ▸   **attachToScene**<`void`\>(`scene: RenderScene`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -398,17 +396,13 @@ ___
 | `scene` | `RenderScene` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/light.ts:165](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/light.ts#L165)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -416,21 +410,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/spot-light.ts:173](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/spot-light.ts#L173)&nbsp;
 ___
 ### detachFromScene
+
 <div style="margin-left: 10px;">
 
 ▸   **detachFromScene**<`void`\> : `void`
@@ -438,21 +424,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/light.ts:169](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/light.ts#L169)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\> : `void`
@@ -460,21 +438,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/spot-light.ts:130](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/spot-light.ts#L130)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\> : `void`
@@ -482,16 +452,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/spot-light.ts:145](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/spot-light.ts#L145)&nbsp;

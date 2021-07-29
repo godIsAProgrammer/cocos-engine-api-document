@@ -11,7 +11,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -96,7 +95,6 @@ ___
 
 
 
-
 **`zh`** 速度计算时采用的坐标系[[Space]]。
 
 
@@ -115,7 +113,6 @@ ___
 
 ### speedModifier
 <div style="margin-left: 10px;">
-
 
 
 
@@ -156,7 +153,6 @@ ___
 
 
 
-
 **`zh`** X 轴方向上的速度分量。
 
 
@@ -175,7 +171,6 @@ ___
 
 ### y
 <div style="margin-left: 10px;">
-
 
 
 
@@ -200,7 +195,6 @@ ___
 
 
 
-
 **`zh`** Z 轴方向上的速度分量。
 
 
@@ -219,7 +213,6 @@ ___
 
 ### enable
 <div style="margin-left: 10px;">
-
 
 
 
@@ -248,6 +241,9 @@ ___
 • **new VelocityOvertimeModule**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/velocity-overtime.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/velocity-overtime.ts#L114)&nbsp;
@@ -259,49 +255,33 @@ ___
 ## Methods
 
 ### animate
+
 <div style="margin-left: 10px;">
 
 ▸   **animate**<`void`\>(`p: Particle, dt: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p` | `Particle` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dt` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/velocity-overtime.ts:128](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/velocity-overtime.ts#L128)&nbsp;
 ___
 ### bindTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **bindTarget**<`void`\>(`target: IParticleSystemRenderer`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -310,45 +290,28 @@ ___
 | `target` | `IParticleSystemRenderer` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/particle.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/particle.ts#L126)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`space: number, worldTransform: Mat4`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `space` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `worldTransform` | `Mat4` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/velocity-overtime.ts:124](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/velocity-overtime.ts#L124)&nbsp;

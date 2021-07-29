@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** GFX 命令缓冲。
 
 
@@ -87,7 +85,6 @@ ___
 
 
 
-
 **`zh`** 绘制调用次数。
 
 
@@ -106,7 +103,6 @@ ___
 
 ### numInstances
 <div style="margin-left: 10px;">
-
 
 
 
@@ -131,7 +127,6 @@ ___
 
 
 
-
 **`zh`** 绘制三角形数量。
 
 
@@ -153,7 +148,6 @@ ___
 
 
 
-
 **`zh`** 命令缓冲类型。
 
 
@@ -172,7 +166,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -201,14 +194,10 @@ ___
 • **new CommandBuffer**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:107](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L107)&nbsp;
@@ -220,10 +209,10 @@ ___
 ## Methods
 
 ### begin
+
 <div style="margin-left: 10px;">
 
 ▸   **begin**<`void`\>(`renderPass: RenderPass, subpass: undefined | number, frameBuffer: Framebuffer`) : `void`
-
 
 
 
@@ -231,41 +220,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `renderPass` | `RenderPass` | The render pass the subsequent commands will be executed in  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `subpass` | `undefined \| number` | The subpass the subsequent commands will be executed in  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `frameBuffer` | `Framebuffer` | The framebuffer to be used in the subpass  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:125](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L125)&nbsp;
 ___
 ### beginRenderPass
+
 <div style="margin-left: 10px;">
 
 ▸   **beginRenderPass**<`void`\>(`renderPass: RenderPass, framebuffer: Framebuffer, renderArea: Rect, clearColors: undefined, clearDepth: number, clearStencil: number`) : `void`
-
 
 
 
@@ -273,53 +246,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `renderPass` | `RenderPass` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `framebuffer` | `Framebuffer` | The frame buffer used.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `renderArea` | `Rect` | The target render area.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clearColors` |  | The clearing colors.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clearDepth` | `number` | The clearing depth.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clearStencil` | `number` | The clearing stencil.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:143](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L143)&nbsp;
 ___
 ### bindDescriptorSet
+
 <div style="margin-left: 10px;">
 
 ▸   **bindDescriptorSet**<`void`\>(`set: number, descriptorSets: DescriptorSet, dynamicOffsets: undefined`) : `void`
-
 
 
 
@@ -327,52 +275,31 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `set` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `descriptorSets` | `DescriptorSet` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dynamicOffsets` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:164](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L164)&nbsp;
 ___
 ### bindInputAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **bindInputAssembler**<`void`\>(`inputAssembler: InputAssembler`) : `void`
 
 
 
-
 **`zh`** 绑定 GFX 输入汇集器。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -381,32 +308,22 @@ ___
 | `inputAssembler` | `InputAssembler` | The input assembler to be bound.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:171](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L171)&nbsp;
 ___
 ### bindPipelineState
+
 <div style="margin-left: 10px;">
 
 ▸   **bindPipelineState**<`void`\>(`pipelineState: PipelineState`) : `void`
 
 
 
-
 **`zh`** 绑定 GFX 管线状态。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -415,21 +332,16 @@ ___
 | `pipelineState` | `PipelineState` | The pipeline state to be bound.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:157](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L157)&nbsp;
 ___
 ### copyBuffersToTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **copyBuffersToTexture**<`void`\>(`buffers: undefined, texture: Texture, regions: undefined`) : `void`
-
 
 
 
@@ -437,37 +349,22 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `buffers` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `texture` | `Texture` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `regions` |  | The region descriptions.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:259](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L259)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -475,36 +372,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:116](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L116)&nbsp;
 ___
 ### draw
+
 <div style="margin-left: 10px;">
 
 ▸   **draw**<`void`\>(`info: DrawInfo | InputAssembler`) : `void`
 
 
 
-
 **`zh`** 绘制。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -513,21 +396,16 @@ ___
 | `info` | `DrawInfo \| InputAssembler` | The draw call information.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:240](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L240)&nbsp;
 ___
 ### end
+
 <div style="margin-left: 10px;">
 
 ▸   **end**<`void`\> : `void`
-
 
 
 
@@ -537,25 +415,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:131](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L131)&nbsp;
 ___
 ### endRenderPass
+
 <div style="margin-left: 10px;">
 
 ▸   **endRenderPass**<`void`\> : `void`
-
 
 
 
@@ -565,25 +434,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:150](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L150)&nbsp;
 ___
 ### execute
+
 <div style="margin-left: 10px;">
 
 ▸   **execute**<`void`\>(`cmdBuffs: undefined, count: number`) : `void`
-
 
 
 
@@ -591,43 +451,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cmdBuffs` |  | The command buffers to be executed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `count` | `number` | The number of command buffers to be executed.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:267](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L267)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: CommandBufferInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -636,21 +479,16 @@ ___
 | `info` | `CommandBufferInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L114)&nbsp;
 ___
 ### pipelineBarrier
+
 <div style="margin-left: 10px;">
 
 ▸   **pipelineBarrier**<`void`\>(`globalBarrier: GlobalBarrier, textureBarriers: array<TextureBarrier> | null`) : `void`
-
 
 
 
@@ -658,48 +496,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `globalBarrier` | `GlobalBarrier` | The global memory barrier to apply.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `textureBarriers` | `array<TextureBarrier> \| null` | The texture memory barriers to apply.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:275](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L275)&nbsp;
 ___
 ### setBlendConstants
+
 <div style="margin-left: 10px;">
 
 ▸   **setBlendConstants**<`void`\>(`blendConstants: undefined`) : `void`
 
 
 
-
 **`zh`** 设置混合因子。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -708,21 +528,16 @@ ___
 | `blendConstants` |  | The new blend constants.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:208](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L208)&nbsp;
 ___
 ### setDepthBias
+
 <div style="margin-left: 10px;">
 
 ▸   **setDepthBias**<`void`\>(`depthBiasConstantFactor: number, depthBiasClamp: number, depthBiasSlopeFactor: number`) : `void`
-
 
 
 
@@ -730,41 +545,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `depthBiasConstantFactor` | `number` | The new depth bias factor.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `depthBiasClamp` | `number` | The new depth bias clamp threshold.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `depthBiasSlopeFactor` | `number` | The new depth bias slope factor.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:201](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L201)&nbsp;
 ___
 ### setDepthBound
+
 <div style="margin-left: 10px;">
 
 ▸   **setDepthBound**<`void`\>(`minDepthBounds: number, maxDepthBounds: number`) : `void`
-
 
 
 
@@ -772,48 +571,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `minDepthBounds` | `number` | The new minimum depth bound.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxDepthBounds` | `number` | The new maximum depth bound.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:216](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L216)&nbsp;
 ___
 ### setLineWidth
+
 <div style="margin-left: 10px;">
 
 ▸   **setLineWidth**<`void`\>(`lineWidth: number`) : `void`
 
 
 
-
 **`zh`** 设置线宽。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -822,32 +603,22 @@ ___
 | `lineWidth` | `number` | The new line width.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:192](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L192)&nbsp;
 ___
 ### setScissor
+
 <div style="margin-left: 10px;">
 
 ▸   **setScissor**<`void`\>(`scissor: Rect`) : `void`
 
 
 
-
 **`zh`** 设置剪裁区域。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -856,21 +627,16 @@ ___
 | `scissor` | `Rect` | The new scissor range.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:185](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L185)&nbsp;
 ___
 ### setStencilCompareMask
+
 <div style="margin-left: 10px;">
 
 ▸   **setStencilCompareMask**<`void`\>(`face: StencilFace, reference: number, compareMask: number`) : `void`
-
 
 
 
@@ -878,41 +644,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `face` | `StencilFace` | The effective triangle face.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `reference` | `number` | The new stencil reference constant.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `compareMask` | `number` | The new stencil read mask.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:233](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L233)&nbsp;
 ___
 ### setStencilWriteMask
+
 <div style="margin-left: 10px;">
 
 ▸   **setStencilWriteMask**<`void`\>(`face: StencilFace, writeMask: number`) : `void`
-
 
 
 
@@ -920,48 +670,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `face` | `StencilFace` | The effective triangle face.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `writeMask` | `number` | The new stencil write mask.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:224](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L224)&nbsp;
 ___
 ### setViewport
+
 <div style="margin-left: 10px;">
 
 ▸   **setViewport**<`void`\>(`viewport: Viewport`) : `void`
 
 
 
-
 **`zh`** 设置视口。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -970,21 +702,16 @@ ___
 | `viewport` | `Viewport` | The new viewport.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:178](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L178)&nbsp;
 ___
 ### updateBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **updateBuffer**<`void`\>(`buffer: Buffer, data: ArrayBuffer, size: undefined | number`) : `void`
-
 
 
 
@@ -992,32 +719,16 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `buffer` | `Buffer` | The buffer to be updated.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `data` | `ArrayBuffer` | The source data.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `size` | `undefined \| number` | Size in bytes to be updated.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/command-buffer.ts:249](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/command-buffer.ts#L249)&nbsp;

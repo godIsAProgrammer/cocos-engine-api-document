@@ -119,6 +119,9 @@ ___
 • **new WebGL2CommandAllocator**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-command-allocator.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-command-allocator.ts#L111)&nbsp;
@@ -130,16 +133,12 @@ ___
 ## Methods
 
 ### clearCmds
+
 <div style="margin-left: 10px;">
 
 ▸   **clearCmds**<`void`\>(`cmdPackage: WebGL2CmdPackage`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -148,17 +147,13 @@ ___
 | `cmdPackage` | `WebGL2CmdPackage` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-command-allocator.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-command-allocator.ts#L121)&nbsp;
 ___
 ### releaseCmds
+
 <div style="margin-left: 10px;">
 
 ▸   **releaseCmds**<`void`\> : `void`
@@ -166,16 +161,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-command-allocator.ts:150](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-command-allocator.ts#L150)&nbsp;

@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `clip` | `AnimationClip` | - |
 
-
 #### Returns `IConvertedData` 
 ___
 

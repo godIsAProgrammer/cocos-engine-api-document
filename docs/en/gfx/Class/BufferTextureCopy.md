@@ -118,46 +118,14 @@ ___
 • **new BufferTextureCopy**(`buffStride: number, buffTexHeight: number, texOffset: Offset, texExtent: Extent, texSubres: TextureSubresLayers`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `buffStride` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `buffTexHeight` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `texOffset` | `Offset` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `texExtent` | `Extent` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `texSubres` | `TextureSubresLayers` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:860](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L860)&nbsp;
@@ -169,16 +137,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: BufferTextureCopy`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -187,12 +151,7 @@ ___
 | `info` | `BufferTextureCopy` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:870](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L870)&nbsp;

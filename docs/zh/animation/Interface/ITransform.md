@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/3d/skeletal-animation/skeletal-animation-state.ts:45](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/skeletal-animation/skeletal-animation-state.ts#L45)&nbsp;
-
 ___
 #### rot
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/3d/skeletal-animation/skeletal-animation-state.ts:46](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/skeletal-animation/skeletal-animation-state.ts#L46)&nbsp;
-
 ___
 #### scale
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/3d/skeletal-animation/skeletal-animation-state.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/skeletal-animation/skeletal-animation-state.ts#L47)&nbsp;
-
 ___

@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `mesh` | `Mesh` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `iPrimitive` | `number` | - |
-
 
 #### Returns `IGeometry` 
 ___

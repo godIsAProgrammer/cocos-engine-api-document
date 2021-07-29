@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `start` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `triangles` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dim` | `number` | - |
-
 
 #### Returns `Aim` 
 ___

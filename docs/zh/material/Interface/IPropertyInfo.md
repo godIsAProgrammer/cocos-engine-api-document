@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:45](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L45)&nbsp;
-
 ___
 #### samplerHash
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:46](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L46)&nbsp;
-
 ___
 #### type
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:44](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L44)&nbsp;
-
 ___
 #### value
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L47)&nbsp;
-
 ___

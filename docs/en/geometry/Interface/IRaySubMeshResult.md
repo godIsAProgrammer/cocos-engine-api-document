@@ -13,10 +13,8 @@
 
 
 
-
 **`en`** 
 The distance between the hit point and the ray.
-
 
 
 
@@ -29,9 +27,7 @@ The distance between the hit point and the ray.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/geometry/spec.ts:78](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/spec.ts#L78)&nbsp;
-
 ___
 #### vertexIndex0
 
@@ -39,10 +35,8 @@ ___
 
 
 
-
 **`en`** 
 The index of the triangle vertex 0。
-
 
 
 
@@ -55,9 +49,7 @@ The index of the triangle vertex 0。
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/geometry/spec.ts:86](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/spec.ts#L86)&nbsp;
-
 ___
 #### vertexIndex1
 
@@ -65,10 +57,8 @@ ___
 
 
 
-
 **`en`** 
 The index of the triangle vertex 1。
-
 
 
 
@@ -81,9 +71,7 @@ The index of the triangle vertex 1。
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/geometry/spec.ts:94](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/spec.ts#L94)&nbsp;
-
 ___
 #### vertexIndex2
 
@@ -91,10 +79,8 @@ ___
 
 
 
-
 **`en`** 
 The index of the triangle vertex 2。
-
 
 
 
@@ -107,7 +93,5 @@ The index of the triangle vertex 2。
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/geometry/spec.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/spec.ts#L102)&nbsp;
-
 ___

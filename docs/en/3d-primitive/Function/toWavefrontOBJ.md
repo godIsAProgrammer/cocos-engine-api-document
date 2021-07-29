@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`deprecated`** 
 
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `primitive` | `IGeometry` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scale` | `number` | - |
-
 
 #### Returns `string` 
 ___

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Generate a torus with raidus 0.4, tube 0.1 and centered at origin.
 
@@ -19,15 +18,8 @@ Generate a torus with raidus 0.4, tube 0.1 and centered at origin.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radius` | `number` | 环面半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tube` | `number` | 管形大小。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `RecursivePartial` | 参数选项。  |
-
 
 ___
 

@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** The gbuffer flow in deferred render pipeline
 
 
@@ -51,7 +49,6 @@
 
 
 
-
 **`en`** The name of the render flow
 
 
@@ -69,7 +66,6 @@ ___
 
 ### pipeline
 <div style="margin-left: 10px;">
-
 
 
 
@@ -93,7 +89,6 @@ ___
 
 
 
-
 **`en`** Priority of the current flow
 
 
@@ -114,9 +109,7 @@ ___
 
 
 
-
 **`en`** The stages of flow.
-
 
 
 
@@ -141,7 +134,6 @@ ___
 
 
 
-
 **`en`** Tag of the current flow
 
 
@@ -160,16 +152,12 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`pipeline: RenderPipeline`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -178,17 +166,13 @@ ___
 | `pipeline` | `RenderPipeline` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-flow.ts:66](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-flow.ts#L66)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -196,31 +180,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-flow.ts:74](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-flow.ts#L74)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: IRenderFlowInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -229,27 +200,18 @@ ___
 | `info` | `IRenderFlowInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-flow.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-flow.ts#L56)&nbsp;
 ___
 ### render
+
 <div style="margin-left: 10px;">
 
 ▸   **render**<`void`\>(`camera: Camera`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -258,12 +220,7 @@ ___
 | `camera` | `Camera` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-flow.ts:70](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-flow.ts#L70)&nbsp;

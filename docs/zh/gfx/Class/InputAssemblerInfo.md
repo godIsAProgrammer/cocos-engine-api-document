@@ -101,38 +101,13 @@ ___
 • **new InputAssemblerInfo**(`attributes: undefined, vertexBuffers: undefined, indexBuffer: Buffer | null, indirectBuffer: Buffer | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `attributes` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `vertexBuffers` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `indexBuffer` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `indirectBuffer` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1355](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1355)&nbsp;
@@ -144,16 +119,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: InputAssemblerInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -162,12 +133,7 @@ ___
 | `info` | `InputAssemblerInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1364](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1364)&nbsp;

@@ -69,7 +69,6 @@ ___
 
 
 
-
 **`en`** Enable ambient
 
 
@@ -87,7 +86,6 @@ ___
 
 ### groundAlbedo
 <div style="margin-left: 10px;">
-
 
 
 
@@ -127,7 +125,6 @@ ___
 
 
 
-
 **`en`** Sky color
 
 
@@ -145,7 +142,6 @@ ___
 
 ### skyIllum
 <div style="margin-left: 10px;">
-
 
 
 
@@ -173,6 +169,9 @@ ___
 • **new Ambient**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/ambient.ts:100](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/ambient.ts#L100)&nbsp;
@@ -184,6 +183,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -191,31 +191,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/ambient.ts:116](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/ambient.ts#L116)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`ambientInfo: AmbientInfo`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -224,12 +211,7 @@ ___
 | `ambientInfo` | `AmbientInfo` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/ambient.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/ambient.ts#L106)&nbsp;

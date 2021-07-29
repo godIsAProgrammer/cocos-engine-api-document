@@ -18,9 +18,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:36](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L36)&nbsp;
-
 ___
 #### onComplete
 
@@ -31,9 +29,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:33](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L33)&nbsp;
-
 ___
 #### onError
 
@@ -44,9 +40,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:35](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L35)&nbsp;
-
 ___
 #### onProgress
 
@@ -57,9 +51,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:34](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L34)&nbsp;
-
 ___
 #### options
 
@@ -70,9 +62,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:38](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L38)&nbsp;
-
 ___
 #### progress
 
@@ -83,7 +73,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:37](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L37)&nbsp;
-
 ___

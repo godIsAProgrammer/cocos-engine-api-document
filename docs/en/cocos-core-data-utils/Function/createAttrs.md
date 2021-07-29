@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `subclass` | `any` | Should not have '__attrs__'.  |
 
-
 #### Returns `any` 
 ___
 

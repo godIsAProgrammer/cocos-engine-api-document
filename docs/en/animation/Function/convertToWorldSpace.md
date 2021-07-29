@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `convertedProps` | `Record` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `path` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `props` | `IObjectCurveData` | - |
-
 
 #### Returns `void` 
 ___

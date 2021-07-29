@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 生成一个圆锥。
 
@@ -19,15 +18,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radius` | `number` | 圆锥半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | 圆锥高度。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `RecursivePartial` | 圆锥参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

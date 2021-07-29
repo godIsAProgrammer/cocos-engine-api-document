@@ -50,14 +50,10 @@ ___
 • **new IndirectBuffer**(`drawInfos: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `drawInfos` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1024](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1024)&nbsp;
@@ -69,16 +65,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: IndirectBuffer`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -87,12 +79,7 @@ ___
 | `info` | `IndirectBuffer` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1030](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1030)&nbsp;

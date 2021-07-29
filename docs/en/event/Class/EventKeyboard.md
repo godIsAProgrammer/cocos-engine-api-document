@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** 
 The keyboard event.
 
@@ -63,7 +61,6 @@ The keyboard event.
 
 
 
-
 **`en`** 
 The type code of Acceleration event.
 
@@ -83,7 +80,6 @@ ___
 
 ### KEYBOARD
 <div style="margin-left: 10px;">
-
 
 
 
@@ -109,7 +105,6 @@ ___
 
 
 
-
 **`en`** 
 The type code of Mouse event.
 
@@ -129,7 +124,6 @@ ___
 
 ### NONE
 <div style="margin-left: 10px;">
-
 
 
 
@@ -155,7 +149,6 @@ ___
 
 
 
-
 **`en`** 
 The type code of Touch event.
 
@@ -175,7 +168,6 @@ ___
 
 ### bubbles
 <div style="margin-left: 10px;">
-
 
 
 
@@ -201,7 +193,6 @@ ___
 
 
 
-
 **`en`** 
 A reference to the currently registered target for the event.
 
@@ -221,7 +212,6 @@ ___
 
 ### eventPhase
 <div style="margin-left: 10px;">
-
 
 
 
@@ -254,7 +244,6 @@ ___
 
 
 
-
 **`en`** Indicates whether the current key is being pressed
 
 
@@ -272,7 +261,6 @@ ___
 
 ### keyCode
 <div style="margin-left: 10px;">
-
 
 
 
@@ -299,7 +287,6 @@ ___
 
 
 
-
 **`en`** 
 Stops propagation for current event immediately,
 the event won't even be dispatched to the listeners attached in the current target.
@@ -320,7 +307,6 @@ ___
 
 ### propagationStopped
 <div style="margin-left: 10px;">
-
 
 
 
@@ -346,7 +332,6 @@ ___
 
 
 
-
 **`en`** Raw DOM KeyboardEvent.
 
 
@@ -364,7 +349,6 @@ ___
 
 ### target
 <div style="margin-left: 10px;">
-
 
 
 
@@ -387,7 +371,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -417,30 +400,12 @@ ___
 • **new EventKeyboard**(`keyCode: number | KeyboardEvent, isPressed: boolean, bubbles: undefined | false | true`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `keyCode` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isPressed` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `bubbles` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:612](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L612)&nbsp;
@@ -452,10 +417,10 @@ ___
 ## Methods
 
 ### getCurrentTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **getCurrentTarget**
-
 
 
 
@@ -467,23 +432,16 @@ It returns 0 when the listener is associated with fixed priority.
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:273](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L273)&nbsp;
 ___
 ### getType
+
 <div style="margin-left: 10px;">
 
 ▸   **getType**<`string`\> : `string`
-
 
 
 
@@ -493,25 +451,16 @@ Gets the event type.
 
 
 
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:283](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L283)&nbsp;
 ___
 ### isStopped
+
 <div style="margin-left: 10px;">
 
 ▸   **isStopped**<`boolean`\> : `boolean`
-
 
 
 
@@ -522,25 +471,16 @@ Checks whether the event has been stopped.
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:260](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L260)&nbsp;
 ___
 ### reuse
+
 <div style="margin-left: 10px;">
 
 ▸   **reuse**<`void`\>(`type: string, bubbles: undefined | false | true`) : `void`
-
 
 
 
@@ -549,37 +489,24 @@ Reinitialize the event for being used again after retrieved from the object pool
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | The name of the event (case-sensitive), e.g. "click", "fire", or "submit"  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bubbles` | `undefined \| false \| true` | A boolean indicating whether the event bubbles up through the tree or not  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:231](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L231)&nbsp;
 ___
 ### unuse
+
 <div style="margin-left: 10px;">
 
 ▸   **unuse**<`void`\> : `void`
-
 
 
 
@@ -590,16 +517,7 @@ Reset the event for being stored in the object pool.
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:214](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L214)&nbsp;

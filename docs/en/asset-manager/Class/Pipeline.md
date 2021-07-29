@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 Pipeline can execute the task for some effect.
 
@@ -43,7 +42,6 @@ Pipeline can execute the task for some effect.
 
 
 
-
 **`en`** 
 The id of pipeline
 
@@ -66,7 +64,6 @@ ___
 
 
 
-
 **`en`** 
 The name of pipeline
 
@@ -86,7 +83,6 @@ ___
 
 ### pipes
 <div style="margin-left: 10px;">
-
 
 
 
@@ -116,22 +112,11 @@ ___
 • **new Pipeline**(`name: string, funcs: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `funcs` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/pipeline.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/pipeline.ts#L76)&nbsp;
@@ -143,16 +128,15 @@ ___
 ## Methods
 
 ### append
+
 <div style="margin-left: 10px;">
 
 ▸   **append**<`Pipeline`\>(`func: IPipe`) : `Pipeline`
 
 
 
-
 **`en`** 
 Append a new pipe to the pipeline
-
 
 
 
@@ -172,12 +156,6 @@ pipeline.append((task, done) => {
 
 
 
-
-<!---->
-<!--    #### Returns `Pipeline` pipeline
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -185,27 +163,21 @@ pipeline.append((task, done) => {
 | `func` | `IPipe` | The new pipe  |
 
 
-
 ##### Returns `Pipeline`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/pipeline.ts:165](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/pipeline.ts#L165)&nbsp;
 ___
 ### async
+
 <div style="margin-left: 10px;">
 
 ▸   **async**<`void`\>(`task: Task`) : `void`
 
 
 
-
 **`en`** 
 Execute task asynchronously
-
 
 
 
@@ -227,11 +199,6 @@ pipeline.async(task);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -239,27 +206,21 @@ pipeline.async(task);
 | `task` | `Task` | The task will be executed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/pipeline.ts:253](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/pipeline.ts#L253)&nbsp;
 ___
 ### insert
+
 <div style="margin-left: 10px;">
 
 ▸   **insert**<`Pipeline`\>(`func: IPipe, index: number`) : `Pipeline`
 
 
 
-
 **`en`** 
 At specific point insert a new pipe to pipeline
-
 
 
 
@@ -279,44 +240,29 @@ pipeline.insert((task, done) => {
 
 
 
-
-<!---->
-<!--    #### Returns `Pipeline` pipeline
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `func` | `IPipe` | The new pipe  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | The specific point you want to insert at.  |
 
 
-
 ##### Returns `Pipeline`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/pipeline.ts:135](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/pipeline.ts#L135)&nbsp;
 ___
 ### remove
+
 <div style="margin-left: 10px;">
 
 ▸   **remove**<`Pipeline`\>(`index: number`) : `Pipeline`
 
 
 
-
 **`en`** 
 Remove pipe which at specific point
-
 
 
 
@@ -336,12 +282,6 @@ pipeline.remove(0);
 
 
 
-
-<!---->
-<!--    #### Returns `Pipeline` pipeline
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -349,27 +289,21 @@ pipeline.remove(0);
 | `index` | `number` | The specific point  |
 
 
-
 ##### Returns `Pipeline`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/pipeline.ts:188](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/pipeline.ts#L188)&nbsp;
 ___
 ### sync
+
 <div style="margin-left: 10px;">
 
 ▸   **sync**<`any`\>(`task: Task`) : `any`
 
 
 
-
 **`en`** 
 Execute task synchronously
-
 
 
 
@@ -391,12 +325,6 @@ console.log(pipeline.sync(task));
 
 
 
-
-<!---->
-<!--    #### Returns `any` result
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -404,12 +332,7 @@ console.log(pipeline.sync(task));
 | `task` | `Task` | The task will be executed  |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/pipeline.ts:213](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/pipeline.ts#L213)&nbsp;

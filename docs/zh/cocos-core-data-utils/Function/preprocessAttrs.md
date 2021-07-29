@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `properties` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `className` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cls` | `any` | - |
-
 
 #### Returns `void` 
 ___

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Record frustum to shared memory.
 
@@ -19,11 +18,7 @@ Record frustum to shared memory.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `handle` | `FrustumHandle` | The frustum handle  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `frstm` | `Frustum` | The frustum object  |
-
 
 #### Returns `void` 
 ___

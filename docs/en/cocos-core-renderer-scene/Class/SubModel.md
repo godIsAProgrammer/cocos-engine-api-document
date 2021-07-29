@@ -182,6 +182,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -189,21 +190,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/submodel.ts:160](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/submodel.ts#L160)&nbsp;
 ___
 ### initPlanarShadowInstanceShader
+
 <div style="margin-left: 10px;">
 
 ▸   **initPlanarShadowInstanceShader**<`void`\> : `void`
@@ -211,21 +204,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/submodel.ts:153](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/submodel.ts#L153)&nbsp;
 ___
 ### initPlanarShadowShader
+
 <div style="margin-left: 10px;">
 
 ▸   **initPlanarShadowShader**<`void`\> : `void`
@@ -233,69 +218,41 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/submodel.ts:144](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/submodel.ts#L144)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`subMesh: RenderingSubMesh, passes: undefined, patches: array<IMacroPatch> | null`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `subMesh` | `RenderingSubMesh` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `passes` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `patches` | `array<IMacroPatch> \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/submodel.ts:119](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/submodel.ts#L119)&nbsp;
 ___
 ### onMacroPatchesStateChanged
+
 <div style="margin-left: 10px;">
 
 ▸   **onMacroPatchesStateChanged**<`void`\>(`patches: array<IMacroPatch> | null`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -303,17 +260,13 @@ ___
 | `patches` | `array<IMacroPatch> \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/submodel.ts:197](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/submodel.ts#L197)&nbsp;
 ___
 ### onPipelineStateChanged
+
 <div style="margin-left: 10px;">
 
 ▸   **onPipelineStateChanged**<`void`\> : `void`
@@ -321,21 +274,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/submodel.ts:183](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/submodel.ts#L183)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\> : `void`
@@ -343,16 +288,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/submodel.ts:175](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/submodel.ts#L175)&nbsp;

@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `xdim` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ydim` | `any` | - |
-
 
 #### Returns `PixelFormat` 
 ___

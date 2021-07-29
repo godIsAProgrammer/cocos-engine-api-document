@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -145,14 +144,10 @@ ___
 • **new WebGLRenderPass**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/render-pass.ts:60](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/render-pass.ts#L60)&nbsp;
@@ -164,6 +159,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -171,31 +167,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-render-pass.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-render-pass.ts#L54)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: RenderPassInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -204,12 +187,7 @@ ___
 | `info` | `RenderPassInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-render-pass.ts:37](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-render-pass.ts#L37)&nbsp;

@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** A pass instance defines an variant version of the [[Pass]]
 
 
@@ -279,7 +277,6 @@ ___
 
 
 
-
 **`en`** The parent pass
 
 
@@ -496,22 +493,11 @@ ___
 • **new PassInstance**(`parent: Pass, owner: MaterialInstance`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `parent` | `Pass` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `owner` | `MaterialInstance` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass-instance.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass-instance.ts#L52)&nbsp;
@@ -523,10 +509,10 @@ ___
 ## Methods
 
 ### beginChangeStatesSilently
+
 <div style="margin-left: 10px;">
 
 ▸   **beginChangeStatesSilently**<`void`\> : `void`
-
 
 
 
@@ -535,25 +521,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass-instance.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass-instance.ts#L111)&nbsp;
 ___
 ### bindSampler
+
 <div style="margin-left: 10px;">
 
 ▸   **bindSampler**<`void`\>(`binding: number, value: Sampler, index: undefined | number`) : `void`
-
 
 
 
@@ -561,41 +538,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `binding` | `number` | The binding for target uniform of sampler type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `Sampler` | Target sampler  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:341](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L341)&nbsp;
 ___
 ### bindTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **bindTexture**<`void`\>(`binding: number, value: Texture, index: undefined | number`) : `void`
-
 
 
 
@@ -603,41 +564,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `binding` | `number` | The binding for target uniform of texture type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `Texture` | Target texture  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:331](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L331)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
-
 
 
 
@@ -646,25 +591,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:383](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L383)&nbsp;
 ___
 ### endChangeStatesSilently
+
 <div style="margin-left: 10px;">
 
 ▸   **endChangeStatesSilently**<`void`\> : `void`
-
 
 
 
@@ -673,36 +609,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass-instance.ts:119](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass-instance.ts#L119)&nbsp;
 ___
 ### getBinding
+
 <div style="margin-left: 10px;">
 
 ▸   **getBinding**<`number`\>(`name: string`) : `number`
 
 
 
-
 **`en`** Gets the uniform binding with its name
 
 
-
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
 
 #### Parameters
 
@@ -711,26 +633,20 @@ ___
 | `name` | `string` | The name of target uniform  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:271](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L271)&nbsp;
 ___
 ### getHandle
+
 <div style="margin-left: 10px;">
 
 ▸   **getHandle**<`number`\>(`name: string, offset: number, targetType: Type`) : `number`
 
 
 
-
 **`en`** Get the handle of a UBO member, or specific channels of it.
-
 
 
 
@@ -753,52 +669,31 @@ pass.setUniform(hThreshold, 0.5); // now, albedoScale.w = 0.5
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `name` | `string` | Name of the target UBO member.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `number` | Channel offset into the member.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `targetType` | `Type` | Target type of the handle, i.e. the type of data when read/write to it.  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:256](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L256)&nbsp;
 ___
 ### getShaderVariant
+
 <div style="margin-left: 10px;">
 
 ▸   **getShaderVariant**<`ShaderHandle`\>(`patches: array<IMacroPatch> | null`) : `ShaderHandle`
 
 
 
-
 **`en`** Gets the shader variant of the current pass and given macro patches
 
 
-
-
-<!---->
-<!--    #### Returns `ShaderHandle` -->
-<!---->
 
 #### Parameters
 
@@ -807,21 +702,16 @@ ___
 | `patches` | `array<IMacroPatch> \| null` | The macro patches  |
 
 
-
 ##### Returns `ShaderHandle`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:501](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L501)&nbsp;
 ___
 ### getUniform
+
 <div style="margin-left: 10px;">
 
 ▸   **getUniform**<`T`\>(`handle: number, out: T`) : `T`
-
 
 
 
@@ -829,48 +719,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `T` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `handle` | `number` | The handle for the target uniform  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `T` | The output property to store the result  |
 
 
-
 ##### Returns `T`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:298](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L298)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`info: IPassInfoFull`) : `void`
 
 
 
-
 **`en`** Initialize the pass with given pass info, shader will be compiled in the init process
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -879,21 +751,16 @@ ___
 | `info` | `IPassInfoFull` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:231](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L231)&nbsp;
 ___
 ### overridePipelineStates
+
 <div style="margin-left: 10px;">
 
 ▸   **overridePipelineStates**<`void`\>(`original: IPassInfo, overrides: PassOverrides`) : `void`
-
 
 
 
@@ -902,37 +769,24 @@ This won't affect the original pass
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `original` | `IPassInfo` | The original pass info  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `overrides` | `PassOverrides` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass-instance.ts:86](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass-instance.ts#L86)&nbsp;
 ___
 ### resetTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **resetTexture**<`void`\>(`name: string, index: undefined | number`) : `void`
-
 
 
 
@@ -940,37 +794,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `name` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:430](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L430)&nbsp;
 ___
 ### resetTextures
+
 <div style="margin-left: 10px;">
 
 ▸   **resetTextures**<`void`\> : `void`
-
 
 
 
@@ -979,25 +820,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:472](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L472)&nbsp;
 ___
 ### resetUBOs
+
 <div style="margin-left: 10px;">
 
 ▸   **resetUBOs**<`void`\> : `void`
-
 
 
 
@@ -1006,25 +838,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:450](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L450)&nbsp;
 ___
 ### resetUniform
+
 <div style="margin-left: 10px;">
 
 ▸   **resetUniform**<`void`\>(`name: string`) : `void`
-
 
 
 
@@ -1033,11 +856,6 @@ This method does not support array type uniform.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1045,21 +863,16 @@ This method does not support array type uniform.
 | `name` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:413](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L413)&nbsp;
 ___
 ### setDynamicState
+
 <div style="margin-left: 10px;">
 
 ▸   **setDynamicState**<`void`\>(`state: DynamicStateFlagBit, value: number`) : `void`
-
 
 
 
@@ -1067,37 +880,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `state` | `DynamicStateFlagBit` | Target dynamic state  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `number` | Target value  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:351](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L351)&nbsp;
 ___
 ### setUniform
+
 <div style="margin-left: 10px;">
 
 ▸   **setUniform**<`void`\>(`handle: number, value: MaterialProperty`) : `void`
-
 
 
 
@@ -1105,37 +905,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `handle` | `number` | The handle for the target uniform  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `MaterialProperty` | New value  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:283](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L283)&nbsp;
 ___
 ### setUniformArray
+
 <div style="margin-left: 10px;">
 
 ▸   **setUniformArray**<`void`\>(`handle: number, value: undefined`) : `void`
-
 
 
 
@@ -1143,43 +930,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `handle` | `number` | The handle for the target uniform  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` |  | New value  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:312](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L312)&nbsp;
 ___
 ### tryCompile
+
 <div style="margin-left: 10px;">
 
 ▸   **tryCompile**<`boolean`\>(`defineOverrides: MacroRecord`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -1188,21 +958,16 @@ ___
 | `defineOverrides` | `MacroRecord` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass-instance.ts:96](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass-instance.ts#L96)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\> : `void`
-
 
 
 
@@ -1211,16 +976,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/core/pass.ts:371](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/pass.ts#L371)&nbsp;

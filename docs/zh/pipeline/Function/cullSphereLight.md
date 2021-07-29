@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `light` | `SphereLight` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `model` | `Model` | - |
-
 
 #### Returns `boolean` 
 ___

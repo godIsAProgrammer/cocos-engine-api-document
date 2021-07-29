@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 平面阴影相关信息
 
 
@@ -50,7 +49,6 @@
 
 
 
-
 **`zh`** 获取或者设置阴影相机的宽高比。
 
 
@@ -69,7 +67,6 @@ ___
 
 ### autoAdapt
 <div style="margin-left: 10px;">
-
 
 
 
@@ -94,7 +91,6 @@ ___
 
 
 
-
 **`zh`** 获取或者设置阴影纹理偏移值
 
 
@@ -113,7 +109,6 @@ ___
 
 ### distance
 <div style="margin-left: 10px;">
-
 
 
 
@@ -138,7 +133,6 @@ ___
 
 
 
-
 **`zh`** 是否启用平面阴影？
 
 
@@ -157,7 +151,6 @@ ___
 
 ### far
 <div style="margin-left: 10px;">
-
 
 
 
@@ -182,7 +175,6 @@ ___
 
 
 
-
 **`zh`** 打开或者关闭线性深度。提高阴影质量，降低性能。与 packing depth 互斥。
 
 
@@ -201,7 +193,6 @@ ___
 
 ### maxReceived
 <div style="margin-left: 10px;">
-
 
 
 
@@ -226,7 +217,6 @@ ___
 
 
 
-
 **`zh`** 获取或者设置阴影相机近裁剪面
 
 
@@ -245,7 +235,6 @@ ___
 
 ### normal
 <div style="margin-left: 10px;">
-
 
 
 
@@ -270,7 +259,6 @@ ___
 
 
 
-
 **`zh`** 打开或者关闭自阴影。
 
 
@@ -289,7 +277,6 @@ ___
 
 ### orthoSize
 <div style="margin-left: 10px;">
-
 
 
 
@@ -314,7 +301,6 @@ ___
 
 
 
-
 **`zh`** 打开或者关闭深度压缩。降低阴影质量，提高性能。与 liner depth 互斥。
 
 
@@ -333,7 +319,6 @@ ___
 
 ### pcf
 <div style="margin-left: 10px;">
-
 
 
 
@@ -358,7 +343,6 @@ ___
 
 
 
-
 **`zh`** 打开或者关闭自阴影。
 
 
@@ -380,7 +364,6 @@ ___
 
 
 
-
 **`zh`** 阴影颜色
 
 
@@ -399,7 +382,6 @@ ___
 
 ### shadowMapSize
 <div style="margin-left: 10px;">
-
 
 
 
@@ -438,16 +420,12 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`resource: Shadows`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -456,32 +434,22 @@ ___
 | `resource` | `Shadows` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:700](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L700)&nbsp;
 ___
 ### setPlaneFromNode
+
 <div style="margin-left: 10px;">
 
 ▸   **setPlaneFromNode**<`void`\>(`node: Node`) : `void`
 
 
 
-
 **`zh`** 根据指定节点的世界变换设置阴影接收平面的信息
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -490,12 +458,7 @@ ___
 | `node` | `Node` | The node for setting up the plane  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:693](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L693)&nbsp;

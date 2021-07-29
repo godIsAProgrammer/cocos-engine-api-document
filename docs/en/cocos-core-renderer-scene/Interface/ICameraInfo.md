@@ -19,9 +19,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:109](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L109)&nbsp;
-
 ___
 #### node
 
@@ -32,9 +30,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:110](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L110)&nbsp;
-
 ___
 #### pipeline
 
@@ -45,9 +41,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:115](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L115)&nbsp;
-
 ___
 #### priority
 
@@ -58,9 +52,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L114)&nbsp;
-
 ___
 #### projection
 
@@ -71,9 +63,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L111)&nbsp;
-
 ___
 #### targetDisplay
 
@@ -84,9 +74,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:112](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L112)&nbsp;
-
 ___
 #### window
 
@@ -97,7 +85,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:113](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L113)&nbsp;
-
 ___

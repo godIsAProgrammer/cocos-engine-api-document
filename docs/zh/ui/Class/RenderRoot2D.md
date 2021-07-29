@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -77,9 +76,7 @@ ___
 
 
 
-
 **`zh`** 该组件被附加到的节点。组件总会附加到一个节点。
-
 
 
 
@@ -112,14 +109,11 @@ ___
 
 
 
-
 **`zh`** 表示该组件自身是否启用。
 
 
 
-
 **`default`** true
-
 
 
 
@@ -153,9 +147,7 @@ ___
 
 
 
-
 **`zh`** 表示该组件是否被启用并且所在的节点也处于激活状态。
-
 
 
 
@@ -189,7 +181,6 @@ ___
 
 
 
-
 **`zh`** 在继承 CCObject 对象后，控制是否需要隐藏，锁定，序列化等功能。
 
 
@@ -211,7 +202,6 @@ ___
 
 
 
-
 **`zh`** 
 表示该对象是否可用（被 destroy 后将不可用）。<br>
 当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。<br>
@@ -220,9 +210,7 @@ ___
 
 
 
-
 **`default`** true
-
 
 
 
@@ -277,9 +265,7 @@ ___
 
 
 
-
 **`zh`** 组件的 uuid，用于编辑器。
-
 
 
 
@@ -317,14 +303,10 @@ ___
 • **new RenderRoot2D**(`name: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:194](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L194)&nbsp;
@@ -336,15 +318,14 @@ ___
 ## Methods
 
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -361,9 +342,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -371,17 +349,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -397,9 +371,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -407,17 +378,13 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -425,32 +392,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -468,9 +425,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -478,19 +432,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -507,9 +457,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -517,26 +464,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -553,9 +494,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -563,17 +501,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -589,9 +523,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -599,26 +530,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -635,9 +560,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -645,17 +567,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -671,9 +589,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -681,26 +596,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -717,9 +626,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -727,17 +633,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -753,9 +655,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -763,17 +662,13 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### onDestroy
+
 <div style="margin-left: 10px;">
 
 ▸   **onDestroy**<`void`\> : `void`
@@ -781,21 +676,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/render-root-2d.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/render-root-2d.ts#L52)&nbsp;
 ___
 ### onDisable
+
 <div style="margin-left: 10px;">
 
 ▸   **onDisable**<`void`\> : `void`
@@ -803,21 +690,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/render-root-2d.ts:48](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/render-root-2d.ts#L48)&nbsp;
 ___
 ### onEnable
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnable**<`void`\> : `void`
@@ -825,21 +704,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/render-root-2d.ts:44](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/render-root-2d.ts#L44)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -847,21 +718,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -869,25 +732,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -897,32 +751,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`zh`** 
 调度一个自定义的回调任务。<br/>
 如果回调任务已调度，那么将不会重复调度它，只会更新时间间隔参数。
-
 
 
 
@@ -939,45 +783,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -985,14 +810,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -1009,42 +831,28 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`zh`** 取消调度一个自定义的回调任务。
-
 
 
 
@@ -1060,11 +868,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1072,26 +875,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`zh`** 取消调度所有已调度的回调函数。
-
 
 
 
@@ -1108,16 +905,7 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;

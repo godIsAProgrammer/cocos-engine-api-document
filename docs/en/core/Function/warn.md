@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Outputs a warning message to the Cocos Creator Console (editor) or Web Console (runtime).
 - In Cocos Creator, warning is yellow.
@@ -21,11 +20,7 @@ Outputs a warning message to the Cocos Creator Console (editor) or Web Console (
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `message` | `any` | A JavaScript string containing zero or more substitution strings.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `optionalParams` | - | JavaScript objects with which to replace substitution strings within msg.This gives you additional control over the format of the output.  |
-
 
 #### Returns `void` 
 ___

@@ -8,13 +8,13 @@ ___
 ___
 
 
-
 **`en`** 
 Removes the first occurrence of a specific object from the array.
 Decision of the equality of elements is similar to `Array.prototype.indexOf`.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -24,11 +24,7 @@ Decision of the equality of elements is similar to `Array.prototype.indexOf`.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `T` | 待移除元素。  |
-
 
 #### Returns `boolean` 
 ___

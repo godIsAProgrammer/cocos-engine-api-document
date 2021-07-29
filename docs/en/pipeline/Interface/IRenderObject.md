@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/define.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/define.ts#L72)&nbsp;
-
 ___
 #### model
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/define.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/define.ts#L71)&nbsp;
-
 ___

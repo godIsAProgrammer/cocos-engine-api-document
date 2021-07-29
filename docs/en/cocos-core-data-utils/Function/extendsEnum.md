@@ -8,14 +8,12 @@ ___
 ___
 
 
-
 **`en`** 
 Combine arbitray number of enumerations.
 It behaves like an enumeration having members that is a combination of members of the source enumerations
 is returned.
 These enumerations shall have non-overlaped member names or member values.
 If not, the behavior is undefined.
-
 
 
 
@@ -36,6 +34,8 @@ const ApplePen = extendsEnum(Apple, Pen);
 
 #### Parameters
 
+| Name | Type | Description |
+| :------: | :------: | :------: |
 
 ___
 
@@ -47,6 +47,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `E0` |
@@ -56,7 +57,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `e0` | `E0` | - |
-
 
 #### Returns `E0` 
 ___
@@ -69,11 +69,10 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `E0` |
-| Name |
-| :------ |
 | `E1` |
 
 #### Parameters
@@ -81,11 +80,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `e0` | `E0` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `e1` | `E1` | - |
-
 
 ___
 
@@ -97,14 +92,11 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `E0` |
-| Name |
-| :------ |
 | `E1` |
-| Name |
-| :------ |
 | `E2` |
 
 #### Parameters
@@ -112,15 +104,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `e0` | `E0` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `e1` | `E1` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `e2` | `E2` | - |
-
 
 ___
 
@@ -132,17 +117,12 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `E0` |
-| Name |
-| :------ |
 | `E1` |
-| Name |
-| :------ |
 | `E2` |
-| Name |
-| :------ |
 | `E3` |
 
 #### Parameters
@@ -150,19 +130,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `e0` | `E0` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `e1` | `E1` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `e2` | `E2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `e3` | `E3` | - |
-
 
 ___
 

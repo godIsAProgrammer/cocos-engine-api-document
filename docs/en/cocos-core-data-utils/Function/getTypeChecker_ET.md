@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attributeName` | `string` | - |
-
 
 #### Returns `(Anonymous function)` 
 ___

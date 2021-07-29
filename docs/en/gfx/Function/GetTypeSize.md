@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Get the memory size of the specified type.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `Type` | The target type.  |
-
 
 #### Returns `number` 
 ___

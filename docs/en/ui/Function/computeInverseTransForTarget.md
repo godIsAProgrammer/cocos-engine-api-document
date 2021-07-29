@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `widgetNode` | `Node` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `Node` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out_inverseTranslate` | `Vec2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out_inverseScale` | `Vec2` | - |
-
 
 #### Returns `void` 
 ___

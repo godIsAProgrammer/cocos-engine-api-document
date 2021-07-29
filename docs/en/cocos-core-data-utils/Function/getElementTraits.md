@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `elementType` | `ElementType` | - |
 
-
 #### Returns `CompactTraits` 
 ___
 

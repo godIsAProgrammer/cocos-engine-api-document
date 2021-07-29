@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Returns a random integer between min (inclusive) and max (exclusive).<br/>
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `min` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `max` | `number` | - |
-
 
 #### Returns `number` The random integer.
 

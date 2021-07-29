@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 对检查测试条件进行检查，如果条件不为 true 则输出错误消息
 
@@ -19,15 +18,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `value` | `any` | The condition to check on  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `message` | - | A JavaScript string containing zero or more substitution strings.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `optionalParams` | - | JavaScript objects with which to replace substitution strings within msg.This gives you additional control over the format of the output.  |
-
 
 #### Returns `value` 
 ___

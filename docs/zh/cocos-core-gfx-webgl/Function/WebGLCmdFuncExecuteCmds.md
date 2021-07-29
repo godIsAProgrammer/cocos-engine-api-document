@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `WebGLDevice` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cmdPackage` | `WebGLCmdPackage` | - |
-
 
 #### Returns `void` 
 ___

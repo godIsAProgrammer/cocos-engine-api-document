@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Gets the default values for the given type of uniform
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `Type` | The type of the uniform  |
-
 
 ___
 

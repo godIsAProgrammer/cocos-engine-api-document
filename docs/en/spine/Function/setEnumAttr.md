@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `obj` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propName` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `enumDef` | `any` | - |
-
 
 #### Returns `void` 
 ___

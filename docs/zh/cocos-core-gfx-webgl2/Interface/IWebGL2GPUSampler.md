@@ -24,9 +24,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L102)&nbsp;
-
 ___
 #### addressV
 
@@ -37,9 +35,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:103](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L103)&nbsp;
-
 ___
 #### addressW
 
@@ -50,9 +46,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:104](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L104)&nbsp;
-
 ___
 #### glMagFilter
 
@@ -63,9 +57,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:107](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L107)&nbsp;
-
 ___
 #### glMinFilter
 
@@ -76,9 +68,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L106)&nbsp;
-
 ___
 #### glSampler
 
@@ -89,9 +79,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:98](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L98)&nbsp;
-
 ___
 #### glWrapR
 
@@ -102,9 +90,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:110](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L110)&nbsp;
-
 ___
 #### glWrapS
 
@@ -115,9 +101,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:108](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L108)&nbsp;
-
 ___
 #### glWrapT
 
@@ -128,9 +112,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:109](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L109)&nbsp;
-
 ___
 #### magFilter
 
@@ -141,9 +123,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:100](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L100)&nbsp;
-
 ___
 #### minFilter
 
@@ -154,9 +134,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:99](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L99)&nbsp;
-
 ___
 #### mipFilter
 
@@ -167,7 +145,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L101)&nbsp;
-
 ___

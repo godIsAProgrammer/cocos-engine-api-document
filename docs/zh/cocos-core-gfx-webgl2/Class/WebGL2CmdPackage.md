@@ -125,16 +125,12 @@ ___
 ## Methods
 
 ### clearCmds
+
 <div style="margin-left: 10px;">
 
 ▸   **clearCmds**<`void`\>(`allocator: WebGL2CommandAllocator`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -143,12 +139,7 @@ ___
 | `allocator` | `WebGL2CommandAllocator` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-commands.ts:793](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-commands.ts#L793)&nbsp;

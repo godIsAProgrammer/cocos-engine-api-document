@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 把弧度换算成角度。
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `number` | Angle in Radian  |
-
 
 #### Returns `number` 
 ___

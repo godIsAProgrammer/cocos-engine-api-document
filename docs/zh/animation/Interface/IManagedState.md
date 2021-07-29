@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cross-fade.ts:39](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cross-fade.ts#L39)&nbsp;
-
 ___
 #### state
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cross-fade.ts:38](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cross-fade.ts#L38)&nbsp;
-
 ___

@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`en`** 
 Inserts some objects at specified index.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,15 +23,8 @@ Inserts some objects at specified index.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `objects` | - | 插入的所有对象。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | 插入的索引。  |
-
 
 ___
 

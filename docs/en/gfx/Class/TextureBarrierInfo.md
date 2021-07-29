@@ -118,46 +118,14 @@ ___
 • **new TextureBarrierInfo**(`prevAccesses: undefined, nextAccesses: undefined, discardContents: boolean, srcQueue: Queue | null, dstQueue: Queue | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `prevAccesses` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `nextAccesses` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `discardContents` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `srcQueue` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dstQueue` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1477](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1477)&nbsp;
@@ -169,16 +137,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: TextureBarrierInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -187,12 +151,7 @@ ___
 | `info` | `TextureBarrierInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1487](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1487)&nbsp;

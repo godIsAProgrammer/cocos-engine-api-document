@@ -13,47 +13,16 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ctx` | `Impl` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x1` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y1` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x2` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y2` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x3` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y3` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x4` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y4` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `level` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `number` | - |
-
 
 #### Returns `void` 
 ___

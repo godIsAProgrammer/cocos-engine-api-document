@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`zh`** 获取文件路径的文件名。
-
 
 
 
@@ -28,11 +26,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `path` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `extName` | - | - |
-
 
 #### Returns `string` 
 ___

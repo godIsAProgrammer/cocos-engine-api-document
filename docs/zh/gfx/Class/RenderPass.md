@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** GFX 渲染过程。
 
 
@@ -134,14 +132,10 @@ ___
 • **new RenderPass**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/render-pass.ts:60](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/render-pass.ts#L60)&nbsp;
@@ -153,6 +147,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -160,31 +155,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/render-pass.ts:109](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/render-pass.ts#L109)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: RenderPassInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -193,12 +175,7 @@ ___
 | `info` | `RenderPassInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/render-pass.ts:107](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/render-pass.ts#L107)&nbsp;

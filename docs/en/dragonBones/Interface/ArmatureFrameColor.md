@@ -17,9 +17,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:55](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L55)&nbsp;
-
 ___
 #### b
 
@@ -30,9 +28,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L54)&nbsp;
-
 ___
 #### g
 
@@ -43,9 +39,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:53](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L53)&nbsp;
-
 ___
 #### r
 
@@ -56,9 +50,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L52)&nbsp;
-
 ___
 #### vfOffset
 
@@ -69,7 +61,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L56)&nbsp;
-
 ___

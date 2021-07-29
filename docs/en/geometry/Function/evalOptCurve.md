@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `t` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `coefs` | - | - |
-
 
 #### Returns `number` 
 ___

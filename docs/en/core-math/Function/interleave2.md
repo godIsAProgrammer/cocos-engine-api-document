@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Interleave bits of 2 coordinates with 16 bits. Useful for fast quadtree codes.
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
 
 #### Returns `number` 
 ___

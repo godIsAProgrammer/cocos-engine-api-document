@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 二维尺寸。
 
 
@@ -155,33 +153,18 @@ ___
 • **new Size**(`other: Size`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `other` | `Size` |
-
-
-
-
-
 • **new Size**(`width: undefined | number, height: undefined | number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `width` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `height` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/size.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L68)&nbsp;   [cocos/core/math/size.ts:75](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L75)&nbsp;   [cocos/core/math/size.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L83)&nbsp;
@@ -193,10 +176,10 @@ ___
 ## Methods
 
 ### lerp
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **lerp**<`Out`\>(`out: Out, from: Out, to: Out, ratio: number`) : `Out`
-
 
 
 
@@ -204,46 +187,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` A vector consisting of linear interpolation of the width and height of the current size to the width and height of the target size at a specified interpolation ratio, respectively.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | Output Size.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `from` | `Out` | Original Size.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `to` | `Out` | Target Size.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | The interpolation coefficient.The range is [0,1].  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/size.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L54)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸   **clone**<`Size`\> : `Size`
-
 
 
 
@@ -253,37 +216,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/size.ts:100](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L100)&nbsp;
 ___
 ### equals
+
 <div style="margin-left: 10px;">
 
 ▸   **equals**<`boolean`\>(`other: Size`) : `boolean`
 
 
 
-
 **`zh`** 判断当前尺寸是否与指定尺寸的相等。
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` Returns &#x60;true&#x27; when both dimensions are equal in width and height; otherwise returns &#x60;false&#x27;.
--->
-<!---->
 
 #### Parameters
 
@@ -292,21 +240,16 @@ ___
 | `other` | `Size` | Specified Size  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/size.ts:138](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L138)&nbsp;
 ___
 ### lerp
+
 <div style="margin-left: 10px;">
 
 ▸   **lerp**<`this`\>(`to: Size, ratio: number`) : `this`
-
 
 
 
@@ -314,49 +257,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `to` | `Size` | Target Size.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | The interpolation coefficient.The range is [0,1].  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/size.ts:149](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L149)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸   **set**<`any`\>(`other: Size`) : `any`
 
 
 
-
 **`zh`** 设置当前尺寸使其与指定的尺寸相等。
 
 
-
-
-<!---->
-<!--    #### Returns `any` &#x60;this&#x60;
--->
-<!---->
 
 #### Parameters
 
@@ -365,12 +289,9 @@ ___
 | `other` | `Size` | Specified Size.  |
 
 
-
 ##### Returns `any`
 
-
 ▸   **set**<`any`\>(`width: undefined | number, height: undefined | number`) : `any`
-
 
 
 
@@ -378,38 +299,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `any` &#x60;this&#x60;
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `undefined \| number` | Specified width  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `undefined \| number` | Specified height  |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/size.ts:110](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L110)&nbsp;   [cocos/core/math/size.ts:119](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L119)&nbsp;   [cocos/core/math/size.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L121)&nbsp;
 ___
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸   **toString**<`string`\> : `string`
-
 
 
 
@@ -418,17 +325,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `string` The information of the current size in string
--->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/size.ts:160](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/size.ts#L160)&nbsp;

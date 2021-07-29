@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `owner` | `Object` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `superAttrs` | `any` | - |
-
 
 #### Returns `any` 
 ___

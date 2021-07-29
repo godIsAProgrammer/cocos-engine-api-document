@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** 
 The skeleton of Spine <br/>
 <br/>
@@ -176,7 +174,6 @@ ___
 
 
 
-
 **`en`** The render data assembler
 
 
@@ -197,9 +194,7 @@ ___
 
 
 
-
 **`en`** The blend factor enums
-
 
 
 
@@ -221,7 +216,6 @@ ___
 
 ### PostAssembler
 <div style="margin-left: 10px;">
-
 
 
 
@@ -293,7 +287,6 @@ ___
 
 
 
-
 **`en`** Enabled batch model, if skeleton is complex, do not enable batch, or will lower performance.
 
 
@@ -311,7 +304,6 @@ ___
 
 ### loop
 <div style="margin-left: 10px;">
-
 
 
 
@@ -335,9 +327,7 @@ ___
 
 
 
-
 **`en`** The node this component is attached to. A component is always attached to a node.
-
 
 
 
@@ -370,14 +360,11 @@ ___
 
 
 
-
 **`en`** The skeletal animation is paused?
 
 
 
-
 **`property`** paused
-
 
 
 
@@ -403,7 +390,6 @@ ___
 
 
 
-
 **`en`** The component stencil stage (please do not any modification directly on this object)
 
 
@@ -424,9 +410,7 @@ ___
 
 
 
-
 **`en`** The name of current playing animation.
-
 
 
 
@@ -467,7 +451,6 @@ ___
 
 
 
-
 **`en`** Main color for rendering, it normally multiplies with texture color.
 
 
@@ -504,7 +487,6 @@ ___
 
 
 
-
 **`en`** Indicates whether open debug bones.
 
 
@@ -525,7 +507,6 @@ ___
 
 
 
-
 **`en`** Indicates whether open debug mesh.
 
 
@@ -543,7 +524,6 @@ ___
 
 ### debugSlots
 <div style="margin-left: 10px;">
-
 
 
 
@@ -599,9 +579,7 @@ ___
 
 
 
-
 **`en`** Specifies the destination blend mode.
-
 
 
 
@@ -613,7 +591,6 @@ ___
 sprite.dstBlendFactor = BlendFactor.ONE_MINUS_SRC_ALPHA;
 
 ```
-
 
 
 
@@ -638,14 +615,11 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled or not.
 
 
 
-
 **`default`** true
-
 
 
 
@@ -679,9 +653,7 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled and its node is also active in the hierarchy.
-
 
 
 
@@ -715,7 +687,6 @@ ___
 
 
 
-
 **`en`** After inheriting CCObject objects, control whether you need to hide, lock, serialize, and other functions.
 
 
@@ -736,7 +707,6 @@ ___
 
 
 
-
 **`en`** 
 Indicates whether the object is not yet destroyed. (It will not be available after being destroyed)<br>
 When an object's `destroy` is called, it is actually destroyed after the end of this frame.
@@ -747,9 +717,7 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`default`** true
-
 
 
 
@@ -801,7 +769,6 @@ ___
 
 ### materials
 <div style="margin-left: 10px;">
-
 
 
 
@@ -922,12 +889,10 @@ dstBlendFactor
 
 
 
-
 **`en`** 
 The skeleton data contains the skeleton information (bind pose bones, slots, draw order,
 attachments, skins, etc) and animations but does not hold any state.<br/>
 Multiple skeletons can share the same skeleton data.
-
 
 
 
@@ -969,7 +934,6 @@ ___
 
 
 
-
 **`en`** 
 The bone sockets this animation component maintains.<br>
 Sockets have to be registered here before attaching custom nodes to animated bones.
@@ -992,9 +956,7 @@ ___
 
 
 
-
 **`en`** Specifies the source blend mode, it will clone a new material object.
-
 
 
 
@@ -1006,7 +968,6 @@ ___
 sprite.srcBlendFactor = BlendFactor.ONE;
 
 ```
-
 
 
 
@@ -1047,7 +1008,6 @@ ___
 
 
 
-
 **`en`** Enabled two color tint.
 
 
@@ -1068,9 +1028,7 @@ ___
 
 
 
-
 **`en`** The uuid for editor.
-
 
 
 
@@ -1124,6 +1082,9 @@ ___
 • **new Skeleton**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:550](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L550)&nbsp;
@@ -1135,10 +1096,10 @@ ___
 ## Methods
 
 ### addAnimation
+
 <div style="margin-left: 10px;">
 
 ▸   **addAnimation**(`trackIndex: number, name: string, loop: boolean, delay: undefined | number`)
-
 
 
 
@@ -1147,53 +1108,34 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.TrackEntry
 
 
 
-
 **`method`** addAnimation
 
 
-
-
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `trackIndex` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `name` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `loop` | `boolean` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1015](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1015)&nbsp;
 ___
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -1210,9 +1152,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1220,17 +1159,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -1246,9 +1181,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1256,21 +1188,16 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### clearTrack
+
 <div style="margin-left: 10px;">
 
 ▸   **clearTrack**<`void`\>(`trackIndex: number`) : `void`
-
 
 
 
@@ -1278,15 +1205,9 @@ ___
 
 
 
-
 **`method`** clearTrack
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1295,26 +1216,20 @@ ___
 | `trackIndex` | `number` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1084](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1084)&nbsp;
 ___
 ### clearTracks
+
 <div style="margin-left: 10px;">
 
 ▸   **clearTracks**<`void`\> : `void`
 
 
 
-
 **`en`** Clears all tracks of animation state.
-
 
 
 
@@ -1324,21 +1239,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1070](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1070)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -1346,21 +1253,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### destroyRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyRenderData**<`void`\> : `void`
@@ -1368,21 +1267,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1269](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1269)&nbsp;
 ___
 ### disableRender
+
 <div style="margin-left: 10px;">
 
 ▸   **disableRender**<`void`\> : `void`
@@ -1390,25 +1281,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:571](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L571)&nbsp;
 ___
 ### findAnimation
+
 <div style="margin-left: 10px;">
 
 ▸   **findAnimation**(`name: string`)
-
 
 
 
@@ -1416,13 +1298,9 @@ ___
 
 
 
-
 **`method`** findAnimation
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1431,21 +1309,16 @@ ___
 | `name` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1040](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1040)&nbsp;
 ___
 ### findBone
+
 <div style="margin-left: 10px;">
 
 ▸   **findBone**(`boneName: string`)
-
 
 
 
@@ -1456,13 +1329,9 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.Bone objec
 
 
 
-
 **`method`** findBone
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1471,21 +1340,16 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.Bone objec
 | `boneName` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:841](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L841)&nbsp;
 ___
 ### findSlot
+
 <div style="margin-left: 10px;">
 
 ▸   **findSlot**(`slotName: string`)
-
 
 
 
@@ -1495,13 +1359,9 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.Slot objec
 
 
 
-
 **`method`** findSlot
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1510,21 +1370,16 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.Slot objec
 | `slotName` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:860](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L860)&nbsp;
 ___
 ### getAttachment
+
 <div style="margin-left: 10px;">
 
 ▸   **getAttachment**(`slotName: string, attachmentName: string`)
-
 
 
 
@@ -1535,36 +1390,25 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.Attachment
 
 
 
-
 **`method`** getAttachment
 
 
-
-
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `slotName` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attachmentName` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:903](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L903)&nbsp;
 ___
 ### getBlendState
+
 <div style="margin-left: 10px;">
 
 ▸   **getBlendState**<`BlendState`\> : `BlendState`
@@ -1572,32 +1416,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `BlendState` -->
-<!---->
-
-
 ##### Returns `BlendState`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:494](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L494)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1615,9 +1449,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1625,19 +1456,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1654,9 +1481,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1664,26 +1488,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1700,9 +1518,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1710,17 +1525,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1736,9 +1547,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1746,26 +1554,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1782,9 +1584,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1792,17 +1591,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1818,9 +1613,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1828,26 +1620,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1864,9 +1650,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1874,17 +1657,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1900,9 +1679,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1910,21 +1686,16 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### getCurrent
+
 <div style="margin-left: 10px;">
 
 ▸   **getCurrent**(`trackIndex: number`)
-
 
 
 
@@ -1933,13 +1704,9 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.TrackEntry
 
 
 
-
 **`method`** getCurrent
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1948,21 +1715,16 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.TrackEntry
 | `trackIndex` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1056](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1056)&nbsp;
 ___
 ### getMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterial**(`idx: number`)
-
 
 
 
@@ -1970,9 +1732,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1980,58 +1739,38 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L129)&nbsp;
 ___
 ### getMaterialForBlendAndTint
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterialForBlendAndTint**<`MaterialInstance`\>(`src: BlendFactor, dst: BlendFactor, type: SpineMaterialType`) : `MaterialInstance`
 
 
 
-
-<!---->
-<!--    #### Returns `MaterialInstance` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `src` | `BlendFactor` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dst` | `BlendFactor` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `SpineMaterialType` | - |
 
 
-
 ##### Returns `MaterialInstance`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1276](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1276)&nbsp;
 ___
 ### getMaterialInstance
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterialInstance**(`idx: number`)
-
 
 
 
@@ -2039,9 +1778,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2049,21 +1785,16 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:173](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L173)&nbsp;
 ___
 ### getRenderMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **getRenderMaterial**(`index: number`)
-
 
 
 
@@ -2072,9 +1803,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2082,26 +1810,20 @@ ___
 | `index` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:208](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L208)&nbsp;
 ___
 ### getState
+
 <div style="margin-left: 10px;">
 
 ▸   **getState**
 
 
 
-
 **`en`** Get the animation state object
-
 
 
 
@@ -2110,23 +1832,16 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1238](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1238)&nbsp;
 ___
 ### getTextureAtlas
+
 <div style="margin-left: 10px;">
 
 ▸   **getTextureAtlas**<`TextureRegion`\>(`regionAttachment: RegionAttachment | BoundingBoxAttachment`) : `TextureRegion`
-
 
 
 
@@ -2135,12 +1850,6 @@ ___
 
 Return the renderer of attachment.
 
-
-<!---->
-<!--    #### Returns `TextureRegion` 
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2148,27 +1857,21 @@ Return the renderer of attachment.
 | `regionAttachment` | `RegionAttachment \| BoundingBoxAttachment` | - |
 
 
-
 ##### Returns `TextureRegion`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:934](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L934)&nbsp;
 ___
 ### invalidAnimationCache
+
 <div style="margin-left: 10px;">
 
 ▸   **invalidAnimationCache**<`void`\> : `void`
 
 
 
-
 **`en`** 
 Invalidates the animation cache, which is then recomputed on each frame..
-
 
 
 
@@ -2178,25 +1881,16 @@ Invalidates the animation cache, which is then recomputed on each frame..
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:820](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L820)&nbsp;
 ___
 ### isAnimationCached
+
 <div style="margin-left: 10px;">
 
 ▸   **isAnimationCached**<`boolean`\> : `boolean`
-
 
 
 
@@ -2205,36 +1899,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:705](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L705)&nbsp;
 ___
 ### markForUpdateRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **markForUpdateRenderData**<`void`\>(`enable: boolean`) : `void`
 
 
 
-
 **`en`** Marks the render data of the current component as modified so that the render data is recalculated.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2243,17 +1923,13 @@ ___
 | `enable` | `boolean` | Marked necessary to update or not  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:372](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L372)&nbsp;
 ___
 ### onDestroy
+
 <div style="margin-left: 10px;">
 
 ▸   **onDestroy**<`void`\> : `void`
@@ -2261,21 +1937,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1251](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1251)&nbsp;
 ___
 ### onDisable
+
 <div style="margin-left: 10px;">
 
 ▸   **onDisable**<`void`\> : `void`
@@ -2283,21 +1951,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1247)&nbsp;
 ___
 ### onEnable
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnable**<`void`\> : `void`
@@ -2305,21 +1965,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1242](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1242)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -2327,21 +1979,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -2349,21 +1993,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### onRestore
+
 <div style="margin-left: 10px;">
 
 ▸   **onRestore**<`void`\> : `void`
@@ -2371,25 +2007,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:340](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L340)&nbsp;
 ___
 ### postUpdateAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdateAssembler**<`void`\>(`render: Batcher2D`) : `void`
-
 
 
 
@@ -2399,11 +2026,6 @@ Don't call it unless you know what you are doing.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2411,17 +2033,13 @@ Don't call it unless you know what you are doing.
 | `render` | `Batcher2D` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:434](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L434)&nbsp;
 ___
 ### querySockets
+
 <div style="margin-left: 10px;">
 
 ▸   **querySockets**
@@ -2429,29 +2047,18 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1342](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1342)&nbsp;
 ___
 ### requestMeshRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **requestMeshRenderData**<`SkeletonMeshData`\>(`vertexFloatCnt: number`) : `SkeletonMeshData`
 
 
-
-
-<!---->
-<!--    #### Returns `SkeletonMeshData` -->
-<!---->
 
 #### Parameters
 
@@ -2460,21 +2067,16 @@ ___
 | `vertexFloatCnt` | `number` | - |
 
 
-
 ##### Returns `SkeletonMeshData`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1257](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1257)&nbsp;
 ___
 ### requestRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **requestRenderData**<`RenderData`\> : `RenderData`
-
 
 
 
@@ -2483,26 +2085,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `RenderData` The new render data
--->
-<!---->
-
-
 ##### Returns `RenderData`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:391](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L391)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -2512,32 +2104,22 @@ This function is only called in editor.<br/>
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`en`** 
 Schedules a custom task.<br/>
 If the task is already scheduled, then the interval parameter will be updated without scheduling it again.
-
 
 
 
@@ -2554,45 +2136,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -2600,14 +2163,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -2624,37 +2184,24 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### setAnimation
+
 <div style="margin-left: 10px;">
 
 ▸   **setAnimation**(`trackIndex: number, name: string, loop: boolean`)
-
 
 
 
@@ -2663,51 +2210,35 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.TrackEntry
 
 
 
-
 **`method`** setAnimation
 
 
-
-
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `trackIndex` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `name` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `loop` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:966](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L966)&nbsp;
 ___
 ### setAnimationCacheMode
+
 <div style="margin-left: 10px;">
 
 ▸   **setAnimationCacheMode**<`void`\>(`cacheMode: AnimationCacheMode`) : `void`
 
 
 
-
 **`en`** 
 It's best to set cache mode before set property 'dragonAsset', or will waste some cpu time.
 If set the mode in editor, then no need to worry about order problem.
-
 
 
 
@@ -2721,11 +2252,6 @@ skeleton.setAnimationCacheMode(sp.Skeleton.AnimationCacheMode.SHARED_CACHE);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2733,21 +2259,16 @@ skeleton.setAnimationCacheMode(sp.Skeleton.AnimationCacheMode.SHARED_CACHE);
 | `cacheMode` | `AnimationCacheMode` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:691](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L691)&nbsp;
 ___
 ### setAnimationStateData
+
 <div style="margin-left: 10px;">
 
 ▸   **setAnimationStateData**<`void`\>(`stateData: any`) : `void`
-
 
 
 
@@ -2756,11 +2277,6 @@ The parameter type is {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2768,21 +2284,16 @@ The parameter type is {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}
 | `stateData` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:639](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L639)&nbsp;
 ___
 ### setAttachment
+
 <div style="margin-left: 10px;">
 
 ▸   **setAttachment**<`void`\>(`slotName: string, attachmentName: string`) : `void`
-
 
 
 
@@ -2792,42 +2303,28 @@ The skeleton looks first in its skin, then in the skeleton data’s default skin
 
 
 
-
 **`method`** setAttachment
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `slotName` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attachmentName` | `string` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:921](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L921)&nbsp;
 ___
 ### setBonesToSetupPose
+
 <div style="margin-left: 10px;">
 
 ▸   **setBonesToSetupPose**<`void`\> : `void`
-
 
 
 
@@ -2837,32 +2334,22 @@ using the values from the `BoneData` list in the `SkeletonData`.
 
 
 
-
 **`method`** setBonesToSetupPose
 
 
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:773](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L773)&nbsp;
 ___
 ### setCompleteListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setCompleteListener**<`void`\>(`listener: TrackListener`) : `void`
-
 
 
 
@@ -2870,15 +2357,9 @@ ___
 
 
 
-
 **`method`** setCompleteListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2887,21 +2368,16 @@ ___
 | `listener` | `TrackListener` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1145](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1145)&nbsp;
 ___
 ### setDisposeListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setDisposeListener**<`void`\>(`listener: TrackListener`) : `void`
-
 
 
 
@@ -2909,15 +2385,9 @@ ___
 
 
 
-
 **`method`** setDisposeListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2926,21 +2396,16 @@ ___
 | `listener` | `TrackListener` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1134](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1134)&nbsp;
 ___
 ### setEndListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setEndListener**<`void`\>(`listener: TrackListener`) : `void`
-
 
 
 
@@ -2948,15 +2413,9 @@ ___
 
 
 
-
 **`method`** setEndListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2965,21 +2424,16 @@ ___
 | `listener` | `TrackListener` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1123](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1123)&nbsp;
 ___
 ### setEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setEventListener**<`void`\>(`listener: TrackListener2`) : `void`
-
 
 
 
@@ -2987,15 +2441,9 @@ ___
 
 
 
-
 **`method`** setEventListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3004,21 +2452,16 @@ ___
 | `listener` | `TrackListener2` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1156](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1156)&nbsp;
 ___
 ### setInterruptListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setInterruptListener**<`void`\>(`listener: TrackListener`) : `void`
-
 
 
 
@@ -3026,15 +2469,9 @@ ___
 
 
 
-
 **`method`** setInterruptListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3043,21 +2480,16 @@ ___
 | `listener` | `TrackListener` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1112](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1112)&nbsp;
 ___
 ### setMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **setMaterial**<`void`\>(`material: Material | null, index: number`) : `void`
-
 
 
 
@@ -3066,37 +2498,24 @@ new material instance will be created automatically if the sub-model is already 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `material` | `Material \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L141)&nbsp;
 ___
 ### setMaterialInstance
+
 <div style="margin-left: 10px;">
 
 ▸   **setMaterialInstance**<`void`\>(`index: number, matInst: Material | null`) : `void`
-
 
 
 
@@ -3104,37 +2523,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `index` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `matInst` | `Material \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:192](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L192)&nbsp;
 ___
 ### setMix
+
 <div style="margin-left: 10px;">
 
 ▸   **setMix**<`void`\>(`fromAnimation: string, toAnimation: string, duration: number`) : `void`
-
 
 
 
@@ -3144,46 +2550,29 @@ interpolated for the specified time and mixed with the current values.
 
 
 
-
 **`method`** setMix
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `fromAnimation` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `toAnimation` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `duration` | `number` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:949](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L949)&nbsp;
 ___
 ### setSkeletonData
+
 <div style="margin-left: 10px;">
 
 ▸   **setSkeletonData**<`void`\>(`skeletonData: SkeletonData`) : `void`
-
 
 
 
@@ -3194,15 +2583,9 @@ This method is different from the `skeletonData` property. This method is passed
 
 
 
-
 **`method`** setSkeletonData
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3211,21 +2594,16 @@ This method is different from the `skeletonData` property. This method is passed
 | `skeletonData` | `SkeletonData` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:588](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L588)&nbsp;
 ___
 ### setSkin
+
 <div style="margin-left: 10px;">
 
 ▸   **setSkin**<`void`\>(`skinName: string`) : `void`
-
 
 
 
@@ -3237,15 +2615,9 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.Skin objec
 
 
 
-
 **`method`** setSkin
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3254,21 +2626,16 @@ Returns a {{#crossLinkModule "sp.spine"}}sp.spine{{/crossLinkModule}}.Skin objec
 | `skinName` | `string` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:881](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L881)&nbsp;
 ___
 ### setSlotsRange
+
 <div style="margin-left: 10px;">
 
 ▸   **setSlotsRange**<`void`\>(`startSlotIndex: any, endSlotIndex: any`) : `void`
-
 
 
 
@@ -3276,37 +2643,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `startSlotIndex` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `endSlotIndex` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:624](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L624)&nbsp;
 ___
 ### setSlotsToSetupPose
+
 <div style="margin-left: 10px;">
 
 ▸   **setSlotsToSetupPose**<`void`\> : `void`
-
 
 
 
@@ -3316,32 +2670,22 @@ using the values from the `SlotData` list in the `SkeletonData`.
 
 
 
-
 **`method`** setSlotsToSetupPose
 
 
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:788](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L788)&nbsp;
 ___
 ### setStartListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setStartListener**<`void`\>(`listener: TrackListener`) : `void`
-
 
 
 
@@ -3349,15 +2693,9 @@ ___
 
 
 
-
 **`method`** setStartListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3366,26 +2704,20 @@ ___
 | `listener` | `TrackListener` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1101)&nbsp;
 ___
 ### setToSetupPose
+
 <div style="margin-left: 10px;">
 
 ▸   **setToSetupPose**<`void`\> : `void`
 
 
 
-
 **`en`** Sets the bones and slots to the setup pose.
-
 
 
 
@@ -3395,25 +2727,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:758](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L758)&nbsp;
 ___
 ### setTrackCompleteListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setTrackCompleteListener**<`void`\>(`entry: TrackEntry, listener: TrackListener2`) : `void`
-
 
 
 
@@ -3421,42 +2744,28 @@ ___
 
 
 
-
 **`method`** setTrackCompleteListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `entry` | `TrackEntry` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `TrackListener2` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1214](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1214)&nbsp;
 ___
 ### setTrackDisposeListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setTrackDisposeListener**<`void`\>(`entry: TrackEntry, listener: TrackListener`) : `void`
-
 
 
 
@@ -3464,42 +2773,28 @@ ___
 
 
 
-
 **`method`** setTrackDisposeListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `entry` | `TrackEntry` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `TrackListener` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1201](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1201)&nbsp;
 ___
 ### setTrackEndListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setTrackEndListener**<`void`\>(`entry: TrackEntry, listener: TrackListener`) : `void`
-
 
 
 
@@ -3507,42 +2802,28 @@ ___
 
 
 
-
 **`method`** setTrackEndListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `entry` | `TrackEntry` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `TrackListener` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1190](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1190)&nbsp;
 ___
 ### setTrackEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setTrackEventListener**<`void`\>(`entry: TrackEntry, listener: TrackListener | TrackListener2`) : `void`
-
 
 
 
@@ -3550,42 +2831,28 @@ ___
 
 
 
-
 **`method`** setTrackEventListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `entry` | `TrackEntry` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `TrackListener \| TrackListener2` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1228)&nbsp;
 ___
 ### setTrackInterruptListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setTrackInterruptListener**<`void`\>(`entry: TrackEntry, listener: TrackListener`) : `void`
-
 
 
 
@@ -3593,42 +2860,28 @@ ___
 
 
 
-
 **`method`** setTrackInterruptListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `entry` | `TrackEntry` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `TrackListener` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1179](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1179)&nbsp;
 ___
 ### setTrackStartListener
+
 <div style="margin-left: 10px;">
 
 ▸   **setTrackStartListener**<`void`\>(`entry: TrackEntry, listener: TrackListener`) : `void`
-
 
 
 
@@ -3636,53 +2889,34 @@ ___
 
 
 
-
 **`method`** setTrackStartListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `entry` | `TrackEntry` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `TrackListener` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:1168](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L1168)&nbsp;
 ___
 ### setVertexEffectDelegate
+
 <div style="margin-left: 10px;">
 
 ▸   **setVertexEffectDelegate**<`void`\>(`effectDelegate: VertexEffectDelegate | null | undefined`) : `void`
 
 
 
-
 **`en`** Sets vertex effect delegate.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3691,26 +2925,20 @@ ___
 | `effectDelegate` | `VertexEffectDelegate \| null \| undefined` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:749](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L749)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`en`** Un-schedules a custom task.
-
 
 
 
@@ -3726,11 +2954,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -3738,26 +2961,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`en`** unschedule all scheduled tasks.
-
 
 
 
@@ -3774,31 +2991,18 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`dt: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3807,21 +3011,16 @@ ___
 | `dt` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:710](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L710)&nbsp;
 ___
 ### updateAnimationCache
+
 <div style="margin-left: 10px;">
 
 ▸   **updateAnimationCache**<`void`\>(`animName: any`) : `void`
-
 
 
 
@@ -3832,15 +3031,9 @@ To update the cache, use the invalidAnimationCache method with high performance.
 
 
 
-
 **`method`** updateAnimationCache
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3849,21 +3042,16 @@ To update the cache, use the invalidAnimationCache method with high performance.
 | `animName` | `any` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:805](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L805)&nbsp;
 ___
 ### updateAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **updateAssembler**<`void`\>(`render: Batcher2D`) : `void`
-
 
 
 
@@ -3873,11 +3061,6 @@ Don't call it unless you know what you are doing.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -3885,17 +3068,13 @@ Don't call it unless you know what you are doing.
 | `render` | `Batcher2D` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:418](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L418)&nbsp;
 ___
 ### updateBlendHash
+
 <div style="margin-left: 10px;">
 
 ▸   **updateBlendHash**<`void`\> : `void`
@@ -3903,16 +3082,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:318](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L318)&nbsp;

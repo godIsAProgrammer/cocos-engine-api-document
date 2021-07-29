@@ -17,7 +17,6 @@
 {{this.comment.shortText}}
 {{/if}}
 
-{{!-- • **{{this.name}}**{{#if (isValue this.type.name)}}: {{#propertyType this.type}}{{/propertyType}} {{#if (isValue this.defaultValue)}} = `{{#filterEscapes this.defaultValue}}{{/filterEscapes}}`{{/if}}{{/if}} --}}
 • {{#if this.flags.isStatic}}`static`{{/if}} **{{this.name}}**:
 {{#if this.getSignature}}
 {{#each this.getSignature}} `{{#propertyType this.type}}{{/propertyType}}` {{/each}}
@@ -26,11 +25,6 @@
 {{/if}}
 </div>
 
-{{!-- #### Inherited from
-
-[Mesh](/classes/mesh.md).[__depends__](/classes/mesh.md#__depends__)
-
-#### Defined in  --}}
 ##### Defined in &nbsp;{{#each this.sources}}   [{{this.fileName}}:{{this.line}}](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/{{this.fileName}}#L{{this.line}})&nbsp;{{/each }}
 
 

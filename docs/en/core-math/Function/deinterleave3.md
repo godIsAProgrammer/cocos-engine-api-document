@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 提取三个数字中的第n个交错分量。
 
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `n` | `number` | - |
-
 
 #### Returns `number` 
 ___

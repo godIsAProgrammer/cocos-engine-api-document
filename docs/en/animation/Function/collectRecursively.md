@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `node` | `Node` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `prefix` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | - | - |
-
 
 ___
 

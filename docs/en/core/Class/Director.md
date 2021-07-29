@@ -15,8 +15,6 @@
 
 
 
-
-
 **`en`** 
 <p>
    ATTENTION: USE `director` INSTEAD OF `Director`.<br/>
@@ -154,6 +152,9 @@ ___
 • **new Director**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:250](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L250)&nbsp;
@@ -166,21 +167,16 @@ ___
 ## Methods
 
 ### calculateDeltaTime
+
 <div style="margin-left: 10px;">
 
 ▸   **calculateDeltaTime**<`void`\>(`now: any`) : `void`
 
 
 
-
 **`en`** Calculates delta time since last time it was called, the result is saved to an internal property.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -189,21 +185,16 @@ ___
 | `now` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L290)&nbsp;
 ___
 ### convertToGL
+
 <div style="margin-left: 10px;">
 
 ▸   **convertToGL**<`Vec2`\>(`uiPoint: Vec2`) : `Vec2`
-
 
 
 
@@ -214,16 +205,10 @@ Implementation can be found in directorWebGL.
 
 
 
-
 **`deprecated`** since v2.0
 
 
 
-
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
 
 #### Parameters
 
@@ -232,21 +217,16 @@ Implementation can be found in directorWebGL.
 | `uiPoint` | `Vec2` | - |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:309](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L309)&nbsp;
 ___
 ### convertToUI
+
 <div style="margin-left: 10px;">
 
 ▸   **convertToUI**<`Vec2`\>(`glPoint: Vec2`) : `Vec2`
-
 
 
 
@@ -257,16 +237,10 @@ Implementation can be found in directorWebGL.
 
 
 
-
 **`deprecated`** since v2.0
 
 
 
-
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
 
 #### Parameters
 
@@ -275,21 +249,16 @@ Implementation can be found in directorWebGL.
 | `glPoint` | `Vec2` | - |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:328](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L328)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`type: EventType, arg0: any, arg1: any, arg2: any, arg3: any, arg4: any`) : `void`
-
 
 
 
@@ -297,53 +266,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | event type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg2` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg3` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg4` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L141)&nbsp;
 ___
 ### end
+
 <div style="margin-left: 10px;">
 
 ▸   **end**<`void`\> : `void`
-
 
 
 
@@ -352,30 +296,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:349](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L349)&nbsp;
 ___
 ### getAnimationInterval
+
 <div style="margin-left: 10px;">
 
 ▸   **getAnimationInterval**<`number`\> : `number`
 
 
 
-
 **`en`** Returns the FPS value. Please use [[Game.setFrameRate]] to control animation interval.
-
 
 
 
@@ -385,30 +319,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:734](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L734)&nbsp;
 ___
 ### getAnimationManager
+
 <div style="margin-left: 10px;">
 
 ▸   **getAnimationManager**<`any`\> : `any`
 
 
 
-
 **`en`** Returns the `AnimationManager` associated with this director. Please use getSystem(AnimationManager.ID)
-
 
 
 
@@ -418,25 +342,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:840](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L840)&nbsp;
 ___
 ### getCurrentTime
+
 <div style="margin-left: 10px;">
 
 ▸   **getCurrentTime**<`number`\> : `number`
-
 
 
 
@@ -445,25 +360,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:770](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L770)&nbsp;
 ___
 ### getDeltaTime
+
 <div style="margin-left: 10px;">
 
 ▸   **getDeltaTime**<`number`\> : `number`
-
 
 
 
@@ -472,30 +378,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:754](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L754)&nbsp;
 ___
 ### getRunningScene
+
 <div style="margin-left: 10px;">
 
 ▸   **getRunningScene**
 
 
 
-
 **`en`** Returns current logic Scene.
-
 
 
 
@@ -505,28 +401,20 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:711](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L711)&nbsp;
 ___
 ### getScene
+
 <div style="margin-left: 10px;">
 
 ▸   **getScene**
 
 
 
-
 **`en`** Returns current logic Scene.
-
 
 
 
@@ -545,23 +433,16 @@ director.getScene().getChildByName('Canvas');
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:725](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L725)&nbsp;
 ___
 ### getScheduler
+
 <div style="margin-left: 10px;">
 
 ▸   **getScheduler**<`Scheduler`\> : `Scheduler`
-
 
 
 
@@ -570,34 +451,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Scheduler` -->
-<!---->
-
-
 ##### Returns `Scheduler`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:794](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L794)&nbsp;
 ___
 ### getSystem
+
 <div style="margin-left: 10px;">
 
 ▸   **getSystem**(`name: string`)
 
 
 
-
 **`en`** get a system.
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -606,21 +475,16 @@ ___
 | `name` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:831](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L831)&nbsp;
 ___
 ### getTotalFrames
+
 <div style="margin-left: 10px;">
 
 ▸   **getTotalFrames**<`number`\> : `number`
-
 
 
 
@@ -629,25 +493,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:778](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L778)&nbsp;
 ___
 ### getTotalTime
+
 <div style="margin-left: 10px;">
 
 ▸   **getTotalTime**<`number`\> : `number`
-
 
 
 
@@ -656,25 +511,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:762](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L762)&nbsp;
 ___
 ### getWinSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getWinSize**<`Size`\> : `Size`
-
 
 
 
@@ -684,32 +530,22 @@ It takes into account any possible rotation (device orientation) of the window.
 
 
 
-
 **`deprecated`** since v2.0
 
 
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:360](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L360)&nbsp;
 ___
 ### getWinSizeInPixels
+
 <div style="margin-left: 10px;">
 
 ▸   **getWinSizeInPixels**<`Size`\> : `Size`
-
 
 
 
@@ -721,32 +557,22 @@ On Mac winSize and winSizeInPixels return the same value.
 
 
 
-
 **`deprecated`** since v2.0
 
 
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:375](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L375)&nbsp;
 ___
 ### hasEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **hasEventListener**<`boolean`\>(`type: string, callback: undefined | , target: any`) : `boolean`
-
 
 
 
@@ -754,41 +580,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | Event type.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `undefined \| ` | Callback function when event triggered.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | Callback callee.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L52)&nbsp;
 ___
 ### isPaused
+
 <div style="margin-left: 10px;">
 
 ▸   **isPaused**<`boolean`\> : `boolean`
-
 
 
 
@@ -797,25 +607,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:786](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L786)&nbsp;
 ___
 ### loadScene
+
 <div style="margin-left: 10px;">
 
 ▸   **loadScene**<`boolean`\>(`sceneName: string, onLaunched: Director.OnSceneLaunched, onUnloaded: Director.OnUnload`) : `boolean`
-
 
 
 
@@ -823,53 +624,31 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` if error, return false
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sceneName` | `string` | The name of the scene to load.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onLaunched` | `Director.OnSceneLaunched` | callback, will be called after scene launched.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onUnloaded` | `Director.OnUnload` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:579](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L579)&nbsp;
 ___
 ### mainLoop
+
 <div style="margin-left: 10px;">
 
 ▸   **mainLoop**<`void`\>(`time: number`) : `void`
 
 
 
-
 **`en`** Run main loop of director
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -878,28 +657,22 @@ ___
 | `time` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:866](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L866)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: EventType, callback: TFunction, thisArg: any`) : `void`
 
 
 
-
 **`en`** 
 Removes the listeners previously registered with the same type, callback, target and or useCapture,
 if only type is passed as parameter, all listeners registered with that type will be removed.
-
 
 
 
@@ -921,48 +694,31 @@ eventTarget.off('fire');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type being removed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback to remove.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L114)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**(`type: EventType, callback: TFunction, thisArg: any, once: undefined | false | true`)
 
 
 
-
 **`en`** 
 Register an callback of a specific event type on the EventTarget.
 This type of event should be triggered via `emit`.
-
 
 
 
@@ -979,50 +735,32 @@ eventTarget.on('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `once` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L72)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**(`type: EventType, callback: TFunction, thisArg: any`)
 
 
 
-
 **`en`** 
 Register an callback of a specific event type on the EventTarget,
 the callback will remove itself after the first time it is triggered.
-
 
 
 
@@ -1039,39 +777,25 @@ eventTarget.once('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L91)&nbsp;
 ___
 ### pause
+
 <div style="margin-left: 10px;">
 
 ▸   **pause**<`void`\> : `void`
-
 
 
 
@@ -1083,28 +807,19 @@ please use `game.pause`.
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:387](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L387)&nbsp;
 ___
 ### preloadScene
+
 <div style="margin-left: 10px;">
 
 ▸   **preloadScene**<`void`\>(`sceneName: string, onLoaded: Director.OnSceneLoaded`) : `void`
 
 
 
-
 **`en`** 
 Pre-loads the scene to reduces loading time. You can call this method at any time you want.<br>
 After calling this method, you still need to launch the scene by `director.loadScene`.<br>
@@ -1113,31 +828,20 @@ yet finished, the scene will be launched after loaded automatically.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sceneName` | `string` | 场景名称。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onLoaded` | `Director.OnSceneLoaded` | 加载回调。  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **preloadScene**<`void`\>(`sceneName: string, onProgress: Director.OnLoadSceneProgress, onLoaded: Director.OnSceneLoaded`) : `void`
 
 
 
-
 **`en`** 
 Pre-loads the scene to reduces loading time. You can call this method at any time you want.<br>
 After calling this method, you still need to launch the scene by `director.loadScene`.<br>
@@ -1146,46 +850,29 @@ yet finished, the scene will be launched after loaded automatically.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sceneName` | `string` | 场景名称。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onProgress` | `Director.OnLoadSceneProgress` | 加载进度回调。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onLoaded` | `Director.OnSceneLoaded` | 加载回调。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:620](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L620)&nbsp;   [cocos/core/director.ts:635](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L635)&nbsp;   [cocos/core/director.ts:637](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L637)&nbsp;
 ___
 ### purgeCachedData
+
 <div style="margin-left: 10px;">
 
 ▸   **purgeCachedData**<`void`\> : `void`
 
 
 
-
 **`en`** Removes cached all cocos2d cached data.
-
 
 
 
@@ -1195,25 +882,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:399](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L399)&nbsp;
 ___
 ### purgeDirector
+
 <div style="margin-left: 10px;">
 
 ▸   **purgeDirector**<`void`\> : `void`
-
 
 
 
@@ -1223,25 +901,16 @@ remove all event listeners, clean up and exit the running scene, stops all anima
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:409](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L409)&nbsp;
 ___
 ### registerSystem
+
 <div style="margin-left: 10px;">
 
 ▸   **registerSystem**<`void`\>(`name: string, sys: System, priority: number`) : `void`
-
 
 
 
@@ -1249,52 +918,31 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `name` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sys` | `System` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `priority` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:814](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L814)&nbsp;
 ___
 ### removeAll
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAll**<`void`\>(`typeOrTarget: any`) : `void`
 
 
 
-
 **`en`** Removes all callbacks registered in a certain event type or all callbacks registered with a certain target
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1303,21 +951,16 @@ ___
 | `typeOrTarget` | `any` | The event type or target with which the listeners will be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L133)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
-
 
 
 
@@ -1326,25 +969,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:438](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L438)&nbsp;
 ___
 ### resume
+
 <div style="margin-left: 10px;">
 
 ▸   **resume**<`void`\> : `void`
-
 
 
 
@@ -1353,25 +987,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:658](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L658)&nbsp;
 ___
 ### runSceneImmediate
+
 <div style="margin-left: 10px;">
 
 ▸   **runSceneImmediate**<`void`\>(`scene: Scene | SceneAsset, onBeforeLoadScene: Director.OnBeforeLoadScene, onLaunched: Director.OnSceneLaunched`) : `void`
-
 
 
 
@@ -1381,41 +1006,25 @@ The new scene will be launched immediately.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `scene` | `Scene \| SceneAsset` | The need run scene.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onBeforeLoadScene` | `Director.OnBeforeLoadScene` | The function invoked at the scene before loading.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onLaunched` | `Director.OnSceneLaunched` | The function invoked at the scene after launch.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:459](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L459)&nbsp;
 ___
 ### setAnimationInterval
+
 <div style="margin-left: 10px;">
 
 ▸   **setAnimationInterval**<`void`\>(`value: number`) : `void`
-
 
 
 
@@ -1424,15 +1033,9 @@ To control the game's frame rate overall, please use `game.setFrameRate`
 
 
 
-
 **`deprecated`** since v2.0
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1441,21 +1044,16 @@ To control the game's frame rate overall, please use `game.setFrameRate`
 | `value` | `number` | The animation interval desired.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:746](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L746)&nbsp;
 ___
 ### setClearColor
+
 <div style="margin-left: 10px;">
 
 ▸   **setClearColor**<`void`\>(`clearColor: Color`) : `void`
-
 
 
 
@@ -1465,16 +1063,10 @@ Set color for clear screen.<br>
 
 
 
-
 **`deprecated`** since v2.0
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1483,21 +1075,16 @@ Set color for clear screen.<br>
 | `clearColor` | `Color` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:695](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L695)&nbsp;
 ___
 ### setDepthTest
+
 <div style="margin-left: 10px;">
 
 ▸   **setDepthTest**<`void`\>(`value: boolean`) : `void`
-
 
 
 
@@ -1507,16 +1094,10 @@ Implementation can be found in directorCanvas.js/directorWebGL.js
 
 
 
-
 **`deprecated`** since v2.0
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1525,32 +1106,22 @@ Implementation can be found in directorCanvas.js/directorWebGL.js
 | `value` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:679](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L679)&nbsp;
 ___
 ### setScheduler
+
 <div style="margin-left: 10px;">
 
 ▸   **setScheduler**<`void`\>(`scheduler: Scheduler`) : `void`
 
 
 
-
 **`en`** Sets the scheduler associated with this director.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1559,21 +1130,16 @@ ___
 | `scheduler` | `Scheduler` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:802](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L802)&nbsp;
 ___
 ### startAnimation
+
 <div style="margin-left: 10px;">
 
 ▸   **startAnimation**<`void`\> : `void`
-
 
 
 
@@ -1582,25 +1148,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:849](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L849)&nbsp;
 ___
 ### stopAnimation
+
 <div style="margin-left: 10px;">
 
 ▸   **stopAnimation**<`void`\> : `void`
-
 
 
 
@@ -1609,25 +1166,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:858](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L858)&nbsp;
 ___
 ### targetOff
+
 <div style="margin-left: 10px;">
 
 ▸   **targetOff**<`void`\>(`typeOrTarget: any`) : `void`
-
 
 
 
@@ -1638,11 +1186,6 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1650,27 +1193,18 @@ It's only for removing all listeners (callback and target couple) registered on 
 | `typeOrTarget` | `any` | The target to be searched for all related listeners  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L126)&nbsp;
 ___
 ### unregisterSystem
+
 <div style="margin-left: 10px;">
 
 ▸   **unregisterSystem**<`void`\>(`sys: System`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1679,12 +1213,7 @@ ___
 | `sys` | `System` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/director.ts:822](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/director.ts#L822)&nbsp;

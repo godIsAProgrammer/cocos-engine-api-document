@@ -20,16 +20,12 @@
 ## Methods
 
 ### addBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **addBuffer**<`number`\>(`arrayBuffer: ArrayBuffer`) : `number`
 
 
-
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
 
 #### Parameters
 
@@ -38,17 +34,13 @@
 | `arrayBuffer` | `ArrayBuffer` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/misc/buffer-blob.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/misc/buffer-blob.ts#L41)&nbsp;
 ___
 ### getCombined
+
 <div style="margin-left: 10px;">
 
 ▸   **getCombined**
@@ -56,19 +48,13 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/misc/buffer-blob.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/misc/buffer-blob.ts#L52)&nbsp;
 ___
 ### getLength
+
 <div style="margin-left: 10px;">
 
 ▸   **getLength**<`number`\> : `number`
@@ -76,31 +62,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/misc/buffer-blob.ts:48](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/misc/buffer-blob.ts#L48)&nbsp;
 ___
 ### setNextAlignment
+
 <div style="margin-left: 10px;">
 
 ▸   **setNextAlignment**<`void`\>(`align: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -109,12 +82,7 @@ ___
 | `align` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/misc/buffer-blob.ts:30](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/misc/buffer-blob.ts#L30)&nbsp;

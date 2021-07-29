@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `sampler` | - | - |
 
-
 #### Returns `ISamplerSharedGroup` 
 ___
 

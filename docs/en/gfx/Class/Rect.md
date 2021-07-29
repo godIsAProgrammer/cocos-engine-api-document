@@ -101,38 +101,13 @@ ___
 • **new Rect**(`x: number, y: number, width: number, height: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `x` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `y` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `width` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `height` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:744](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L744)&nbsp;
@@ -144,16 +119,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: Rect`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -162,12 +133,7 @@ ___
 | `info` | `Rect` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:753](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L753)&nbsp;

@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `mat` | `Mat4` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `v1` | `ArrayBufferView` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `v2` | `ArrayBufferView` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `v3` | `ArrayBufferView` | - |
-
 
 #### Returns `void` 
 ___

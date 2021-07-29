@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Vec2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dir` | `Vec2` | - |
-
 
 #### Returns `Vec2` 
 ___

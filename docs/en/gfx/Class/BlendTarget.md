@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** GFX blend target.
 
 
@@ -193,70 +192,17 @@ ___
 • **new BlendTarget**(`blend: boolean, blendSrc: BlendFactor, blendDst: BlendFactor, blendEq: BlendOp, blendSrcAlpha: BlendFactor, blendDstAlpha: BlendFactor, blendAlphaEq: BlendOp, blendColorMask: ColorMask`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `blend` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `blendSrc` | `BlendFactor` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `blendDst` | `BlendFactor` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `blendEq` | `BlendOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `blendSrcAlpha` | `BlendFactor` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `blendDstAlpha` | `BlendFactor` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `blendAlphaEq` | `BlendOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `blendColorMask` | `ColorMask` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:166](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L166)&nbsp;
@@ -268,16 +214,12 @@ ___
 ## Methods
 
 ### assign
+
 <div style="margin-left: 10px;">
 
 ▸   **assign**<`void`\>(`target: BlendTarget`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -286,17 +228,13 @@ ___
 | `target` | `BlendTarget` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:190](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L190)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -304,21 +242,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:196](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L196)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
@@ -326,16 +256,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:179](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L179)&nbsp;

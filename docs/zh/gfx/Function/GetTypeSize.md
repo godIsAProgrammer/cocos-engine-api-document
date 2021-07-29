@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 得到 GFX 数据类型的大小。
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `Type` | The target type.  |
-
 
 #### Returns `number` 
 ___

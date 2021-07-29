@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `block` | `IBlockInfo` | - |
 
-
 #### Returns `number` 
 ___
 

@@ -67,22 +67,11 @@ ___
 • **new ShaderStage**(`stage: ShaderStageFlagBit, source: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `stage` | `ShaderStageFlagBit` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `source` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1286](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1286)&nbsp;
@@ -94,16 +83,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: ShaderStage`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -112,12 +97,7 @@ ___
 | `info` | `ShaderStage` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1293](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1293)&nbsp;

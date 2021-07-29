@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`zh`** 返回 Path 的扩展名，包括 '.'，例如 '.png'。
-
 
 
 
@@ -28,7 +26,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `path` | `string` | - |
-
 
 #### Returns `string` 
 ___

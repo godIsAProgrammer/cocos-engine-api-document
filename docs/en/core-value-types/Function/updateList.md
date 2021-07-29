@@ -8,6 +8,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `EnumT` |
@@ -17,7 +18,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `enumType` | `EnumT` | the enum type defined from cc.Enum  |
-
 
 ___
 

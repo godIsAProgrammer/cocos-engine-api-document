@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:206](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L206)&nbsp;
-
 ___
 #### gpuSampler
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:208](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L208)&nbsp;
-
 ___
 #### gpuTexture
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:207](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L207)&nbsp;
-
 ___
 #### type
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:205](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L205)&nbsp;
-
 ___

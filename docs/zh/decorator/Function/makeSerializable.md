@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `options` | `IPropertyOptions` | - |
 
-
 #### Returns `IExposedAttributes` 
 ___
 

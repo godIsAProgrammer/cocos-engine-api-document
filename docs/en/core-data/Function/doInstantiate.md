@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `obj` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `parent` | `any` | - |
-
 
 #### Returns `any` 
 ___

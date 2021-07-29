@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 节点上 UI 相关的属性抽象类
 
 
@@ -51,7 +50,6 @@ ___
 
 
 
-
 **`zh`** UI 透明度
 
 
@@ -73,7 +71,6 @@ ___
 
 
 
-
 **`zh`** UI 基类组件
 
 
@@ -92,7 +89,6 @@ ___
 
 ### uiTransformComp
 <div style="margin-left: 10px;">
-
 
 
 
@@ -121,14 +117,10 @@ ___
 • **new NodeUIProperties**(`node: any`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `node` | `any` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node-ui-properties.ts:80](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node-ui-properties.ts#L80)&nbsp;

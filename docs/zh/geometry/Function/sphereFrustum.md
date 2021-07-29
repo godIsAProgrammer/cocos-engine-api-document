@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 球和锥台的相交性检测，速度快，但有错误情况。
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sphere` | `Sphere` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `frustum` | `Frustum` | - |
-
 
 #### Returns `number` 0 或 非0
 

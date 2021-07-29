@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 天空盒相关信息
 
 
@@ -35,7 +34,6 @@
 
 
 
-
 **`zh`** 是否启用天空盒？
 
 
@@ -54,7 +52,6 @@ ___
 
 ### envmap
 <div style="margin-left: 10px;">
-
 
 
 
@@ -79,7 +76,6 @@ ___
 
 
 
-
 **`zh`** 是否需要开启 shader 内的 RGBE 数据支持？
 
 
@@ -98,7 +94,6 @@ ___
 
 ### useIBL
 <div style="margin-left: 10px;">
-
 
 
 
@@ -121,16 +116,12 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`resource: Skybox`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -139,12 +130,7 @@ ___
 | `resource` | `Skybox` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:180](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L180)&nbsp;

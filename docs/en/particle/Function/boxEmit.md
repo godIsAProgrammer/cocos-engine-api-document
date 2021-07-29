@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `emitFrom` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `boxThickness` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `pos` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dir` | `any` | - |
-
 
 #### Returns `void` 
 ___

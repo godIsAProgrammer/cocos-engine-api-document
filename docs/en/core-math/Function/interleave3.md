@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Interleave bits of 3 coordinates, each with 10 bits.  Useful for fast octree codes.
 
 
@@ -18,15 +17,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `z` | `number` | - |
-
 
 #### Returns `number` 
 ___

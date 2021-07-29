@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** Extracts nth interleaved component of a 3-tuple.
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `n` | `number` | - |
-
 
 #### Returns `number` 
 ___

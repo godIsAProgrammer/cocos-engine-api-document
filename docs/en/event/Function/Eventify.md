@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`en`** Generate a new class from the given base class, after polyfill all functionalities in [[IEventified]] as if it's extended from [[EventTarget]]
-
 
 
 
@@ -31,6 +29,7 @@ function (o: MyClass) {
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `TBase` |
@@ -40,7 +39,6 @@ function (o: MyClass) {
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `base` | `Constructor` | The base class  |
-
 
 #### Returns `Constructor` 
 ___

@@ -22,9 +22,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:221](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L221)&nbsp;
-
 ___
 #### count
 
@@ -35,9 +33,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:219](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L219)&nbsp;
-
 ___
 #### glBuffer
 
@@ -48,9 +44,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:216](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L216)&nbsp;
-
 ___
 #### glType
 
@@ -61,9 +55,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:217](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L217)&nbsp;
-
 ___
 #### isInstanced
 
@@ -74,9 +66,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:223](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L223)&nbsp;
-
 ___
 #### isNormalized
 
@@ -87,9 +77,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:222](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L222)&nbsp;
-
 ___
 #### name
 
@@ -100,9 +88,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L215)&nbsp;
-
 ___
 #### offset
 
@@ -113,9 +99,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:224](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L224)&nbsp;
-
 ___
 #### size
 
@@ -126,9 +110,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:218](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L218)&nbsp;
-
 ___
 #### stride
 
@@ -139,7 +121,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:220](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L220)&nbsp;
-
 ___

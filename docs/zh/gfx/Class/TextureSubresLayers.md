@@ -84,30 +84,12 @@ ___
 • **new TextureSubresLayers**(`mipLevel: number, baseArrayLayer: number, layerCount: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `mipLevel` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `baseArrayLayer` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `layerCount` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:780](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L780)&nbsp;
@@ -119,16 +101,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: TextureSubresLayers`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -137,12 +115,7 @@ ___
 | `info` | `TextureSubresLayers` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:788](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L788)&nbsp;

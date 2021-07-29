@@ -28,9 +28,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L50)&nbsp;
-
 ___
 #### m01
 
@@ -41,9 +39,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L50)&nbsp;
-
 ___
 #### m02
 
@@ -54,9 +50,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L50)&nbsp;
-
 ___
 #### m03
 
@@ -67,9 +61,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L50)&nbsp;
-
 ___
 #### m04
 
@@ -80,9 +72,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L51)&nbsp;
-
 ___
 #### m05
 
@@ -93,9 +83,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L51)&nbsp;
-
 ___
 #### m06
 
@@ -106,9 +94,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L51)&nbsp;
-
 ___
 #### m07
 
@@ -119,9 +105,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L51)&nbsp;
-
 ___
 #### m08
 
@@ -132,9 +116,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L52)&nbsp;
-
 ___
 #### m09
 
@@ -145,9 +127,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L52)&nbsp;
-
 ___
 #### m10
 
@@ -158,9 +138,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L52)&nbsp;
-
 ___
 #### m11
 
@@ -171,9 +149,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L52)&nbsp;
-
 ___
 #### m12
 
@@ -184,9 +160,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:53](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L53)&nbsp;
-
 ___
 #### m13
 
@@ -197,9 +171,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:53](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L53)&nbsp;
-
 ___
 #### m14
 
@@ -210,9 +182,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:53](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L53)&nbsp;
-
 ___
 #### m15
 
@@ -223,7 +193,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:53](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L53)&nbsp;
-
 ___

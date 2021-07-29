@@ -13,7 +13,5 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/renderer/base.ts:38](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/renderer/base.ts#L38)&nbsp;
-
 ___

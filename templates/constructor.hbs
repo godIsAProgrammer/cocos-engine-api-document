@@ -9,17 +9,11 @@
 • **{{this.name}}**({{#if this.parameters}}`{{#eachArg this.parameters}}{{/eachArg}}`{{/if}})
 
 #### Parameters
-{{#each this.parameters}}
+
 | Name | Type |
 | :------ | :------ |
+{{#each this.parameters}}
 | `{{this.name}}` | `{{this.type.name}}` |
-
-{{!-- #### Overrides --}}
-
-{{!-- [Mesh](/classes/mesh.md).[constructor](/classes/mesh.md#constructor) --}}
-
-
-
 {{/each}}
 {{/each}}
 </div>

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 生成一个平面，其位于XOZ平面，方向为Y轴正方向。
 
@@ -19,7 +18,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `IPlaneOptions` | 平面参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

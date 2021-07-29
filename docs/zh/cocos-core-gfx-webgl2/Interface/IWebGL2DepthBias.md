@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-command-buffer.ts:65](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-command-buffer.ts#L65)&nbsp;
-
 ___
 #### constantFactor
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-command-buffer.ts:64](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-command-buffer.ts#L64)&nbsp;
-
 ___
 #### slopeFactor
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-command-buffer.ts:66](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-command-buffer.ts#L66)&nbsp;
-
 ___

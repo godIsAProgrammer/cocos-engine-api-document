@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 the distance between a point and a plane
 
@@ -19,11 +18,7 @@ the distance between a point and a plane
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `point` | `Vec3` | 点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `plane_` | `Plane` | - |
-
 
 #### Returns `number` 距离。
 

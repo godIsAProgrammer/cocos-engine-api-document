@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** GFX 纹理。
 
 
@@ -58,7 +56,6 @@
 
 
 
-
 **`zh`** 纹理深度。
 
 
@@ -80,7 +77,6 @@ ___
 
 
 
-
 **`zh`** 纹理标识位。
 
 
@@ -99,7 +95,6 @@ ___
 
 ### format
 <div style="margin-left: 10px;">
-
 
 
 
@@ -140,7 +135,6 @@ ___
 
 
 
-
 **`zh`** 纹理高度。
 
 
@@ -159,7 +153,6 @@ ___
 
 ### layerCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -184,7 +177,6 @@ ___
 
 
 
-
 **`zh`** 纹理 mip 层级数。
 
 
@@ -203,7 +195,6 @@ ___
 
 ### samples
 <div style="margin-left: 10px;">
-
 
 
 
@@ -228,7 +219,6 @@ ___
 
 
 
-
 **`zh`** 纹理大小。
 
 
@@ -247,7 +237,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -272,7 +261,6 @@ ___
 
 
 
-
 **`zh`** 纹理使用方式。
 
 
@@ -291,7 +279,6 @@ ___
 
 ### width
 <div style="margin-left: 10px;">
-
 
 
 
@@ -320,14 +307,10 @@ ___
 • **new Texture**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/texture.ts:152](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/texture.ts#L152)&nbsp;
@@ -339,6 +322,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -346,31 +330,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/texture.ts:161](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/texture.ts#L161)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: TextureInfo | TextureViewInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -379,21 +350,16 @@ ___
 | `info` | `TextureInfo \| TextureViewInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/texture.ts:159](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/texture.ts#L159)&nbsp;
 ___
 ### resize
+
 <div style="margin-left: 10px;">
 
 ▸   **resize**<`void`\>(`width: number, height: number`) : `void`
-
 
 
 
@@ -401,28 +367,15 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | The new width.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | The new height.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/texture.ts:169](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/texture.ts#L169)&nbsp;

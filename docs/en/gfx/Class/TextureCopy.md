@@ -118,46 +118,14 @@ ___
 • **new TextureCopy**(`srcSubres: TextureSubresLayers, srcOffset: Offset, dstSubres: TextureSubresLayers, dstOffset: Offset, extent: Extent`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `srcSubres` | `TextureSubresLayers` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `srcOffset` | `Offset` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dstSubres` | `TextureSubresLayers` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dstOffset` | `Offset` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `extent` | `Extent` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:816](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L816)&nbsp;
@@ -169,16 +137,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: TextureCopy`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -187,12 +151,7 @@ ___
 | `info` | `TextureCopy` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:826](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L826)&nbsp;

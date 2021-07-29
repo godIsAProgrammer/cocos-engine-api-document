@@ -12,10 +12,8 @@
 
 
 
-
 **`en`** 
 Whether to include normal. Default to true.
-
 
 
 
@@ -28,9 +26,7 @@ Whether to include normal. Default to true.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:46](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L46)&nbsp;
-
 ___
 #### includeUV
 
@@ -38,10 +34,8 @@ ___
 
 
 
-
 **`en`** 
 Whether to include uv. Default to true.
-
 
 
 
@@ -54,9 +48,7 @@ Whether to include uv. Default to true.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L54)&nbsp;
-
 ___
 #### segments
 
@@ -67,7 +59,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/circle.ts:42](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/circle.ts#L42)&nbsp;
-
 ___

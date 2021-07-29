@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Clamps a value between a minimum float and maximum float value.<br/>
 
 
@@ -18,15 +17,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `val` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `min` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `max` | `number` |   |
-
 
 #### Returns `number` 
 ___

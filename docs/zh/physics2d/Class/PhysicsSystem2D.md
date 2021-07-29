@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -66,7 +65,6 @@
 
 
 
-
 **`zh`** 
 获取物理系统实例。
 
@@ -86,7 +84,6 @@ ___
 
 ### ID
 <div style="margin-left: 10px;">
-
 
 
 
@@ -112,7 +109,6 @@ ___
 
 
 
-
 **`zh`** 
 获取碰撞矩阵。
 
@@ -132,7 +128,6 @@ ___
 
 ### physicsWorld
 <div style="margin-left: 10px;">
-
 
 
 
@@ -158,7 +153,6 @@ ___
 
 
 
-
 **`zh`** 
 位置迭代更新数
 
@@ -178,7 +172,6 @@ ___
 
 ### velocityIterations
 <div style="margin-left: 10px;">
-
 
 
 
@@ -204,10 +197,8 @@ ___
 
 
 
-
 **`zh`** 
 Gets or sets whether the physical system allows automatic sleep, which defaults to true.
-
 
 
 
@@ -230,7 +221,6 @@ ___
 
 ### autoSimulation
 <div style="margin-left: 10px;">
-
 
 
 
@@ -272,7 +262,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置是否启用物理系统，可以用于暂停或继续运行物理系统。
 
@@ -295,7 +284,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置每步模拟消耗的固定时间。
 
@@ -315,7 +303,6 @@ ___
 
 ### gravity
 <div style="margin-left: 10px;">
-
 
 
 
@@ -354,7 +341,6 @@ ___
 
 ### maxSubSteps
 <div style="margin-left: 10px;">
-
 
 
 
@@ -416,10 +402,10 @@ ___
 ## Methods
 
 ### sortByPriority
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **sortByPriority**(`a: System, b: System`)
-
 
 
 
@@ -427,35 +413,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `System` | System a  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `System` | System b  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L62)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`type: EventType, arg0: any, arg1: any, arg2: any, arg3: any, arg4: any`) : `void`
-
 
 
 
@@ -463,53 +438,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | event type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg2` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg3` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg4` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L141)&nbsp;
 ___
 ### hasEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **hasEventListener**<`boolean`\>(`type: string, callback: undefined | , target: any`) : `boolean`
-
 
 
 
@@ -517,41 +467,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | Event type.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `undefined \| ` | Callback function when event triggered.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | Callback callee.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L52)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\> : `void`
-
 
 
 
@@ -561,31 +495,21 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L76)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: EventType, callback: TFunction, thisArg: any`) : `void`
 
 
 
-
 **`zh`** 
 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
-
 
 
 
@@ -608,47 +532,30 @@ eventTarget.off('fire');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type being removed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback to remove.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L114)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**(`type: EventType, callback: TFunction, thisArg: any, once: undefined | false | true`)
 
 
 
-
 **`zh`** 
 注册事件目标的特定事件类型回调。这种类型的事件应该被 `emit` 触发。
-
 
 
 
@@ -666,49 +573,31 @@ eventTarget.on('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `once` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L72)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**(`type: EventType, callback: TFunction, thisArg: any`)
 
 
 
-
 **`zh`** 
 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-
 
 
 
@@ -726,39 +615,25 @@ eventTarget.once('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L91)&nbsp;
 ___
 ### postUpdate
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdate**<`void`\>(`deltaTime: number`) : `void`
-
 
 
 
@@ -767,11 +642,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -779,21 +649,16 @@ ___
 | `deltaTime` | `number` | 与上一次执行相差的时间，目前为每帧消耗时间  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:227](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L227)&nbsp;
 ___
 ### raycast
+
 <div style="margin-left: 10px;">
 
 ▸   **raycast**(`p1: IVec2Like, p2: IVec2Like, type: ERaycast2DType, mask: number`)
-
 
 
 
@@ -802,59 +667,36 @@ ___
 
 
 
-
 **`method`** rayCast
 
 
-
-
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p1` | `IVec2Like` | start point of the raycast  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `p2` | `IVec2Like` | end point of the raycast  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `ERaycast2DType` | optional, default is RayCastType.Closest  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `mask` | `number` | optional, default is 0xffffffff  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:312](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L312)&nbsp;
 ___
 ### removeAll
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAll**<`void`\>(`typeOrTarget: any`) : `void`
 
 
 
-
 **`zh`** 移除在特定事件类型中注册的所有回调或在某个目标中注册的所有回调。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -863,21 +705,16 @@ ___
 | `typeOrTarget` | `any` | The event type or target with which the listeners will be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L133)&nbsp;
 ___
 ### resetAccumulator
+
 <div style="margin-left: 10px;">
 
 ▸   **resetAccumulator**<`void`\>(`time: number`) : `void`
-
 
 
 
@@ -887,11 +724,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -899,21 +731,16 @@ ___
 | `time` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:284](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L284)&nbsp;
 ___
 ### step
+
 <div style="margin-left: 10px;">
 
 ▸   **step**<`void`\>(`fixedTimeStep: number`) : `void`
-
 
 
 
@@ -922,11 +749,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -934,21 +756,16 @@ ___
 | `fixedTimeStep` | `number` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:295](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L295)&nbsp;
 ___
 ### targetOff
+
 <div style="margin-left: 10px;">
 
 ▸   **targetOff**<`void`\>(`typeOrTarget: any`) : `void`
-
 
 
 
@@ -958,11 +775,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -970,21 +782,16 @@ ___
 | `typeOrTarget` | `any` | The target to be searched for all related listeners  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L126)&nbsp;
 ___
 ### testAABB
+
 <div style="margin-left: 10px;">
 
 ▸   **testAABB**(`rect: Rect`)
-
 
 
 
@@ -992,9 +799,6 @@ ___
 
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1003,21 +807,16 @@ ___
 | `rect` | `Rect` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:328](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L328)&nbsp;
 ___
 ### testPoint
+
 <div style="margin-left: 10px;">
 
 ▸   **testPoint**(`p: Vec2`)
-
 
 
 
@@ -1026,9 +825,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1036,32 +832,22 @@ ___
 | `p` | `Vec2` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:320](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L320)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`dt: number`) : `void`
 
 
 
-
 **`zh`** 系统的帧更新函数，它会在所有组件的 update 和 lateUpdate 之间被调用
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1070,12 +856,7 @@ ___
 | `dt` | `number` | Delta time after the last frame  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L82)&nbsp;

@@ -18,9 +18,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:67](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L67)&nbsp;
-
 ___
 #### direction
 
@@ -31,9 +29,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:66](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L66)&nbsp;
-
 ___
 #### lifetime
 
@@ -44,9 +40,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L63)&nbsp;
-
 ___
 #### position
 
@@ -57,9 +51,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L62)&nbsp;
-
 ___
 #### velocity
 
@@ -70,9 +62,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:65](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L65)&nbsp;
-
 ___
 #### width
 
@@ -83,7 +73,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:64](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L64)&nbsp;
-
 ___

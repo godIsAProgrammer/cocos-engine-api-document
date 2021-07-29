@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `start` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `minX` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `minY` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `size` | `number` | - |
-
 
 #### Returns `void` 
 ___

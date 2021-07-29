@@ -102,22 +102,11 @@ ___
 • **new Point**(`point: Vec2, dir: Vec2`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `point` | `Vec2` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dir` | `Vec2` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/motion-streak-2d.ts:43](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/motion-streak-2d.ts#L43)&nbsp;
@@ -129,67 +118,43 @@ ___
 ## Methods
 
 ### setDir
+
 <div style="margin-left: 10px;">
 
 ▸   **setDir**<`void`\>(`x: any, y: any`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/motion-streak-2d.ts:55](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/motion-streak-2d.ts#L55)&nbsp;
 ___
 ### setPoint
+
 <div style="margin-left: 10px;">
 
 ▸   **setPoint**<`void`\>(`x: any, y: any`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle-2d/motion-streak-2d.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/motion-streak-2d.ts#L50)&nbsp;

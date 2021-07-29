@@ -17,9 +17,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/define.ts:81](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/define.ts#L81)&nbsp;
-
 ___
 #### hash
 
@@ -30,9 +28,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/define.ts:80](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/define.ts#L80)&nbsp;
-
 ___
 #### passIdx
 
@@ -43,9 +39,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/define.ts:84](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/define.ts#L84)&nbsp;
-
 ___
 #### shaderId
 
@@ -56,9 +50,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/define.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/define.ts#L82)&nbsp;
-
 ___
 #### subModel
 
@@ -69,7 +61,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/define.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/define.ts#L83)&nbsp;
-
 ___

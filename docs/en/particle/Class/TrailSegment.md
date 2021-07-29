@@ -88,14 +88,10 @@ ___
 • **new TrailSegment**(`maxTrailElementNum: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `maxTrailElementNum` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:74](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L74)&nbsp;
@@ -107,6 +103,7 @@ ___
 ## Methods
 
 ### addElement
+
 <div style="margin-left: 10px;">
 
 ▸   **addElement**
@@ -114,19 +111,13 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:105](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L105)&nbsp;
 ___
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`void`\> : `void`
@@ -134,21 +125,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:153](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L153)&nbsp;
 ___
 ### count
+
 <div style="margin-left: 10px;">
 
 ▸   **count**<`number`\> : `number`
@@ -156,29 +139,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:145](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L145)&nbsp;
 ___
 ### getElement
+
 <div style="margin-left: 10px;">
 
 ▸   **getElement**(`idx: number`)
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -187,53 +159,30 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:92](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L92)&nbsp;
 ___
 ### iterateElement
+
 <div style="margin-left: 10px;">
 
 ▸   **iterateElement**<`void`\>(`target: TrailModule, f: undefined, p: Particle, dt: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `TrailModule` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `f` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `p` | `Particle` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dt` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:131](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L131)&nbsp;

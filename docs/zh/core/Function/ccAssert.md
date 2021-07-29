@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `condition` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `message` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `optionalParams` | - | - |
-
 
 #### Returns `void` 
 ___

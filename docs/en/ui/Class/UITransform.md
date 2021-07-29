@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** 
 The component of transform in UI.
 
@@ -120,9 +118,7 @@ ___
 
 
 
-
 **`en`** The node this component is attached to. A component is always attached to a node.
-
 
 
 
@@ -152,7 +148,6 @@ ___
 
 ### anchorPoint
 <div style="margin-left: 10px;">
-
 
 
 
@@ -210,7 +205,6 @@ ___
 
 
 
-
 **`en`** Get the priority of the rendering camera
 
 
@@ -228,7 +222,6 @@ ___
 
 ### contentSize
 <div style="margin-left: 10px;">
-
 
 
 
@@ -254,14 +247,11 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled or not.
 
 
 
-
 **`default`** true
-
 
 
 
@@ -295,9 +285,7 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled and its node is also active in the hierarchy.
-
 
 
 
@@ -347,7 +335,6 @@ ___
 
 
 
-
 **`en`** After inheriting CCObject objects, control whether you need to hide, lock, serialize, and other functions.
 
 
@@ -368,7 +355,6 @@ ___
 
 
 
-
 **`en`** 
 Indicates whether the object is not yet destroyed. (It will not be available after being destroyed)<br>
 When an object's `destroy` is called, it is actually destroyed after the end of this frame.
@@ -379,9 +365,7 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`default`** true
-
 
 
 
@@ -436,11 +420,9 @@ ___
 
 
 
-
 **`en`** 
 Render sequence.
 Note: UI rendering is only about priority.
-
 
 
 
@@ -466,9 +448,7 @@ ___
 
 
 
-
 **`en`** The uuid for editor.
-
 
 
 
@@ -502,9 +482,7 @@ ___
 
 
 
-
 **`en`** Get the visibility bit-mask of the rendering camera
-
 
 
 
@@ -549,14 +527,10 @@ ___
 • **new UITransform**(`name: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:194](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L194)&nbsp;
@@ -568,15 +542,14 @@ ___
 ## Methods
 
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -593,9 +566,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -603,17 +573,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -629,9 +595,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -639,27 +602,21 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### convertToNodeSpaceAR
+
 <div style="margin-left: 10px;">
 
 ▸   **convertToNodeSpaceAR**<`Vec3`\>(`worldPoint: Vec3, out: Vec3`) : `Vec3`
 
 
 
-
 **`en`** 
 Converts a Point to node (local) space coordinates.
-
 
 
 
@@ -676,43 +633,29 @@ const newVec3 = uiTransform.convertToNodeSpaceAR(cc.v3(100, 100, 0));
 
 
 
-
-<!---->
-<!--    #### Returns `Vec3` - 返回与目标节点的相对位置。-->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `worldPoint` | `Vec3` | 世界坐标点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Vec3` | 转换后坐标。  |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L481)&nbsp;
 ___
 ### convertToWorldSpaceAR
+
 <div style="margin-left: 10px;">
 
 ▸   **convertToWorldSpaceAR**<`Vec3`\>(`nodePoint: Vec3, out: Vec3`) : `Vec3`
 
 
 
-
 **`en`** 
 Converts a Point in node coordinates to world space coordinates.
-
 
 
 
@@ -729,33 +672,21 @@ const newVec3 = uiTransform.convertToWorldSpaceAR(3(100, 100, 0));
 
 
 
-
-<!---->
-<!--    #### Returns `Vec3` - 返回 UI 世界坐标系。-->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `nodePoint` | `Vec3` | 节点坐标。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Vec3` | 转换后坐标。  |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:506](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L506)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -763,32 +694,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### getBoundingBox
+
 <div style="margin-left: 10px;">
 
 ▸   **getBoundingBox**<`Rect`\> : `Rect`
 
 
 
-
 **`en`** 
 Returns a "local" axis aligned bounding box of the node. <br/>
 The returned box is relative only to its parent.
-
 
 
 
@@ -806,25 +727,16 @@ const boundingBox = uiTransform.getBoundingBox();
 
 
 
-<!---->
-<!--    #### Returns `Rect` - 节点大小的包围盒-->
-<!---->
-
-
 ##### Returns `Rect`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:529](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L529)&nbsp;
 ___
 ### getBoundingBoxTo
+
 <div style="margin-left: 10px;">
 
 ▸   **getBoundingBoxTo**<`Rect`\>(`parentMat: Mat4`) : `Rect`
-
 
 
 
@@ -834,12 +746,6 @@ Returns the minimum bounding box containing the current bounding box and its chi
 
 
 
-
-<!---->
-<!--    #### Returns `Rect` 
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -847,28 +753,22 @@ Returns the minimum bounding box containing the current bounding box and its chi
 | `parentMat` | `Mat4` | 父节点矩阵。  |
 
 
-
 ##### Returns `Rect`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L576)&nbsp;
 ___
 ### getBoundingBoxToWorld
+
 <div style="margin-left: 10px;">
 
 ▸   **getBoundingBoxToWorld**<`Rect`\> : `Rect`
 
 
 
-
 **`en`** 
 Returns a "world" axis aligned bounding box of the node.<br/>
 The bounding box contains self and active children's world bounding box.
-
 
 
 
@@ -886,32 +786,22 @@ const newRect = uiTransform.getBoundingBoxToWorld();
 
 
 
-<!---->
-<!--    #### Returns `Rect` - 返回世界坐标系下包围盒。-->
-<!---->
-
-
 ##### Returns `Rect`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:558](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L558)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -929,9 +819,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -939,19 +826,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -968,9 +851,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -978,26 +858,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1014,9 +888,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1024,17 +895,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1050,9 +917,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1060,26 +924,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1096,9 +954,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1106,17 +961,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1132,9 +983,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1142,26 +990,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1178,9 +1020,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1188,17 +1027,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1214,9 +1049,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1224,21 +1056,16 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### getComputeAABB
+
 <div style="margin-left: 10px;">
 
 ▸   **getComputeAABB**<`AABB`\>(`out: AABB`) : `AABB`
-
 
 
 
@@ -1248,11 +1075,6 @@ Compute the corresponding aabb in world space for raycast.
 
 
 
-
-<!---->
-<!--    #### Returns `AABB` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1260,50 +1082,34 @@ Compute the corresponding aabb in world space for raycast.
 | `out` | `AABB` | - |
 
 
-
 ##### Returns `AABB`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:618](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L618)&nbsp;
 ___
 ### isHit
+
 <div style="margin-left: 10px;">
 
 ▸   **isHit**<`boolean`\>(`point: Vec2, listener: EventListener`) : `boolean`
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `point` | `Vec2` | 屏幕点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `EventListener` | 事件监听器。  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:397](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L397)&nbsp;
 ___
 ### onDestroy
+
 <div style="margin-left: 10px;">
 
 ▸   **onDestroy**<`void`\> : `void`
@@ -1311,21 +1117,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:267](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L267)&nbsp;
 ___
 ### onDisable
+
 <div style="margin-left: 10px;">
 
 ▸   **onDisable**<`void`\> : `void`
@@ -1333,21 +1131,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L263)&nbsp;
 ___
 ### onEnable
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnable**<`void`\> : `void`
@@ -1355,21 +1145,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:259](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L259)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -1377,21 +1159,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLoad
+
 <div style="margin-left: 10px;">
 
 ▸   **onLoad**<`void`\> : `void`
@@ -1399,21 +1173,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:253](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L253)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -1421,25 +1187,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -1449,32 +1206,22 @@ This function is only called in editor.<br/>
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`en`** 
 Schedules a custom task.<br/>
 If the task is already scheduled, then the interval parameter will be updated without scheduling it again.
-
 
 
 
@@ -1491,45 +1238,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -1537,14 +1265,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -1561,37 +1286,24 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### setAnchorPoint
+
 <div style="margin-left: 10px;">
 
 ▸   **setAnchorPoint**<`void`\>(`point: Vec2 | number, y: undefined | number`) : `void`
-
 
 
 
@@ -1602,7 +1314,6 @@ It's like a pin in the node where it is "attached" to its parent. <br/>
 The anchorPoint is normalized, like a percentage. (0,0) means the bottom-left corner and (1,1) means the top-right corner.<br/>
 But you can use values higher than (1,1) and lower than (0,0) too.<br/>
 The default anchor point is (0.5,0.5), so it starts at the center of the node.
-
 
 
 
@@ -1621,44 +1332,30 @@ node.setAnchorPoint(1, 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `point` | `Vec2 \| number` | 节点锚点或节点 x 轴锚。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `undefined \| number` | 节点 y 轴锚。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:366](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L366)&nbsp;
 ___
 ### setContentSize
+
 <div style="margin-left: 10px;">
 
 ▸   **setContentSize**<`void`\>(`size: Size`) : `void`
 
 
 
-
 **`en`** 
 Sets the untransformed size of the ui transform.<br/>
 The contentSize remains the same no matter if the node is scaled or rotated.<br/>
-
 
 
 
@@ -1675,11 +1372,6 @@ node.setContentSize(new Size(100, 100));
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1687,19 +1379,15 @@ node.setContentSize(new Size(100, 100));
 | `size` | `Size` | The size of the UI transformation.  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **setContentSize**<`void`\>(`width: number, height: number`) : `void`
-
 
 
 
 **`en`** 
 Sets the untransformed size of the ui transform.<br/>
 The contentSize remains the same no matter if the node is scaled or rotated.<br/>
-
 
 
 
@@ -1716,42 +1404,28 @@ node.setContentSize(100, 100);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | The width of the UI transformation.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | The height of the UI transformation.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/ui-transform.ts:285](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L285)&nbsp;   [cocos/2d/framework/ui-transform.ts:302](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L302)&nbsp;   [cocos/2d/framework/ui-transform.ts:304](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/ui-transform.ts#L304)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`en`** Un-schedules a custom task.
-
 
 
 
@@ -1767,11 +1441,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1779,26 +1448,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`en`** unschedule all scheduled tasks.
-
 
 
 
@@ -1815,16 +1478,7 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;

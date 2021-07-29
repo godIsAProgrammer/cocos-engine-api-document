@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `progressX` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `progressY` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `data` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `number` | - |
-
 
 #### Returns `void` 
 ___

@@ -203,86 +203,19 @@ ___
 • **new SamplerInfo**(`minFilter: Filter, magFilter: Filter, mipFilter: Filter, addressU: Address, addressV: Address, addressW: Address, maxAnisotropy: number, cmpFunc: ComparisonFunc, borderColor: Color, mipLODBias: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `minFilter` | `Filter` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `magFilter` | `Filter` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `mipFilter` | `Filter` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `addressU` | `Address` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `addressV` | `Address` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `addressW` | `Address` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxAnisotropy` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `cmpFunc` | `ComparisonFunc` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `borderColor` | `Color` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `mipLODBias` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1093](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1093)&nbsp;
@@ -294,16 +227,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: SamplerInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -312,12 +241,7 @@ ___
 | `info` | `SamplerInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1108](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1108)&nbsp;

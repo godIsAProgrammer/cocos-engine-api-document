@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`example`**
 
 ```ts
@@ -28,11 +27,7 @@ js.formatStr(a, b, c);
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `msg` | - | A JavaScript string containing zero or more substitution strings (%s).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `subst` | - | JavaScript objects with which to replace substitution strings within msg.This gives you additional control over the format of the output.  |
-
 
 #### Returns `any` 
 ___

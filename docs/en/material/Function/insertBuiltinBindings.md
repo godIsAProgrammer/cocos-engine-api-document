@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `tmpl` | `IProgramInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tmplInfo` | `ITemplateInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `source` | `IDescriptorSetLayoutInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `outBindings` | - | - |
-
 
 #### Returns `void` 
 ___

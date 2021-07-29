@@ -13,31 +13,12 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ear` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `triangles` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dim` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `minX` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `minY` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `size` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `pass` | `number` | - |
-
 
 #### Returns `void` 
 ___

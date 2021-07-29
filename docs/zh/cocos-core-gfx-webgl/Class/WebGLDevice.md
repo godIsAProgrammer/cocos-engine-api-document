@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -171,7 +170,6 @@ ___
 
 
 
-
 **`zh`** HTML 画布。
 
 
@@ -190,7 +188,6 @@ ___
 
 ### canvas2D
 <div style="margin-left: 10px;">
-
 
 
 
@@ -215,7 +212,6 @@ ___
 
 
 
-
 **`zh`** 当前设备能立数据。
 
 
@@ -234,7 +230,6 @@ ___
 
 ### colorFormat
 <div style="margin-left: 10px;">
-
 
 
 
@@ -259,7 +254,6 @@ ___
 
 
 
-
 **`zh`** GFX 默认命令缓冲。
 
 
@@ -278,7 +272,6 @@ ___
 
 ### depthStencilFormat
 <div style="margin-left: 10px;">
-
 
 
 
@@ -319,7 +312,6 @@ ___
 
 
 
-
 **`zh`** DPR 设备像素比。
 
 
@@ -338,7 +330,6 @@ ___
 
 ### gfxAPI
 <div style="margin-left: 10px;">
-
 
 
 
@@ -376,7 +367,6 @@ ___
 
 ### height
 <div style="margin-left: 10px;">
-
 
 
 
@@ -433,7 +423,6 @@ ___
 
 
 
-
 **`zh`** 内存状态。
 
 
@@ -455,7 +444,6 @@ ___
 
 
 
-
 **`zh`** 设备原生的像素高度。
 
 
@@ -474,7 +462,6 @@ ___
 
 ### nativeWidth
 <div style="margin-left: 10px;">
-
 
 
 
@@ -515,7 +502,6 @@ ___
 
 
 
-
 **`zh`** 绘制调用次数。
 
 
@@ -534,7 +520,6 @@ ___
 
 ### numInstances
 <div style="margin-left: 10px;">
-
 
 
 
@@ -559,7 +544,6 @@ ___
 
 
 
-
 **`zh`** 渲染三角形数量。
 
 
@@ -578,7 +562,6 @@ ___
 
 ### queue
 <div style="margin-left: 10px;">
-
 
 
 
@@ -603,7 +586,6 @@ ___
 
 
 
-
 **`zh`** 渲染器描述。
 
 
@@ -622,7 +604,6 @@ ___
 
 ### surfaceTransform
 <div style="margin-left: 10px;">
-
 
 
 
@@ -663,7 +644,6 @@ ___
 
 
 
-
 **`zh`** 厂商描述。
 
 
@@ -701,7 +681,6 @@ ___
 
 
 
-
 **`zh`** 设备像素宽度。
 
 
@@ -721,6 +700,7 @@ ___
 ## Methods
 
 ### acquire
+
 <div style="margin-left: 10px;">
 
 ▸   **acquire**<`void`\> : `void`
@@ -728,187 +708,108 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:593](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L593)&nbsp;
 ___
 ### blitFramebuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **blitFramebuffer**<`void`\>(`src: Framebuffer, dst: Framebuffer, srcRect: Rect, dstRect: Rect, filter: Filter`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `src` | `Framebuffer` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dst` | `Framebuffer` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `srcRect` | `Rect` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dstRect` | `Rect` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `filter` | `Filter` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:781](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L781)&nbsp;
 ___
 ### copyBuffersToTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **copyBuffersToTexture**<`void`\>(`buffers: undefined, texture: Texture, regions: undefined`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `buffers` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `texture` | `Texture` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `regions` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:725](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L725)&nbsp;
 ___
 ### copyFramebufferToBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **copyFramebufferToBuffer**<`void`\>(`srcFramebuffer: Framebuffer, dstBuffer: ArrayBuffer, regions: undefined`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `srcFramebuffer` | `Framebuffer` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dstBuffer` | `ArrayBuffer` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `regions` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:747](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L747)&nbsp;
 ___
 ### copyTexImagesToTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **copyTexImagesToTexture**<`void`\>(`texImages: undefined, texture: Texture, regions: undefined`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `texImages` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `texture` | `Texture` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `regions` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:734](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L734)&nbsp;
 ___
 ### createBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **createBuffer**<`Buffer`\>(`info: BufferInfo | BufferViewInfo`) : `Buffer`
 
 
-
-
-<!---->
-<!--    #### Returns `Buffer` -->
-<!---->
 
 #### Parameters
 
@@ -917,27 +818,18 @@ ___
 | `info` | `BufferInfo \| BufferViewInfo` | - |
 
 
-
 ##### Returns `Buffer`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:613](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L613)&nbsp;
 ___
 ### createCommandBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **createCommandBuffer**<`CommandBuffer`\>(`info: CommandBufferInfo`) : `CommandBuffer`
 
 
-
-
-<!---->
-<!--    #### Returns `CommandBuffer` -->
-<!---->
 
 #### Parameters
 
@@ -946,27 +838,18 @@ ___
 | `info` | `CommandBufferInfo` | - |
 
 
-
 ##### Returns `CommandBuffer`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:605](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L605)&nbsp;
 ___
 ### createDescriptorSet
+
 <div style="margin-left: 10px;">
 
 ▸   **createDescriptorSet**<`DescriptorSet`\>(`info: DescriptorSetInfo`) : `DescriptorSet`
 
 
-
-
-<!---->
-<!--    #### Returns `DescriptorSet` -->
-<!---->
 
 #### Parameters
 
@@ -975,27 +858,18 @@ ___
 | `info` | `DescriptorSetInfo` | - |
 
 
-
 ##### Returns `DescriptorSet`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:637](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L637)&nbsp;
 ___
 ### createDescriptorSetLayout
+
 <div style="margin-left: 10px;">
 
 ▸   **createDescriptorSetLayout**<`DescriptorSetLayout`\>(`info: DescriptorSetLayoutInfo`) : `DescriptorSetLayout`
 
 
-
-
-<!---->
-<!--    #### Returns `DescriptorSetLayout` -->
-<!---->
 
 #### Parameters
 
@@ -1004,27 +878,18 @@ ___
 | `info` | `DescriptorSetLayoutInfo` | - |
 
 
-
 ##### Returns `DescriptorSetLayout`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:677](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L677)&nbsp;
 ___
 ### createFramebuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **createFramebuffer**<`Framebuffer`\>(`info: FramebufferInfo`) : `Framebuffer`
 
 
-
-
-<!---->
-<!--    #### Returns `Framebuffer` -->
-<!---->
 
 #### Parameters
 
@@ -1033,27 +898,18 @@ ___
 | `info` | `FramebufferInfo` | - |
 
 
-
 ##### Returns `Framebuffer`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:669](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L669)&nbsp;
 ___
 ### createGlobalBarrier
+
 <div style="margin-left: 10px;">
 
 ▸   **createGlobalBarrier**<`any`\>(`info: GlobalBarrierInfo`) : `any`
 
 
-
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
 
 #### Parameters
 
@@ -1062,27 +918,18 @@ ___
 | `info` | `GlobalBarrierInfo` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:709](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L709)&nbsp;
 ___
 ### createInputAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **createInputAssembler**<`InputAssembler`\>(`info: InputAssemblerInfo`) : `InputAssembler`
 
 
-
-
-<!---->
-<!--    #### Returns `InputAssembler` -->
-<!---->
 
 #### Parameters
 
@@ -1091,27 +938,18 @@ ___
 | `info` | `InputAssemblerInfo` | - |
 
 
-
 ##### Returns `InputAssembler`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:653](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L653)&nbsp;
 ___
 ### createPipelineLayout
+
 <div style="margin-left: 10px;">
 
 ▸   **createPipelineLayout**<`PipelineLayout`\>(`info: PipelineLayoutInfo`) : `PipelineLayout`
 
 
-
-
-<!---->
-<!--    #### Returns `PipelineLayout` -->
-<!---->
 
 #### Parameters
 
@@ -1120,27 +958,18 @@ ___
 | `info` | `PipelineLayoutInfo` | - |
 
 
-
 ##### Returns `PipelineLayout`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:685](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L685)&nbsp;
 ___
 ### createPipelineState
+
 <div style="margin-left: 10px;">
 
 ▸   **createPipelineState**<`PipelineState`\>(`info: PipelineStateInfo`) : `PipelineState`
 
 
-
-
-<!---->
-<!--    #### Returns `PipelineState` -->
-<!---->
 
 #### Parameters
 
@@ -1149,27 +978,18 @@ ___
 | `info` | `PipelineStateInfo` | - |
 
 
-
 ##### Returns `PipelineState`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:693](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L693)&nbsp;
 ___
 ### createQueue
+
 <div style="margin-left: 10px;">
 
 ▸   **createQueue**<`Queue`\>(`info: QueueInfo`) : `Queue`
 
 
-
-
-<!---->
-<!--    #### Returns `Queue` -->
-<!---->
 
 #### Parameters
 
@@ -1178,27 +998,18 @@ ___
 | `info` | `QueueInfo` | - |
 
 
-
 ##### Returns `Queue`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:701](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L701)&nbsp;
 ___
 ### createRenderPass
+
 <div style="margin-left: 10px;">
 
 ▸   **createRenderPass**<`RenderPass`\>(`info: RenderPassInfo`) : `RenderPass`
 
 
-
-
-<!---->
-<!--    #### Returns `RenderPass` -->
-<!---->
 
 #### Parameters
 
@@ -1207,27 +1018,18 @@ ___
 | `info` | `RenderPassInfo` | - |
 
 
-
 ##### Returns `RenderPass`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:661](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L661)&nbsp;
 ___
 ### createSampler
+
 <div style="margin-left: 10px;">
 
 ▸   **createSampler**<`Sampler`\>(`info: SamplerInfo`) : `Sampler`
 
 
-
-
-<!---->
-<!--    #### Returns `Sampler` -->
-<!---->
 
 #### Parameters
 
@@ -1236,27 +1038,18 @@ ___
 | `info` | `SamplerInfo` | - |
 
 
-
 ##### Returns `Sampler`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:629](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L629)&nbsp;
 ___
 ### createShader
+
 <div style="margin-left: 10px;">
 
 ▸   **createShader**<`Shader`\>(`info: ShaderInfo`) : `Shader`
 
 
-
-
-<!---->
-<!--    #### Returns `Shader` -->
-<!---->
 
 #### Parameters
 
@@ -1265,27 +1058,18 @@ ___
 | `info` | `ShaderInfo` | - |
 
 
-
 ##### Returns `Shader`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:645](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L645)&nbsp;
 ___
 ### createTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **createTexture**<`Texture`\>(`info: TextureInfo | TextureViewInfo`) : `Texture`
 
 
-
-
-<!---->
-<!--    #### Returns `Texture` -->
-<!---->
 
 #### Parameters
 
@@ -1294,27 +1078,18 @@ ___
 | `info` | `TextureInfo \| TextureViewInfo` | - |
 
 
-
 ##### Returns `Texture`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:621](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L621)&nbsp;
 ___
 ### createTextureBarrier
+
 <div style="margin-left: 10px;">
 
 ▸   **createTextureBarrier**<`TextureBarrier`\>(`info: TextureBarrierInfo`) : `TextureBarrier`
 
 
-
-
-<!---->
-<!--    #### Returns `TextureBarrier` -->
-<!---->
 
 #### Parameters
 
@@ -1323,17 +1098,13 @@ ___
 | `info` | `TextureBarrierInfo` | - |
 
 
-
 ##### Returns `TextureBarrier`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:717](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L717)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -1341,31 +1112,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:550](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L550)&nbsp;
 ___
 ### flushCommands
+
 <div style="margin-left: 10px;">
 
 ▸   **flushCommands**<`void`\>(`cmdBuffs: undefined`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1374,32 +1132,22 @@ ___
 | `cmdBuffs` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:591](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L591)&nbsp;
 ___
 ### hasFeature
+
 <div style="margin-left: 10px;">
 
 ▸   **hasFeature**<`boolean`\>(`feature: Feature`) : `boolean`
 
 
 
-
 **`zh`** 是否具备特性。
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -1408,27 +1156,18 @@ ___
 | `feature` | `Feature` | The GFX feature to be queried.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:412](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L412)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: DeviceInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -1437,17 +1176,13 @@ ___
 | `info` | `DeviceInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:239](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L239)&nbsp;
 ___
 ### present
+
 <div style="margin-left: 10px;">
 
 ▸   **present**<`void`\> : `void`
@@ -1455,49 +1190,28 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:597](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L597)&nbsp;
 ___
 ### resize
+
 <div style="margin-left: 10px;">
 
 ▸   **resize**<`void`\>(`width: number, height: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-device.ts:581](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-device.ts#L581)&nbsp;

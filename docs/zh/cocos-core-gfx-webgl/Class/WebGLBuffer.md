@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -47,7 +46,6 @@
 
 ### count
 <div style="margin-left: 10px;">
-
 
 
 
@@ -136,7 +134,6 @@ ___
 
 
 
-
 **`zh`** 缓冲的内存使用方式。
 
 
@@ -155,7 +152,6 @@ ___
 
 ### size
 <div style="margin-left: 10px;">
-
 
 
 
@@ -180,7 +176,6 @@ ___
 
 
 
-
 **`zh`** 缓冲步长。
 
 
@@ -199,7 +194,6 @@ ___
 
 ### usage
 <div style="margin-left: 10px;">
-
 
 
 
@@ -228,14 +222,10 @@ ___
 • **new WebGLBuffer**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/buffer.ts:104](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/buffer.ts#L104)&nbsp;
@@ -247,6 +237,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -254,31 +245,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-buffer.ts:112](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-buffer.ts#L112)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: BufferInfo | BufferViewInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -287,27 +265,18 @@ ___
 | `info` | `BufferInfo \| BufferViewInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-buffer.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-buffer.ts#L51)&nbsp;
 ___
 ### resize
+
 <div style="margin-left: 10px;">
 
 ▸   **resize**<`void`\>(`size: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -316,45 +285,28 @@ ___
 | `size` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-buffer.ts:124](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-buffer.ts#L124)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`buffer: BufferSource, size: undefined | number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `buffer` | `BufferSource` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `size` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-buffer.ts:154](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-buffer.ts#L154)&nbsp;

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 sphere-frustum intersect, faster but has false positive corner cases.
 
@@ -19,11 +18,7 @@ sphere-frustum intersect, faster but has false positive corner cases.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sphere` | `Sphere` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `frustum` | `Frustum` | - |
-
 
 #### Returns `number` 0 或 非0
 

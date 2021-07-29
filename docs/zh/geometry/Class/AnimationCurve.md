@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 描述一条曲线，其中每个相邻关键帧采用三次hermite插值计算。
 
@@ -40,7 +39,6 @@
 
 
 
-
 **`zh`** 
 曲线的关键帧。
 
@@ -63,7 +61,6 @@ ___
 
 
 
-
 **`zh`** 
 当采样时间超出右端时采用的循环模式[[WrapMode]]。
 
@@ -83,7 +80,6 @@ ___
 
 ### preWrapMode
 <div style="margin-left: 10px;">
-
 
 
 
@@ -113,14 +109,10 @@ ___
 • **new AnimationCurve**(`keyFrames: array<Keyframe> | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `keyFrames` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/curve.ts:150](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/curve.ts#L150)&nbsp;
@@ -132,10 +124,10 @@ ___
 ## Methods
 
 ### addKey
+
 <div style="margin-left: 10px;">
 
 ▸   **addKey**<`void`\>(`keyFrame: Keyframe`) : `void`
-
 
 
 
@@ -144,11 +136,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -156,21 +143,16 @@ ___
 | `keyFrame` | `Keyframe` | 关键帧。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/curve.ts:168](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/curve.ts#L168)&nbsp;
 ___
 ### evaluate
+
 <div style="margin-left: 10px;">
 
 ▸   **evaluate**<`number`\>(`time: number`) : `number`
-
 
 
 
@@ -179,11 +161,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -191,12 +168,7 @@ ___
 | `time` | `number` | 时间。  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/curve.ts:240](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/curve.ts#L240)&nbsp;

@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `code` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `useDt` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ensureFlag` | `any` | - |
-
 
 #### Returns `(Anonymous function)` 
 ___

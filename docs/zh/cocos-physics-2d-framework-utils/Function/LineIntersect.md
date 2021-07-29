@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `p2` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q2` | `any` | - |
-
 
 #### Returns `Vec2` 
 ___

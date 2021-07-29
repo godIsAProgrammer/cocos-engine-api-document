@@ -8,10 +8,8 @@ ___
 ___
 
 
-
 **`en`** 
 tweenUtil is a utility function that helps instantiate Tween instances.
-
 
 
 
@@ -20,6 +18,7 @@ tweenUtil is a utility function that helps instantiate Tween instances.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -29,7 +28,6 @@ tweenUtil is a utility function that helps instantiate Tween instances.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `T` | - |
-
 
 #### Returns `Tween` 
 ___

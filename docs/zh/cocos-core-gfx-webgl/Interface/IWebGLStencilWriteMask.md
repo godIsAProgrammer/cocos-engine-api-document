@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-command-buffer.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-command-buffer.ts#L63)&nbsp;
-
 ___
 #### writeMask
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-command-buffer.ts:64](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-command-buffer.ts#L64)&nbsp;
-
 ___

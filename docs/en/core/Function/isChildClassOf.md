@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `subclass` | `unknown` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `superclass` | `unknown` | - |
-
 
 #### Returns `boolean` 
 ___

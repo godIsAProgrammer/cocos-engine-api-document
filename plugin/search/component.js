@@ -183,14 +183,14 @@ function doSearch(value) {
   }
 
 
-if (html !== '') {
-    // console.log(document.querySelector('.matching-post'));
-    document.querySelector('.results-panel')?.addEventListener('click', e => {
-       setTimeout(() => {
-        $panel.classList.remove('show')
-       }) 
-    })
-  }
+// if (html !== '') {
+//     // console.log(document.querySelector('.matching-post'));
+//     document.querySelector('.results-panel')?.addEventListener('click', e => {
+//        setTimeout(() => {
+//         $panel.classList.remove('show')
+//        })
+//     })
+// }
 
 }
 

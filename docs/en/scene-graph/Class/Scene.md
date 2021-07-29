@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** 
 Scene is a subclass of [[BaseNode]], composed by nodes, representing the root of a runnable environment in the game.
 It's managed by [[Director]] and user can switch from a scene to another using [[Director.loadScene]]
@@ -107,7 +105,6 @@ It's managed by [[Director]] and user can switch from a scene to another using [
 
 
 
-
 **`en`** Indicates whether all (directly or indirectly) static referenced assets of this scene are releasable by default after scene unloading.
 
 
@@ -144,13 +141,11 @@ ___
 
 
 
-
 **`en`** 
 The local active state of this node.
 Note that a Node may be inactive because a parent is not active, even if this returns true.
 Use [[activeInHierarchy]]
 if you want to check if the Node is actually treated as active in the scene.
-
 
 
 
@@ -175,7 +170,6 @@ ___
 
 
 
-
 **`en`** Indicates whether this node is active in the scene.
 
 
@@ -196,9 +190,7 @@ ___
 
 
 
-
 **`en`** All children nodes.
-
 
 
 
@@ -220,7 +212,6 @@ ___
 
 ### components
 <div style="margin-left: 10px;">
-
 
 
 
@@ -262,9 +253,7 @@ ___
 
 
 
-
 **`en`** The event processor of the current node, it provides EventTarget ability.
-
 
 
 
@@ -305,7 +294,6 @@ ___
 
 
 
-
 **`en`** After inheriting CCObject objects, control whether you need to hide, lock, serialize, and other functions.
 
 
@@ -326,7 +314,6 @@ ___
 
 
 
-
 **`en`** 
 Indicates whether the object is not yet destroyed. (It will not be available after being destroyed)<br>
 When an object's `destroy` is called, it is actually destroyed after the end of this frame.
@@ -337,9 +324,7 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`default`** true
-
 
 
 
@@ -378,7 +363,6 @@ ___
 
 
 
-
 **`en`** Name of node.
 
 
@@ -396,7 +380,6 @@ ___
 
 ### parent
 <div style="margin-left: 10px;">
-
 
 
 
@@ -435,7 +418,6 @@ ___
 
 ### renderScene
 <div style="margin-left: 10px;">
-
 
 
 
@@ -495,9 +477,7 @@ ___
 
 
 
-
 **`en`** Which scene this node belongs to.
-
 
 
 
@@ -522,9 +502,7 @@ ___
 
 
 
-
 **`en`** The uuid for editor, will be stripped after building project.
-
 
 
 
@@ -625,14 +603,10 @@ ___
 • **new Scene**(`name: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L102)&nbsp;
@@ -644,21 +618,16 @@ ___
 ## Methods
 
 ### addChild
+
 <div style="margin-left: 10px;">
 
 ▸   **addChild**<`void`\>(`child: this | Node`) : `void`
 
 
 
-
 **`en`** Add a child to the current node.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -667,32 +636,22 @@ ___
 | `child` | `this \| Node` | the child node to be added  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:539](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L539)&nbsp;
 ___
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**<`Component`\>(`args: undefined`) : `Component`
 
 
 
-
 **`en`** Only for compatibility purpose, user should not add any component to the scene
 
 
-
-
-<!---->
-<!--    #### Returns `Component` -->
-<!---->
 
 #### Parameters
 
@@ -701,21 +660,16 @@ ___
 | `args` |  | - |
 
 
-
 ##### Returns `Component`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:135](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L135)&nbsp;   [cocos/core/scene-graph/scene.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L141)&nbsp;
 ___
 ### attr
+
 <div style="margin-left: 10px;">
 
 ▸   **attr**<`void`\>(`attrs: unknown`) : `void`
-
 
 
 
@@ -724,7 +678,6 @@ Properties configuration function.
 All properties in attrs will be set to the node,
 when the setter of the node is available,
 the property will be set via setter function.
-
 
 
 
@@ -741,11 +694,6 @@ node.attr(attrs);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -753,21 +701,16 @@ node.attr(attrs);
 | `attrs` | `unknown` | Properties to be set to node  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:391](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L391)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
-
 
 
 
@@ -776,25 +719,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:117](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L117)&nbsp;
 ___
 ### destroyAllChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyAllChildren**<`void`\> : `void`
-
 
 
 
@@ -805,25 +739,16 @@ Actual destruct operation will delayed until before rendering.
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1204](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1204)&nbsp;
 ___
 ### dispatchEvent
+
 <div style="margin-left: 10px;">
 
 ▸   **dispatchEvent**<`void`\>(`event: Event`) : `void`
-
 
 
 
@@ -833,11 +758,6 @@ The event target is the EventTarget object upon which the dispatchEvent() method
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -845,27 +765,21 @@ The event target is the EventTarget object upon which the dispatchEvent() method
 | `event` | `Event` | The Event object that is dispatched into the event flow  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1157](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1157)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`type: string, arg0: any, arg1: any, arg2: any, arg3: any, arg4: any`) : `void`
 
 
 
-
 **`en`** 
 Trigger an event directly with the event name and necessary arguments.
-
 
 
 
@@ -882,58 +796,32 @@ eventTarget.emit('fire', message, emitter);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | event type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg1` | `any` | First argument in callback  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg2` | `any` | Second argument in callback  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg3` | `any` | Third argument in callback  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg4` | `any` | Fourth argument in callback  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1146)&nbsp;
 ___
 ### getChildByName
+
 <div style="margin-left: 10px;">
 
 ▸   **getChildByName**(`name: string`)
 
 
 
-
 **`en`** Returns a child with the same name.
-
 
 
 
@@ -949,9 +837,6 @@ var child = node.getChildByName("Test Node");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -959,26 +844,20 @@ var child = node.getChildByName("Test Node");
 | `name` | `string` | A name to find the child node.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:491](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L491)&nbsp;
 ___
 ### getChildByPath
+
 <div style="margin-left: 10px;">
 
 ▸   **getChildByPath**(`path: string`)
 
 
 
-
 **`en`** Returns a child with the given path.
-
 
 
 
@@ -994,9 +873,6 @@ var child = node.getChildByPath("subNode/Test Node");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1004,30 +880,22 @@ var child = node.getChildByPath("subNode/Test Node");
 | `path` | `string` | A path to find the child node.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:516](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L516)&nbsp;
 ___
 ### getChildByUuid
+
 <div style="margin-left: 10px;">
 
 ▸   **getChildByUuid**(`uuid: string`)
 
 
 
-
 **`en`** Returns a child with the same uuid.
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1036,28 +904,22 @@ ___
 | `uuid` | `string` | The uuid to find the child node.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:466](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L466)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1074,9 +936,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1084,19 +943,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of the target component  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1113,9 +968,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1123,26 +975,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | The class name of the target component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:777](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L777)&nbsp;   [cocos/core/scene-graph/base-node.ts:793](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L793)&nbsp;   [cocos/core/scene-graph/base-node.ts:795](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L795)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns the component of given type in any of its children using depth first search.
-
 
 
 
@@ -1158,9 +1004,6 @@ var sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1168,17 +1011,13 @@ var sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of the target component  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns the component of given type in any of its children using depth first search.
-
 
 
 
@@ -1194,9 +1033,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1204,30 +1040,22 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | The class name of the target component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:835](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L835)&nbsp;   [cocos/core/scene-graph/base-node.ts:846](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L846)&nbsp;   [cocos/core/scene-graph/base-node.ts:848](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L848)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of given type in the node.
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1236,21 +1064,15 @@ ___
 | `classConstructor` | `Constructor` | The class of the target component  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponents**(`className: string`)
-
 
 
 
 **`en`** Returns all components of given type in the node.
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1259,26 +1081,20 @@ ___
 | `className` | `string` | The class name of the target component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:808](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L808)&nbsp;   [cocos/core/scene-graph/base-node.ts:815](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L815)&nbsp;   [cocos/core/scene-graph/base-node.ts:817](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L817)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of given type in self or any of its children.
-
 
 
 
@@ -1294,9 +1110,6 @@ var sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1304,17 +1117,13 @@ var sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of the target component  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns all components of given type in self or any of its children.
-
 
 
 
@@ -1330,9 +1139,6 @@ var tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1340,21 +1146,16 @@ var tests = node.getComponentsInChildren("Test");
 | `className` | `string` | The class name of the target component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:865](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L865)&nbsp;   [cocos/core/scene-graph/base-node.ts:876](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L876)&nbsp;   [cocos/core/scene-graph/base-node.ts:878](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L878)&nbsp;
 ___
 ### getParent
+
 <div style="margin-left: 10px;">
 
 ▸   **getParent**
-
 
 
 
@@ -1363,30 +1164,19 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:401](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L401)&nbsp;
 ___
 ### getPosition
+
 <div style="margin-left: 10px;">
 
 ▸   **getPosition**<`Vec3`\>(`out: Vec3`) : `Vec3`
 
 
 Refer to [[Node.getPosition]]
-
-
-<!---->
-<!--    #### Returns `Vec3` -->
-<!---->
 
 #### Parameters
 
@@ -1395,28 +1185,19 @@ Refer to [[Node.getPosition]]
 | `out` | `Vec3` | - |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:163](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L163)&nbsp;
 ___
 ### getRotation
+
 <div style="margin-left: 10px;">
 
 ▸   **getRotation**<`Quat`\>(`out: Quat`) : `Quat`
 
 
 Refer to [[Node.getRotation]]
-
-
-<!---->
-<!--    #### Returns `Quat` -->
-<!---->
 
 #### Parameters
 
@@ -1425,28 +1206,19 @@ Refer to [[Node.getRotation]]
 | `out` | `Quat` | - |
 
 
-
 ##### Returns `Quat`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:168](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L168)&nbsp;
 ___
 ### getScale
+
 <div style="margin-left: 10px;">
 
 ▸   **getScale**<`Vec3`\>(`out: Vec3`) : `Vec3`
 
 
 Refer to [[Node.getScale]]
-
-
-<!---->
-<!--    #### Returns `Vec3` -->
-<!---->
 
 #### Parameters
 
@@ -1455,21 +1227,16 @@ Refer to [[Node.getScale]]
 | `out` | `Vec3` | - |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:173](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L173)&nbsp;
 ___
 ### getSiblingIndex
+
 <div style="margin-left: 10px;">
 
 ▸   **getSiblingIndex**<`number`\> : `number`
-
 
 
 
@@ -1478,32 +1245,19 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:562](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L562)&nbsp;
 ___
 ### getWorldMatrix
+
 <div style="margin-left: 10px;">
 
 ▸   **getWorldMatrix**<`Mat4`\>(`out: Mat4`) : `Mat4`
 
 
 Refer to [[Node.getWorldMatrix]]
-
-
-<!---->
-<!--    #### Returns `Mat4` -->
-<!---->
 
 #### Parameters
 
@@ -1512,28 +1266,19 @@ Refer to [[Node.getWorldMatrix]]
 | `out` | `Mat4` | - |
 
 
-
 ##### Returns `Mat4`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:193](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L193)&nbsp;
 ___
 ### getWorldPosition
+
 <div style="margin-left: 10px;">
 
 ▸   **getWorldPosition**<`Vec3`\>(`out: Vec3`) : `Vec3`
 
 
 Refer to [[Node.getWorldPosition]]
-
-
-<!---->
-<!--    #### Returns `Vec3` -->
-<!---->
 
 #### Parameters
 
@@ -1542,17 +1287,13 @@ Refer to [[Node.getWorldPosition]]
 | `out` | `Vec3` | - |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:178](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L178)&nbsp;
 ___
 ### getWorldRS
+
 <div style="margin-left: 10px;">
 
 ▸   **getWorldRS**<`Mat4`\>(`out: Mat4`) : `Mat4`
@@ -1560,11 +1301,6 @@ ___
 
 Refer to [[Node.getWorldRS]]
 
-
-<!---->
-<!--    #### Returns `Mat4` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1572,17 +1308,13 @@ Refer to [[Node.getWorldRS]]
 | `out` | `Mat4` | - |
 
 
-
 ##### Returns `Mat4`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:198](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L198)&nbsp;
 ___
 ### getWorldRT
+
 <div style="margin-left: 10px;">
 
 ▸   **getWorldRT**<`Mat4`\>(`out: Mat4`) : `Mat4`
@@ -1590,11 +1322,6 @@ ___
 
 Refer to [[Node.getWorldRT]]
 
-
-<!---->
-<!--    #### Returns `Mat4` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1602,28 +1329,19 @@ Refer to [[Node.getWorldRT]]
 | `out` | `Mat4` | - |
 
 
-
 ##### Returns `Mat4`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:203](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L203)&nbsp;
 ___
 ### getWorldRotation
+
 <div style="margin-left: 10px;">
 
 ▸   **getWorldRotation**<`Quat`\>(`out: Quat`) : `Quat`
 
 
 Refer to [[Node.getWorldRotation]]
-
-
-<!---->
-<!--    #### Returns `Quat` -->
-<!---->
 
 #### Parameters
 
@@ -1632,28 +1350,19 @@ Refer to [[Node.getWorldRotation]]
 | `out` | `Quat` | - |
 
 
-
 ##### Returns `Quat`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:183](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L183)&nbsp;
 ___
 ### getWorldScale
+
 <div style="margin-left: 10px;">
 
 ▸   **getWorldScale**<`Vec3`\>(`out: Vec3`) : `Vec3`
 
 
 Refer to [[Node.getWorldScale]]
-
-
-<!---->
-<!--    #### Returns `Vec3` -->
-<!---->
 
 #### Parameters
 
@@ -1662,21 +1371,16 @@ Refer to [[Node.getWorldScale]]
 | `out` | `Vec3` | - |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:188](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L188)&nbsp;
 ___
 ### hasEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **hasEventListener**<`any`\>(`type: string, callback: AnyFunction, target: unknown`) : `any`
-
 
 
 
@@ -1684,47 +1388,29 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `any` True if a callback of the specified type is registered; false otherwise.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | The type of event.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `AnyFunction` | The callback function of the event listener, if absent all event listeners for the given type will be removed  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `unknown` | The callback callee of the event listener  |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1169](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1169)&nbsp;
 ___
 ### insertChild
+
 <div style="margin-left: 10px;">
 
 ▸   **insertChild**<`void`\>(`child: this | Node, siblingIndex: number`) : `void`
 
 
 
-
 **`en`** Inserts a child to the node at a specified index.
-
 
 
 
@@ -1740,49 +1426,30 @@ node.insertChild(child, 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `child` | `this \| Node` | the child node to be inserted  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `siblingIndex` | `number` | the sibling index to place the child in  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:553](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L553)&nbsp;
 ___
 ### isChildOf
+
 <div style="margin-left: 10px;">
 
 ▸   **isChildOf**<`boolean`\>(`parent: this | Scene | null`) : `boolean`
 
 
 
-
 **`en`** Is this node a child of the given node?
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` True if this node is a child, deep child or identical to the given node.
--->
-<!---->
 
 #### Parameters
 
@@ -1791,28 +1458,22 @@ ___
 | `parent` | `this \| Scene \| null` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:748](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L748)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: string, callback: AnyFunction, target: unknown, useCapture: any`) : `void`
 
 
 
-
 **`en`** 
 Removes the callback previously registered with the same type, callback, target and or useCapture.
 This method is merely an alias to removeEventListener.
-
 
 
 
@@ -1829,45 +1490,26 @@ node.off(SystemEventType.TOUCH_START, callback, this.node);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | A string representing the event type being removed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `AnyFunction` | The callback to remove.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `unknown` | The target (this object) to invoke the callback, if it's not given, only callback without target will be removed  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `useCapture` | `any` | When set to true, the listener will be triggered at capturing phase which is ahead of the final target emit, otherwise it will be triggered during bubbling phase.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1097](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1097)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**<`void`\>(`type: string | SystemEventType, callback: AnyFunction, target: unknown, useCapture: any`) : `void`
-
 
 
 
@@ -1887,7 +1529,6 @@ You can also pass event callback parameters with `emit` by passing parameters af
 
 
 
-
 **`example`**
 
 ```ts
@@ -1903,45 +1544,26 @@ node.on(SystemEventType.TOUCH_END, callback, this);
 
 
 
-
-<!---->
-<!--    #### Returns `void` - Just returns the incoming callback so you can save the anonymous function easier.-->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string \| SystemEventType` | A string representing the event type to listen for.<br>See {{#crossLink "Node/EventType/POSITION_CHANGED"}}Node Events{{/crossLink}} for all builtin events.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `AnyFunction` | The callback that will be invoked when the event is dispatched. The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `unknown` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `useCapture` | `any` | When set to true, the listener will be triggered at capturing phase which is ahead of the final target emit, otherwise it will be triggered during bubbling phase.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1071](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1071)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**<`void`\>(`type: string, callback: AnyFunction, target: unknown, useCapture: any`) : `void`
-
 
 
 
@@ -1951,45 +1573,26 @@ the callback will remove itself after the first time it is triggered.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `AnyFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `unknown` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `useCapture` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1125](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1125)&nbsp;
 ___
 ### removeAllChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAllChildren**<`void`\> : `void`
-
 
 
 
@@ -1998,36 +1601,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:731](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L731)&nbsp;
 ___
 ### removeChild
+
 <div style="margin-left: 10px;">
 
 ▸   **removeChild**<`void`\>(`child: this | Node`) : `void`
 
 
 
-
 **`en`** Removes a child from the container.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2036,21 +1625,16 @@ ___
 | `child` | `this \| Node` | The child node which will be removed.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:720](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L720)&nbsp;
 ___
 ### removeComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **removeComponent**<`void`\>(`classConstructor: Constructor`) : `void`
-
 
 
 
@@ -2060,9 +1644,7 @@ You can also use component.destroy() if you already have the reference.
 
 
 
-
 **`deprecated`** please destroy the component to remove it.
-
 
 
 
@@ -2078,11 +1660,6 @@ node.removeComponent(Sprite);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2090,12 +1667,9 @@ node.removeComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of the component to remove  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **removeComponent**<`void`\>(`classNameOrInstance: string | Component`) : `void`
-
 
 
 
@@ -2105,9 +1679,7 @@ You can also use component.destroy() if you already have the reference.
 
 
 
-
 **`deprecated`** please destroy the component to remove it.
-
 
 
 
@@ -2128,11 +1700,6 @@ node.removeComponent('Sprite');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2140,21 +1707,16 @@ node.removeComponent('Sprite');
 | `classNameOrInstance` | `string \| Component` | The class name of the component to remove or the component instance to be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:993](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L993)&nbsp;   [cocos/core/scene-graph/base-node.ts:1014](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1014)&nbsp;   [cocos/core/scene-graph/base-node.ts:1016](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1016)&nbsp;
 ___
 ### removeFromParent
+
 <div style="margin-left: 10px;">
 
 ▸   **removeFromParent**<`void`\> : `void`
-
 
 
 
@@ -2165,25 +1727,16 @@ If the node have no parent, then nothing happens.
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:709](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L709)&nbsp;
 ___
 ### setParent
+
 <div style="margin-left: 10px;">
 
 ▸   **setParent**<`void`\>(`value: this | Scene | null, keepWorldTransform: boolean`) : `void`
-
 
 
 
@@ -2191,48 +1744,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `value` | `this \| Scene \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `keepWorldTransform` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:409](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L409)&nbsp;
 ___
 ### setSiblingIndex
+
 <div style="margin-left: 10px;">
 
 ▸   **setSiblingIndex**<`void`\>(`index: number`) : `void`
 
 
 
-
 **`en`** Set the sibling index of the current node in its parent's children array.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2241,32 +1776,22 @@ ___
 | `index` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:570](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L570)&nbsp;
 ___
 ### targetOff
+
 <div style="margin-left: 10px;">
 
 ▸   **targetOff**<`void`\>(`target: string | unknown`) : `void`
 
 
 
-
 **`en`** Removes all callbacks previously registered with the same target.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2275,17 +1800,13 @@ ___
 | `target` | `string \| unknown` | The target to be searched for all related callbacks  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1179](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1179)&nbsp;
 ___
 ### updateWorldTransform
+
 <div style="margin-left: 10px;">
 
 ▸   **updateWorldTransform**<`void`\> : `void`
@@ -2294,25 +1815,16 @@ ___
 Refer to [[Node.updateWorldTransform]]
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene.ts:248](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene.ts#L248)&nbsp;
 ___
 ### walk
+
 <div style="margin-left: 10px;">
 
 ▸   **walk**<`void`\>(`preFunc: undefined, postFunc: undefined | `) : `void`
-
 
 
 
@@ -2321,7 +1833,6 @@ Each node, including the current node, in the sub tree will be visited two times
 before all children and after all children.
 This function call is not recursive, it's based on stack.
 Please don't walk any other node inside the walk process.
-
 
 
 
@@ -2341,28 +1852,15 @@ node.walk(function (target) {
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `preFunc` |  | The callback to process node when reach the node for the first time  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `postFunc` | `undefined \| ` | The callback to process node when re-visit the node after walked all children in its sub tree  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:616](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L616)&nbsp;

@@ -50,14 +50,10 @@ ___
 • **new DescriptorSetLayoutInfo**(`bindings: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `bindings` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1540](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1540)&nbsp;
@@ -69,16 +65,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: DescriptorSetLayoutInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -87,12 +79,7 @@ ___
 | `info` | `DescriptorSetLayoutInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1546](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1546)&nbsp;

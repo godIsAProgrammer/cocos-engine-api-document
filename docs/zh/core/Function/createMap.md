@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 该方法是对 `Object.create(null)` 的简单封装。
 `Object.create(null)` 用于创建无 prototype （也就无继承）的空对象。
@@ -22,7 +21,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `forceDictMode` | - | - |
-
 
 #### Returns `any` 
 ___

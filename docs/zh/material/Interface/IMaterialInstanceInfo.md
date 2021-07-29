@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/material-instance.ts:39](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/material-instance.ts#L39)&nbsp;
-
 ___
 #### parent
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/material-instance.ts:38](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/material-instance.ts#L38)&nbsp;
-
 ___
 #### subModelIdx
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/material-instance.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/material-instance.ts#L40)&nbsp;
-
 ___

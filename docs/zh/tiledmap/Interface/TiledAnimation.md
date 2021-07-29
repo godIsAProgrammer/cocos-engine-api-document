@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L41)&nbsp;
-
 ___
 #### frameIdx
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:42](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L42)&nbsp;
-
 ___
 #### frames
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L40)&nbsp;
-
 ___

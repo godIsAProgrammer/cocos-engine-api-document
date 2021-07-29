@@ -8,6 +8,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -17,19 +18,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `name` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `constructorX` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scaleFx` | `ScaleFx` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scaleAndAdd` | `ScaleAndAddFx` | - |
-
 
 #### Returns `CubicSplineValueConstructor` 
 ___

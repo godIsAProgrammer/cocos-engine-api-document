@@ -11,7 +11,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -37,7 +36,6 @@
 
 ### color
 <div style="margin-left: 10px;">
-
 
 
 
@@ -126,7 +124,6 @@ ___
 
 
 
-
 **`zh`** 是否启用。
 
 
@@ -146,16 +143,12 @@ ___
 ## Methods
 
 ### animate
+
 <div style="margin-left: 10px;">
 
 ▸   **animate**<`void`\>(`particle: Particle`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -164,27 +157,18 @@ ___
 | `particle` | `Particle` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/color-overtime.ts:67](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/color-overtime.ts#L67)&nbsp;
 ___
 ### bindTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **bindTarget**<`void`\>(`target: IParticleSystemRenderer`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -193,45 +177,28 @@ ___
 | `target` | `IParticleSystemRenderer` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/particle.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/particle.ts#L126)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`space: number, trans: Mat4`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `space` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `trans` | `Mat4` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/particle.ts:130](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/particle.ts#L130)&nbsp;

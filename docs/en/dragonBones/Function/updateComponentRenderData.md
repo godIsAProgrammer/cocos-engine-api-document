@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `comp` | `ArmatureDisplay` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `batcher` | `Batcher2D` | - |
-
 
 #### Returns `void` 
 ___

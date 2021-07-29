@@ -125,16 +125,12 @@ ___
 ## Methods
 
 ### clearCmds
+
 <div style="margin-left: 10px;">
 
 ▸   **clearCmds**<`void`\>(`allocator: WebGLCommandAllocator`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -143,12 +139,7 @@ ___
 | `allocator` | `WebGLCommandAllocator` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-commands.ts:666](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-commands.ts#L666)&nbsp;

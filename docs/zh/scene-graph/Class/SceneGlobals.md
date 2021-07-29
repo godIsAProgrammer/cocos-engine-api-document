@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 各类场景级别的渲染参数，将影响全场景的所有物体
 
 
@@ -32,7 +31,6 @@
 
 ### ambient
 <div style="margin-left: 10px;">
-
 
 
 
@@ -73,7 +71,6 @@ ___
 
 
 
-
 **`zh`** 平面阴影相关信息
 
 
@@ -92,7 +89,6 @@ ___
 
 ### skybox
 <div style="margin-left: 10px;">
-
 
 
 
@@ -115,6 +111,7 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\> : `void`
@@ -122,16 +119,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:747](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L747)&nbsp;

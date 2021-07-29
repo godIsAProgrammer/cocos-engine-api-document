@@ -13,27 +13,11 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ctx` | `Impl` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `h` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `r` | `number` | - |
-
 
 #### Returns `void` 
 ___

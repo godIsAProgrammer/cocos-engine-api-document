@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 缩放几何体。
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `geometry` | `IGeometry` | 几何体信息。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | - | 缩放量。  |
-
 
 #### Returns `IGeometry` 
 ___

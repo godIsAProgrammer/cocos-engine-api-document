@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Checks if a number is a power of two.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
 
 #### Returns `boolean` 
 ___

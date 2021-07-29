@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/render-scene.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/render-scene.ts#L50)&nbsp;
-
 ___
 #### node
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/render-scene.ts:49](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/render-scene.ts#L49)&nbsp;
-
 ___

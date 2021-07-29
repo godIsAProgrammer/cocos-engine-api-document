@@ -25,9 +25,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L56)&nbsp;
-
 ___
 #### depthStencilState
 
@@ -38,9 +36,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:55](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L55)&nbsp;
-
 ___
 #### dynamicStates
 
@@ -51,9 +47,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:57](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L57)&nbsp;
-
 ___
 #### embeddedMacros
 
@@ -64,9 +58,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L62)&nbsp;
-
 ___
 #### phase
 
@@ -77,9 +69,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:58](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L58)&nbsp;
-
 ___
 #### primitive
 
@@ -90,9 +80,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L52)&nbsp;
-
 ___
 #### priority
 
@@ -103,9 +91,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L51)&nbsp;
-
 ___
 #### program
 
@@ -116,9 +102,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:61](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L61)&nbsp;
-
 ___
 #### properties
 
@@ -129,9 +113,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:65](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L65)&nbsp;
-
 ___
 #### propertyIndex
 
@@ -142,9 +124,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L63)&nbsp;
-
 ___
 #### rasterizerState
 
@@ -155,9 +135,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L54)&nbsp;
-
 ___
 #### stage
 
@@ -168,9 +146,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:53](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L53)&nbsp;
-
 ___
 #### switch
 
@@ -181,7 +157,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:64](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L64)&nbsp;
-
 ___

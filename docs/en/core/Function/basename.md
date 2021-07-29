@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`en`** Get the file name of a file path.
-
 
 
 
@@ -28,11 +26,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `path` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `extName` | - | - |
-
 
 #### Returns `string` 
 ___

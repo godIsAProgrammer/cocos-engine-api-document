@@ -14,10 +14,8 @@
 
 
 
-
 **`en`** 
 Information about all points of impact in a collision event.
-
 
 
 
@@ -30,9 +28,7 @@ Information about all points of impact in a collision event.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:223](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L223)&nbsp;
-
 ___
 #### impl
 
@@ -40,10 +36,8 @@ ___
 
 
 
-
 **`en`** 
 Gets the lowLevel object, through which all the exposed properties can be accessed.
-
 
 
 
@@ -56,9 +50,7 @@ Gets the lowLevel object, through which all the exposed properties can be access
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:231](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L231)&nbsp;
-
 ___
 #### otherCollider
 
@@ -66,10 +58,8 @@ ___
 
 
 
-
 **`en`** 
 Another collider in collision.
-
 
 
 
@@ -82,9 +72,7 @@ Another collider in collision.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L215)&nbsp;
-
 ___
 #### selfCollider
 
@@ -92,10 +80,8 @@ ___
 
 
 
-
 **`en`** 
 The collider component instance of the event owner.
-
 
 
 
@@ -108,9 +94,7 @@ The collider component instance of the event owner.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:207](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L207)&nbsp;
-
 ___
 #### type
 
@@ -118,10 +102,8 @@ ___
 
 
 
-
 **`en`** 
 The type of collision event.
-
 
 
 
@@ -134,7 +116,5 @@ The type of collision event.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:199](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L199)&nbsp;
-
 ___

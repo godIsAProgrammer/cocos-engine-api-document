@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `textures` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `loadedCallback` | `any` | - |
-
 
 #### Returns `void` 
 ___

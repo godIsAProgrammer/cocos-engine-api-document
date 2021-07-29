@@ -8,13 +8,14 @@ ___
 ___
 
 
-
 **`en`** Returns whether or not to display the FPS and debug information.
 
 
 
 #### Parameters
 
+| Name | Type | Description |
+| :------: | :------: | :------: |
 
 #### Returns `boolean` 
 ___

@@ -17,9 +17,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cubic-spline-value.ts:37](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cubic-spline-value.ts#L37)&nbsp;
-
 ___
 #### inTangent
 
@@ -30,9 +28,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cubic-spline-value.ts:38](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cubic-spline-value.ts#L38)&nbsp;
-
 ___
 #### outTangent
 
@@ -43,9 +39,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cubic-spline-value.ts:39](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cubic-spline-value.ts#L39)&nbsp;
-
 ___
 #### getNoLerp
 
@@ -56,9 +50,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cubic-spline-value.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cubic-spline-value.ts#L41)&nbsp;
-
 ___
 #### lerp
 
@@ -69,7 +61,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cubic-spline-value.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cubic-spline-value.ts#L40)&nbsp;
-
 ___

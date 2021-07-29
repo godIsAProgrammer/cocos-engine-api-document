@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Marks the property as editor only.
 
@@ -19,15 +18,8 @@ Marks the property as editor only.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `Object` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propertyKey` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `descriptor` | - | - |
-
 
 #### Returns `void` 
 ___

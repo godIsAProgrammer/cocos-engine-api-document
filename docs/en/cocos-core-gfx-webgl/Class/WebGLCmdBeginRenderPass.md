@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -195,6 +194,9 @@ ___
 • **new WebGLCmdBeginRenderPass**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-commands.ts:548](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-commands.ts#L548)&nbsp;
@@ -206,6 +208,7 @@ ___
 ## Methods
 
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`void`\> : `void`
@@ -213,16 +216,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-commands.ts:554](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-commands.ts#L554)&nbsp;

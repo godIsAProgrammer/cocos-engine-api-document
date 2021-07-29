@@ -18,9 +18,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:81](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L81)&nbsp;
-
 ___
 #### count
 
@@ -31,9 +29,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:84](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L84)&nbsp;
-
 ___
 #### descriptorType
 
@@ -44,9 +40,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:86](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L86)&nbsp;
-
 ___
 #### name
 
@@ -57,9 +51,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L82)&nbsp;
-
 ___
 #### stageFlags
 
@@ -70,9 +62,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:85](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L85)&nbsp;
-
 ___
 #### type
 
@@ -83,7 +73,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L83)&nbsp;
-
 ___

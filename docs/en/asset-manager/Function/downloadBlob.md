@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IDownloadParseOptions` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallback` | - |
-
 
 #### Returns `void` 
 ___

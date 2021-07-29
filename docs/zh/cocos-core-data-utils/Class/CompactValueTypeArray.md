@@ -59,6 +59,7 @@ ___
 ## Methods
 
 ### lengthFor
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **lengthFor**<`number`\>(`values: undefined, elementType: ElementType, unit: StorageUnit`) : `number`
@@ -66,37 +67,22 @@ ___
 
 Returns the length in bytes that a buffer needs to encode the specified value array in form of CVTA.
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `values` |  | The value array.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `elementType` | `ElementType` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `unit` | `StorageUnit` | Target element type.  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/utils/compact-value-type-array.ts:94](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/compact-value-type-array.ts#L94)&nbsp;
 ___
 ### compress
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **compress**<`CompactValueTypeArray`\>(`values: undefined, elementType: ElementType, unit: StorageUnit, arrayBuffer: ArrayBuffer, byteOffset: number, presumedByteOffset: number`) : `CompactValueTypeArray`
@@ -104,58 +90,31 @@ ___
 
 Compresses the specified value array in form of CVTA into target buffer.
 
-
-<!---->
-<!--    #### Returns `CompactValueTypeArray` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `values` |  | The value array.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `elementType` | `ElementType` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `unit` | `StorageUnit` | Target element type.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arrayBuffer` | `ArrayBuffer` | Target buffer.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `byteOffset` | `number` | Offset into target buffer.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `presumedByteOffset` | `number` | - |
 
 
-
 ##### Returns `CompactValueTypeArray`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/utils/compact-value-type-array.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/compact-value-type-array.ts#L106)&nbsp;
 ___
 ### decompress
+
 <div style="margin-left: 10px;">
 
 ▸   **decompress**(`arrayBuffer: ArrayBuffer`)
 
 
 Decompresses this CVTA.
-
-
-<!---->
 
 #### Parameters
 
@@ -164,12 +123,7 @@ Decompresses this CVTA.
 | `arrayBuffer` | `ArrayBuffer` | The buffer this CVTA stored in.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/utils/compact-value-type-array.ts:127](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/compact-value-type-array.ts#L127)&nbsp;

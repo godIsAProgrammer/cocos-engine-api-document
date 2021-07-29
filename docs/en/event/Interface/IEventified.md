@@ -19,9 +19,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L141)&nbsp;
-
 ___
 #### hasEventListener
 
@@ -32,9 +30,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L52)&nbsp;
-
 ___
 #### off
 
@@ -45,9 +41,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L114)&nbsp;
-
 ___
 #### on
 
@@ -58,9 +52,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L72)&nbsp;
-
 ___
 #### once
 
@@ -71,9 +63,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L91)&nbsp;
-
 ___
 #### removeAll
 
@@ -84,9 +74,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L133)&nbsp;
-
 ___
 #### targetOff
 
@@ -97,7 +85,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L126)&nbsp;
-
 ___

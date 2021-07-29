@@ -8,13 +8,13 @@ ___
 ___
 
 
-
 **`zh`** 
 验证数组的类型。
 此函数将用 `instanceof` 操作符验证每一个元素。
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -24,11 +24,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `T` | 类型。  |
-
 
 #### Returns `array` 当每一个元素都是指定类型时返回 &#x60;true&#x60;，否则返回 &#x60;false&#x60;。
 

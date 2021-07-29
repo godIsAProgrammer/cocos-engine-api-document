@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:87](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L87)&nbsp;
-
 ___
 #### count
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:86](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L86)&nbsp;
-
 ___
 #### stride
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:85](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L85)&nbsp;
-
 ___

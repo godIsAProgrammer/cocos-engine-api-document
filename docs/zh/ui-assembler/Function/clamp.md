@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `minNum` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxNum` | `number` | - |
-
 
 #### Returns `number` 
 ___

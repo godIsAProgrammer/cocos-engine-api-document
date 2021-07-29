@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 
 刚体组件。
 
@@ -106,7 +104,6 @@
 
 
 
-
 **`zh`** 
 刚体类型的枚举。
 
@@ -145,9 +142,7 @@ ___
 
 
 
-
 **`zh`** 该组件被附加到的节点。组件总会附加到一个节点。
-
 
 
 
@@ -180,7 +175,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置是否允许休眠。
 
@@ -200,7 +194,6 @@ ___
 
 ### angularDamping
 <div style="margin-left: 10px;">
-
 
 
 
@@ -226,7 +219,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置旋转速度的因子，可以用来控制每个轴方向上的旋转速度的缩放。
 
@@ -246,7 +238,6 @@ ___
 
 ### body
 <div style="margin-left: 10px;">
-
 
 
 
@@ -272,14 +263,11 @@ ___
 
 
 
-
 **`zh`** 表示该组件自身是否启用。
 
 
 
-
 **`default`** true
-
 
 
 
@@ -313,9 +301,7 @@ ___
 
 
 
-
 **`zh`** 表示该组件是否被启用并且所在的节点也处于激活状态。
-
 
 
 
@@ -349,7 +335,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置分组。
 
@@ -372,7 +357,6 @@ ___
 
 
 
-
 **`zh`** 在继承 CCObject 对象后，控制是否需要隐藏，锁定，序列化等功能。
 
 
@@ -391,7 +375,6 @@ ___
 
 ### isAwake
 <div style="margin-left: 10px;">
-
 
 
 
@@ -417,7 +400,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置刚体是否是动力学态类型的（将根据物理动力学控制运动）。
 
@@ -437,7 +419,6 @@ ___
 
 ### isKinematic
 <div style="margin-left: 10px;">
-
 
 
 
@@ -463,7 +444,6 @@ ___
 
 
 
-
 **`zh`** 
 获取是否是正在休眠的状态。
 
@@ -483,7 +463,6 @@ ___
 
 ### isSleepy
 <div style="margin-left: 10px;">
-
 
 
 
@@ -509,7 +488,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置刚体是否是静态类型的（静止不动的）。
 
@@ -532,7 +510,6 @@ ___
 
 
 
-
 **`zh`** 
 表示该对象是否可用（被 destroy 后将不可用）。<br>
 当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。<br>
@@ -541,9 +518,7 @@ ___
 
 
 
-
 **`default`** true
-
 
 
 
@@ -582,7 +557,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置线性阻尼。
 
@@ -605,7 +579,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置线性速度的因子，可以用来控制每个轴方向上的速度的缩放。
 
@@ -625,7 +598,6 @@ ___
 
 ### mass
 <div style="margin-left: 10px;">
-
 
 
 
@@ -667,7 +639,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置进入休眠的速度临界值。
 
@@ -687,7 +658,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -713,7 +683,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置刚体是否使用重力。
 
@@ -736,9 +705,7 @@ ___
 
 
 
-
 **`zh`** 组件的 uuid，用于编辑器。
-
 
 
 
@@ -776,14 +743,10 @@ ___
 • **new RigidBody**(`name: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:194](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L194)&nbsp;
@@ -795,15 +758,14 @@ ___
 ## Methods
 
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -820,9 +782,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -830,17 +789,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -856,9 +811,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -866,21 +818,16 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### addGroup
+
 <div style="margin-left: 10px;">
 
 ▸   **addGroup**<`void`\>(`v: number`) : `void`
-
 
 
 
@@ -889,11 +836,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -901,21 +843,16 @@ ___
 | `v` | `number` | 整数，范围为 2 的 0 次方 到 2 的 31 次方  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:673](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L673)&nbsp;
 ___
 ### addMask
+
 <div style="margin-left: 10px;">
 
 ▸   **addMask**<`void`\>(`v: number`) : `void`
-
 
 
 
@@ -924,11 +861,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -936,21 +868,16 @@ ___
 | `v` | `number` | 整数，范围为 2 的 0 次方 到 2 的 31 次方  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:726](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L726)&nbsp;
 ___
 ### applyForce
+
 <div style="margin-left: 10px;">
 
 ▸   **applyForce**<`void`\>(`force: Vec3, relativePoint: Vec3`) : `void`
-
 
 
 
@@ -959,37 +886,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `force` | `Vec3` | 作用力  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `relativePoint` | `Vec3` | 作用点，相对于刚体的质心  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:453](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L453)&nbsp;
 ___
 ### applyImpulse
+
 <div style="margin-left: 10px;">
 
 ▸   **applyImpulse**<`void`\>(`impulse: Vec3, relativePoint: Vec3`) : `void`
-
 
 
 
@@ -998,37 +912,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `impulse` | `Vec3` | 冲量  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `relativePoint` | `Vec3` | 作用点，相对于刚体的中心点  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L481)&nbsp;
 ___
 ### applyLocalForce
+
 <div style="margin-left: 10px;">
 
 ▸   **applyLocalForce**<`void`\>(`force: Vec3, localPoint: Vec3`) : `void`
-
 
 
 
@@ -1037,37 +938,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `force` | `Vec3` | 作用力  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `localPoint` | `Vec3` | 作用点  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:467](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L467)&nbsp;
 ___
 ### applyLocalImpulse
+
 <div style="margin-left: 10px;">
 
 ▸   **applyLocalImpulse**<`void`\>(`impulse: Vec3, localPoint: Vec3`) : `void`
-
 
 
 
@@ -1076,37 +964,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `impulse` | `Vec3` | 冲量  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `localPoint` | `Vec3` | 作用点  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:495](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L495)&nbsp;
 ___
 ### applyLocalTorque
+
 <div style="margin-left: 10px;">
 
 ▸   **applyLocalTorque**<`void`\>(`torque: Vec3`) : `void`
-
 
 
 
@@ -1115,11 +990,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1127,21 +997,16 @@ ___
 | `torque` | `Vec3` | 扭矩  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:519](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L519)&nbsp;
 ___
 ### applyTorque
+
 <div style="margin-left: 10px;">
 
 ▸   **applyTorque**<`void`\>(`torque: Vec3`) : `void`
-
 
 
 
@@ -1150,11 +1015,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1162,21 +1022,16 @@ ___
 | `torque` | `Vec3` | 扭矩  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:508](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L508)&nbsp;
 ___
 ### clearForces
+
 <div style="margin-left: 10px;">
 
 ▸   **clearForces**<`void`\> : `void`
-
 
 
 
@@ -1187,25 +1042,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:567](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L567)&nbsp;
 ___
 ### clearState
+
 <div style="margin-left: 10px;">
 
 ▸   **clearState**<`void`\> : `void`
-
 
 
 
@@ -1216,25 +1062,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:555](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L555)&nbsp;
 ___
 ### clearVelocity
+
 <div style="margin-left: 10px;">
 
 ▸   **clearVelocity**<`void`\> : `void`
-
 
 
 
@@ -1245,21 +1082,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:579](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L579)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -1267,25 +1096,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### getAngularVelocity
+
 <div style="margin-left: 10px;">
 
 ▸   **getAngularVelocity**<`void`\>(`out: Vec3`) : `void`
-
 
 
 
@@ -1294,11 +1114,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1306,28 +1121,22 @@ ___
 | `out` | `Vec3` | 速度 Vec3  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:618](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L618)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -1345,9 +1154,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1355,19 +1161,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -1384,9 +1186,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1394,26 +1193,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -1430,9 +1223,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1440,17 +1230,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -1466,9 +1252,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1476,26 +1259,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -1512,9 +1289,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1522,17 +1296,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -1548,9 +1318,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1558,26 +1325,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -1594,9 +1355,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1604,17 +1362,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -1630,9 +1384,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1640,21 +1391,16 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### getGroup
+
 <div style="margin-left: 10px;">
 
 ▸   **getGroup**<`number`\> : `number`
-
 
 
 
@@ -1664,26 +1410,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` 整数，范围为 2 的 0 次方 到 2 的 31 次方
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:646](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L646)&nbsp;
 ___
 ### getLinearVelocity
+
 <div style="margin-left: 10px;">
 
 ▸   **getLinearVelocity**<`void`\>(`out: Vec3`) : `void`
-
 
 
 
@@ -1692,11 +1428,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1704,21 +1435,16 @@ ___
 | `out` | `Vec3` | 速度 Vec3  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:592](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L592)&nbsp;
 ___
 ### getMask
+
 <div style="margin-left: 10px;">
 
 ▸   **getMask**<`number`\> : `number`
-
 
 
 
@@ -1728,22 +1454,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` 整数，范围为 2 的 0 次方 到 2 的 31 次方
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:699](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L699)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -1751,21 +1468,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -1773,25 +1482,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### removeGroup
+
 <div style="margin-left: 10px;">
 
 ▸   **removeGroup**<`void`\>(`v: number`) : `void`
-
 
 
 
@@ -1800,11 +1500,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1812,21 +1507,16 @@ ___
 | `v` | `number` | 整数，范围为 2 的 0 次方 到 2 的 31 次方  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:686](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L686)&nbsp;
 ___
 ### removeMask
+
 <div style="margin-left: 10px;">
 
 ▸   **removeMask**<`void`\>(`v: number`) : `void`
-
 
 
 
@@ -1835,11 +1525,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1847,21 +1532,16 @@ ___
 | `v` | `number` | 整数，范围为 2 的 0 次方 到 2 的 31 次方  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:739](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L739)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -1871,32 +1551,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`zh`** 
 调度一个自定义的回调任务。<br/>
 如果回调任务已调度，那么将不会重复调度它，只会更新时间间隔参数。
-
 
 
 
@@ -1913,45 +1583,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -1959,14 +1610,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -1983,37 +1631,24 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### setAngularVelocity
+
 <div style="margin-left: 10px;">
 
 ▸   **setAngularVelocity**<`void`\>(`value: Vec3`) : `void`
-
 
 
 
@@ -2022,11 +1657,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2034,21 +1664,16 @@ ___
 | `value` | `Vec3` | 速度 Vec3  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:631](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L631)&nbsp;
 ___
 ### setGroup
+
 <div style="margin-left: 10px;">
 
 ▸   **setGroup**<`void`\>(`v: number`) : `void`
-
 
 
 
@@ -2057,11 +1682,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2069,21 +1689,16 @@ ___
 | `v` | `number` | 整数，范围为 2 的 0 次方 到 2 的 31 次方  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:660](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L660)&nbsp;
 ___
 ### setLinearVelocity
+
 <div style="margin-left: 10px;">
 
 ▸   **setLinearVelocity**<`void`\>(`value: Vec3`) : `void`
-
 
 
 
@@ -2092,11 +1707,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2104,21 +1714,16 @@ ___
 | `value` | `Vec3` | 速度 Vec3  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:605](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L605)&nbsp;
 ___
 ### setMask
+
 <div style="margin-left: 10px;">
 
 ▸   **setMask**<`void`\>(`v: number`) : `void`
-
 
 
 
@@ -2127,11 +1732,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2139,21 +1739,16 @@ ___
 | `v` | `number` | 整数，范围为 2 的 0 次方 到 2 的 31 次方  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:713](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L713)&nbsp;
 ___
 ### sleep
+
 <div style="margin-left: 10px;">
 
 ▸   **sleep**<`void`\> : `void`
-
 
 
 
@@ -2164,30 +1759,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:543](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L543)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`zh`** 取消调度一个自定义的回调任务。
-
 
 
 
@@ -2203,11 +1788,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2215,26 +1795,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`zh`** 取消调度所有已调度的回调函数。
-
 
 
 
@@ -2251,25 +1825,16 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;
 ___
 ### wakeUp
+
 <div style="margin-left: 10px;">
 
 ▸   **wakeUp**<`void`\> : `void`
-
 
 
 
@@ -2280,16 +1845,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/components/rigid-body.ts:531](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/components/rigid-body.ts#L531)&nbsp;

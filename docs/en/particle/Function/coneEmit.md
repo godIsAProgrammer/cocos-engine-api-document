@@ -13,35 +13,13 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `emitFrom` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `radius` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `radiusThickness` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `theta` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `angle` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `length` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `pos` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dir` | `any` | - |
-
 
 #### Returns `void` 
 ___

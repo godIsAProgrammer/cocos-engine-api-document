@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 生成一个四边形，宽高都为1，中心在原点。
 
@@ -19,7 +18,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `IGeometryOptions` | 参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

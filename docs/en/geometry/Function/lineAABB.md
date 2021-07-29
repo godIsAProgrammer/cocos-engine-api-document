@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 line-aabb intersect detect.
 
@@ -19,11 +18,7 @@ line-aabb intersect detect.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `line` | `Line` | 线段  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `aabb` | `AABB` | 轴对齐包围盒  |
-
 
 #### Returns `number` 0 或 非0
 

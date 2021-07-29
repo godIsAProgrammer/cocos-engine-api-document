@@ -13,31 +13,12 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `left` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `right` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bottom` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `top` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `center` | `Vec2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `angle` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `intersectPoints` | - | - |
-
 
 #### Returns `void` 
 ___

@@ -17,9 +17,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-types.ts:115](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-types.ts#L115)&nbsp;
-
 ___
 #### fixtureIndex
 
@@ -30,9 +28,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-types.ts:116](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-types.ts#L116)&nbsp;
-
 ___
 #### fraction
 
@@ -43,9 +39,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-types.ts:119](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-types.ts#L119)&nbsp;
-
 ___
 #### normal
 
@@ -56,9 +50,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-types.ts:118](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-types.ts#L118)&nbsp;
-
 ___
 #### point
 
@@ -69,7 +61,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-types.ts:117](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-types.ts#L117)&nbsp;
-
 ___

@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:66](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L66)&nbsp;
-
 ___
 #### delay
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L68)&nbsp;
-
 ___
 #### loop
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:67](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L67)&nbsp;
-
 ___

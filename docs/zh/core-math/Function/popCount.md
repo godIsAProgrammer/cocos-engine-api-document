@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** Counts number of bits.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
 
 #### Returns `number` 
 ___

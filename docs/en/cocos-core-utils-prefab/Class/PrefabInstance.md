@@ -143,65 +143,43 @@ ___
 ## Methods
 
 ### findPropertyOverride
+
 <div style="margin-left: 10px;">
 
 ▸   **findPropertyOverride**(`localID: undefined, propPath: undefined`)
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `localID` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propPath` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/prefab/prefab-info.ts:144](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/prefab/prefab-info.ts#L144)&nbsp;
 ___
 ### removePropertyOverride
+
 <div style="margin-left: 10px;">
 
 ▸   **removePropertyOverride**<`void`\>(`localID: undefined, propPath: undefined`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `localID` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propPath` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/prefab/prefab-info.ts:156](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/prefab/prefab-info.ts#L156)&nbsp;

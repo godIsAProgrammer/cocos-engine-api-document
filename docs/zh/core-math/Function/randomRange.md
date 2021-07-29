@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`zh`** 返回最小(包含)和最大(不包含)之间的浮点随机数。
-
 
 
 
@@ -23,11 +21,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `min` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `max` | `number` | - |
-
 
 #### Returns `number` The random number.
 

@@ -32,9 +32,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-joint.ts:11](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-joint.ts#L11)&nbsp;
-
 ___
 #### __preload
 
@@ -45,9 +43,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L63)&nbsp;
-
 ___
 #### enableLimit
 
@@ -58,9 +54,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-joint.ts:70](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-joint.ts#L70)&nbsp;
-
 ___
 #### enableMotor
 
@@ -71,9 +65,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-joint.ts:66](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-joint.ts#L66)&nbsp;
-
 ___
 #### initialize
 
@@ -84,9 +76,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-joint.ts:13](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-joint.ts#L13)&nbsp;
-
 ___
 #### lateUpdate
 
@@ -97,9 +87,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L50)&nbsp;
-
 ___
 #### onDestroy
 
@@ -110,9 +98,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L114)&nbsp;
-
 ___
 #### onDisable
 
@@ -123,9 +109,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:105](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L105)&nbsp;
-
 ___
 #### onEnable
 
@@ -136,9 +120,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:96](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L96)&nbsp;
-
 ___
 #### onFocusInEditor
 
@@ -149,9 +131,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:116](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L116)&nbsp;
-
 ___
 #### onLoad
 
@@ -162,9 +142,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:75](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L75)&nbsp;
-
 ___
 #### onLostFocusInEditor
 
@@ -175,9 +153,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:118](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L118)&nbsp;
-
 ___
 #### onRestore
 
@@ -188,9 +164,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:167](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L167)&nbsp;
-
 ___
 #### resetInEditor
 
@@ -201,9 +175,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:125](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L125)&nbsp;
-
 ___
 #### setLowerAngle
 
@@ -214,9 +186,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-joint.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-joint.ts#L71)&nbsp;
-
 ___
 #### setMaxMotorTorque
 
@@ -227,9 +197,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-joint.ts:67](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-joint.ts#L67)&nbsp;
-
 ___
 #### setMotorSpeed
 
@@ -240,9 +208,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-joint.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-joint.ts#L68)&nbsp;
-
 ___
 #### setUpperAngle
 
@@ -253,9 +219,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-joint.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-joint.ts#L72)&nbsp;
-
 ___
 #### start
 
@@ -266,9 +230,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:87](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L87)&nbsp;
-
 ___
 #### update
 
@@ -279,7 +241,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/spec/i-lifecycle.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/spec/i-lifecycle.ts#L40)&nbsp;
-
 ___

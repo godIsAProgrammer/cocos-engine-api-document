@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 Cache manager is a module which controls all caches downloaded from server in non-web platform, it is a singleton
 All member can be accessed with `cc.assetManager.cacheManager`.
@@ -43,7 +42,6 @@ All member can be accessed with `cc.assetManager.cacheManager`.
 
 
 
-
 **`en`** 
 Whether or not auto clear cache when storage ran out, this property only works on mini-game platforms
 
@@ -63,7 +61,6 @@ ___
 
 ### cacheDir
 <div style="margin-left: 10px;">
-
 
 
 
@@ -89,7 +86,6 @@ ___
 
 
 
-
 **`en`** 
 Whether or not cache asset into user's storage space, this property only works on mini-game platforms
 
@@ -109,7 +105,6 @@ ___
 
 ### cacheInterval
 <div style="margin-left: 10px;">
-
 
 
 
@@ -135,7 +130,6 @@ ___
 
 
 
-
 **`en`** 
 List of all cached files
 
@@ -155,7 +149,6 @@ ___
 
 ### deleteInterval
 <div style="margin-left: 10px;">
-
 
 
 
@@ -179,10 +172,10 @@ ___
 ## Methods
 
 ### clearCache
+
 <div style="margin-left: 10px;">
 
 ▸   **clearCache**<`void`\> : `void`
-
 
 
 
@@ -193,25 +186,16 @@ Clear all caches, please use with caution, If necessary, we recommend using it b
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L133)&nbsp;
 ___
 ### clearLRU
+
 <div style="margin-left: 10px;">
 
 ▸   **clearLRU**<`void`\> : `void`
-
 
 
 
@@ -222,25 +206,16 @@ Clear part of caches with LRU strategy
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:143](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L143)&nbsp;
 ___
 ### getCache
+
 <div style="margin-left: 10px;">
 
 ▸   **getCache**<`string`\>(`originUrl: string`) : `string`
-
 
 
 
@@ -250,12 +225,6 @@ Get cached path with origin url
 
 
 
-
-<!---->
-<!--    #### Returns `string` The cached path
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -263,21 +232,16 @@ Get cached path with origin url
 | `originUrl` | `string` | - |
 
 
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L111)&nbsp;
 ___
 ### getTemp
+
 <div style="margin-left: 10px;">
 
 ▸   **getTemp**<`string`\>(`originUrl: string`) : `string`
-
 
 
 
@@ -287,12 +251,6 @@ Get temporary path with origin url, this method only works on mini-game platform
 
 
 
-
-<!---->
-<!--    #### Returns `string` The temp path
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -300,21 +258,16 @@ Get temporary path with origin url, this method only works on mini-game platform
 | `originUrl` | `string` | - |
 
 
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:123](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L123)&nbsp;
 ___
 ### removeCache
+
 <div style="margin-left: 10px;">
 
 ▸   **removeCache**<`void`\>(`originUrl: string`) : `void`
-
 
 
 
@@ -324,11 +277,6 @@ Remove cache with origin url
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -336,12 +284,7 @@ Remove cache with origin url
 | `originUrl` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:153](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L153)&nbsp;

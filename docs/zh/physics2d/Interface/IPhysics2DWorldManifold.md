@@ -12,10 +12,8 @@
 
 
 
-
 **`en`** 
 world vector pointing from A to B
-
 
 
 
@@ -28,9 +26,7 @@ world vector pointing from A to B
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L63)&nbsp;
-
 ___
 #### points
 
@@ -38,10 +34,8 @@ ___
 
 
 
-
 **`en`** 
 world contact point (point of intersection)
-
 
 
 
@@ -54,9 +48,7 @@ world contact point (point of intersection)
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L47)&nbsp;
-
 ___
 #### separations
 
@@ -64,10 +56,8 @@ ___
 
 
 
-
 **`en`** 
 a negative value indicates overlap
-
 
 
 
@@ -80,7 +70,5 @@ a negative value indicates overlap
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:55](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L55)&nbsp;
-
 ___

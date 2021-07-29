@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`en`** Instantiate a node from the Prefab.
-
 
 
 
@@ -35,7 +33,6 @@ node.parent = director.getScene();
 | :------: | :------: | :------: |
 | `prefab` | `Prefab` | The prefab.  |
 
-
 #### Returns `Node` The instantiated node.
 ___
 
@@ -47,9 +44,7 @@ ___
 ___
 
 
-
 **`en`** Clones the object `original.
-
 
 
 
@@ -68,6 +63,7 @@ node.parent = director.getScene();
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -77,7 +73,6 @@ node.parent = director.getScene();
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `original` | `T` | An existing object that you want to make a copy of.It can be any JavaScript object(`typeof original === 'object'`) but:- it shall not be array or null;- it shall not be object of `Asset`;- if it's an object of `CCObject`, it should not have been destroyed.  |
-
 
 #### Returns `T` The newly instantiated object.
 ___

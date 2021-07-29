@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `comp1` | `MeshRenderer` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `comp2` | `MeshRenderer` | - |
-
 
 #### Returns `boolean` 
 ___

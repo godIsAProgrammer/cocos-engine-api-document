@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `singleInvoke` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `fastPath` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ensureFlag` | `any` | - |
-
 
 #### Returns `(Anonymous function)` 
 ___

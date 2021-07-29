@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `iterator` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `flagToClear` | `any` | - |
-
 
 #### Returns `void` 
 ___

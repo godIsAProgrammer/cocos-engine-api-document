@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 节点层管理器，层数据是以掩码数据方式存储在 [[Node.layer]] 中，用于射线检测、物理碰撞和用户自定义脚本逻辑。
 每个节点可属于一个或多个层，可通过 “包含式” 或 “排除式” 两种检测器进行层检测。
 
@@ -36,7 +35,6 @@
 
 
 
-
 **`zh`** 包含所有层的 [[BitMask]]
 
 
@@ -55,7 +53,6 @@ ___
 
 ### Enum
 <div style="margin-left: 10px;">
-
 
 
 
@@ -78,10 +75,10 @@ ___
 ## Methods
 
 ### makeMaskInclude
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **makeMaskInclude**<`number`\>(`includes: undefined`) : `number`
-
 
 
 
@@ -90,12 +87,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` A filter which can detect all accepted layers
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -103,21 +94,16 @@ ___
 | `includes` |  | All accepted layers  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/layers.ts:77](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/layers.ts#L77)&nbsp;
 ___
 ### makeMaskExclude
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **makeMaskExclude**<`number`\>(`excludes: undefined`) : `number`
-
 
 
 
@@ -126,12 +112,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` A filter which can detect for excluded layers
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -139,21 +119,16 @@ ___
 | `excludes` |  | All excluded layers  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/layers.ts:93](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/layers.ts#L93)&nbsp;
 ___
 ### deleteLayer
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **deleteLayer**<`void`\>(`bitNum: number`) : `void`
-
 
 
 
@@ -161,11 +136,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -173,21 +143,16 @@ ___
 | `bitNum` | `number` | Layer's bit position  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/layers.ts:123](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/layers.ts#L123)&nbsp;
 ___
 ### addLayer
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **addLayer**<`void`\>(`name: string, bitNum: number`) : `void`
-
 
 
 
@@ -195,28 +160,15 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `name` | `string` | Layer's name  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bitNum` | `number` | Layer's bit position  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/layers.ts:103](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/layers.ts#L103)&nbsp;

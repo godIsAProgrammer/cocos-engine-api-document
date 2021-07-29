@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 计算平面上最接近给定点的点。
 
@@ -19,15 +18,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Vec3` | 最近点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `point` | `Vec3` | 给定点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `plane_` | `Plane` | - |
-
 
 #### Returns `Vec3` 最近点。
 

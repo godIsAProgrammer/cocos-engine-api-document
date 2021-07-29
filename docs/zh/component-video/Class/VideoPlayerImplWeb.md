@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -195,14 +194,10 @@ ___
 • **new VideoPlayerImplWeb**(`component: any`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `component` | `any` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L51)&nbsp;
@@ -214,16 +209,12 @@ ___
 ## Methods
 
 ### canFullScreen
+
 <div style="margin-left: 10px;">
 
 ▸   **canFullScreen**<`void`\>(`enabled: boolean`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -232,17 +223,13 @@ ___
 | `enabled` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:175](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L175)&nbsp;
 ___
 ### canPlay
+
 <div style="margin-left: 10px;">
 
 ▸   **canPlay**<`void`\> : `void`
@@ -250,31 +237,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:74](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L74)&nbsp;
 ___
 ### createVideoPlayer
+
 <div style="margin-left: 10px;">
 
 ▸   **createVideoPlayer**<`void`\>(`url: string`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -283,17 +257,13 @@ ___
 | `url` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:258](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L258)&nbsp;
 ___
 ### delayedFullScreen
+
 <div style="margin-left: 10px;">
 
 ▸   **delayedFullScreen**<`void`\> : `void`
@@ -301,21 +271,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L226)&nbsp;
 ___
 ### delayedPlay
+
 <div style="margin-left: 10px;">
 
 ▸   **delayedPlay**<`void`\> : `void`
@@ -323,21 +285,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:210](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L210)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -345,31 +299,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:258](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L258)&nbsp;
 ___
 ### disable
+
 <div style="margin-left: 10px;">
 
 ▸   **disable**<`void`\>(`noPause: undefined | false | true`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -378,17 +319,13 @@ ___
 | `noPause` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:318](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L318)&nbsp;
 ___
 ### enable
+
 <div style="margin-left: 10px;">
 
 ▸   **enable**<`void`\> : `void`
@@ -396,21 +333,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:308](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L308)&nbsp;
 ___
 ### getCurrentTime
+
 <div style="margin-left: 10px;">
 
 ▸   **getCurrentTime**<`number`\> : `number`
@@ -418,21 +347,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:162](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L162)&nbsp;
 ___
 ### getDuration
+
 <div style="margin-left: 10px;">
 
 ▸   **getDuration**<`number`\> : `number`
@@ -440,32 +361,19 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:155](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L155)&nbsp;
 ___
 ### onCanPlay
+
 <div style="margin-left: 10px;">
 
 ▸   **onCanPlay**<`void`\>(`e: Event`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -473,28 +381,19 @@ ___
 | `e` | `Event` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:293](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L293)&nbsp;
 ___
 ### onClick
+
 <div style="margin-left: 10px;">
 
 ▸   **onClick**<`void`\>(`e: Event`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -502,28 +401,19 @@ ___
 | `e` | `Event` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:189](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L189)&nbsp;
 ___
 ### onEnded
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnded**<`void`\>(`e: Event`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -531,28 +421,19 @@ ___
 | `e` | `Event` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:185](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L185)&nbsp;
 ___
 ### onError
+
 <div style="margin-left: 10px;">
 
 ▸   **onError**<`void`\>(`e: Event`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -560,28 +441,19 @@ ___
 | `e` | `Event` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:193](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L193)&nbsp;
 ___
 ### onLoadedMetadata
+
 <div style="margin-left: 10px;">
 
 ▸   **onLoadedMetadata**<`void`\>(`e: Event`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -589,28 +461,19 @@ ___
 | `e` | `Event` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:139](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L139)&nbsp;
 ___
 ### onPause
+
 <div style="margin-left: 10px;">
 
 ▸   **onPause**<`void`\>(`e: Event`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -618,28 +481,19 @@ ___
 | `e` | `Event` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:170](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L170)&nbsp;
 ___
 ### onPlay
+
 <div style="margin-left: 10px;">
 
 ▸   **onPlay**<`void`\>(`e: Event`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -647,28 +501,19 @@ ___
 | `e` | `Event` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:161](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L161)&nbsp;
 ___
 ### onPlaying
+
 <div style="margin-left: 10px;">
 
 ▸   **onPlaying**<`void`\>(`e: Event`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -676,28 +521,19 @@ ___
 | `e` | `Event` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:166](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L166)&nbsp;
 ___
 ### onStoped
+
 <div style="margin-left: 10px;">
 
 ▸   **onStoped**<`void`\>(`e: Event`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -705,17 +541,13 @@ ___
 | `e` | `Event` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:179](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L179)&nbsp;
 ___
 ### pause
+
 <div style="margin-left: 10px;">
 
 ▸   **pause**<`void`\> : `void`
@@ -723,21 +555,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L91)&nbsp;
 ___
 ### play
+
 <div style="margin-left: 10px;">
 
 ▸   **play**<`void`\> : `void`
@@ -745,21 +569,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:202](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L202)&nbsp;
 ___
 ### removeVideoPlayer
+
 <div style="margin-left: 10px;">
 
 ▸   **removeVideoPlayer**<`void`\> : `void`
@@ -767,21 +583,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:243](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L243)&nbsp;
 ___
 ### resume
+
 <div style="margin-left: 10px;">
 
 ▸   **resume**<`void`\> : `void`
@@ -789,31 +597,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:98](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L98)&nbsp;
 ___
 ### seekTo
+
 <div style="margin-left: 10px;">
 
 ▸   **seekTo**<`void`\>(`val: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -822,17 +617,13 @@ ___
 | `val` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:169](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L169)&nbsp;
 ___
 ### stop
+
 <div style="margin-left: 10px;">
 
 ▸   **stop**<`void`\> : `void`
@@ -840,31 +631,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L102)&nbsp;
 ___
 ### syncClip
+
 <div style="margin-left: 10px;">
 
 ▸   **syncClip**<`void`\>(`clip: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -873,28 +651,19 @@ ___
 | `clip` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:115](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L115)&nbsp;
 ___
 ### syncFullScreenOnAwake
+
 <div style="margin-left: 10px;">
 
 ▸   **syncFullScreenOnAwake**<`void`\>(`enabled: boolean`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -902,28 +671,19 @@ ___
 | `enabled` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl.ts:217](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl.ts#L217)&nbsp;
 ___
 ### syncKeepAspectRatio
+
 <div style="margin-left: 10px;">
 
 ▸   **syncKeepAspectRatio**<`void`\>(`enabled: boolean`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -931,28 +691,19 @@ ___
 | `enabled` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:236](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L236)&nbsp;
 ___
 ### syncLoop
+
 <div style="margin-left: 10px;">
 
 ▸   **syncLoop**<`void`\>(`enabled: boolean`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -960,17 +711,13 @@ ___
 | `enabled` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:149](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L149)&nbsp;
 ___
 ### syncMatrix
+
 <div style="margin-left: 10px;">
 
 ▸   **syncMatrix**<`void`\> : `void`
@@ -978,31 +725,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:331](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L331)&nbsp;
 ___
 ### syncMute
+
 <div style="margin-left: 10px;">
 
 ▸   **syncMute**<`void`\>(`enabled: boolean`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1011,27 +745,18 @@ ___
 | `enabled` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:143](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L143)&nbsp;
 ___
 ### syncPlaybackRate
+
 <div style="margin-left: 10px;">
 
 ▸   **syncPlaybackRate**<`void`\>(`val: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1040,27 +765,18 @@ ___
 | `val` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:127](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L127)&nbsp;
 ___
 ### syncStayOnBottom
+
 <div style="margin-left: 10px;">
 
 ▸   **syncStayOnBottom**<`void`\>(`enabled: boolean`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1069,27 +785,18 @@ ___
 | `enabled` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L228)&nbsp;
 ___
 ### syncURL
+
 <div style="margin-left: 10px;">
 
 ▸   **syncURL**<`void`\>(`url: string`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1098,27 +805,18 @@ ___
 | `url` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L121)&nbsp;
 ___
 ### syncVolume
+
 <div style="margin-left: 10px;">
 
 ▸   **syncVolume**<`void`\>(`val: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1127,12 +825,7 @@ ___
 | `val` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-web.ts:137](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-web.ts#L137)&nbsp;

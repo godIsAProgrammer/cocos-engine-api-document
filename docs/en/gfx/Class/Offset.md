@@ -84,30 +84,12 @@ ___
 • **new Offset**(`x: number, y: number, z: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `x` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `y` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `z` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:727](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L727)&nbsp;
@@ -119,16 +101,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: Offset`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -137,12 +115,7 @@ ___
 | `info` | `Offset` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:735](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L735)&nbsp;

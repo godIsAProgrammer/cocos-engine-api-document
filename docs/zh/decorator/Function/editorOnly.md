@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 设置该属性仅在编辑器中生效。
 
@@ -20,15 +19,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `Object` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propertyKey` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `descriptor` | - | - |
-
 
 #### Returns `void` 
 ___

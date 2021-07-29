@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `obj` | `any` | instance or constructor  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `allowTempId` | - | - |
-
 
 #### Returns `any` 
 ___

@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `datas` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `start` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `end` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dim` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clockwise` | `boolean` | - |
-
 
 ___
 

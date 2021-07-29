@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 
 自定义图形类
 
@@ -123,7 +121,6 @@
 
 
 
-
 **`zh`** 渲染数据组装器
 
 
@@ -145,9 +142,7 @@ ___
 
 
 
-
 **`zh`** 混合模式枚举类型
-
 
 
 
@@ -201,7 +196,6 @@ ___
 
 ### PostAssembler
 <div style="margin-left: 10px;">
-
 
 
 
@@ -274,9 +268,7 @@ ___
 
 
 
-
 **`zh`** 该组件被附加到的节点。组件总会附加到一个节点。
-
 
 
 
@@ -306,7 +298,6 @@ ___
 
 ### stencilStage
 <div style="margin-left: 10px;">
-
 
 
 
@@ -363,7 +354,6 @@ ___
 
 
 
-
 **`zh`** 用户自定材质
 
 
@@ -417,14 +407,11 @@ ___
 
 
 
-
 **`zh`** 表示该组件自身是否启用。
 
 
 
-
 **`default`** true
-
 
 
 
@@ -458,9 +445,7 @@ ___
 
 
 
-
 **`zh`** 表示该组件是否被启用并且所在的节点也处于激活状态。
-
 
 
 
@@ -494,7 +479,6 @@ ___
 
 
 
-
 **`zh`** 
 填充绘画的颜色。
 
@@ -514,7 +498,6 @@ ___
 
 ### hideFlags
 <div style="margin-left: 10px;">
-
 
 
 
@@ -539,7 +522,6 @@ ___
 
 
 
-
 **`zh`** 
 表示该对象是否可用（被 destroy 后将不可用）。<br>
 当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。<br>
@@ -548,9 +530,7 @@ ___
 
 
 
-
 **`default`** true
-
 
 
 
@@ -589,7 +569,6 @@ ___
 
 
 
-
 **`zh`** 
 指定如何绘制每一条线段末端。
 
@@ -612,7 +591,6 @@ ___
 
 
 
-
 **`zh`** 
 用来设置2个长度不为0的相连部分（线段，圆弧，曲线）如何连接在一起的属性。
 
@@ -632,7 +610,6 @@ ___
 
 ### lineWidth
 <div style="margin-left: 10px;">
-
 
 
 
@@ -674,7 +651,6 @@ ___
 
 
 
-
 **`zh`** 模型材质。
 
 
@@ -693,7 +669,6 @@ ___
 
 ### miterLimit
 <div style="margin-left: 10px;">
-
 
 
 
@@ -799,7 +774,6 @@ ___
 
 
 
-
 **`zh`** 
 笔触的颜色。
 
@@ -822,9 +796,7 @@ ___
 
 
 
-
 **`zh`** 组件的 uuid，用于编辑器。
-
 
 
 
@@ -878,6 +850,9 @@ ___
 • **new Graphics**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:245](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L245)&nbsp;
@@ -889,16 +864,12 @@ ___
 ## Methods
 
 ### activeSubModel
+
 <div style="margin-left: 10px;">
 
 ▸   **activeSubModel**<`void`\>(`idx: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -907,26 +878,20 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:577](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L577)&nbsp;
 ___
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -943,9 +908,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -953,17 +915,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -979,9 +937,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -989,21 +944,16 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### arc
+
 <div style="margin-left: 10px;">
 
 ▸   **arc**<`void`\>(`cx: number, cy: number, r: number, startAngle: number, endAngle: number, counterclockwise: boolean`) : `void`
-
 
 
 
@@ -1013,53 +963,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cx` | `number` | 中心控制点的坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | 中心控制点的坐标 y 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `r` | `number` | 圆弧弧度。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `startAngle` | `number` | 开始弧度，从正 x 轴顺时针方向测量。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `endAngle` | `number` | 结束弧度，从正 x 轴顺时针方向测量。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `counterclockwise` | `boolean` | 如果为真，在两个角度之间逆时针绘制。默认顺时针。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:385](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L385)&nbsp;
 ___
 ### bezierCurveTo
+
 <div style="margin-left: 10px;">
 
 ▸   **bezierCurveTo**<`void`\>(`c1x: number, c1y: number, c2x: number, c2y: number, x: number, y: number`) : `void`
-
 
 
 
@@ -1069,53 +994,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `c1x` | `number` | 第一个控制点的坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `c1y` | `number` | 第一个控制点的坐标 y 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `c2x` | `number` | 第二个控制点的坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `c2y` | `number` | 第二个控制点的坐标 y 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | 最后一个控制点的坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | 最后一个控制点的坐标 y 轴。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:342](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L342)&nbsp;
 ___
 ### circle
+
 <div style="margin-left: 10px;">
 
 ▸   **circle**<`void`\>(`cx: number, cy: number, r: number`) : `void`
-
 
 
 
@@ -1125,41 +1025,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cx` | `number` | 中心点的坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | 中心点的坐标 y 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `r` | `number` | 圆半径。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:424](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L424)&nbsp;
 ___
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`void`\> : `void`
-
 
 
 
@@ -1170,25 +1054,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:497](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L497)&nbsp;
 ___
 ### close
+
 <div style="margin-left: 10px;">
 
 ▸   **close**<`void`\> : `void`
-
 
 
 
@@ -1199,21 +1074,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:522](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L522)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -1221,25 +1088,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### destroyRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyRenderData**<`void`\> : `void`
-
 
 
 
@@ -1249,25 +1107,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:401](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L401)&nbsp;
 ___
 ### ellipse
+
 <div style="margin-left: 10px;">
 
 ▸   **ellipse**<`void`\>(`cx: number, cy: number, rx: number, ry: number`) : `void`
-
 
 
 
@@ -1277,45 +1126,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cx` | `number` | 中心点的坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | 中心点的坐标 y 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rx` | `number` | 椭圆 x 轴半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ry` | `number` | 椭圆 y 轴半径。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:405](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L405)&nbsp;
 ___
 ### fill
+
 <div style="margin-left: 10px;">
 
 ▸   **fill**<`void`\> : `void`
-
 
 
 
@@ -1326,25 +1156,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:554](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L554)&nbsp;
 ___
 ### fillRect
+
 <div style="margin-left: 10px;">
 
 ▸   **fillRect**<`void`\>(`x: any, y: any, w: any, h: any`) : `void`
-
 
 
 
@@ -1354,41 +1175,23 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `any` | 矩形起始坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `any` | 矩形起始坐标 y 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `any` | 矩形宽度。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `h` | `any` | 矩形高度。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:485](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L485)&nbsp;
 ___
 ### getBlendState
+
 <div style="margin-left: 10px;">
 
 ▸   **getBlendState**<`BlendState`\> : `BlendState`
@@ -1396,32 +1199,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `BlendState` -->
-<!---->
-
-
 ##### Returns `BlendState`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:494](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L494)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -1439,9 +1232,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1449,19 +1239,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -1478,9 +1264,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1488,26 +1271,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -1524,9 +1301,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1534,17 +1308,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -1560,9 +1330,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1570,26 +1337,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -1606,9 +1367,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1616,17 +1374,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -1642,9 +1396,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1652,26 +1403,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -1688,9 +1433,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1698,17 +1440,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -1724,9 +1462,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1734,21 +1469,16 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### getMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterial**(`idx: number`)
-
 
 
 
@@ -1757,9 +1487,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1767,21 +1494,16 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L129)&nbsp;
 ___
 ### getMaterialInstance
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterialInstance**(`idx: number`)
-
 
 
 
@@ -1790,9 +1512,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1800,21 +1519,16 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:173](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L173)&nbsp;
 ___
 ### getRenderMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **getRenderMaterial**(`index: number`)
-
 
 
 
@@ -1823,9 +1537,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1833,21 +1544,16 @@ ___
 | `index` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:208](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L208)&nbsp;
 ___
 ### lineTo
+
 <div style="margin-left: 10px;">
 
 ▸   **lineTo**<`void`\>(`x: number, y: number`) : `void`
-
 
 
 
@@ -1857,48 +1563,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | 绘制路径坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | 绘制路径坐标 y 轴。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:320](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L320)&nbsp;
 ___
 ### markForUpdateRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **markForUpdateRenderData**<`void`\>(`enable: boolean`) : `void`
 
 
 
-
 **`zh`** 标记当前组件的渲染数据为已修改状态，这样渲染数据才会重新计算。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1907,21 +1595,16 @@ ___
 | `enable` | `boolean` | Marked necessary to update or not  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:372](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L372)&nbsp;
 ___
 ### moveTo
+
 <div style="margin-left: 10px;">
 
 ▸   **moveTo**<`void`\>(`x: number, y: number`) : `void`
-
 
 
 
@@ -1931,33 +1614,21 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | 移动坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | 移动坐标 y 轴。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:302](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L302)&nbsp;
 ___
 ### onDestroy
+
 <div style="margin-left: 10px;">
 
 ▸   **onDestroy**<`void`\> : `void`
@@ -1965,21 +1636,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:274](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L274)&nbsp;
 ___
 ### onDisable
+
 <div style="margin-left: 10px;">
 
 ▸   **onDisable**<`void`\> : `void`
@@ -1987,21 +1650,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:270](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L270)&nbsp;
 ___
 ### onEnable
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnable**<`void`\> : `void`
@@ -2009,21 +1664,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L265)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -2031,21 +1678,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLoad
+
 <div style="margin-left: 10px;">
 
 ▸   **onLoad**<`void`\> : `void`
@@ -2053,21 +1692,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:259](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L259)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -2075,21 +1706,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### onRestore
+
 <div style="margin-left: 10px;">
 
 ▸   **onRestore**<`void`\> : `void`
@@ -2097,25 +1720,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:253](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L253)&nbsp;
 ___
 ### postUpdateAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdateAssembler**<`void`\>(`render: Batcher2D`) : `void`
-
 
 
 
@@ -2126,11 +1740,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2138,21 +1747,16 @@ ___
 | `render` | `Batcher2D` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:434](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L434)&nbsp;
 ___
 ### quadraticCurveTo
+
 <div style="margin-left: 10px;">
 
 ▸   **quadraticCurveTo**<`void`\>(`cx: number, cy: number, x: number, y: number`) : `void`
-
 
 
 
@@ -2162,45 +1766,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cx` | `number` | 起始控制点的坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | 起始控制点的坐标 y 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | 终点控制点的坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | 终点控制点的坐标 x 轴。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:362](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L362)&nbsp;
 ___
 ### rect
+
 <div style="margin-left: 10px;">
 
 ▸   **rect**<`void`\>(`x: number, y: number, w: number, h: number`) : `void`
-
 
 
 
@@ -2210,45 +1795,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | 矩形起始坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | 矩形起始坐标 y 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `number` | 矩形宽度。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `h` | `number` | 矩形高度。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:444](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L444)&nbsp;
 ___
 ### requestRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **requestRenderData**<`RenderData`\> : `RenderData`
-
 
 
 
@@ -2257,26 +1823,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `RenderData` The new render data
--->
-<!---->
-
-
 ##### Returns `RenderData`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:391](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L391)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -2286,25 +1842,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### roundRect
+
 <div style="margin-left: 10px;">
 
 ▸   **roundRect**<`void`\>(`x: number, y: number, w: number, h: number, r: number`) : `void`
-
 
 
 
@@ -2314,56 +1861,33 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | 矩形起始坐标 x 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | 矩形起始坐标 y 轴。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `number` | 矩形宽度。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `h` | `number` | 矩形高度。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `r` | `number` | 矩形圆角半径。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L465)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`zh`** 
 调度一个自定义的回调任务。<br/>
 如果回调任务已调度，那么将不会重复调度它，只会更新时间间隔参数。
-
 
 
 
@@ -2380,45 +1904,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -2426,14 +1931,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -2450,37 +1952,24 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### setMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **setMaterial**<`void`\>(`material: Material | null, index: number`) : `void`
-
 
 
 
@@ -2489,37 +1978,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `material` | `Material \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L141)&nbsp;
 ___
 ### setMaterialInstance
+
 <div style="margin-left: 10px;">
 
 ▸   **setMaterialInstance**<`void`\>(`index: number, matInst: Material | null`) : `void`
-
 
 
 
@@ -2528,37 +2004,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `index` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `matInst` | `Material \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:192](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L192)&nbsp;
 ___
 ### stroke
+
 <div style="margin-left: 10px;">
 
 ▸   **stroke**<`void`\> : `void`
-
 
 
 
@@ -2569,30 +2032,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/components/graphics.ts:537](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/graphics.ts#L537)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`zh`** 取消调度一个自定义的回调任务。
-
 
 
 
@@ -2608,11 +2061,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2620,26 +2068,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`zh`** 取消调度所有已调度的回调函数。
-
 
 
 
@@ -2656,25 +2098,16 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;
 ___
 ### updateAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **updateAssembler**<`void`\>(`render: Batcher2D`) : `void`
-
 
 
 
@@ -2685,11 +2118,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2697,17 +2125,13 @@ ___
 | `render` | `Batcher2D` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:418](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L418)&nbsp;
 ___
 ### updateBlendHash
+
 <div style="margin-left: 10px;">
 
 ▸   **updateBlendHash**<`void`\> : `void`
@@ -2715,16 +2139,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:318](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L318)&nbsp;

@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `curTexIdx` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `grid` | `TiledGrid` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `comp` | `TiledLayer` | - |
-
 
 #### Returns `void` 
 ___

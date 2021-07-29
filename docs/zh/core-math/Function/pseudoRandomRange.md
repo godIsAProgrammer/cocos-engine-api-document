@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `seed` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `min` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `max` | `number` | - |
-
 
 #### Returns `number` The random number.
 

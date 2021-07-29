@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `buffer` | `Uint8Array` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `h` | `number` | - |
-
 
 #### Returns `string` 
 ___

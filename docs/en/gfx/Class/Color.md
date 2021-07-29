@@ -101,38 +101,13 @@ ___
 • **new Color**(`x: number, y: number, z: number, w: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `x` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `y` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `z` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `w` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:904](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L904)&nbsp;
@@ -144,16 +119,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: Color`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -162,12 +133,7 @@ ___
 | `info` | `Color` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:913](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L913)&nbsp;

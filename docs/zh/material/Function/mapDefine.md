@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `info` | `IDefineInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `def` | - | - |
-
 
 #### Returns `string` 
 ___

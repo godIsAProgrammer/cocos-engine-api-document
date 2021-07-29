@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Scale the geometry.
 
@@ -19,11 +18,7 @@ Scale the geometry.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `geometry` | `IGeometry` | 几何体信息。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | - | 缩放量。  |
-
 
 #### Returns `IGeometry` 
 ___

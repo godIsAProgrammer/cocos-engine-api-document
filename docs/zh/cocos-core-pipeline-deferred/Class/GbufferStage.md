@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 前向渲染阶段。
 
 
@@ -54,7 +52,6 @@
 
 
 
-
 **`zh`** 当前渲染阶段的名字。
 
 
@@ -76,7 +73,6 @@ ___
 
 
 
-
 **`zh`** 当前渲染阶段的优先级。
 
 
@@ -95,7 +91,6 @@ ___
 
 ### tag
 <div style="margin-left: 10px;">
-
 
 
 
@@ -124,6 +119,9 @@ ___
 • **new GbufferStage**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L83)&nbsp;
@@ -135,39 +133,28 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`pipeline: DeferredPipeline, flow: GbufferFlow`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `pipeline` | `DeferredPipeline` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `flow` | `GbufferFlow` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:99](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L99)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -175,31 +162,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L126)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: IRenderStageInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -208,27 +182,18 @@ ___
 | `info` | `IRenderStageInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L91)&nbsp;
 ___
 ### render
+
 <div style="margin-left: 10px;">
 
 ▸   **render**<`void`\>(`camera: Camera`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -237,12 +202,7 @@ ___
 | `camera` | `Camera` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/gbuffer-stage.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/gbuffer-stage.ts#L129)&nbsp;

@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `object` | `any` | Object to extend its properties.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sources` | - | Source object to copy properties from.  |
-
 
 #### Returns `any` The result object.
 

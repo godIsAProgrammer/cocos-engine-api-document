@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:179](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L179)&nbsp;
-
 ___
 #### descriptorCount
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:182](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L182)&nbsp;
-
 ___
 #### descriptorIndices
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:181](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L181)&nbsp;
-
 ___
 #### dynamicBindings
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-gpu-objects.ts:180](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-gpu-objects.ts#L180)&nbsp;
-
 ___

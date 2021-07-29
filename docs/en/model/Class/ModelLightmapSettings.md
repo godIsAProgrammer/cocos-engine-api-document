@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** model light map settings.
 
 
@@ -64,7 +63,6 @@ ___
 
 
 
-
 **`en`** bakeable.
 
 
@@ -82,7 +80,6 @@ ___
 
 ### castShadow
 <div style="margin-left: 10px;">
-
 
 
 
@@ -106,7 +103,6 @@ ___
 
 
 
-
 **`en`** lightmap size.
 
 
@@ -124,7 +120,6 @@ ___
 
 ### receiveShadow
 <div style="margin-left: 10px;">
-
 
 
 

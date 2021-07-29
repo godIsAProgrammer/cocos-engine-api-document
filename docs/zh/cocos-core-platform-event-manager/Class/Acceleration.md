@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 设备重力传感器传递的各个轴的数据。
 
 
@@ -103,38 +102,13 @@ ___
 • **new Acceleration**(`x: number, y: number, z: number, timestamp: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `x` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `y` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `z` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `timestamp` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/acceleration.ts:9](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/acceleration.ts#L9)&nbsp;

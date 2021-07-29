@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `r` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arc` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tol` | `number` | - |
-
 
 #### Returns `number` 
 ___

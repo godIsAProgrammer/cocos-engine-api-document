@@ -18,9 +18,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L50)&nbsp;
-
 ___
 #### handler
 
@@ -31,9 +29,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L51)&nbsp;
-
 ___
 #### id
 
@@ -44,9 +40,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:46](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L46)&nbsp;
-
 ___
 #### options
 
@@ -57,9 +51,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:49](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L49)&nbsp;
-
 ___
 #### priority
 
@@ -70,9 +62,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L47)&nbsp;
-
 ___
 #### url
 
@@ -83,7 +73,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:48](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L48)&nbsp;
-
 ___

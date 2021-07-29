@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `root` | `Node` | - |
-
 
 #### Returns `string` 
 ___

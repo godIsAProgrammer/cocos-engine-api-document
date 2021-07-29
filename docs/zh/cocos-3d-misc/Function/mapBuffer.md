@@ -13,31 +13,12 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `DataView` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `format` | `Format` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `length` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `stride` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `DataView` | - |
-
 
 #### Returns `DataView` 
 ___

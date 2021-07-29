@@ -11,7 +11,6 @@ ___
 ___
 
 
-
 **`zh`** 
 创建一个智能类装饰器。
 该智能类装饰器将根据以下情况来设置被装饰类的编辑器属性 `propertyName`：
@@ -20,6 +19,7 @@ ___
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `TValue` |
@@ -29,11 +29,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `propertyName` | `string` | The editor property.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `defaultValue` | `TValue` | - |
-
 
 ___
 

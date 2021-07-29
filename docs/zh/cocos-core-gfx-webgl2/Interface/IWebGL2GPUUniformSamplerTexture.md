@@ -21,9 +21,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:150](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L150)&nbsp;
-
 ___
 #### count
 
@@ -34,9 +32,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:153](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L153)&nbsp;
-
 ___
 #### glLoc
 
@@ -47,9 +43,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:158](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L158)&nbsp;
-
 ___
 #### glType
 
@@ -60,9 +54,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:157](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L157)&nbsp;
-
 ___
 #### glUnits
 
@@ -73,9 +65,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:155](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L155)&nbsp;
-
 ___
 #### name
 
@@ -86,9 +76,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:151](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L151)&nbsp;
-
 ___
 #### set
 
@@ -99,9 +87,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:149](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L149)&nbsp;
-
 ___
 #### type
 
@@ -112,9 +98,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:152](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L152)&nbsp;
-
 ___
 #### units
 
@@ -125,7 +109,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:154](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L154)&nbsp;
-
 ___

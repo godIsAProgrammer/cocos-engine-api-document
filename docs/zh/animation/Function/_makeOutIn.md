@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `fnIn` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `fnOut` | - | - |
-
 
 #### Returns `(Anonymous function)` 
 ___

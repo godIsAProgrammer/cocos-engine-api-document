@@ -15,7 +15,6 @@ ___
 | :------: | :------: | :------: |
 | `objOrCtor` | - | instance or constructor  |
 
-
 #### Returns `string` 
 ___
 

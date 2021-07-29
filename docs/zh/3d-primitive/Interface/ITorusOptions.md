@@ -17,9 +17,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/torus.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/torus.ts#L41)&nbsp;
-
 ___
 #### includeNormal
 
@@ -27,10 +25,8 @@ ___
 
 
 
-
 **`en`** 
 Whether to include normal. Default to true.
-
 
 
 
@@ -43,9 +39,7 @@ Whether to include normal. Default to true.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:46](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L46)&nbsp;
-
 ___
 #### includeUV
 
@@ -53,10 +47,8 @@ ___
 
 
 
-
 **`en`** 
 Whether to include uv. Default to true.
-
 
 
 
@@ -69,9 +61,7 @@ Whether to include uv. Default to true.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L54)&nbsp;
-
 ___
 #### radialSegments
 
@@ -82,9 +72,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/torus.ts:39](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/torus.ts#L39)&nbsp;
-
 ___
 #### tubularSegments
 
@@ -95,7 +83,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/torus.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/torus.ts#L40)&nbsp;
-
 ___

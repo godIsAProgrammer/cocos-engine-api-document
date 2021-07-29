@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-pipeline.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-pipeline.ts#L47)&nbsp;
-
 ___
 #### tag
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-pipeline.ts:48](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-pipeline.ts#L48)&nbsp;
-
 ___

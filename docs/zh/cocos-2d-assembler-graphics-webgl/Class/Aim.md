@@ -182,30 +182,12 @@ ___
 • **new Aim**(`i: number, x: number, y: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `i` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `x` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `y` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/earcut.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/earcut.ts#L47)&nbsp;

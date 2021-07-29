@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 应用默认的平面参数选项。
 
@@ -19,7 +18,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `RecursivePartial` | 平面参数选项。  |
-
 
 #### Returns `IPlaneOptions` 
 ___

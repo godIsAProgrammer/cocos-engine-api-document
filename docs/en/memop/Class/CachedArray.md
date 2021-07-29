@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 Cached array is a data structure for objects cache, it's designed for persistent data.
 Its content array length will keep grow.
@@ -46,7 +45,6 @@ Its content array length will keep grow.
 
 
 
-
 **`en`** 
 The array which stores actual content
 
@@ -65,7 +63,6 @@ ___
 
 ### length
 <div style="margin-left: 10px;">
-
 
 
 
@@ -94,22 +91,11 @@ ___
 • **new CachedArray**(`length: number, compareFn: undefined | `)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `length` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `compareFn` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L56)&nbsp;
@@ -121,10 +107,10 @@ ___
 ## Methods
 
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`void`\> : `void`
-
 
 
 
@@ -134,25 +120,16 @@ Clear the cache. The [[length]] will be set to 0, but the internal array will ke
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:113](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L113)&nbsp;
 ___
 ### concat
+
 <div style="margin-left: 10px;">
 
 ▸   **concat**<`void`\>(`array: undefined`) : `void`
-
 
 
 
@@ -161,11 +138,6 @@ Add all elements of a given array to the end of the current array
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -173,21 +145,16 @@ Add all elements of a given array to the end of the current array
 | `array` |  | The given array to be appended  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L146)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
-
 
 
 
@@ -197,36 +164,22 @@ Clear the cache. The [[length]] will be set to 0, and clear the internal array.
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:123](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L123)&nbsp;
 ___
 ### fastRemove
+
 <div style="margin-left: 10px;">
 
 ▸   **fastRemove**<`void`\>(`idx: number`) : `void`
 
 
 
-
 **`en`** Delete the element at the specified location and move the last element to that location.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -235,21 +188,16 @@ ___
 | `idx` | `number` | The index of the element to be deleted  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:157](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L157)&nbsp;
 ___
 ### get
+
 <div style="margin-left: 10px;">
 
 ▸   **get**<`T`\>(`idx: number`) : `T`
-
 
 
 
@@ -258,12 +206,6 @@ Get the element at the specified index of the array
 
 
 
-
-<!---->
-<!--    #### Returns `T` The element at given index
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -271,32 +213,22 @@ Get the element at the specified index of the array
 | `idx` | `number` | The index of the requested element  |
 
 
-
 ##### Returns `T`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:103](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L103)&nbsp;
 ___
 ### indexOf
+
 <div style="margin-left: 10px;">
 
 ▸   **indexOf**<`number`\>(`val: T`) : `number`
 
 
 
-
 **`en`** Returns the first index at which a given element can be found in the array.
 
 
-
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
 
 #### Parameters
 
@@ -305,21 +237,16 @@ ___
 | `val` | `T` | The element  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:170](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L170)&nbsp;
 ___
 ### pop
+
 <div style="margin-left: 10px;">
 
 ▸   **pop**
-
 
 
 
@@ -329,23 +256,16 @@ Pop the last element in the array. The [[length]] will reduce, but the internal 
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L91)&nbsp;
 ___
 ### push
+
 <div style="margin-left: 10px;">
 
 ▸   **push**<`void`\>(`item: T`) : `void`
-
 
 
 
@@ -354,11 +274,6 @@ Push an element to the end of the array
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -366,21 +281,16 @@ Push an element to the end of the array
 | `item` | `T` | The item to be added  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:80](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L80)&nbsp;
 ___
 ### sort
+
 <div style="margin-left: 10px;">
 
 ▸   **sort**<`void`\> : `void`
-
 
 
 
@@ -390,16 +300,7 @@ Sort the existing elements in cache
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:134](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L134)&nbsp;

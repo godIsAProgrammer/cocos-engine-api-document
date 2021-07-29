@@ -19,9 +19,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:61](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L61)&nbsp;
-
 ___
 #### nv
 
@@ -32,9 +30,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L63)&nbsp;
-
 ___
 #### triangles
 
@@ -45,9 +41,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:60](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L60)&nbsp;
-
 ___
 #### u
 
@@ -58,9 +52,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L62)&nbsp;
-
 ___
 #### v
 
@@ -71,9 +63,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:64](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L64)&nbsp;
-
 ___
 #### x
 
@@ -84,9 +74,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:58](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L58)&nbsp;
-
 ___
 #### y
 
@@ -97,7 +85,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:59](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L59)&nbsp;
-
 ___

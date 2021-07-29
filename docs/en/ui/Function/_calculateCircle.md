@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `center` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `radius` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `segments` | `number` | - |
-
 
 ___
 

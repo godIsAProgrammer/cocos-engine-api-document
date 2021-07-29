@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 将几何体转换为线框模式，仅支持三角形拓扑的几何体。
 
@@ -19,7 +18,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `geometry` | `IGeometry` | 几何体信息。  |
-
 
 #### Returns `IGeometry` 
 ___

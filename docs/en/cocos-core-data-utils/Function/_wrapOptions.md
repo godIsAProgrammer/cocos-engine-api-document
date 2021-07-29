@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `isGetset` | `boolean` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `_default` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | - | - |
-
 
 ___
 

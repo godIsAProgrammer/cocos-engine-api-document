@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `vertices` | `any` | - |
-
 
 #### Returns `boolean` 
 ___

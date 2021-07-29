@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `vel` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `limit` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dampen` | `number` | - |
-
 
 #### Returns `number` 
 ___

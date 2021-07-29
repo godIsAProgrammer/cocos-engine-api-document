@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** 
 The Armature Display of DragonBones <br/>
 <br/>
@@ -154,7 +152,6 @@ ___
 
 
 
-
 **`en`** The render data assembler
 
 
@@ -175,9 +172,7 @@ ___
 
 
 
-
 **`en`** The blend factor enums
-
 
 
 
@@ -199,7 +194,6 @@ ___
 
 ### PostAssembler
 <div style="margin-left: 10px;">
-
 
 
 
@@ -255,9 +249,7 @@ ___
 
 
 
-
 **`en`** The node this component is attached to. A component is always attached to a node.
-
 
 
 
@@ -290,7 +282,6 @@ ___
 
 
 
-
 **`en`** The play times of the default animation.
      -1 means using the value of config file;
      0 means repeat for ever
@@ -298,9 +289,7 @@ ___
 
 
 
-
 **`property`** {Number} playTimes
-
 
 
 
@@ -325,16 +314,13 @@ ___
 
 
 
-
 **`en`** Indicates whether to enable premultiplied alpha.
 You should disable this option when image's transparent area appears to have opaque pixels,
 or enable this option when image's half transparent area appears to be darken.
 
 
 
-
 **`property`** {Boolean} premultipliedAlpha
-
 
 
 
@@ -359,7 +345,6 @@ ___
 
 
 
-
 **`en`** The component stencil stage (please do not any modification directly on this object)
 
 
@@ -380,9 +365,7 @@ ___
 
 
 
-
 **`en`** The name of current playing animation.
-
 
 
 
@@ -407,9 +390,7 @@ ___
 
 
 
-
 **`en`** The name of current armature.
-
 
 
 
@@ -450,7 +431,6 @@ ___
 
 
 
-
 **`en`** Main color for rendering, it normally multiplies with texture color.
 
 
@@ -468,7 +448,6 @@ ___
 
 ### customMaterial
 <div style="margin-left: 10px;">
-
 
 
 
@@ -492,14 +471,11 @@ ___
 
 
 
-
 **`en`** Indicates whether open debug bones.
 
 
 
-
 **`property`** {Boolean} debugBones
-
 
 
 
@@ -540,12 +516,10 @@ ___
 
 
 
-
 **`en`** 
 The DragonBones data contains the armatures information (bind pose bones, slots, draw order,
 attachments, skins, etc) and animations but does not hold any state.<br/>
 Multiple ArmatureDisplay can share the same DragonBones data.
-
 
 
 
@@ -570,10 +544,8 @@ ___
 
 
 
-
 **`en`** 
 The atlas asset for the DragonBones.
-
 
 
 
@@ -598,9 +570,7 @@ ___
 
 
 
-
 **`en`** Specifies the destination blend mode.
-
 
 
 
@@ -612,7 +582,6 @@ ___
 sprite.dstBlendFactor = BlendFactor.ONE_MINUS_SRC_ALPHA;
 
 ```
-
 
 
 
@@ -637,14 +606,11 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled or not.
 
 
 
-
 **`default`** true
-
 
 
 
@@ -678,9 +644,7 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled and its node is also active in the hierarchy.
-
 
 
 
@@ -714,7 +678,6 @@ ___
 
 
 
-
 **`en`** After inheriting CCObject objects, control whether you need to hide, lock, serialize, and other functions.
 
 
@@ -735,7 +698,6 @@ ___
 
 
 
-
 **`en`** 
 Indicates whether the object is not yet destroyed. (It will not be available after being destroyed)<br>
 When an object's `destroy` is called, it is actually destroyed after the end of this frame.
@@ -746,9 +708,7 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`default`** true
-
 
 
 
@@ -800,7 +760,6 @@ ___
 
 ### materials
 <div style="margin-left: 10px;">
-
 
 
 
@@ -920,7 +879,6 @@ ___
 
 
 
-
 **`en`** 
 The bone sockets this animation component maintains.<br>
 Sockets have to be registered here before attaching custom nodes to animated bones.
@@ -943,9 +901,7 @@ ___
 
 
 
-
 **`en`** Specifies the source blend mode, it will clone a new material object.
-
 
 
 
@@ -957,7 +913,6 @@ ___
 sprite.srcBlendFactor = BlendFactor.ONE;
 
 ```
-
 
 
 
@@ -982,14 +937,11 @@ ___
 
 
 
-
 **`en`** The time scale of this armature.
 
 
 
-
 **`property`** {Number} timeScale
-
 
 
 
@@ -1014,9 +966,7 @@ ___
 
 
 
-
 **`en`** The uuid for editor.
-
 
 
 
@@ -1070,6 +1020,9 @@ ___
 • **new ArmatureDisplay**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:475](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L475)&nbsp;
@@ -1081,15 +1034,14 @@ ___
 ## Methods
 
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -1106,9 +1058,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1116,17 +1065,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -1142,9 +1087,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1152,21 +1094,16 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### addEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **addEventListener**<`void`\>(`eventType: any, listener: any, target: any`) : `void`
-
 
 
 
@@ -1175,46 +1112,29 @@ Add event listener for the DragonBones Event.
 
 
 
-
 **`method`** addEventListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `eventType` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `any` | The callback that will be invoked when the event is dispatched.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1213](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1213)&nbsp;
 ___
 ### armature
+
 <div style="margin-left: 10px;">
 
 ▸   **armature**
-
 
 
 
@@ -1223,29 +1143,21 @@ Get the current armature object of the ArmatureDisplay.
 
 
 
-
 **`method`** armature
 
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1253](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1253)&nbsp;
 ___
 ### buildArmature
+
 <div style="margin-left: 10px;">
 
 ▸   **buildArmature**<`ArmatureDisplay`\>(`armatureName: string, node: Node`) : `ArmatureDisplay`
-
 
 
 
@@ -1254,39 +1166,25 @@ Build the armature for specified name.
 
 
 
-
 **`method`** buildArmature
 
 
-
-
-<!---->
-<!--    #### Returns `ArmatureDisplay` 
--->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `armatureName` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `node` | `Node` | - |
 
 
-
 ##### Returns `ArmatureDisplay`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1241](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1241)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -1294,21 +1192,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### destroyRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyRenderData**<`void`\> : `void`
@@ -1316,21 +1206,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:520](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L520)&nbsp;
 ___
 ### disableRender
+
 <div style="margin-left: 10px;">
 
 ▸   **disableRender**<`void`\> : `void`
@@ -1338,25 +1220,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:608](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L608)&nbsp;
 ___
 ### getAnimationNames
+
 <div style="margin-left: 10px;">
 
 ▸   **getAnimationNames**(`armatureName: string`)
-
 
 
 
@@ -1365,13 +1238,9 @@ Get the all animation names of specified armature.
 
 
 
-
 **`method`** getAnimationNames
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1380,21 +1249,16 @@ Get the all animation names of specified armature.
 | `armatureName` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1141)&nbsp;
 ___
 ### getArmatureKey
+
 <div style="margin-left: 10px;">
 
 ▸   **getArmatureKey**<`string`\> : `string`
-
 
 
 
@@ -1403,9 +1267,7 @@ The key of dragonbones cache data, which is regard as 'dragonbonesName', when yo
 
 
 
-
 **`method`** getArmatureKey
-
 
 
 
@@ -1422,25 +1284,16 @@ factory.replaceSlotDisplay(toChangeArmature.getArmatureKey(), "armatureName", "s
 
 
 
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:669](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L669)&nbsp;
 ___
 ### getArmatureNames
+
 <div style="margin-left: 10px;">
 
 ▸   **getArmatureNames**
-
 
 
 
@@ -1449,25 +1302,18 @@ Get the all armature names in the DragonBones Data.
 
 
 
-
 **`method`** getArmatureNames
 
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1127](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1127)&nbsp;
 ___
 ### getBlendState
+
 <div style="margin-left: 10px;">
 
 ▸   **getBlendState**<`BlendState`\> : `BlendState`
@@ -1475,32 +1321,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `BlendState` -->
-<!---->
-
-
 ##### Returns `BlendState`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:494](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L494)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1518,9 +1354,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1528,19 +1361,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1557,9 +1386,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1567,26 +1393,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1603,9 +1423,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1613,17 +1430,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1639,9 +1452,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1649,26 +1459,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1685,9 +1489,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1695,17 +1496,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1721,9 +1518,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1731,26 +1525,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1767,9 +1555,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1777,17 +1562,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1803,9 +1584,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1813,21 +1591,16 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### getMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterial**(`idx: number`)
-
 
 
 
@@ -1835,9 +1608,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1845,54 +1615,37 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L129)&nbsp;
 ___
 ### getMaterialForBlend
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterialForBlend**<`MaterialInstance`\>(`src: BlendFactor, dst: BlendFactor`) : `MaterialInstance`
 
 
 
-
-<!---->
-<!--    #### Returns `MaterialInstance` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `src` | `BlendFactor` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dst` | `BlendFactor` | - |
 
 
-
 ##### Returns `MaterialInstance`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:533](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L533)&nbsp;
 ___
 ### getMaterialInstance
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterialInstance**(`idx: number`)
-
 
 
 
@@ -1900,9 +1653,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1910,21 +1660,16 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:173](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L173)&nbsp;
 ___
 ### getRenderMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **getRenderMaterial**(`index: number`)
-
 
 
 
@@ -1933,9 +1678,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1943,17 +1685,13 @@ ___
 | `index` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:208](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L208)&nbsp;
 ___
 ### initFactory
+
 <div style="margin-left: 10px;">
 
 ▸   **initFactory**<`void`\> : `void`
@@ -1961,31 +1699,21 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:492](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L492)&nbsp;
 ___
 ### invalidAnimationCache
+
 <div style="margin-left: 10px;">
 
 ▸   **invalidAnimationCache**<`void`\> : `void`
 
 
 
-
 **`en`** 
 Invalidates the animation cache, which is then recomputed on each frame..
-
 
 
 
@@ -1995,30 +1723,20 @@ Invalidates the animation cache, which is then recomputed on each frame..
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1114)&nbsp;
 ___
 ### isAnimationCached
+
 <div style="margin-left: 10px;">
 
 ▸   **isAnimationCached**<`boolean`\> : `boolean`
 
 
 
-
 **`en`** Whether in cached mode.
-
 
 
 
@@ -2027,37 +1745,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` 
--->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:704](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L704)&nbsp;
 ___
 ### markForUpdateRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **markForUpdateRenderData**<`void`\>(`enable: boolean`) : `void`
 
 
 
-
 **`en`** Marks the render data of the current component as modified so that the render data is recalculated.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2066,21 +1769,16 @@ ___
 | `enable` | `boolean` | Marked necessary to update or not  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:372](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L372)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`eventType: string, listener: any, target: any`) : `void`
-
 
 
 
@@ -2089,46 +1787,29 @@ Remove the event listener for the DragonBones Event, the same to removeEventList
 
 
 
-
 **`method`** off
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `eventType` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1183](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1183)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**<`void`\>(`eventType: string, listener: any, target: any`) : `void`
-
 
 
 
@@ -2137,42 +1818,26 @@ Add event listener for the DragonBones Event, the same to addEventListener.
 
 
 
-
 **`method`** on
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `eventType` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `any` | The callback that will be invoked when the event is dispatched.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1169](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1169)&nbsp;
 ___
 ### onDestroy
+
 <div style="margin-left: 10px;">
 
 ▸   **onDestroy**<`void`\> : `void`
@@ -2180,21 +1845,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:792](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L792)&nbsp;
 ___
 ### onDisable
+
 <div style="margin-left: 10px;">
 
 ▸   **onDisable**<`void`\> : `void`
@@ -2202,21 +1859,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:718](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L718)&nbsp;
 ___
 ### onEnable
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnable**<`void`\> : `void`
@@ -2224,21 +1873,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:709](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L709)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -2246,21 +1887,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLoad
+
 <div style="margin-left: 10px;">
 
 ▸   **onLoad**<`void`\> : `void`
@@ -2268,21 +1901,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:496](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L496)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -2290,21 +1915,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### onRestore
+
 <div style="margin-left: 10px;">
 
 ▸   **onRestore**<`void`\> : `void`
@@ -2312,25 +1929,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:340](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L340)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**<`void`\>(`eventType: string, listener: any, target: any`) : `void`
-
 
 
 
@@ -2339,46 +1947,29 @@ Add DragonBones one-time event listener, the callback will remove itself after t
 
 
 
-
 **`method`** once
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `eventType` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `any` | The callback that will be invoked when the event is dispatched.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1198](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1198)&nbsp;
 ___
 ### playAnimation
+
 <div style="margin-left: 10px;">
 
 ▸   **playAnimation**(`animName: string, playTimes: undefined | number`)
-
 
 
 
@@ -2392,35 +1983,24 @@ Parameter playTimes specify the repeat times of the animation.
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `animName` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `playTimes` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1064](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1064)&nbsp;
 ___
 ### postUpdateAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdateAssembler**<`void`\>(`render: Batcher2D`) : `void`
-
 
 
 
@@ -2430,11 +2010,6 @@ Don't call it unless you know what you are doing.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2442,30 +2017,22 @@ Don't call it unless you know what you are doing.
 | `render` | `Batcher2D` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:434](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L434)&nbsp;
 ___
 ### querySocketPathByName
+
 <div style="margin-left: 10px;">
 
 ▸   **querySocketPathByName**(`name: string`)
 
 
 
-
 **`en`** Query socket path with slot or bone name.
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -2474,17 +2041,13 @@ ___
 | `name` | `string` | Slot name or Bone name  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:934](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L934)&nbsp;
 ___
 ### querySockets
+
 <div style="margin-left: 10px;">
 
 ▸   **querySockets**
@@ -2492,23 +2055,16 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:915](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L915)&nbsp;
 ___
 ### removeEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **removeEventListener**<`void`\>(`eventType: any, listener: any, target: any`) : `void`
-
 
 
 
@@ -2517,42 +2073,26 @@ Remove the event listener for the DragonBones Event.
 
 
 
-
 **`method`** removeEventListener
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `eventType` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `listener` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1227](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1227)&nbsp;
 ___
 ### requestMeshRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **requestMeshRenderData**<`ArmatureDisplayMeshData`\> : `ArmatureDisplayMeshData`
@@ -2560,25 +2100,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `ArmatureDisplayMeshData` -->
-<!---->
-
-
 ##### Returns `ArmatureDisplayMeshData`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:509](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L509)&nbsp;
 ___
 ### requestRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **requestRenderData**<`RenderData`\> : `RenderData`
-
 
 
 
@@ -2587,26 +2118,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `RenderData` The new render data
--->
-<!---->
-
-
 ##### Returns `RenderData`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:391](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L391)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -2616,21 +2137,13 @@ This function is only called in editor.<br/>
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### resetRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **resetRenderData**<`void`\> : `void`
@@ -2638,32 +2151,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:527](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L527)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`en`** 
 Schedules a custom task.<br/>
 If the task is already scheduled, then the interval parameter will be updated without scheduling it again.
-
 
 
 
@@ -2680,45 +2183,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -2726,14 +2210,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -2750,37 +2231,24 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### setAnimationCacheMode
+
 <div style="margin-left: 10px;">
 
 ▸   **setAnimationCacheMode**<`void`\>(`cacheMode: AnimationCacheMode`) : `void`
-
 
 
 
@@ -2790,9 +2258,7 @@ If set the mode in editor, then no need to worry about order problem.
 
 
 
-
 **`method`** setAnimationCacheMode
-
 
 
 
@@ -2806,11 +2272,6 @@ armatureDisplay.setAnimationCacheMode(dragonBones.ArmatureDisplay.AnimationCache
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2818,17 +2279,13 @@ armatureDisplay.setAnimationCacheMode(dragonBones.ArmatureDisplay.AnimationCache
 | `cacheMode` | `AnimationCacheMode` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:686](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L686)&nbsp;
 ___
 ### setBlendHash
+
 <div style="margin-left: 10px;">
 
 ▸   **setBlendHash**<`void`\> : `void`
@@ -2836,25 +2293,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:925](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L925)&nbsp;
 ___
 ### setMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **setMaterial**<`void`\>(`material: Material | null, index: number`) : `void`
-
 
 
 
@@ -2863,37 +2311,24 @@ new material instance will be created automatically if the sub-model is already 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `material` | `Material \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L141)&nbsp;
 ___
 ### setMaterialInstance
+
 <div style="margin-left: 10px;">
 
 ▸   **setMaterialInstance**<`void`\>(`index: number, matInst: Material | null`) : `void`
-
 
 
 
@@ -2901,42 +2336,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `index` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `matInst` | `Material \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:192](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L192)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`en`** Un-schedules a custom task.
-
 
 
 
@@ -2952,11 +2373,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2964,26 +2380,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`en`** unschedule all scheduled tasks.
-
 
 
 
@@ -3000,31 +2410,18 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`dt: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3033,21 +2430,16 @@ ___
 | `dt` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:736](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L736)&nbsp;
 ___
 ### updateAnimationCache
+
 <div style="margin-left: 10px;">
 
 ▸   **updateAnimationCache**<`void`\>(`animName: string`) : `void`
-
 
 
 
@@ -3058,15 +2450,9 @@ To update the cache, use the invalidAnimationCache method with high performance.
 
 
 
-
 **`method`** updateAnimationCache
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3075,21 +2461,16 @@ To update the cache, use the invalidAnimationCache method with high performance.
 | `animName` | `string` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:1102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L1102)&nbsp;
 ___
 ### updateAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **updateAssembler**<`void`\>(`render: Batcher2D`) : `void`
-
 
 
 
@@ -3099,11 +2480,6 @@ Don't call it unless you know what you are doing.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -3111,17 +2487,13 @@ Don't call it unless you know what you are doing.
 | `render` | `Batcher2D` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:418](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L418)&nbsp;
 ___
 ### updateBlendHash
+
 <div style="margin-left: 10px;">
 
 ▸   **updateBlendHash**<`void`\> : `void`
@@ -3129,16 +2501,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:318](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L318)&nbsp;

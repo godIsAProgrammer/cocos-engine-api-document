@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `mask` | `Mask` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `renderer` | `Batcher2D` | - |
-
 
 #### Returns `void` 
 ___

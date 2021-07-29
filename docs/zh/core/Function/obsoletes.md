@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `obj` | `any` | YourObject or YourClass.prototype  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `objName` | `any` | "YourObject" or "YourClass"  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `props` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `writable` | `any` | - |
-
 
 #### Returns `void` 
 ___

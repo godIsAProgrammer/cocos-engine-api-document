@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `object` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sources` | - | - |
-
 
 #### Returns `any` The result object.
 

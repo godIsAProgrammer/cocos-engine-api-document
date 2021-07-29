@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`en`** 
 Removes the array item at the specified index.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,11 +23,7 @@ Removes the array item at the specified index.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | 待移除元素的索引。  |
-
 
 #### Returns `void` 
 ___

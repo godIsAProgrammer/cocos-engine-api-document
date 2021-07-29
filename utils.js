@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import marked from 'marked';
 const SHOW_TYPE = ['Class', 'Classes', 'Functions', 'Function', 'Interface'];
 let langType = [];
 
@@ -110,10 +109,9 @@ export const mkdirByTemp = (dataJson, Handlebars) => {
         });
         }
 
+        // 写入搜索数据
        const c = fileDisplay(path.join('docs'));
        fs.writeFileSync('plugin/search/search.json', JSON.stringify(c));
-       fs.writeFileSync('plugin/search/searchData.js', JSON.stringify(c));
-    //    console.log(c, 'cccc');
     });
 
 
@@ -190,7 +188,7 @@ export const createModules = (children, langTag, Handlebars) => {
                         case 'Class':
                             // 生成class模板所需要的json数据
                             const classData = createDataJson(v, langTag);
-                            
+
                             classData['groups'] = classData.groups?.sort((a, b) => {
                                 if(a.title === 'Properties') {
                                     return -1;
@@ -406,12 +404,12 @@ export const isPrivate = (item) => {
 }
 /**
  * 删除文件夹及下文件
- * @param { string } dirPath 文件夹路径 
+ * @param { string } dirPath 文件夹路径
  */
 export const removeDir = ( dirPath ) => {
     if ( fs.existsSync( dirPath) ) {
         const files = fs.readdirSync(dirPath)
-    
+
         for(let i = 0; i < files.length; i++ ){
           const newPath = path.join(dirPath, files[i]);
           const stat = fs.statSync(newPath)
@@ -423,10 +421,9 @@ export const removeDir = ( dirPath ) => {
             fs.unlinkSync(newPath);
           }
         }
-    
+
         fs.rmdirSync(dirPath)//如果文件夹是空的，就将自己删除掉
     }
-    return;
 }
 
 /**
@@ -455,9 +452,7 @@ export const removeDir = ( dirPath ) => {
         const isDir = fileStat?.isDirectory();
         if ( isFile ){
             const key = '/' + fileDir?.split('.')[0];
-            // const html = marked(fs.readFileSync(fileDir, 'utf-8'));
-            // console.log(html, 'cccc');
-            const body = marked(fs.readFileSync(fileDir, 'utf-8'))
+            const body = fs.readFileSync(fileDir, 'utf-8')
                 .replace(/\n/g, '')
                 .replace(/<!-- {docsify-ignore} -->/, '')
                 .replace(/{docsify-ignore}/, '')
@@ -468,7 +463,7 @@ export const removeDir = ( dirPath ) => {
             const titleArray = key?.split('/');
             const len  = titleArray.length;
             const title = titleArray[len - 2] + ': ' + titleArray[len -1];
-            console.log(langKey, '[[[[[');
+
             filesObject[langKey][key] = {
                 body,
                 slug,
@@ -476,7 +471,8 @@ export const removeDir = ( dirPath ) => {
             }
         }
         if ( isDir ){
-            fileDisplay(fileDir);//递归，如果是文件夹，就继续遍历该文件夹下面的文件
+            //递归，如果是文件夹，就继续遍历该文件夹下面的文件
+            fileDisplay(fileDir);
         }
     })
     filesObject['searchIndex'] = '/';

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 对 a b 的绝对值进行比较大小，返回绝对值最大的值。
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `number` | number  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `number` | number  |
-
 
 #### Returns `number` 
 ___

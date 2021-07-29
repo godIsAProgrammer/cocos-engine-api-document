@@ -128,14 +128,10 @@ ___
 • **new WebViewImpl**(`component: WebView`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `component` | `WebView` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:58](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L58)&nbsp;
@@ -147,6 +143,7 @@ ___
 ## Methods
 
 ### createWebView
+
 <div style="margin-left: 10px;">
 
 ▸   **createWebView**<`void`\> : `void`
@@ -154,21 +151,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:85](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L85)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -176,21 +165,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L111)&nbsp;
 ___
 ### disable
+
 <div style="margin-left: 10px;">
 
 ▸   **disable**<`void`\> : `void`
@@ -198,21 +179,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:88](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L88)&nbsp;
 ___
 ### enable
+
 <div style="margin-left: 10px;">
 
 ▸   **enable**<`void`\> : `void`
@@ -220,31 +193,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:87](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L87)&nbsp;
 ___
 ### evaluateJS
+
 <div style="margin-left: 10px;">
 
 ▸   **evaluateJS**<`void`\>(`str: string`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -253,27 +213,18 @@ ___
 | `str` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L91)&nbsp;
 ___
 ### loadURL
+
 <div style="margin-left: 10px;">
 
 ▸   **loadURL**<`void`\>(`url: string`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -282,17 +233,13 @@ ___
 | `url` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:84](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L84)&nbsp;
 ___
 ### removeWebView
+
 <div style="margin-left: 10px;">
 
 ▸   **removeWebView**<`void`\> : `void`
@@ -300,21 +247,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:86](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L86)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
@@ -322,31 +261,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L68)&nbsp;
 ___
 ### setJavascriptInterfaceScheme
+
 <div style="margin-left: 10px;">
 
 ▸   **setJavascriptInterfaceScheme**<`void`\>(`scheme: string`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -355,27 +281,18 @@ ___
 | `scheme` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:93](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L93)&nbsp;
 ___
 ### setOnJSCallback
+
 <div style="margin-left: 10px;">
 
 ▸   **setOnJSCallback**<`void`\>(`callback: undefined`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -384,17 +301,13 @@ ___
 | `callback` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:92](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L92)&nbsp;
 ___
 ### syncMatrix
+
 <div style="margin-left: 10px;">
 
 ▸   **syncMatrix**<`void`\> : `void`
@@ -402,16 +315,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/web-view/web-view-impl.ts:89](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/web-view/web-view-impl.ts#L89)&nbsp;

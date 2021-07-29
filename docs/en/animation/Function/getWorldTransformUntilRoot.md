@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `Node` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `root` | `Node` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `outMatrix` | `Mat4` | - |
-
 
 #### Returns `Mat4` 
 ___

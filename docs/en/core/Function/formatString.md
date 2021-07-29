@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `message` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `optionalParams` | - | - |
-
 
 #### Returns `any` 
 ___

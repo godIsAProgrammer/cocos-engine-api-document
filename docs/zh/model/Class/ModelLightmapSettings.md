@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 模型光照图设置
 
 
@@ -65,7 +64,6 @@ ___
 
 
 
-
 **`zh`** 是否可烘培。
 
 
@@ -84,7 +82,6 @@ ___
 
 ### castShadow
 <div style="margin-left: 10px;">
-
 
 
 
@@ -109,7 +106,6 @@ ___
 
 
 
-
 **`zh`** 光照图大小
 
 
@@ -128,7 +124,6 @@ ___
 
 ### receiveShadow
 <div style="margin-left: 10px;">
-
 
 
 

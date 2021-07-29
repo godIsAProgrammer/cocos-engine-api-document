@@ -118,46 +118,14 @@ ___
 • **new DispatchInfo**(`groupCountX: number, groupCountY: number, groupCountZ: number, indirectBuffer: Buffer | null, indirectOffset: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `groupCountX` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `groupCountY` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `groupCountZ` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `indirectBuffer` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `indirectOffset` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1003](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1003)&nbsp;
@@ -169,16 +137,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: DispatchInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -187,12 +151,7 @@ ___
 | `info` | `DispatchInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1013](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1013)&nbsp;

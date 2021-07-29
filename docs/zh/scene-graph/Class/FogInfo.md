@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 全局雾相关信息
 
 
@@ -56,7 +55,6 @@ ___
 
 
 
-
 **`zh`** 是否启用全局雾效
 
 
@@ -74,7 +72,6 @@ ___
 
 ### fogAtten
 <div style="margin-left: 10px;">
-
 
 
 
@@ -98,7 +95,6 @@ ___
 
 
 
-
 **`zh`** 全局雾颜色
 
 
@@ -116,7 +112,6 @@ ___
 
 ### fogDensity
 <div style="margin-left: 10px;">
-
 
 
 
@@ -140,7 +135,6 @@ ___
 
 
 
-
 **`zh`** 雾效结束位置，只适用于线性雾
 
 
@@ -158,7 +152,6 @@ ___
 
 ### fogRange
 <div style="margin-left: 10px;">
-
 
 
 
@@ -182,7 +175,6 @@ ___
 
 
 
-
 **`zh`** 雾效起始位置，只适用于线性雾
 
 
@@ -200,7 +192,6 @@ ___
 
 ### fogTop
 <div style="margin-left: 10px;">
-
 
 
 
@@ -224,7 +215,6 @@ ___
 
 
 
-
 **`zh`** 全局雾类型
 
 
@@ -243,16 +233,12 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`resource: Fog`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -261,12 +247,7 @@ ___
 | `resource` | `Fog` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:370](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L370)&nbsp;

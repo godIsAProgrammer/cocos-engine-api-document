@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** GFX Queue.
 
 
@@ -64,7 +62,6 @@ ___
 
 
 
-
 **`en`** Get current type.
 
 
@@ -89,14 +86,10 @@ ___
 • **new Queue**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/queue.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/queue.ts#L52)&nbsp;
@@ -108,6 +101,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -115,31 +109,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/queue.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/queue.ts#L63)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: QueueInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -148,17 +129,13 @@ ___
 | `info` | `QueueInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/queue.ts:61](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/queue.ts#L61)&nbsp;
 ___
 ### isAsync
+
 <div style="margin-left: 10px;">
 
 ▸   **isAsync**<`boolean`\> : `boolean`
@@ -166,36 +143,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/queue.ts:59](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/queue.ts#L59)&nbsp;
 ___
 ### submit
+
 <div style="margin-left: 10px;">
 
 ▸   **submit**<`void`\>(`cmdBuffs: undefined`) : `void`
 
 
 
-
 **`en`** Submit command buffers.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -204,12 +167,7 @@ ___
 | `cmdBuffs` |  | The command buffers to be submitted.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/queue.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/queue.ts#L71)&nbsp;

@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `Device` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `h` | `number` | - |
-
 
 ___
 

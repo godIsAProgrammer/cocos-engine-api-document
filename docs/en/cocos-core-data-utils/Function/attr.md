@@ -14,11 +14,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `constructor` | `any` | The class or instance. If instance, the attribute will be dynamic and only available for the specified instance.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propertyName` | `string` | The name of property or function, used to retrieve the attributes.  |
-
 
 ___
 

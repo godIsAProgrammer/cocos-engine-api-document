@@ -152,62 +152,16 @@ ___
 • **new TextureViewInfo**(`texture: Texture, type: TextureType, format: Format, baseLevel: number, levelCount: number, baseLayer: number, layerCount: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `texture` | `Texture` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `type` | `TextureType` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `format` | `Format` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `baseLevel` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `levelCount` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `baseLayer` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `layerCount` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1068](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1068)&nbsp;
@@ -219,16 +173,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: TextureViewInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -237,12 +187,7 @@ ___
 | `info` | `TextureViewInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1080](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1080)&nbsp;

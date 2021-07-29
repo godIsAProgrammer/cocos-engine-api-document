@@ -15,10 +15,8 @@
 
 
 
-
 **`en`** 
 Box extent on Y-axis.
-
 
 
 
@@ -31,9 +29,7 @@ Box extent on Y-axis.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/box.ts:55](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/box.ts#L55)&nbsp;
-
 ___
 #### heightSegments
 
@@ -41,10 +37,8 @@ ___
 
 
 
-
 **`en`** 
 Segment count on Y-axis.
-
 
 
 
@@ -57,9 +51,7 @@ Segment count on Y-axis.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/box.ts:79](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/box.ts#L79)&nbsp;
-
 ___
 #### length
 
@@ -67,10 +59,8 @@ ___
 
 
 
-
 **`en`** 
 Box extent on Z-axis.
-
 
 
 
@@ -83,9 +73,7 @@ Box extent on Z-axis.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/box.ts:63](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/box.ts#L63)&nbsp;
-
 ___
 #### lengthSegments
 
@@ -93,10 +81,8 @@ ___
 
 
 
-
 **`en`** 
 Segment count on Z-axis.
-
 
 
 
@@ -109,9 +95,7 @@ Segment count on Z-axis.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/box.ts:87](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/box.ts#L87)&nbsp;
-
 ___
 #### width
 
@@ -119,10 +103,8 @@ ___
 
 
 
-
 **`en`** 
 Box extent on X-axis.
-
 
 
 
@@ -135,9 +117,7 @@ Box extent on X-axis.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/box.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/box.ts#L47)&nbsp;
-
 ___
 #### widthSegments
 
@@ -145,10 +125,8 @@ ___
 
 
 
-
 **`en`** 
 Segment count on X-axis.
-
 
 
 
@@ -161,7 +139,5 @@ Segment count on X-axis.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/box.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/box.ts#L71)&nbsp;
-
 ___

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Extracts the nth interleaved component.
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `n` | `number` | - |
-
 
 #### Returns `number` 
 ___

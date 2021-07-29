@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `min` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `max` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | - | - |
-
 
 #### Returns `void` 
 ___

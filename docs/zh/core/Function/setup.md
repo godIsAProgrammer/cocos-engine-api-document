@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `tag` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `table` | `object` | - |
-
 
 #### Returns `(Anonymous function)` 
 ___

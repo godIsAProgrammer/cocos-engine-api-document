@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `WebGL2Device` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gpuFramebuffer` | `IWebGL2GPUFramebuffer` | - |
-
 
 #### Returns `void` 
 ___

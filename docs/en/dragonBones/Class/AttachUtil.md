@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Attach node tool
 
 
@@ -33,6 +32,9 @@
 • **new AttachUtil**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/AttachUtil.ts:25](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/AttachUtil.ts#L25)&nbsp;
@@ -44,16 +46,12 @@
 ## Methods
 
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\>(`armatureDisplay: ArmatureDisplay`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -62,17 +60,13 @@
 | `armatureDisplay` | `ArmatureDisplay` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/AttachUtil.ts:30](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/AttachUtil.ts#L30)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
@@ -80,16 +74,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/AttachUtil.ts:37](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/AttachUtil.ts#L37)&nbsp;

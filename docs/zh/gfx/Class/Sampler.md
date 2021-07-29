@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** GFX 采样器。
 
 
@@ -236,14 +234,10 @@ ___
 • **new Sampler**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/sampler.ts:61](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/sampler.ts#L61)&nbsp;
@@ -255,6 +249,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -262,31 +257,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/sampler.ts:70](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/sampler.ts#L70)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: SamplerInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -295,12 +277,7 @@ ___
 | `info` | `SamplerInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/sampler.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/sampler.ts#L68)&nbsp;

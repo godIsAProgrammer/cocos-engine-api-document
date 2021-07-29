@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 Used to store physics ray test results.
 
@@ -35,7 +34,6 @@ Used to store physics ray test results.
 
 
 
-
 **`en`** 
 The collider hit by the ray.
 
@@ -54,7 +52,6 @@ ___
 
 ### distance
 <div style="margin-left: 10px;">
-
 
 
 
@@ -79,7 +76,6 @@ ___
 
 
 
-
 **`en`** 
 The normal of the hit plane，in world space.
 
@@ -98,7 +94,6 @@ ___
 
 ### hitPoint
 <div style="margin-left: 10px;">
-
 
 
 
@@ -121,10 +116,10 @@ ___
 ## Methods
 
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸   **clone**<`PhysicsRayResult`\> : `PhysicsRayResult`
-
 
 
 
@@ -134,16 +129,7 @@ clone.
 
 
 
-<!---->
-<!--    #### Returns `PhysicsRayResult` -->
-<!---->
-
-
 ##### Returns `PhysicsRayResult`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-ray-result.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-ray-result.ts#L106)&nbsp;

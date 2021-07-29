@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `subModels` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `lightPassIndices` | - | - |
-
 
 #### Returns `boolean` 
 ___

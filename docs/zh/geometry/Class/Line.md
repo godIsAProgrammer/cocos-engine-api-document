@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 基础几何 line。
 
@@ -45,7 +44,6 @@
 
 
 
-
 **`zh`** 
 终点。
 
@@ -68,7 +66,6 @@ ___
 
 
 
-
 **`zh`** 
 起点。
 
@@ -88,7 +85,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -118,54 +114,15 @@ ___
 • **new Line**(`sx: number, sy: number, sz: number, ex: number, ey: number, ez: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `sx` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `sy` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `sz` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `ex` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `ey` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `ez` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/line.ts:163](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/line.ts#L163)&nbsp;
@@ -177,10 +134,10 @@ ___
 ## Methods
 
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **set**<`Line`\>(`out: Line, sx: number, sy: number, sz: number, ex: number, ey: number, ez: number`) : `Line`
-
 
 
 
@@ -189,58 +146,29 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Line` out 接受操作的对象。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Line` | 接受操作的对象。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sx` | `number` | 起点的 x 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sy` | `number` | 起点的 y 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sz` | `number` | 起点的 z 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ex` | `number` | 终点的 x 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ey` | `number` | 终点的 y 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ez` | `number` | 终点的 z 部分。  |
 
 
-
 ##### Returns `Line`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/line.ts:120](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/line.ts#L120)&nbsp;
 ___
 ### len
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **len**<`number`\>(`a: Line`) : `number`
-
 
 
 
@@ -248,12 +176,6 @@ ___
 计算线的长度。
 
 
-
-
-<!---->
-<!--    #### Returns `number` 长度。
--->
-<!---->
 
 #### Parameters
 
@@ -262,21 +184,16 @@ ___
 | `a` | `Line` | 要计算的线。  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/line.ts:137](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/line.ts#L137)&nbsp;
 ___
 ### fromPoints
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromPoints**<`Line`\>(`out: Line, start: Vec3, end: Vec3`) : `Line`
-
 
 
 
@@ -285,42 +202,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Line` out 接受操作的对象。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Line` | 接受操作的对象。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `start` | `Vec3` | 起点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `end` | `Vec3` | 终点。  |
 
 
-
 ##### Returns `Line`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/line.ts:100](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/line.ts#L100)&nbsp;
 ___
 ### create
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **create**<`Line`\>(`sx: number, sy: number, sz: number, ex: number, ey: number, ez: number`) : `Line`
-
 
 
 
@@ -329,54 +229,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Line` 
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sx` | `number` | 起点的 x 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sy` | `number` | 起点的 y 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sz` | `number` | 起点的 z 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ex` | `number` | 终点的 x 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ey` | `number` | 终点的 y 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ez` | `number` | 终点的 z 部分。  |
 
 
-
 ##### Returns `Line`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/line.ts:55](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/line.ts#L55)&nbsp;
 ___
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **copy**<`Line`\>(`out: Line, a: Line`) : `Line`
-
 
 
 
@@ -385,38 +259,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Line` 接受操作的对象。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Line` | 接受操作的对象。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Line` | 复制的来源。  |
 
 
-
 ##### Returns `Line`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/line.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/line.ts#L83)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **clone**<`Line`\>(`a: Line`) : `Line`
-
 
 
 
@@ -425,12 +285,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Line` 克隆出的对象。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -438,21 +292,16 @@ ___
 | `a` | `Line` | 克隆的来源。  |
 
 
-
 ##### Returns `Line`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/line.ts:67](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/line.ts#L67)&nbsp;
 ___
 ### length
+
 <div style="margin-left: 10px;">
 
 ▸   **length**<`number`\> : `number`
-
 
 
 
@@ -462,17 +311,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` 长度。
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/line.ts:186](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/line.ts#L186)&nbsp;

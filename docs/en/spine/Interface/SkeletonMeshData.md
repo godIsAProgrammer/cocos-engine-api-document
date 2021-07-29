@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:80](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L80)&nbsp;
-
 ___
 #### texture
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:81](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L81)&nbsp;
-
 ___

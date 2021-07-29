@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `subModels` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `shadowPassIndices` | - | - |
-
 
 #### Returns `boolean` 
 ___

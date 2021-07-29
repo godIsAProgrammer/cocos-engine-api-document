@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 Task is used to run in the pipeline for some effect
 
@@ -49,7 +48,6 @@ Task is used to run in the pipeline for some effect
 
 
 
-
 **`en`** 
 The id of task
 
@@ -69,7 +67,6 @@ ___
 
 ### input
 <div style="margin-left: 10px;">
-
 
 
 
@@ -95,7 +92,6 @@ ___
 
 
 
-
 **`en`** 
 Whether or not this task is completed
 
@@ -115,7 +111,6 @@ ___
 
 ### onComplete
 <div style="margin-left: 10px;">
-
 
 
 
@@ -141,7 +136,6 @@ ___
 
 
 
-
 **`en`** 
 The callback when something goes wrong
 
@@ -161,7 +155,6 @@ ___
 
 ### onProgress
 <div style="margin-left: 10px;">
-
 
 
 
@@ -187,7 +180,6 @@ ___
 
 
 
-
 **`en`** 
 Custom options
 
@@ -207,7 +199,6 @@ ___
 
 ### output
 <div style="margin-left: 10px;">
-
 
 
 
@@ -233,7 +224,6 @@ ___
 
 
 
-
 **`en`** 
 The progression of task
 
@@ -253,7 +243,6 @@ ___
 
 ### source
 <div style="margin-left: 10px;">
-
 
 
 
@@ -283,14 +272,10 @@ ___
 • **new Task**(`options: ITaskOption`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `options` | `ITaskOption` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:183](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L183)&nbsp;
@@ -302,10 +287,10 @@ ___
 ## Methods
 
 ### create
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **create**<`Task`\>(`options: ITaskOption`) : `Task`
-
 
 
 
@@ -316,17 +301,9 @@ Create a new task from pool
 
 
 
-
 **`method`** create
 
 
-
-
-<!---->
-<!--    #### Returns `Task` task
-
--->
-<!---->
 
 #### Parameters
 
@@ -335,27 +312,21 @@ Create a new task from pool
 | `options` | `ITaskOption` | Some optional paramters  |
 
 
-
 ##### Returns `Task`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L71)&nbsp;
 ___
 ### dispatch
+
 <div style="margin-left: 10px;">
 
 ▸   **dispatch**<`void`\>(`event: string, param1: any, param2: any, param3: any, param4: any`) : `void`
 
 
 
-
 **`en`** 
 Dispatch event
-
 
 
 
@@ -373,49 +344,27 @@ Task.dispatch('complete', 'hello world');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `event` | `string` | The event name  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param1` | `any` | Parameter 1  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param2` | `any` | Parameter 2  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param3` | `any` | Parameter 3  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param4` | `any` | Parameter 4  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:254](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L254)&nbsp;
 ___
 ### recycle
+
 <div style="margin-left: 10px;">
 
 ▸   **recycle**<`void`\> : `void`
-
 
 
 
@@ -426,31 +375,21 @@ Recycle this for reuse
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:289](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L289)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸   **set**<`void`\>(`options: ITaskOption`) : `void`
 
 
 
-
 **`en`** 
 Set paramters of this task
-
 
 
 
@@ -467,11 +406,6 @@ task.set({input: ['test'], onComplete: (err, result) => console.log(err), onProg
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -479,12 +413,7 @@ task.set({input: ['test'], onComplete: (err, result) => console.log(err), onProg
 | `options` | `ITaskOption` | Some optional paramters  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:224](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L224)&nbsp;

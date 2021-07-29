@@ -257,178 +257,101 @@ ___
 ## Methods
 
 ### addPoint
+
 <div style="margin-left: 10px;">
 
 ▸   **addPoint**<`void`\>(`x: number, y: number, flags: PointFlags`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `flags` | `PointFlags` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:214](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L214)&nbsp;
 ___
 ### arc
+
 <div style="margin-left: 10px;">
 
 ▸   **arc**<`void`\>(`cx: number, cy: number, r: number, startAngle: number, endAngle: number, counterclockwise: boolean`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `r` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `startAngle` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `endAngle` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `counterclockwise` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:144](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L144)&nbsp;
 ___
 ### bezierCurveTo
+
 <div style="margin-left: 10px;">
 
 ▸   **bezierCurveTo**<`void`\>(`c1x: number, c1y: number, c2x: number, c2y: number, x: number, y: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `c1x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `c1y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `c2x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `c2y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:120](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L120)&nbsp;
 ___
 ### circle
+
 <div style="margin-left: 10px;">
 
 ▸   **circle**<`void`\>(`cx: number, cy: number, r: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `r` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:153](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L153)&nbsp;
 ___
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`void`\> : `void`
@@ -436,21 +359,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:173](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L173)&nbsp;
 ___
 ### close
+
 <div style="margin-left: 10px;">
 
 ▸   **close**<`void`\> : `void`
@@ -458,62 +373,36 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:195](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L195)&nbsp;
 ___
 ### ellipse
+
 <div style="margin-left: 10px;">
 
 ▸   **ellipse**<`void`\>(`cx: number, cy: number, rx: number, ry: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ry` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:148](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L148)&nbsp;
 ___
 ### getRenderDataList
+
 <div style="margin-left: 10px;">
 
 ▸   **getRenderDataList**
@@ -521,167 +410,101 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:206](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L206)&nbsp;
 ___
 ### lineTo
+
 <div style="margin-left: 10px;">
 
 ▸   **lineTo**<`void`\>(`x: number, y: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:113](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L113)&nbsp;
 ___
 ### moveTo
+
 <div style="margin-left: 10px;">
 
 ▸   **moveTo**<`void`\>(`x: number, y: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:100](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L100)&nbsp;
 ___
 ### quadraticCurveTo
+
 <div style="margin-left: 10px;">
 
 ▸   **quadraticCurveTo**<`void`\>(`cx: number, cy: number, x: number, y: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:138](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L138)&nbsp;
 ___
 ### rect
+
 <div style="margin-left: 10px;">
 
 ▸   **rect**<`void`\>(`x: number, y: number, w: number, h: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `h` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:158](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L158)&nbsp;
 ___
 ### requestRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **requestRenderData**<`MeshRenderData`\> : `MeshRenderData`
@@ -689,61 +512,31 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `MeshRenderData` -->
-<!---->
-
-
 ##### Returns `MeshRenderData`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:199](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L199)&nbsp;
 ___
 ### roundRect
+
 <div style="margin-left: 10px;">
 
 ▸   **roundRect**<`void`\>(`x: number, y: number, w: number, h: number, r: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `h` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `r` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:168](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L168)&nbsp;

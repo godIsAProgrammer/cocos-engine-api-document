@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 Basic Geometry: capsule.
 
@@ -45,7 +44,6 @@ Basic Geometry: capsule.
 
 
 
-
 **`en`** 
 Local orientation of capsule [0,1,2] => [x,y,z].
 
@@ -64,7 +62,6 @@ ___
 
 ### center
 <div style="margin-left: 10px;">
-
 
 
 
@@ -123,7 +120,6 @@ ___
 
 
 
-
 **`en`** 
 The distance between the center point of the capsule and the center of the sphere.
 
@@ -142,7 +138,6 @@ ___
 
 ### radius
 <div style="margin-left: 10px;">
-
 
 
 
@@ -167,7 +162,6 @@ ___
 
 
 
-
 **`en`** 
 The rotation of the capsule.
 
@@ -186,7 +180,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -215,30 +208,12 @@ ___
 • **new Capsule**(`radius: number, halfHeight: number, axis: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `radius` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `halfHeight` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `axis` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/capsule.ts:96](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/capsule.ts#L96)&nbsp;
@@ -250,10 +225,10 @@ ___
 ## Methods
 
 ### transform
+
 <div style="margin-left: 10px;">
 
 ▸   **transform**<`void`\>(`m: Mat4, pos: IVec3Like, rot: IQuatLike, scale: IVec3Like, out: Capsule`) : `void`
-
 
 
 
@@ -262,45 +237,24 @@ Transform this capsule.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `m` | `Mat4` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `pos` | `IVec3Like` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rot` | `IQuatLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scale` | `IVec3Like` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Capsule` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/capsule.ts:118](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/capsule.ts#L118)&nbsp;
 ___
 ### updateCache
+
 <div style="margin-left: 10px;">
 
 ▸   **updateCache**<`void`\> : `void`
@@ -308,21 +262,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/capsule.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/capsule.ts#L133)&nbsp;
 ___
 ### updateLocalCenter
+
 <div style="margin-left: 10px;">
 
 ▸   **updateLocalCenter**<`void`\> : `void`
@@ -330,16 +276,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/capsule.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/capsule.ts#L141)&nbsp;

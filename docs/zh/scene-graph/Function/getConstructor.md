@@ -8,6 +8,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -17,7 +18,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `typeOrClassName` | - | - |
-
 
 ___
 

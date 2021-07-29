@@ -19,9 +19,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:117](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L117)&nbsp;
-
 ___
 #### glLoc
 
@@ -32,9 +30,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L121)&nbsp;
-
 ___
 #### glType
 
@@ -45,9 +41,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:120](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L120)&nbsp;
-
 ___
 #### name
 
@@ -58,9 +52,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L114)&nbsp;
-
 ___
 #### size
 
@@ -71,9 +63,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:118](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L118)&nbsp;
-
 ___
 #### stride
 
@@ -84,9 +74,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:116](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L116)&nbsp;
-
 ___
 #### type
 
@@ -97,7 +85,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-gpu-objects.ts:115](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-gpu-objects.ts#L115)&nbsp;
-
 ___

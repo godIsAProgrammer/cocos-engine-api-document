@@ -12,8 +12,6 @@
 
 
 
-
-
 **`zh`** 
 缓动系统。
 
@@ -47,7 +45,6 @@
 
 
 
-
 **`zh`** 
 此系统的 ID 标记。
 
@@ -70,7 +67,6 @@ ___
 
 
 
-
 **`zh`** 
 获取缓动系统的实例。
 
@@ -90,7 +86,6 @@ ___
 
 ### ActionManager
 <div style="margin-left: 10px;">
-
 
 
 
@@ -146,10 +141,10 @@ ___
 ## Methods
 
 ### sortByPriority
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **sortByPriority**(`a: System, b: System`)
-
 
 
 
@@ -157,35 +152,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `System` | System a  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `System` | System b  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L62)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\> : `void`
-
 
 
 
@@ -195,36 +179,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L76)&nbsp;
 ___
 ### postUpdate
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdate**<`void`\>(`dt: number`) : `void`
 
 
 
-
 **`zh`** 系统的帧后处理函数，它会在所有组件的 lateUpdate 之后以及渲染之前被调用
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -233,21 +203,16 @@ ___
 | `dt` | `number` | Delta time after the last frame  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:88](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L88)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`dt: number`) : `void`
-
 
 
 
@@ -256,11 +221,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -268,12 +228,7 @@ ___
 | `dt` | `number` | 间隔时间  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween-system.ts:78](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween-system.ts#L78)&nbsp;

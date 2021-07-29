@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ratios` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | - |
-
 
 #### Returns `number` 
 ___

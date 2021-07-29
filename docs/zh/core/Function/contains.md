@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`zh`** 
 返回数组是否包含指定的元素。
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,11 +23,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `T` | - |
-
 
 #### Returns `boolean` 返回数组是否包含指定的元素。
 

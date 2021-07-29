@@ -13,31 +13,12 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `WebGL2Device` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gpuRenderPass` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gpuFramebuffer` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `renderArea` | `Rect` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clearColors` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clearDepth` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clearStencil` | `number` | - |
-
 
 #### Returns `void` 
 ___

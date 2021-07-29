@@ -37,7 +37,6 @@
 
 
 
-
 **`zh`** 是否启用天空盒？
 
 
@@ -56,7 +55,6 @@ ___
 
 ### envmap
 <div style="margin-left: 10px;">
-
 
 
 
@@ -97,7 +95,6 @@ ___
 
 
 
-
 **`zh`** 是否需要开启 shader 内的 RGBE 数据支持？
 
 
@@ -135,7 +132,6 @@ ___
 
 
 
-
 **`zh`** 是否启用环境光照？
 
 
@@ -161,6 +157,9 @@ ___
 • **new Skybox**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/skybox.ts:120](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/skybox.ts#L120)&nbsp;
@@ -172,6 +171,7 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\> : `void`
@@ -179,21 +179,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/skybox.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/skybox.ts#L133)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -201,31 +193,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/skybox.ts:184](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/skybox.ts#L184)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`skyboxInfo: SkyboxInfo`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -234,12 +213,7 @@ ___
 | `skyboxInfo` | `SkyboxInfo` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/skybox.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/skybox.ts#L126)&nbsp;

@@ -118,46 +118,14 @@ ___
 • **new DescriptorSetLayoutBinding**(`binding: number, descriptorType: DescriptorType, count: number, stageFlags: ShaderStageFlags, immutableSamplers: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `binding` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `descriptorType` | `DescriptorType` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `count` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stageFlags` | `ShaderStageFlags` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `immutableSamplers` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1519](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1519)&nbsp;
@@ -169,16 +137,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: DescriptorSetLayoutBinding`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -187,12 +151,7 @@ ___
 | `info` | `DescriptorSetLayoutBinding` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1529](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1529)&nbsp;

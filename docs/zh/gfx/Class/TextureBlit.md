@@ -135,54 +135,15 @@ ___
 • **new TextureBlit**(`srcSubres: TextureSubresLayers, srcOffset: Offset, srcExtent: Extent, dstSubres: TextureSubresLayers, dstOffset: Offset, dstExtent: Extent`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `srcSubres` | `TextureSubresLayers` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `srcOffset` | `Offset` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `srcExtent` | `Extent` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dstSubres` | `TextureSubresLayers` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dstOffset` | `Offset` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dstExtent` | `Extent` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:837](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L837)&nbsp;
@@ -194,16 +155,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: TextureBlit`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -212,12 +169,7 @@ ___
 | `info` | `TextureBlit` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:848](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L848)&nbsp;

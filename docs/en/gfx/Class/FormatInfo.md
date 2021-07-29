@@ -165,70 +165,17 @@ ___
 • **new FormatInfo**(`name: string, size: number, count: number, type: FormatType, hasAlpha: boolean, hasDepth: boolean, hasStencil: boolean, isCompressed: boolean`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `size` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `count` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `type` | `FormatType` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `hasAlpha` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `hasDepth` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `hasStencil` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isCompressed` | `boolean` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1620](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1620)&nbsp;

@@ -8,6 +8,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -17,15 +18,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | The array to search in.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `T` | The value to search.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `lessThan` | - | The predicate which implements the less than semantic.  |
-
 
 #### Returns `number` The index of the searched element in the sorted array, if one is found;
 otherwise, a negative number that is the bitwise complement of the index of the next element that is large than the searched value or,

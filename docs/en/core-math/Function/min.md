@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Computes minimum of integers x and y.
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
 
 #### Returns `number` 
 ___

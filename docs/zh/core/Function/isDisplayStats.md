@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 是否显示 FPS 信息和部分调试信息。
 
 
@@ -16,6 +15,8 @@ ___
 
 #### Parameters
 
+| Name | Type | Description |
+| :------: | :------: | :------: |
 
 #### Returns `boolean` 
 ___

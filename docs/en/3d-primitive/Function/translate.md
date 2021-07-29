@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Translate the geometry.
 
@@ -19,11 +18,7 @@ Translate the geometry.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `geometry` | `IGeometry` | 几何体信息。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | - | 偏移量。  |
-
 
 #### Returns `IGeometry` 
 ___

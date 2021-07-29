@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `value` | `any` | - |
 
-
 #### Returns `VerticalTextAlignment` 
 ___
 

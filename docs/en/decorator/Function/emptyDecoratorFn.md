@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 A function which ignore all arguments and return the `emptyDecorator`.
 
@@ -16,6 +15,8 @@ A function which ignore all arguments and return the `emptyDecorator`.
 
 #### Parameters
 
+| Name | Type | Description |
+| :------: | :------: | :------: |
 
 ___
 

@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `header` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `number` | - |
-
 
 #### Returns `number` 
 ___

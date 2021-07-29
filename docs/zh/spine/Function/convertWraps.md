@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `wrap` | `TextureWrap` | - |
 
-
 #### Returns `WrapMode` 
 ___
 

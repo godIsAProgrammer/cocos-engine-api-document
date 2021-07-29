@@ -55,9 +55,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:460](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L460)&nbsp;
-
 ___
 #### a
 
@@ -68,9 +66,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:78](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L78)&nbsp;
-
 ___
 #### active
 
@@ -81,9 +77,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:460](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L460)&nbsp;
-
 ___
 #### appliedValid
 
@@ -94,9 +88,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L452)&nbsp;
-
 ___
 #### arotation
 
@@ -107,9 +99,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:447](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L447)&nbsp;
-
 ___
 #### ascaleX
 
@@ -120,9 +110,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:448](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L448)&nbsp;
-
 ___
 #### ascaleY
 
@@ -133,9 +121,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:449](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L449)&nbsp;
-
 ___
 #### ashearX
 
@@ -146,9 +132,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:450](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L450)&nbsp;
-
 ___
 #### ashearY
 
@@ -159,9 +143,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:451](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L451)&nbsp;
-
 ___
 #### ax
 
@@ -172,9 +154,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:445](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L445)&nbsp;
-
 ___
 #### ay
 
@@ -185,9 +165,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:446](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L446)&nbsp;
-
 ___
 #### b
 
@@ -198,9 +176,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:79](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L79)&nbsp;
-
 ___
 #### c
 
@@ -211,9 +187,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:80](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L80)&nbsp;
-
 ___
 #### children
 
@@ -224,9 +198,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:437](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L437)&nbsp;
-
 ___
 #### d
 
@@ -237,9 +209,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:81](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L81)&nbsp;
-
 ___
 #### data
 
@@ -250,9 +220,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:434](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L434)&nbsp;
-
 ___
 #### parent
 
@@ -263,9 +231,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:436](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L436)&nbsp;
-
 ___
 #### rotation
 
@@ -276,9 +242,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:440](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L440)&nbsp;
-
 ___
 #### scaleX
 
@@ -289,9 +253,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:441](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L441)&nbsp;
-
 ___
 #### scaleY
 
@@ -302,9 +264,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:442](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L442)&nbsp;
-
 ___
 #### shearX
 
@@ -315,9 +275,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:443](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L443)&nbsp;
-
 ___
 #### shearY
 
@@ -328,9 +286,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:444](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L444)&nbsp;
-
 ___
 #### skeleton
 
@@ -341,9 +297,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:435](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L435)&nbsp;
-
 ___
 #### sorted
 
@@ -354,9 +308,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:459](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L459)&nbsp;
-
 ___
 #### worldX
 
@@ -367,9 +319,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L82)&nbsp;
-
 ___
 #### worldY
 
@@ -380,9 +330,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L83)&nbsp;
-
 ___
 #### x
 
@@ -393,9 +341,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:438](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L438)&nbsp;
-
 ___
 #### y
 
@@ -406,9 +352,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:439](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L439)&nbsp;
-
 ___
 #### getWorldRotationX
 
@@ -419,9 +363,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:467](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L467)&nbsp;
-
 ___
 #### getWorldRotationY
 
@@ -432,9 +374,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:468](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L468)&nbsp;
-
 ___
 #### getWorldScaleX
 
@@ -445,9 +385,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:469](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L469)&nbsp;
-
 ___
 #### getWorldScaleY
 
@@ -458,9 +396,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:470](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L470)&nbsp;
-
 ___
 #### isActive
 
@@ -471,9 +407,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:462](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L462)&nbsp;
-
 ___
 #### localToWorld
 
@@ -484,9 +418,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:473](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L473)&nbsp;
-
 ___
 #### localToWorldRotation
 
@@ -497,9 +429,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:475](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L475)&nbsp;
-
 ___
 #### rotateWorld
 
@@ -510,9 +440,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:476](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L476)&nbsp;
-
 ___
 #### setToSetupPose
 
@@ -523,9 +451,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:466](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L466)&nbsp;
-
 ___
 #### update
 
@@ -536,9 +462,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:463](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L463)&nbsp;
-
 ___
 #### updateAppliedTransform
 
@@ -549,9 +473,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:471](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L471)&nbsp;
-
 ___
 #### updateWorldTransform
 
@@ -562,9 +484,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:464](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L464)&nbsp;
-
 ___
 #### updateWorldTransformWith
 
@@ -575,9 +495,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L465)&nbsp;
-
 ___
 #### worldToLocal
 
@@ -588,9 +506,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:472](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L472)&nbsp;
-
 ___
 #### worldToLocalRotation
 
@@ -601,7 +517,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/lib/spine-core.d.ts:474](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/lib/spine-core.d.ts#L474)&nbsp;
-
 ___

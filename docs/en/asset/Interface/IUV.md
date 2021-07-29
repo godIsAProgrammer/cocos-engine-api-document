@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:53](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L53)&nbsp;
-
 ___
 #### v
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L54)&nbsp;
-
 ___

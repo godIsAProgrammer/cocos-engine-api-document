@@ -152,62 +152,16 @@ ___
 • **new DrawInfo**(`vertexCount: number, firstVertex: number, indexCount: number, firstIndex: number, vertexOffset: number, instanceCount: number, firstInstance: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `vertexCount` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `firstVertex` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `indexCount` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `firstIndex` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `vertexOffset` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `instanceCount` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `firstInstance` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:978](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L978)&nbsp;
@@ -219,16 +173,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: DrawInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -237,12 +187,7 @@ ___
 | `info` | `DrawInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:990](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L990)&nbsp;

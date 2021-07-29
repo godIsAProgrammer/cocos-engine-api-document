@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Reverse bits in a 32 bit word.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
 
 #### Returns `number` 
 ___

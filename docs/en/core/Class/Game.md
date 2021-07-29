@@ -15,8 +15,6 @@
 
 
 
-
-
 **`en`** An object to boot the game.
 
 
@@ -71,7 +69,6 @@
 
 
 
-
 **`en`** The canvas of the game.
 
 
@@ -108,7 +105,6 @@ ___
 
 
 
-
 **`en`** 
 The current game configuration,
 please be noticed any modification directly on this object after the game initialization won't take effect.
@@ -128,7 +124,6 @@ ___
 
 ### container
 <div style="margin-left: 10px;">
-
 
 
 
@@ -184,7 +179,6 @@ ___
 
 
 
-
 **`en`** The outer frame of the game canvas; parent of game container.
 
 
@@ -221,9 +215,7 @@ ___
 
 
 
-
 **`en`** Callback when the scripts of engine have been load.
-
 
 
 
@@ -245,7 +237,6 @@ ___
 
 ### renderType
 <div style="margin-left: 10px;">
-
 
 
 
@@ -285,7 +276,6 @@ ___
 
 
 
-
 **`en`** Indicates whether the engine and the renderer has been initialized
 
 
@@ -304,10 +294,10 @@ ___
 ## Methods
 
 ### addPersistRootNode
+
 <div style="margin-left: 10px;">
 
 ▸   **addPersistRootNode**<`void`\>(`node: Node`) : `void`
-
 
 
 
@@ -317,11 +307,6 @@ The target node must be placed in the root level of hierarchy, otherwise this AP
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -329,21 +314,16 @@ The target node must be placed in the root level of hierarchy, otherwise this AP
 | `node` | `Node` | The node to be made persistent  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:538](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L538)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`type: EventType, arg0: any, arg1: any, arg2: any, arg3: any, arg4: any`) : `void`
-
 
 
 
@@ -351,53 +331,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | event type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg2` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg3` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg4` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L141)&nbsp;
 ___
 ### end
+
 <div style="margin-left: 10px;">
 
 ▸   **end**<`void`\> : `void`
-
 
 
 
@@ -406,25 +361,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:426](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L426)&nbsp;
 ___
 ### getFrameRate
+
 <div style="margin-left: 10px;">
 
 ▸   **getFrameRate**<`number`\> : `number`
-
 
 
 
@@ -433,26 +379,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` frame rate
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:351](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L351)&nbsp;
 ___
 ### hasEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **hasEventListener**<`boolean`\>(`type: string, callback: undefined | , target: any`) : `boolean`
-
 
 
 
@@ -460,52 +396,31 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | Event type.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `undefined \| ` | Callback function when event triggered.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | Callback callee.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L52)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`Promise`\>(`config: IGameConfig`) : `Promise`
 
 
 
-
 **`en`** Init game with configuration object.
 
 
-
-
-<!---->
-<!--    #### Returns `Promise` -->
-<!---->
 
 #### Parameters
 
@@ -514,21 +429,16 @@ ___
 | `config` | `IGameConfig` | Pass configuration object  |
 
 
-
 ##### Returns `Promise`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L481)&nbsp;
 ___
 ### isPaused
+
 <div style="margin-left: 10px;">
 
 ▸   **isPaused**<`boolean`\> : `boolean`
-
 
 
 
@@ -537,36 +447,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:394](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L394)&nbsp;
 ___
 ### isPersistRootNode
+
 <div style="margin-left: 10px;">
 
 ▸   **isPersistRootNode**<`boolean`\>(`node: undefined`) : `boolean`
 
 
 
-
 **`en`** Check whether the node is a persistent root node.
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -575,28 +471,22 @@ ___
 | `node` |  | The node to be checked  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:585](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L585)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: EventType, callback: TFunction, thisArg: any`) : `void`
 
 
 
-
 **`en`** 
 Removes the listeners previously registered with the same type, callback, target and or useCapture,
 if only type is passed as parameter, all listeners registered with that type will be removed.
-
 
 
 
@@ -618,41 +508,25 @@ eventTarget.off('fire');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type being removed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback to remove.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L114)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**<`any`\>(`type: string, callback: undefined, target: any, once: undefined | false | true`) : `any`
-
 
 
 
@@ -662,46 +536,26 @@ This type of event should be triggered via `emit`.<br>
 
 
 
-
-<!---->
-<!--    #### Returns `any` - Just returns the incoming callback so you can save the anonymous function easier.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` |  | The callback that will be invoked when the event is dispatched.<br>                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `once` | `undefined \| false \| true` | After the first invocation, whether the callback should be unregistered.  |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:448](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L448)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**<`any`\>(`type: string, callback: undefined, target: any`) : `any`
-
 
 
 
@@ -711,41 +565,25 @@ the callback will remove itself after the first time it is triggered.<br>
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` |  | The callback that will be invoked when the event is dispatched.<br>                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | The target (this object) to invoke the callback, can be null  |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:468](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L468)&nbsp;
 ___
 ### pause
+
 <div style="margin-left: 10px;">
 
 ▸   **pause**<`void`\> : `void`
-
 
 
 
@@ -756,36 +594,22 @@ This is different with `director.pause` which only pause the game logic executio
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:369](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L369)&nbsp;
 ___
 ### removeAll
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAll**<`void`\>(`typeOrTarget: any`) : `void`
 
 
 
-
 **`en`** Removes all callbacks registered in a certain event type or all callbacks registered with a certain target
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -794,32 +618,22 @@ ___
 | `typeOrTarget` | `any` | The event type or target with which the listeners will be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L133)&nbsp;
 ___
 ### removePersistRootNode
+
 <div style="margin-left: 10px;">
 
 ▸   **removePersistRootNode**<`void`\>(`node: Node`) : `void`
 
 
 
-
 **`en`** Remove a persistent root node.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -828,21 +642,16 @@ ___
 | `node` | `Node` | The node to be removed from persistent node list  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:570](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L570)&nbsp;
 ___
 ### restart
+
 <div style="margin-left: 10px;">
 
 ▸   **restart**<`Promise`\> : `Promise`
-
 
 
 
@@ -851,25 +660,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Promise` -->
-<!---->
-
-
 ##### Returns `Promise`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:402](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L402)&nbsp;
 ___
 ### resume
+
 <div style="margin-left: 10px;">
 
 ▸   **resume**<`void`\> : `void`
-
 
 
 
@@ -879,36 +679,22 @@ game logic execution, rendering process, event manager, background music and all
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:384](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L384)&nbsp;
 ___
 ### run
+
 <div style="margin-left: 10px;">
 
 ▸   **run**<`Promise`\>(`onStart: Game.OnStart`) : `Promise`
 
 
 
-
 **`en`** Run game with configuration object and onStart function.
 
 
-
-
-<!---->
-<!--    #### Returns `Promise` -->
-<!---->
 
 #### Parameters
 
@@ -917,32 +703,22 @@ ___
 | `onStart` | `Game.OnStart` | function to be executed after game initialized  |
 
 
-
 ##### Returns `Promise`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:505](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L505)&nbsp;   [cocos/core/game.ts:507](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L507)&nbsp;
 ___
 ### setFrameRate
+
 <div style="margin-left: 10px;">
 
 ▸   **setFrameRate**<`void`\>(`frameRate: number | string`) : `void`
 
 
 
-
 **`en`** Set frame rate of game.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -951,21 +727,16 @@ ___
 | `frameRate` | `number \| string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:332](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L332)&nbsp;
 ___
 ### step
+
 <div style="margin-left: 10px;">
 
 ▸   **step**<`void`\> : `void`
-
 
 
 
@@ -974,25 +745,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/game.ts:359](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/game.ts#L359)&nbsp;
 ___
 ### targetOff
+
 <div style="margin-left: 10px;">
 
 ▸   **targetOff**<`void`\>(`typeOrTarget: any`) : `void`
-
 
 
 
@@ -1003,11 +765,6 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1015,12 +772,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 | `typeOrTarget` | `any` | The target to be searched for all related listeners  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L126)&nbsp;

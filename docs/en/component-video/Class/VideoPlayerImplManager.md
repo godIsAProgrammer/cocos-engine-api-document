@@ -17,16 +17,12 @@
 ## Methods
 
 ### getImpl
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **getImpl**<`VideoPlayerImplWeb`\>(`component: VideoPlayer`) : `VideoPlayerImplWeb`
 
 
-
-
-<!---->
-<!--    #### Returns `VideoPlayerImplWeb` -->
-<!---->
 
 #### Parameters
 
@@ -35,12 +31,7 @@
 | `component` | `VideoPlayer` | - |
 
 
-
 ##### Returns `VideoPlayerImplWeb`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/video/video-player-impl-manager.ts:37](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/video/video-player-impl-manager.ts#L37)&nbsp;

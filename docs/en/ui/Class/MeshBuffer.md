@@ -259,14 +259,10 @@ ___
 • **new MeshBuffer**(`batcher: Batcher2D`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `batcher` | `Batcher2D` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/renderer/mesh-buffer.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/renderer/mesh-buffer.ts#L68)&nbsp;
@@ -278,6 +274,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -285,54 +282,34 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/renderer/mesh-buffer.ts:158](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/renderer/mesh-buffer.ts#L158)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`attrs: undefined, outOfCallback:  | null`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `attrs` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `outOfCallback` | ` \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/renderer/mesh-buffer.ts:78](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/renderer/mesh-buffer.ts#L78)&nbsp;
 ___
 ### recordBatch
+
 <div style="margin-left: 10px;">
 
 ▸   **recordBatch**<`InputAssemblerHandle`\> : `InputAssemblerHandle`
@@ -340,54 +317,34 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `InputAssemblerHandle` -->
-<!---->
-
-
 ##### Returns `InputAssemblerHandle`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/renderer/mesh-buffer.ts:173](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/renderer/mesh-buffer.ts#L173)&nbsp;
 ___
 ### request
+
 <div style="margin-left: 10px;">
 
 ▸   **request**<`boolean`\>(`vertexCount: number, indicesCount: number`) : `boolean`
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `vertexCount` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `indicesCount` | `number` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/renderer/mesh-buffer.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/renderer/mesh-buffer.ts#L111)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
@@ -395,21 +352,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/renderer/mesh-buffer.ts:145](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/renderer/mesh-buffer.ts#L145)&nbsp;
 ___
 ### uploadBuffers
+
 <div style="margin-left: 10px;">
 
 ▸   **uploadBuffers**<`void`\> : `void`
@@ -417,16 +366,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/renderer/mesh-buffer.ts:192](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/renderer/mesh-buffer.ts#L192)&nbsp;

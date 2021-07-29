@@ -67,22 +67,11 @@ ___
 • **new PrimitiveType**(`name: string, defaultValue: T`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `defaultValue` | `T` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute.ts#L101)&nbsp;
@@ -94,6 +83,7 @@ ___
 ## Methods
 
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸   **toString**<`string`\> : `string`
@@ -101,16 +91,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute.ts:108](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute.ts#L108)&nbsp;

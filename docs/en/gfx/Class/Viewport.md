@@ -135,54 +135,15 @@ ___
 • **new Viewport**(`left: number, top: number, width: number, height: number, minDepth: number, maxDepth: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `left` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `top` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `width` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `height` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `minDepth` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxDepth` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:881](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L881)&nbsp;
@@ -194,16 +155,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: Viewport`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -212,12 +169,7 @@ ___
 | `info` | `Viewport` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:892](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L892)&nbsp;

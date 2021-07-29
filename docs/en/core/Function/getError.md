@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Gets error message with the error id and possible parameters.
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `errorId` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param` | - | - |
-
 
 #### Returns `string` 
 ___

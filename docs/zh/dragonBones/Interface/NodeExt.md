@@ -159,9 +159,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:148](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L148)&nbsp;
-
 ___
 #### _active
 
@@ -172,9 +170,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:309](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L309)&nbsp;
-
 ___
 #### _activeInHierarchy
 
@@ -185,9 +181,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:320](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L320)&nbsp;
-
 ___
 #### _children
 
@@ -198,9 +192,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L306)&nbsp;
-
 ___
 #### _components
 
@@ -211,9 +203,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:312](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L312)&nbsp;
-
 ___
 #### _dirtyFlags
 
@@ -224,9 +214,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:144](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L144)&nbsp;
-
 ___
 #### _euler
 
@@ -237,9 +225,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:142](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L142)&nbsp;
-
 ___
 #### _eulerDirty
 
@@ -250,9 +236,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L146)&nbsp;
-
 ___
 #### _eventMask
 
@@ -263,9 +247,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:327](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L327)&nbsp;
-
 ___
 #### _eventProcessor
 
@@ -276,9 +258,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:326](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L326)&nbsp;
-
 ___
 #### _id
 
@@ -289,9 +269,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:322](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L322)&nbsp;
-
 ___
 #### _layer
 
@@ -302,9 +280,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:138](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L138)&nbsp;
-
 ___
 #### _lpos
 
@@ -315,9 +291,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L129)&nbsp;
-
 ___
 #### _lrot
 
@@ -328,9 +302,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:132](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L132)&nbsp;
-
 ___
 #### _lscale
 
@@ -341,9 +313,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:135](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L135)&nbsp;
-
 ___
 #### _mat
 
@@ -354,9 +324,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:125](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L125)&nbsp;
-
 ___
 #### _name
 
@@ -367,9 +335,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:324](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L324)&nbsp;
-
 ___
 #### _objFlags
 
@@ -380,9 +346,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:193](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L193)&nbsp;
-
 ___
 #### _oldScale
 
@@ -393,9 +357,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/AttachUtil.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/AttachUtil.ts#L106)&nbsp;
-
 ___
 #### _originalSceneId
 
@@ -406,9 +368,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:332](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L332)&nbsp;
-
 ___
 #### _parent
 
@@ -419,9 +379,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:303](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L303)&nbsp;
-
 ___
 #### _poolHandle
 
@@ -432,9 +390,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:148](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L148)&nbsp;
-
 ___
 #### _pos
 
@@ -445,9 +401,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:119](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L119)&nbsp;
-
 ___
 #### _prefab
 
@@ -458,9 +412,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:316](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L316)&nbsp;
-
 ___
 #### _registerIfAttached
 
@@ -471,9 +423,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L346)&nbsp;
-
 ___
 #### _rot
 
@@ -484,9 +434,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L121)&nbsp;
-
 ___
 #### _scale
 
@@ -497,9 +445,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:123](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L123)&nbsp;
-
 ___
 #### _scene
 
@@ -510,9 +456,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:318](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L318)&nbsp;
-
 ___
 #### _siblingIndex
 
@@ -523,9 +467,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:329](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L329)&nbsp;
-
 ___
 #### _static
 
@@ -536,9 +478,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:116](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L116)&nbsp;
-
 ___
 #### _uiProps
 
@@ -549,9 +489,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L114)&nbsp;
-
 ___
 #### EventType
 
@@ -559,9 +497,7 @@ ___
 
 
 
-
 **`en`** Event types emitted by Node
-
 
 
 
@@ -573,9 +509,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:92](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L92)&nbsp;
-
 ___
 #### NodeSpace
 
@@ -583,9 +517,7 @@ ___
 
 
 
-
 **`en`** Coordinates space
-
 
 
 
@@ -597,9 +529,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:98](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L98)&nbsp;
-
 ___
 #### TransformBit
 
@@ -607,9 +537,7 @@ ___
 
 
 
-
 **`en`** Bit masks for Node transformation parts, can be used to determine which part changed in [[SystemEventType.TRANSFORM_CHANGED]] event
-
 
 
 
@@ -621,9 +549,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L111)&nbsp;
-
 ___
 #### TransformDirtyBit
 
@@ -631,14 +557,11 @@ ___
 
 
 
-
 **`en`** Bit masks for Node transformation parts
 
 
 
-
 **`zh`** 节点变换更新的具体部分
-
 
 
 
@@ -650,9 +573,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:105](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L105)&nbsp;
-
 ___
 #### _stackId
 
@@ -663,9 +584,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:223](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L223)&nbsp;
-
 ___
 #### _stacks
 
@@ -676,9 +595,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:222](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L222)&nbsp;
-
 ___
 #### bookOfChange
 
@@ -689,9 +606,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:86](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L86)&nbsp;
-
 ___
 #### idGenerator
 
@@ -702,14 +617,11 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:219](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L219)&nbsp;
-
 ___
 #### _persistNode
 
 <div style="margin-left: 10px;">
-
 
 
 
@@ -718,10 +630,8 @@ If false, the node will be destroyed automatically when loading a new scene. Def
 
 
 
-
 **`zh`** 如果为true，则该节点是一个常驻节点，不会在场景转换期间被销毁。
 如果为false，节点将在加载新场景时自动销毁。默认为 false。
-
 
 
 
@@ -732,14 +642,11 @@ If false, the node will be destroyed automatically when loading a new scene. Def
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L102)&nbsp;   [cocos/core/scene-graph/base-node.ts:105](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L105)&nbsp;
-
 ___
 #### active
 
 <div style="margin-left: 10px;">
-
 
 
 
@@ -751,12 +658,10 @@ if you want to check if the Node is actually treated as active in the scene.
 
 
 
-
 **`zh`** 
 当前节点的自身激活状态。
 值得注意的是，一个节点的父节点如果不被激活，那么即使它自身设为激活，它仍然无法激活。
 如果你想检查节点在场景中实际的激活状态可以使用 [[activeInHierarchy]]
-
 
 
 
@@ -768,9 +673,7 @@ if you want to check if the Node is actually treated as active in the scene.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:163](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L163)&nbsp;   [cocos/core/scene-graph/base-node.ts:166](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L166)&nbsp;
-
 ___
 #### activeInHierarchy
 
@@ -778,9 +681,7 @@ ___
 
 
 
-
 **`en`** Indicates whether this node is active in the scene.
-
 
 
 
@@ -792,9 +693,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:184](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L184)&nbsp;
-
 ___
 #### angle
 
@@ -802,9 +701,7 @@ ___
 
 
 
-
 **`en`** Rotation in local coordinate system, represented by euler angles, but limited on z axis
-
 
 
 
@@ -816,9 +713,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:238](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L238)&nbsp;   [cocos/core/scene-graph/node.ts:242](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L242)&nbsp;
-
 ___
 #### children
 
@@ -826,14 +721,11 @@ ___
 
 
 
-
 **`en`** All children nodes.
 
 
 
-
 **`zh`** 节点的所有子节点。
-
 
 
 
@@ -845,9 +737,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L146)&nbsp;
-
 ___
 #### components
 
@@ -855,9 +745,7 @@ ___
 
 
 
-
 **`en`** Gets all components attached to this node.
-
 
 
 
@@ -869,9 +757,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:89](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L89)&nbsp;
-
 ___
 #### eulerAngles
 
@@ -879,9 +765,7 @@ ___
 
 
 
-
 **`en`** Rotation in local coordinate system, represented by euler angles
-
 
 
 
@@ -893,9 +777,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:221](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L221)&nbsp;   [cocos/core/scene-graph/node.ts:225](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L225)&nbsp;
-
 ___
 #### eventProcessor
 
@@ -903,14 +785,11 @@ ___
 
 
 
-
 **`en`** The event processor of the current node, it provides EventTarget ability.
 
 
 
-
 **`zh`** 当前节点的事件处理器，提供 EventTarget 能力。
-
 
 
 
@@ -922,9 +801,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:214](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L214)&nbsp;
-
 ___
 #### forward
 
@@ -932,9 +809,7 @@ ___
 
 
 
-
 **`en`** The vector representing forward direction in local coordinate system, it's the minus z direction by default
-
 
 
 
@@ -946,9 +821,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:321](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L321)&nbsp;   [cocos/core/scene-graph/node.ts:325](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L325)&nbsp;
-
 ___
 #### handle
 
@@ -959,9 +832,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:172](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L172)&nbsp;
-
 ___
 #### hasChangedFlags
 
@@ -969,9 +840,7 @@ ___
 
 
 
-
 **`en`** Whether the node's transformation have changed during the current frame.
-
 
 
 
@@ -983,9 +852,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:351](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L351)&nbsp;   [cocos/core/scene-graph/node.ts:355](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L355)&nbsp;
-
 ___
 #### hideFlags
 
@@ -993,9 +860,7 @@ ___
 
 
 
-
 **`en`** After inheriting CCObject objects, control whether you need to hide, lock, serialize, and other functions.
-
 
 
 
@@ -1007,14 +872,11 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:232](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L232)&nbsp;   [cocos/core/data/object.ts:236](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L236)&nbsp;
-
 ___
 #### isValid
 
 <div style="margin-left: 10px;">
-
 
 
 
@@ -1028,7 +890,6 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`zh`** 
 表示该对象是否可用（被 destroy 后将不可用）。<br>
 当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。<br>
@@ -1037,9 +898,7 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`default`** true
-
 
 
 
@@ -1065,9 +924,7 @@ log(node.isValid);    // false, destroyed in the end of last frame
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:266](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L266)&nbsp;
-
 ___
 #### layer
 
@@ -1075,9 +932,7 @@ ___
 
 
 
-
 **`en`** Layer of the current Node, it affects raycast, physics etc, refer to [[Layers]]
-
 
 
 
@@ -1089,9 +944,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:337](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L337)&nbsp;   [cocos/core/scene-graph/node.ts:343](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L343)&nbsp;
-
 ___
 #### matrix
 
@@ -1099,9 +952,7 @@ ___
 
 
 
-
 **`en`** Local transformation matrix
-
 
 
 
@@ -1113,9 +964,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:298](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L298)&nbsp;
-
 ___
 #### name
 
@@ -1123,9 +972,7 @@ ___
 
 
 
-
 **`en`** Name of node.
-
 
 
 
@@ -1137,9 +984,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:120](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L120)&nbsp;   [cocos/core/scene-graph/base-node.ts:123](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L123)&nbsp;
-
 ___
 #### parent
 
@@ -1147,9 +992,7 @@ ___
 
 
 
-
 **`en`** The parent node
-
 
 
 
@@ -1161,9 +1004,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:193](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L193)&nbsp;   [cocos/core/scene-graph/base-node.ts:196](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L196)&nbsp;
-
 ___
 #### position
 
@@ -1171,9 +1012,7 @@ ___
 
 
 
-
 **`en`** Position in local coordinate system
-
 
 
 
@@ -1185,9 +1024,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:181](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L181)&nbsp;   [cocos/core/scene-graph/node.ts:185](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L185)&nbsp;
-
 ___
 #### rotation
 
@@ -1195,9 +1032,7 @@ ___
 
 
 
-
 **`en`** Rotation in local coordinate system, represented by a quaternion
-
 
 
 
@@ -1209,9 +1044,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:208](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L208)&nbsp;   [cocos/core/scene-graph/node.ts:212](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L212)&nbsp;
-
 ___
 #### scale
 
@@ -1219,9 +1052,7 @@ ___
 
 
 
-
 **`en`** Scale in local coordinate system
-
 
 
 
@@ -1233,9 +1064,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:272](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L272)&nbsp;   [cocos/core/scene-graph/node.ts:276](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L276)&nbsp;
-
 ___
 #### scene
 
@@ -1243,14 +1072,11 @@ ___
 
 
 
-
 **`en`** Which scene this node belongs to.
 
 
 
-
 **`zh`** 此节点属于哪个场景。
-
 
 
 
@@ -1262,9 +1088,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:205](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L205)&nbsp;
-
 ___
 #### uuid
 
@@ -1272,14 +1096,11 @@ ___
 
 
 
-
 **`en`** The uuid for editor, will be stripped after building project.
 
 
 
-
 **`zh`** 主要用于编辑器的 uuid，在编辑器下可用于持久化存储，在项目构建之后将变成自增的 id。
-
 
 
 
@@ -1291,9 +1112,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:136](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L136)&nbsp;
-
 ___
 #### worldMatrix
 
@@ -1301,9 +1120,7 @@ ___
 
 
 
-
 **`en`** World transformation matrix
-
 
 
 
@@ -1315,9 +1132,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:312](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L312)&nbsp;
-
 ___
 #### worldPosition
 
@@ -1325,9 +1140,7 @@ ___
 
 
 
-
 **`en`** Position in world coordinate system
-
 
 
 
@@ -1339,9 +1152,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:194](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L194)&nbsp;   [cocos/core/scene-graph/node.ts:199](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L199)&nbsp;
-
 ___
 #### worldRotation
 
@@ -1349,9 +1160,7 @@ ___
 
 
 
-
 **`en`** Rotation in world coordinate system, represented by a quaternion
-
 
 
 
@@ -1363,9 +1172,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:258](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L258)&nbsp;   [cocos/core/scene-graph/node.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L263)&nbsp;
-
 ___
 #### worldScale
 
@@ -1373,9 +1180,7 @@ ___
 
 
 
-
 **`en`** Scale in world coordinate system
-
 
 
 
@@ -1387,9 +1192,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:285](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L285)&nbsp;   [cocos/core/scene-graph/node.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L290)&nbsp;
-
 ___
 #### _checkMultipleComp
 
@@ -1400,9 +1203,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1389](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1389)&nbsp;
-
 ___
 #### _destroyImmediate
 
@@ -1413,9 +1214,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:336](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L336)&nbsp;
-
 ___
 #### _destruct
 
@@ -1426,9 +1225,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:326](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L326)&nbsp;
-
 ___
 #### _instantiate
 
@@ -1439,9 +1236,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1267](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1267)&nbsp;
-
 ___
 #### _onBatchCreated
 
@@ -1452,9 +1247,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:399](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L399)&nbsp;
-
 ___
 #### _onBeforeSerialize
 
@@ -1465,9 +1258,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:431](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L431)&nbsp;
-
 ___
 #### _onHierarchyChanged
 
@@ -1478,9 +1269,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:394](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L394)&nbsp;
-
 ___
 #### _onHierarchyChangedBase
 
@@ -1491,9 +1280,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1296](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1296)&nbsp;
-
 ___
 #### _onPostActivated
 
@@ -1504,9 +1291,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:436](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L436)&nbsp;
-
 ___
 #### _onPreDestroy
 
@@ -1517,9 +1302,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1259](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1259)&nbsp;
-
 ___
 #### _onPreDestroyBase
 
@@ -1530,9 +1313,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1327](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1327)&nbsp;
-
 ___
 #### _onSetParent
 
@@ -1543,9 +1324,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:375](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L375)&nbsp;
-
 ___
 #### _onSiblingIndexChanged
 
@@ -1556,9 +1335,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1382](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1382)&nbsp;
-
 ___
 #### _removeComponent
 
@@ -1569,9 +1346,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1212](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1212)&nbsp;
-
 ___
 #### _updateScene
 
@@ -1582,9 +1357,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:338](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L338)&nbsp;
-
 ___
 #### _updateSiblingIndex
 
@@ -1595,9 +1368,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1231](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1231)&nbsp;
-
 ___
 #### addChild
 
@@ -1608,9 +1379,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:539](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L539)&nbsp;
-
 ___
 #### addComponent
 
@@ -1621,9 +1390,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:898](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L898)&nbsp;   [cocos/core/scene-graph/base-node.ts:910](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L910)&nbsp;   [cocos/core/scene-graph/base-node.ts:912](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L912)&nbsp;
-
 ___
 #### attr
 
@@ -1634,9 +1401,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:391](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L391)&nbsp;
-
 ___
 #### destroy
 
@@ -1647,9 +1412,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:164](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L164)&nbsp;
-
 ___
 #### destroyAllChildren
 
@@ -1660,9 +1423,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1204](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1204)&nbsp;
-
 ___
 #### dispatchEvent
 
@@ -1673,9 +1434,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1157](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1157)&nbsp;
-
 ___
 #### emit
 
@@ -1686,9 +1445,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1146)&nbsp;
-
 ___
 #### getChildByName
 
@@ -1699,9 +1456,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:491](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L491)&nbsp;
-
 ___
 #### getChildByPath
 
@@ -1712,9 +1467,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:516](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L516)&nbsp;
-
 ___
 #### getChildByUuid
 
@@ -1725,9 +1478,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:466](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L466)&nbsp;
-
 ___
 #### getComponent
 
@@ -1738,9 +1489,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:777](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L777)&nbsp;   [cocos/core/scene-graph/base-node.ts:793](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L793)&nbsp;   [cocos/core/scene-graph/base-node.ts:795](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L795)&nbsp;
-
 ___
 #### getComponentInChildren
 
@@ -1751,9 +1500,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:835](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L835)&nbsp;   [cocos/core/scene-graph/base-node.ts:846](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L846)&nbsp;   [cocos/core/scene-graph/base-node.ts:848](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L848)&nbsp;
-
 ___
 #### getComponents
 
@@ -1764,9 +1511,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:808](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L808)&nbsp;   [cocos/core/scene-graph/base-node.ts:815](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L815)&nbsp;   [cocos/core/scene-graph/base-node.ts:817](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L817)&nbsp;
-
 ___
 #### getComponentsInChildren
 
@@ -1777,9 +1522,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:865](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L865)&nbsp;   [cocos/core/scene-graph/base-node.ts:876](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L876)&nbsp;   [cocos/core/scene-graph/base-node.ts:878](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L878)&nbsp;
-
 ___
 #### getParent
 
@@ -1790,9 +1533,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:401](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L401)&nbsp;
-
 ___
 #### getPosition
 
@@ -1803,9 +1544,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:661](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L661)&nbsp;
-
 ___
 #### getRotation
 
@@ -1816,9 +1555,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:740](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L740)&nbsp;
-
 ___
 #### getScale
 
@@ -1829,9 +1566,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:784](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L784)&nbsp;
-
 ___
 #### getSiblingIndex
 
@@ -1842,9 +1577,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:562](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L562)&nbsp;
-
 ___
 #### getWorldMatrix
 
@@ -1855,9 +1588,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:1011](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L1011)&nbsp;
-
 ___
 #### getWorldPosition
 
@@ -1868,9 +1599,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:863](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L863)&nbsp;
-
 ___
 #### getWorldRS
 
@@ -1881,9 +1610,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:1023](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L1023)&nbsp;
-
 ___
 #### getWorldRT
 
@@ -1894,9 +1621,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:1037](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L1037)&nbsp;
-
 ___
 #### getWorldRotation
 
@@ -1907,9 +1632,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:938](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L938)&nbsp;
-
 ___
 #### getWorldScale
 
@@ -1920,9 +1643,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:997](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L997)&nbsp;
-
 ___
 #### hasEventListener
 
@@ -1933,9 +1654,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1169](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1169)&nbsp;
-
 ___
 #### insertChild
 
@@ -1946,9 +1665,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:553](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L553)&nbsp;
-
 ___
 #### invalidateChildren
 
@@ -1959,9 +1676,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:535](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L535)&nbsp;
-
 ___
 #### inverseTransformPoint
 
@@ -1972,9 +1687,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:797](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L797)&nbsp;
-
 ___
 #### isChildOf
 
@@ -1985,9 +1698,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:748](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L748)&nbsp;
-
 ___
 #### lookAt
 
@@ -1998,9 +1709,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:517](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L517)&nbsp;
-
 ___
 #### off
 
@@ -2011,9 +1720,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1097](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1097)&nbsp;
-
 ___
 #### on
 
@@ -2024,9 +1731,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1071](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1071)&nbsp;
-
 ___
 #### once
 
@@ -2037,9 +1742,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1125](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1125)&nbsp;
-
 ___
 #### pauseSystemEvents
 
@@ -2050,9 +1753,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:1089](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L1089)&nbsp;
-
 ___
 #### removeAllChildren
 
@@ -2063,9 +1764,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:731](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L731)&nbsp;
-
 ___
 #### removeChild
 
@@ -2076,9 +1775,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:720](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L720)&nbsp;
-
 ___
 #### removeComponent
 
@@ -2089,9 +1786,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:993](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L993)&nbsp;   [cocos/core/scene-graph/base-node.ts:1014](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1014)&nbsp;   [cocos/core/scene-graph/base-node.ts:1016](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1016)&nbsp;
-
 ___
 #### removeFromParent
 
@@ -2102,9 +1797,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:709](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L709)&nbsp;
-
 ___
 #### resumeSystemEvents
 
@@ -2115,9 +1808,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:1104](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L1104)&nbsp;
-
 ___
 #### rotate
 
@@ -2128,9 +1819,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:490](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L490)&nbsp;
-
 ___
 #### setParent
 
@@ -2141,9 +1830,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:370](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L370)&nbsp;
-
 ___
 #### setPosition
 
@@ -2154,9 +1841,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:629](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L629)&nbsp;   [cocos/core/scene-graph/node.ts:638](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L638)&nbsp;   [cocos/core/scene-graph/node.ts:640](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L640)&nbsp;
-
 ___
 #### setRTS
 
@@ -2167,9 +1852,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:1050](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L1050)&nbsp;
-
 ___
 #### setRotation
 
@@ -2180,9 +1863,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:673](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L673)&nbsp;   [cocos/core/scene-graph/node.ts:683](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L683)&nbsp;   [cocos/core/scene-graph/node.ts:685](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L685)&nbsp;
-
 ___
 #### setRotationFromEuler
 
@@ -2193,9 +1874,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:704](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L704)&nbsp;   [cocos/core/scene-graph/node.ts:713](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L713)&nbsp;   [cocos/core/scene-graph/node.ts:715](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L715)&nbsp;
-
 ___
 #### setScale
 
@@ -2206,9 +1885,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:752](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L752)&nbsp;   [cocos/core/scene-graph/node.ts:761](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L761)&nbsp;   [cocos/core/scene-graph/node.ts:763](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L763)&nbsp;
-
 ___
 #### setSiblingIndex
 
@@ -2219,9 +1896,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:570](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L570)&nbsp;
-
 ___
 #### setWorldPosition
 
@@ -2232,9 +1907,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:819](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L819)&nbsp;   [cocos/core/scene-graph/node.ts:828](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L828)&nbsp;   [cocos/core/scene-graph/node.ts:830](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L830)&nbsp;
-
 ___
 #### setWorldRotation
 
@@ -2245,9 +1918,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:876](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L876)&nbsp;   [cocos/core/scene-graph/node.ts:886](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L886)&nbsp;   [cocos/core/scene-graph/node.ts:888](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L888)&nbsp;
-
 ___
 #### setWorldRotationFromEuler
 
@@ -2258,9 +1929,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:916](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L916)&nbsp;
-
 ___
 #### setWorldScale
 
@@ -2271,9 +1940,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:951](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L951)&nbsp;   [cocos/core/scene-graph/node.ts:960](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L960)&nbsp;   [cocos/core/scene-graph/node.ts:962](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L962)&nbsp;
-
 ___
 #### syncFromNativeTransform
 
@@ -2284,9 +1951,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:1140](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L1140)&nbsp;
-
 ___
 #### syncToNativeTransform
 
@@ -2297,9 +1962,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:1125](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L1125)&nbsp;
-
 ___
 #### targetOff
 
@@ -2310,9 +1973,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:1179](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L1179)&nbsp;
-
 ___
 #### translate
 
@@ -2323,9 +1984,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:456](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L456)&nbsp;
-
 ___
 #### updateWorldTransform
 
@@ -2336,9 +1995,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:552](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L552)&nbsp;
-
 ___
 #### walk
 
@@ -2349,9 +2006,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:616](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L616)&nbsp;
-
 ___
 #### _deferredDestroy
 
@@ -2362,9 +2017,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:172](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L172)&nbsp;
-
 ___
 #### _findChildComponent
 
@@ -2375,9 +2028,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:274](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L274)&nbsp;
-
 ___
 #### _findChildComponents
 
@@ -2388,9 +2039,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L292)&nbsp;
-
 ___
 #### _findComponent
 
@@ -2401,9 +2050,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:233](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L233)&nbsp;
-
 ___
 #### _findComponents
 
@@ -2414,9 +2061,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:254](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L254)&nbsp;
-
 ___
 #### _setScene
 
@@ -2427,9 +2072,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/base-node.ts:229](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/base-node.ts#L229)&nbsp;
-
 ___
 #### clearBooks
 
@@ -2440,9 +2083,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:1114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L1114)&nbsp;
-
 ___
 #### isNode
 
@@ -2453,7 +2094,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node.ts:160](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node.ts#L160)&nbsp;
-
 ___

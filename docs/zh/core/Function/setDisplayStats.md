@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 设置是否在左下角显示 FPS 和部分调试。
 
 
@@ -19,7 +18,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `displayStats` | `boolean` | - |
-
 
 #### Returns `void` 
 ___

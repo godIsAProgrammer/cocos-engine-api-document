@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `id` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `data` | `AudioMeta` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IDownloadParseOptions` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallback` | - |
-
 
 #### Returns `void` 
 ___

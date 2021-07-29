@@ -101,6 +101,9 @@ ___
 • **new Path**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:57](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L57)&nbsp;
@@ -112,6 +115,7 @@ ___
 ## Methods
 
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
@@ -119,16 +123,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assembler/graphics/webgl/impl.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assembler/graphics/webgl/impl.ts#L62)&nbsp;

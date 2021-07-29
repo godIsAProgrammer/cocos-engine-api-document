@@ -17,9 +17,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:89](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L89)&nbsp;
-
 ___
 #### colors
 
@@ -30,9 +28,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:88](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L88)&nbsp;
-
 ___
 #### indices
 
@@ -43,9 +39,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L91)&nbsp;
-
 ___
 #### segments
 
@@ -56,9 +50,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:87](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L87)&nbsp;
-
 ___
 #### vertices
 
@@ -69,7 +61,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/spine/skeleton-cache.ts:90](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton-cache.ts#L90)&nbsp;
-
 ___

@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:60](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L60)&nbsp;
-
 ___
 #### x
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:57](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L57)&nbsp;
-
 ___
 #### y
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:58](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L58)&nbsp;
-
 ___
 #### z
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/math/type-define.ts:59](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/type-define.ts#L59)&nbsp;
-
 ___

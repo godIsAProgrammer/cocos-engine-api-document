@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`zh`** 
 移除指定索引的数组元素。
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,11 +23,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | 待移除元素的索引。  |
-
 
 #### Returns `void` 
 ___

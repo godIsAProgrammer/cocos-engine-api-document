@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ray` | `Ray` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `min` | `IVec3Like` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `max` | `IVec3Like` | - |
-
 
 #### Returns `number` 
 ___

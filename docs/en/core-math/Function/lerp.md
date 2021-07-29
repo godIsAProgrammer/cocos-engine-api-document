@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `from` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `to` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | The interpolation coefficient.  |
-
 
 #### Returns `number` 
 ___

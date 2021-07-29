@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `id` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `optionalParams` | - | - |
-
 
 #### Returns `void` 
 ___

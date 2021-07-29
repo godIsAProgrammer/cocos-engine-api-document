@@ -57,7 +57,6 @@ First grid
 
 
 
-
 **`property`** {number} firstGid
 
 
@@ -113,7 +112,6 @@ Margin
 
 
 
-
 **`property`** {number} margin
 
 
@@ -134,7 +132,6 @@ ___
 ### name
 <div style="margin-left: 10px;">
 Tileset name
-
 
 
 
@@ -161,7 +158,6 @@ Texture containing the tiles (should be sprite sheet / texture atlas)
 
 
 
-
 **`property`** {cc.SpriteFrame} sourceImage
 
 
@@ -182,7 +178,6 @@ ___
 ### spacing
 <div style="margin-left: 10px;">
 Spacing
-
 
 
 
@@ -222,32 +217,22 @@ ___
 ## Methods
 
 ### rectForGID
+
 <div style="margin-left: 10px;">
 
 ▸   **rectForGID**(`gid_: MixedGID | GID, result: TiledGrid`)
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `gid_` | `MixedGID \| GID` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `result` | `TiledGrid` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:384](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L384)&nbsp;

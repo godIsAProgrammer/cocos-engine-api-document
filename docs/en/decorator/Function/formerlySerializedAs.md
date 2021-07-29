@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `name` | `string` | - |
 
-
 #### Returns `LegacyPropertyDecorator` 
 ___
 

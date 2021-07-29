@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | The array to search in.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `number` | The value to search.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `EPSILON` | `number` | The epsilon to compare the numbers. Default to `1e-6`.  |
-
 
 #### Returns `number` The index of the searched element in the sorted array, if one is found;
 otherwise, a negative number that is the bitwise complement of the index of the next element that is large than the searched value or,

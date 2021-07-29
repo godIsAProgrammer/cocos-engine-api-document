@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `strList` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `array` | `any` | - |
-
 
 #### Returns `void` 
 ___

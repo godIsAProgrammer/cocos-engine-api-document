@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 前向渲染阶段。
 
 
@@ -68,7 +66,6 @@ ___
 
 
 
-
 **`zh`** 当前渲染阶段的名字。
 
 
@@ -87,7 +84,6 @@ ___
 
 ### priority
 <div style="margin-left: 10px;">
-
 
 
 
@@ -112,7 +108,6 @@ ___
 
 
 
-
 **`zh`** 当前渲染阶段的标签。
 
 
@@ -132,39 +127,28 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`pipeline: DeferredPipeline, flow: LightingFlow`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `pipeline` | `DeferredPipeline` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `flow` | `LightingFlow` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/lighting-stage.ts:183](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/lighting-stage.ts#L183)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -172,31 +156,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/lighting-stage.ts:209](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/lighting-stage.ts#L209)&nbsp;
 ___
 ### gatherLights
+
 <div style="margin-left: 10px;">
 
 ▸   **gatherLights**<`void`\>(`camera: Camera`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -205,27 +176,18 @@ ___
 | `camera` | `Camera` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/lighting-stage.ts:92](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/lighting-stage.ts#L92)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: IRenderStageInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -234,27 +196,18 @@ ___
 | `info` | `IRenderStageInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/lighting-stage.ts:87](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/lighting-stage.ts#L87)&nbsp;
 ___
 ### render
+
 <div style="margin-left: 10px;">
 
 ▸   **render**<`void`\>(`camera: Camera`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -263,12 +216,7 @@ ___
 | `camera` | `Camera` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/lighting-stage.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/lighting-stage.ts#L215)&nbsp;

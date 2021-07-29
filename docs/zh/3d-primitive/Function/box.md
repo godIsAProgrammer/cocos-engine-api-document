@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 生成一个立方体，其大小是定义的范围且中心在原点。
 
@@ -19,7 +18,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `IBoxOptions` | 参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

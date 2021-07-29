@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ctx` | `CanvasRenderingContext2D` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `string` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `desc` | - | - |
-
 
 #### Returns `number` 
 ___

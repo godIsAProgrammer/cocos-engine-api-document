@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `frame` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `parentMat` | `Mat4` | - |
-
 
 #### Returns `void` 
 ___

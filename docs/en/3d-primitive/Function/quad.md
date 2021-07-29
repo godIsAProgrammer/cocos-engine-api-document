@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Generate a quad with width and height both to 1, centered at origin.
 
@@ -19,7 +18,6 @@ Generate a quad with width and height both to 1, centered at origin.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `IGeometryOptions` | 参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

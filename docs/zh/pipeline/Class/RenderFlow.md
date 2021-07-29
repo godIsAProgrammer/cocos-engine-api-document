@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 渲染流程是渲染管线（[[RenderPipeline]]）的一个子过程，它将渲染任务派发到它的所有渲染阶段（[[RenderStage]]）中执行。
 
 
@@ -39,7 +38,6 @@
 
 
 
-
 **`zh`** 渲染流程的名字
 
 
@@ -58,7 +56,6 @@ ___
 
 ### pipeline
 <div style="margin-left: 10px;">
-
 
 
 
@@ -83,7 +80,6 @@ ___
 
 
 
-
 **`zh`** 当前渲染流程的优先级。
 
 
@@ -105,9 +101,7 @@ ___
 
 
 
-
 **`zh`** 渲染流程 stage 列表。
-
 
 
 
@@ -132,7 +126,6 @@ ___
 
 
 
-
 **`zh`** 当前渲染流程的标签。
 
 
@@ -152,21 +145,16 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`pipeline: RenderPipeline`) : `void`
 
 
 
-
 **`zh`** 为指定的渲染管线开启当前渲染流程
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -175,21 +163,16 @@ ___
 | `pipeline` | `RenderPipeline` | The render pipeline to activate this render flow  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-flow.ts:130](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-flow.ts#L130)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
-
 
 
 
@@ -199,36 +182,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-flow.ts:154](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-flow.ts#L154)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: IRenderFlowInfo`) : `boolean`
 
 
 
-
 **`zh`** 初始化函数，正常情况下不会用到，仅用于程序化生成渲染管线的情况。
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -237,32 +206,22 @@ ___
 | `info` | `IRenderFlowInfo` | The render flow information  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-flow.ts:117](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-flow.ts#L117)&nbsp;
 ___
 ### render
+
 <div style="margin-left: 10px;">
 
 ▸   **render**<`void`\>(`camera: Camera`) : `void`
 
 
 
-
 **`zh`** 渲染函数，对指定的渲染视图按顺序执行所有渲染阶段。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -271,12 +230,7 @@ ___
 | `camera` | `Camera` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-flow.ts:144](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-flow.ts#L144)&nbsp;

@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `spriteFrame` | `SpriteFrame` | - |
 
-
 #### Returns `void` 
 ___
 

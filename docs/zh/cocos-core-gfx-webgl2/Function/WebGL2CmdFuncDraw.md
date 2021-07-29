@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `WebGL2Device` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `drawInfo` | `DrawInfo` | - |
-
 
 #### Returns `void` 
 ___

@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `propName` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cls` | `any` | - |
-
 
 #### Returns `any` 
 ___

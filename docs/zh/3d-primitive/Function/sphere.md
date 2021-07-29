@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 生成一个球。
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radius` | `number` | 球半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `RecursivePartial` | - |
-
 
 #### Returns `IGeometry` 
 ___

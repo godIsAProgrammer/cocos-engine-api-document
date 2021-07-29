@@ -13,27 +13,11 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `c` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `e` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a1` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a2` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a3` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | - | - |
-
 
 #### Returns `void` 
 ___

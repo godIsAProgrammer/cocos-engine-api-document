@@ -84,30 +84,12 @@ ___
 • **new ICurveInstance**(`runtimeCurve: Omit, target: any, boundTarget: IBoundTarget`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `runtimeCurve` | `Omit` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `target` | `any` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `boundTarget` | `IBoundTarget` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:92](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L92)&nbsp;
@@ -119,46 +101,25 @@ ___
 ## Methods
 
 ### applySample
+
 <div style="margin-left: 10px;">
 
 ▸   **applySample**<`void`\>(`ratio: number, index: number, inBetween: boolean, samplerResultCache: any, weight: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ratio` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `inBetween` | `boolean` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `samplerResultCache` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `weight` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L106)&nbsp;

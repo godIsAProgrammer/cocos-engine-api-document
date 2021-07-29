@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `intersectionPoint` | `any` | - |
-
 
 #### Returns `boolean` 
 ___

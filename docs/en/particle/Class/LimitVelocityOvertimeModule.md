@@ -11,7 +11,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -297,6 +296,9 @@ ___
 • **new LimitVelocityOvertimeModule**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/limit-velocity-overtime.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/limit-velocity-overtime.ts#L133)&nbsp;
@@ -308,49 +310,33 @@ ___
 ## Methods
 
 ### animate
+
 <div style="margin-left: 10px;">
 
 ▸   **animate**<`void`\>(`p: Particle, dt: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p` | `Particle` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dt` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/limit-velocity-overtime.ts:146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/limit-velocity-overtime.ts#L146)&nbsp;
 ___
 ### bindTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **bindTarget**<`void`\>(`target: IParticleSystemRenderer`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -359,45 +345,28 @@ ___
 | `target` | `IParticleSystemRenderer` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/particle.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/particle.ts#L126)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`space: number, worldTransform: Mat4`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `space` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `worldTransform` | `Mat4` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/limit-velocity-overtime.ts:142](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/limit-velocity-overtime.ts#L142)&nbsp;

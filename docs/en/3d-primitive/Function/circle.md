@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Generate a circle with radius 1, centered at origin,
 but may be repositioned through the `center` option.
@@ -20,7 +19,6 @@ but may be repositioned through the `center` option.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | - | 参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

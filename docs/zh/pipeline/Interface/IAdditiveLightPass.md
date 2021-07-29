@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-additive-light-queue.ts:70](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-additive-light-queue.ts#L70)&nbsp;
-
 ___
 #### lights
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-additive-light-queue.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-additive-light-queue.ts#L71)&nbsp;
-
 ___
 #### passIdx
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-additive-light-queue.ts:69](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-additive-light-queue.ts#L69)&nbsp;
-
 ___
 #### subModel
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-additive-light-queue.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-additive-light-queue.ts#L68)&nbsp;
-
 ___

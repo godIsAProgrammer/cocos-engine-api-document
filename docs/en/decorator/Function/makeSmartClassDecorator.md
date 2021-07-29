@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Make a smart class decorator which can properly handle the following form decorator syntax:
 - `@x`
@@ -19,6 +18,7 @@ and forward both the decorated class and the `arg0` (in first form, `arg0` is fo
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `TArg` |
@@ -28,7 +28,6 @@ and forward both the decorated class and the `arg0` (in first form, `arg0` is fo
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `decorate` | - |   |
-
 
 ___
 

@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:138](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L138)&nbsp;
-
 ___
 #### sampler
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:137](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L137)&nbsp;
-
 ___
 #### samplerResultCache
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/animation-state.ts:139](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-state.ts#L139)&nbsp;
-
 ___

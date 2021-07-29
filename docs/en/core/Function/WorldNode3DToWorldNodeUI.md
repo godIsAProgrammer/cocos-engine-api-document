@@ -8,10 +8,8 @@ ___
 ___
 
 
-
 **`en`** 
 Conversion of non-UI nodes to UI Node (World) Space coordinate system.
-
 
 
 
@@ -24,15 +22,8 @@ Conversion of non-UI nodes to UI Node (World) Space coordinate system.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `mainCamera` | `Camera` | 主相机。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `wpos` | `Vec3` | 世界空间位置。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Vec3` | 返回世界坐标。  |
-
 
 #### Returns `Vec3` 
 ___

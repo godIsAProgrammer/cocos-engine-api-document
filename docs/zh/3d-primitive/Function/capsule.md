@@ -9,7 +9,6 @@ ___
 ___
 
 
-
 **`zh`** 
 生成一个胶囊体。
 
@@ -20,19 +19,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radiusTop` | `number` | 顶部半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `radiusBottom` | `number` | 底部半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `RecursivePartial` | 胶囊体参数选项。  |
-
 
 ___
 

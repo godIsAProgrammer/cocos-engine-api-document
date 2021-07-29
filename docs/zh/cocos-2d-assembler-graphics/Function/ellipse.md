@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ctx` | `Impl` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ry` | `number` | - |
-
 
 #### Returns `void` 
 ___

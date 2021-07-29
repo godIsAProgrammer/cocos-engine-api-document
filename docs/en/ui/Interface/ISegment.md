@@ -20,9 +20,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/components/rich-text.ts:137](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/rich-text.ts#L137)&nbsp;
-
 ___
 #### clickParam
 
@@ -33,9 +31,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/components/rich-text.ts:136](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/rich-text.ts#L136)&nbsp;
-
 ___
 #### comp
 
@@ -46,9 +42,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/components/rich-text.ts:132](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/rich-text.ts#L132)&nbsp;
-
 ___
 #### imageOffset
 
@@ -59,9 +53,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/components/rich-text.ts:135](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/rich-text.ts#L135)&nbsp;
-
 ___
 #### lineCount
 
@@ -72,9 +64,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/components/rich-text.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/rich-text.ts#L133)&nbsp;
-
 ___
 #### node
 
@@ -85,9 +75,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/components/rich-text.ts:131](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/rich-text.ts#L131)&nbsp;
-
 ___
 #### styleIndex
 
@@ -98,9 +86,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/components/rich-text.ts:134](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/rich-text.ts#L134)&nbsp;
-
 ___
 #### type
 
@@ -111,7 +97,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/components/rich-text.ts:138](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/components/rich-text.ts#L138)&nbsp;
-
 ___

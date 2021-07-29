@@ -742,14 +742,10 @@ ___
 • **new Camera**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:165](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L165)&nbsp;
@@ -761,16 +757,12 @@ ___
 ## Methods
 
 ### attachToScene
+
 <div style="margin-left: 10px;">
 
 ▸   **attachToScene**<`void`\>(`scene: RenderScene`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -779,27 +771,18 @@ ___
 | `scene` | `RenderScene` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L226)&nbsp;
 ___
 ### changeTargetWindow
+
 <div style="margin-left: 10px;">
 
 ▸   **changeTargetWindow**<`void`\>(`window: RenderWindow | null`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -808,17 +791,13 @@ ___
 | `window` | `RenderWindow \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:637](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L637)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -826,21 +805,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:211](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L211)&nbsp;
 ___
 ### detachCamera
+
 <div style="margin-left: 10px;">
 
 ▸   **detachCamera**<`void`\> : `void`
@@ -848,21 +819,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:650](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L650)&nbsp;
 ___
 ### detachFromScene
+
 <div style="margin-left: 10px;">
 
 ▸   **detachFromScene**<`void`\> : `void`
@@ -870,31 +833,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:232](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L232)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`info: ICameraInfo`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -903,50 +853,34 @@ ___
 | `info` | `ICameraInfo` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:184](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L184)&nbsp;
 ___
 ### resize
+
 <div style="margin-left: 10px;">
 
 ▸   **resize**<`void`\>(`width: number, height: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:238](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L238)&nbsp;
 ___
 ### screenPointToRay
+
 <div style="margin-left: 10px;">
 
 ▸   **screenPointToRay**<`Ray`\>(`out: Ray, x: number, y: number`) : `Ray`
@@ -954,37 +888,22 @@ ___
 
 transform a screen position (in oriented space) to a world space ray
 
-
-<!---->
-<!--    #### Returns `Ray` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Ray` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `Ray`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:659](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L659)&nbsp;
 ___
 ### screenToWorld
+
 <div style="margin-left: 10px;">
 
 ▸   **screenToWorld**<`Vec3`\>(`out: Vec3, screenPos: Vec3`) : `Vec3`
@@ -992,76 +911,47 @@ ___
 
 transform a screen position (in oriented space) to world space
 
-
-<!---->
-<!--    #### Returns `Vec3` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `screenPos` | `Vec3` | - |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:695](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L695)&nbsp;
 ___
 ### setFixedSize
+
 <div style="margin-left: 10px;">
 
 ▸   **setFixedSize**<`void`\>(`width: number, height: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:246](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L246)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`forceUpdate: boolean`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1070,17 +960,13 @@ ___
 | `forceUpdate` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:254](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L254)&nbsp;
 ___
 ### worldMatrixToScreen
+
 <div style="margin-left: 10px;">
 
 ▸   **worldMatrixToScreen**<`Mat4`\>(`out: Mat4, worldMatrix: Mat4, width: number, height: number`) : `Mat4`
@@ -1088,42 +974,23 @@ ___
 
 transform a world space matrix to screen space
 
-
-<!---->
-<!--    #### Returns `Mat4` the resulting vector
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Mat4` | the resulting vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `worldMatrix` | `Mat4` | the world space matrix to be transformed  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `width` | `number` | framebuffer width  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | framebuffer height  |
 
 
-
 ##### Returns `Mat4`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:774](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L774)&nbsp;
 ___
 ### worldToScreen
+
 <div style="margin-left: 10px;">
 
 ▸   **worldToScreen**<`Vec3`\>(`out: Vec3, worldPos: Vec3`) : `Vec3`
@@ -1131,28 +998,15 @@ ___
 
 transform a world space position to screen space
 
-
-<!---->
-<!--    #### Returns `Vec3` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `worldPos` | `Vec3` | - |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/camera.ts:742](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/camera.ts#L742)&nbsp;

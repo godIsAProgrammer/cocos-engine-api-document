@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Computes log base 2 of v.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
 
 #### Returns `number` 
 ___

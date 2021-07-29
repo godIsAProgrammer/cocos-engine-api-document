@@ -14,10 +14,8 @@
 
 
 
-
 **`en`** 
 Easing function, you can pass in a string or custom function.
-
 
 
 
@@ -30,9 +28,7 @@ Easing function, you can pass in a string or custom function.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tween/export-api.ts:65](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/export-api.ts#L65)&nbsp;
-
 ___
 #### onComplete
 
@@ -40,10 +36,8 @@ ___
 
 
 
-
 **`en`** 
 A callback that is triggered when a tween action is completed.
-
 
 
 
@@ -56,9 +50,7 @@ A callback that is triggered when a tween action is completed.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tween/export-api.ts:97](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/export-api.ts#L97)&nbsp;
-
 ___
 #### onStart
 
@@ -66,10 +58,8 @@ ___
 
 
 
-
 **`en`** 
 A callback that is triggered when a tween action is started.
-
 
 
 
@@ -82,9 +72,7 @@ A callback that is triggered when a tween action is started.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tween/export-api.ts:81](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/export-api.ts#L81)&nbsp;
-
 ___
 #### onUpdate
 
@@ -92,10 +80,8 @@ ___
 
 
 
-
 **`en`** 
 A callback that is triggered when a tween action is update.
-
 
 
 
@@ -108,9 +94,7 @@ A callback that is triggered when a tween action is update.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tween/export-api.ts:89](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/export-api.ts#L89)&nbsp;
-
 ___
 #### progress
 
@@ -118,10 +102,8 @@ ___
 
 
 
-
 **`en`** 
 Interpolation functin, you can pass in a custom function.
-
 
 
 
@@ -134,7 +116,5 @@ Interpolation functin, you can pass in a custom function.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tween/export-api.ts:73](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/export-api.ts#L73)&nbsp;
-
 ___

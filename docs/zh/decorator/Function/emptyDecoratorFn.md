@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 一个忽略所有参数并且返回 `emptyDecorator` 的函数。
 
@@ -17,6 +16,8 @@ ___
 
 #### Parameters
 
+| Name | Type | Description |
+| :------: | :------: | :------: |
 
 ___
 

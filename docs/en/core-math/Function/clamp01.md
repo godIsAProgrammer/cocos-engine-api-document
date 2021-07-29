@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Clamps a value between 0 and 1.<br/>
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `val` | `number` |   |
-
 
 #### Returns `number` 
 ___

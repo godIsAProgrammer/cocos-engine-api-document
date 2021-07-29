@@ -6,9 +6,7 @@
 
 
 
-
 **`en`** Loader for resource loading process. The engine automatically initialize its singleton object {{loader}}.
-
 
 
 
@@ -59,12 +57,10 @@
 
 
 
-
 **`en`** 
 The downloader in loader's pipeline, it's by default the second pipe.<br>
 It's used to download files with several handlers: pure text, image, script, audio, font, uuid.<br>
 You can add your own download function with addDownloadHandlers
-
 
 
 
@@ -89,12 +85,10 @@ ___
 
 
 
-
 **`en`** 
 The loader in loader's pipeline, it's by default the third pipe.<br>
 It's used to parse downloaded content with several handlers: JSON, image, plist, fnt, uuid.<br>
 You can add your own download function with addLoadHandlers
-
 
 
 
@@ -119,10 +113,8 @@ ___
 
 
 
-
 **`en`** The md5 pipe in loader's pipeline, it could be absent if the project isn't build with md5 option.<br>
 It's used to modify the url to the real downloadable url with md5 suffix.
-
 
 
 
@@ -147,10 +139,8 @@ ___
 
 
 
-
 **`en`** The default progression callback during the loading process,
 if no progression callback is passed to {{load}} function, then this default callback will be used.
-
 
 
 
@@ -173,15 +163,14 @@ ___
 ## Methods
 
 ### addDownloadHandlers
+
 <div style="margin-left: 10px;">
 
 ▸   **addDownloadHandlers**<`void`\>(`extMap: Record`) : `void`
 
 
 
-
 **`en`** Add custom supported types handler or modify existing type handler for download process.
-
 
 
 
@@ -199,16 +188,10 @@ typescript
 
 
 
-
 **`deprecated`** since v3.0 loader.addDownloadHandlers is deprecated, please use assetManager.downloader.register instead
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -217,26 +200,20 @@ typescript
 | `extMap` | `Record` | Handlers for corresponding type in a map  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:579](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L579)&nbsp;
 ___
 ### addLoadHandlers
+
 <div style="margin-left: 10px;">
 
 ▸   **addLoadHandlers**<`void`\>(`extMap: Record`) : `void`
 
 
 
-
 **`en`** Add custom supported types handler or modify existing type handler for load process.
-
 
 
 
@@ -254,16 +231,10 @@ typescript
 
 
 
-
 **`deprecated`** since v3.0 loader.addLoadHandlers is deprecated, please use assetManager.parser.register instead
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -272,21 +243,16 @@ typescript
 | `extMap` | `Record` | Handlers for corresponding type in a map  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:603](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L603)&nbsp;
 ___
 ### getDependsRecursively
+
 <div style="margin-left: 10px;">
 
 ▸   **getDependsRecursively**(`owner: Asset | string`)
-
 
 
 
@@ -297,7 +263,6 @@ The returned array stores the dependencies with their uuids, after retrieve depe
 you can release them, access dependent assets by passing the uuid to [[getRes]], or other stuffs you want.<br>
 For release all dependencies of an asset, please refer to [[release]]
 Here is some examples:
-
 
 
 
@@ -324,13 +289,9 @@ for (let i = 0; i < deps.length; ++i) {
 
 
 
-
 **`deprecated`** since v3.0 loader.getDependsRecursively is deprecated, please use use assetManager.dependUtil.getDepsRecursively instead
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -339,26 +300,20 @@ for (let i = 0; i < deps.length; ++i) {
 | `owner` | `Asset \| string` | The owner asset or the resource url or the asset's uuid  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:516](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L516)&nbsp;
 ___
 ### getItem
+
 <div style="margin-left: 10px;">
 
 ▸   **getItem**(`id: any`)
 
 
 
-
 **`en`** Returns an item in pipeline.
-
 
 
 
@@ -367,9 +322,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -377,21 +329,16 @@ ___
 | `id` | `any` | The id of the item  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:233](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L233)&nbsp;
 ___
 ### getRes
+
 <div style="margin-left: 10px;">
 
 ▸   **getRes**(`url: string, type: Constructor`)
-
 
 
 
@@ -403,46 +350,33 @@ After loaded, you can acquire them by passing the url to this API.
 
 
 
-
 **`deprecated`** since v3.0 loader.getRes is deprecated, please use resources.get instead
 
 
 
-
-
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `Constructor` | Only asset of type will be returned if this argument is supplied.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:469](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L469)&nbsp;
 ___
 ### getResCount
+
 <div style="margin-left: 10px;">
 
 ▸   **getResCount**<`number`\> : `number`
 
 
 
-
 **`en`** Get total resources count in loader.
-
 
 
 
@@ -452,30 +386,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:478](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L478)&nbsp;
 ___
 ### getXMLHttpRequest
+
 <div style="margin-left: 10px;">
 
 ▸   **getXMLHttpRequest**<`XMLHttpRequest`\> : `XMLHttpRequest`
 
 
 
-
 **`en`** Gets a new XMLHttpRequest instance.
-
 
 
 
@@ -485,25 +409,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `XMLHttpRequest` -->
-<!---->
-
-
 ##### Returns `XMLHttpRequest`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:221](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L221)&nbsp;
 ___
 ### isAutoRelease
+
 <div style="margin-left: 10px;">
 
 ▸   **isAutoRelease**<`boolean`\>(`asset: Asset | string`) : `boolean`
-
 
 
 
@@ -513,9 +428,7 @@ See: {{setAutoRelease}}, {{setAutoReleaseRecursively}}
 
 
 
-
 **`method`** isAutoRelease
-
 
 
 
@@ -524,11 +437,6 @@ See: {{setAutoRelease}}, {{setAutoReleaseRecursively}}
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -536,27 +444,21 @@ See: {{setAutoRelease}}, {{setAutoReleaseRecursively}}
 | `asset` | `Asset \| string` | asset object or the raw asset's url  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:807](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L807)&nbsp;
 ___
 ### load
+
 <div style="margin-left: 10px;">
 
 ▸   **load**<`void`\>(`res: string | array<string> | Record, progressCallback:  | null, completeCallback:  | null`) : `void`
 
 
 
-
 **`en`** 
 Load resources with a progression callback and a complete callback.<br>
-
 
 
 
@@ -583,47 +485,30 @@ loader.load({url: 'http://example.com/getImageREST?file=a.png', type: 'png'}, fu
 
 
 
-
 **`deprecated`** since v3.0, loader.load is deprecated, please use assetManager.loadRemote instead
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `res` | `string \| array<string> \| Record` | Url list in an array  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `progressCallback` | ` \| null` | Callback invoked when progression change  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | ` \| null` | Callback invoked when all resources loaded  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L146)&nbsp;
 ___
 ### loadRes
+
 <div style="margin-left: 10px;">
 
 ▸   **loadRes**<`any`\>(`url: string, type: Constructor, progressCallback: LoadProgressCallback, completeCallback: LoadCompleteCallback`) : `any`
-
 
 
 
@@ -634,9 +519,7 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 
 
 
-
 **`deprecated`** since v3.0 loader.loadRes is deprecated, please use resources.load  instead
-
 
 
 
@@ -668,125 +551,70 @@ loader.loadRes('imgs/cocos', cc.SpriteFrame, function (err, spriteFrame) {
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | Url of the target resource.                      The url is relative to the "resources" folder, extensions must be omitted.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `Constructor` | Only asset of type will be loaded if this argument is supplied.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `progressCallback` | `LoadProgressCallback` | Callback invoked when progression change.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `LoadCompleteCallback` | Callback invoked when the resource loaded.  |
 
 
-
 ##### Returns `any`
-
 
 ▸   **loadRes**<`any`\>(`url: string, type: Constructor, completeCallback: LoadCompleteCallback`) : `any`
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `Constructor` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `LoadCompleteCallback` | - |
 
 
-
 ##### Returns `any`
-
 
 ▸   **loadRes**<`any`\>(`url: string, progressCallback: LoadProgressCallback, completeCallback: LoadCompleteCallback`) : `any`
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `progressCallback` | `LoadProgressCallback` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `LoadCompleteCallback` | - |
 
 
-
 ##### Returns `any`
-
 
 ▸   **loadRes**<`any`\>(`url: string, completeCallback: LoadCompleteCallback`) : `any`
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `LoadCompleteCallback` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L279)&nbsp;   [cocos/core/asset-manager/deprecated.ts:285](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L285)&nbsp;   [cocos/core/asset-manager/deprecated.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L290)&nbsp;   [cocos/core/asset-manager/deprecated.ts:295](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L295)&nbsp;   [cocos/core/asset-manager/deprecated.ts:299](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L299)&nbsp;
 ___
 ### loadResArray
+
 <div style="margin-left: 10px;">
 
 ▸   **loadResArray**<`void`\>(`urls: undefined, type: Constructor, progressCallback: LoadProgressCallback, completeCallback: LoadCompleteCallback`) : `void`
-
 
 
 
@@ -794,9 +622,7 @@ ___
 
 
 
-
 **`deprecated`** since v3.0 loader.loadResArray is deprecated, please use resources.load instead
-
 
 
 
@@ -822,45 +648,26 @@ loader.loadResArray(urls, cc.SpriteFrame, function (err, assets) {
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `urls` |  | Array of URLs of the target resource.                         The url is relative to the "resources" folder, extensions must be omitted.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `Constructor` | Only asset of type will be loaded if this argument is supplied.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `progressCallback` | `LoadProgressCallback` | Callback invoked when progression change.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `LoadCompleteCallback` | A callback which is called when all assets have been loaded, or an error occurs.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:347](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L347)&nbsp;
 ___
 ### loadResDir
+
 <div style="margin-left: 10px;">
 
 ▸   **loadResDir**<`any`\>(`url: string, type: Constructor, progressCallback: LoadProgressCallback, completeCallback: LoadDirCompleteCallback`) : `any`
-
 
 
 
@@ -871,130 +678,74 @@ Note: All asset URLs in Creator use forward slashes, URLs using backslashes will
 
 
 
-
 **`deprecated`** since v3.0 loader.loadResDir is deprecated, please use resources.loadDir instead
 
 
-
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | Url of the target folder.                      The url is relative to the "resources" folder, extensions must be omitted.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `Constructor` | Only asset of type will be loaded if this argument is supplied.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `progressCallback` | `LoadProgressCallback` | Callback invoked when progression change.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `LoadDirCompleteCallback` | A callback which is called when all assets have been loaded, or an error occurs.  |
 
 
-
 ##### Returns `any`
-
 
 ▸   **loadResDir**<`any`\>(`url: string, type: Constructor, completeCallback: LoadDirCompleteCallback`) : `any`
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `Constructor` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `LoadDirCompleteCallback` | - |
 
 
-
 ##### Returns `any`
-
 
 ▸   **loadResDir**<`any`\>(`url: string, progressCallback: LoadProgressCallback, completeCallback: LoadDirCompleteCallback`) : `any`
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `progressCallback` | `LoadProgressCallback` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `LoadDirCompleteCallback` | - |
 
 
-
 ##### Returns `any`
-
 
 ▸   **loadResDir**<`any`\>(`url: string, completeCallback: LoadDirCompleteCallback`) : `any`
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `LoadDirCompleteCallback` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:414](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L414)&nbsp;   [cocos/core/asset-manager/deprecated.ts:420](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L420)&nbsp;   [cocos/core/asset-manager/deprecated.ts:425](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L425)&nbsp;   [cocos/core/asset-manager/deprecated.ts:430](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L430)&nbsp;   [cocos/core/asset-manager/deprecated.ts:434](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L434)&nbsp;
 ___
 ### release
+
 <div style="margin-left: 10px;">
 
 ▸   **release**<`void`\>(`asset: Asset | string | Array`) : `void`
-
 
 
 
@@ -1005,7 +756,6 @@ For example, if you release a texture, the texture asset and its gl texture data
 In complexe project, you can use this function with [[getDependsRecursively]] to free up memory in critical circumstances.<br>
 Notice, this method may cause the texture to be unusable, if there are still other nodes use the same texture, they may turn to black
 and report gl errors.<br>
-
 
 
 
@@ -1034,16 +784,10 @@ loader.release(deps);
 
 
 
-
 **`deprecated`** since v3.0 loader.release is deprecated, please use assetManager.releaseAsset instead
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1052,26 +796,20 @@ loader.release(deps);
 | `asset` | `Asset \| string \| Array` | Asset or assets to be released  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:650](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L650)&nbsp;
 ___
 ### releaseAll
+
 <div style="margin-left: 10px;">
 
 ▸   **releaseAll**<`void`\> : `void`
 
 
 
-
 **`en`** Resource all assets. Refer to {{release}} for detailed informations.
-
 
 
 
@@ -1081,30 +819,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:693](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L693)&nbsp;
 ___
 ### releaseAsset
+
 <div style="margin-left: 10px;">
 
 ▸   **releaseAsset**<`void`\>(`asset: Asset`) : `void`
 
 
 
-
 **`en`** Release the asset by its object. Refer to {{release}} for detailed informations.
-
 
 
 
@@ -1113,11 +841,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1125,26 +848,20 @@ ___
 | `asset` | `Asset` | The asset to be released  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:670](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L670)&nbsp;
 ___
 ### releaseRes
+
 <div style="margin-left: 10px;">
 
 ▸   **releaseRes**<`void`\>(`res: string, type: Constructor`) : `void`
 
 
 
-
 **`en`** Release the asset loaded by {{loadRes}}. Refer to {{release}} for detailed informations.
-
 
 
 
@@ -1153,37 +870,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `res` | `string` | The asset url, it should be related path without extension to the `resources` folder.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `Constructor` | If type is provided, the asset for correspond type will be returned  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:682](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L682)&nbsp;
 ___
 ### removeItem
+
 <div style="margin-left: 10px;">
 
 ▸   **removeItem**<`boolean`\>(`id: any`) : `boolean`
-
 
 
 
@@ -1194,17 +898,10 @@ please refer to {{Loader.release}}
 
 
 
-
 **`deprecated`** since 3.0, loader.removeItem is deprecated, please use assetManager.assets.remove instead
 
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` succeed or not
--->
-<!---->
 
 #### Parameters
 
@@ -1213,21 +910,16 @@ please refer to {{Loader.release}}
 | `id` | `any` | The id of the item  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:711](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L711)&nbsp;
 ___
 ### setAutoRelease
+
 <div style="margin-left: 10px;">
 
 ▸   **setAutoRelease**<`void`\>(`asset: Asset | string, autoRelease: boolean`) : `void`
-
 
 
 
@@ -1240,7 +932,6 @@ will not be affected by that option, remain not released by default.<br>
 Use this API to change the default behavior on a single asset, to force preserve or release specified asset when scene switching.<br>
 <br>
 See: {{setAutoReleaseRecursively}}, {{isAutoRelease}}
-
 
 
 
@@ -1260,43 +951,29 @@ loader.setAutoRelease(audioUrl, false);
 
 
 
-
 **`deprecated`** since v3.0 loader.setAutoRelease is deprecated, if you want to prevent some asset from auto releasing, please use Asset.addRef instead
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `asset` | `Asset \| string` | The asset or its url or its uuid  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `autoRelease` | `boolean` | Whether to release automatically during scene switch  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:747](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L747)&nbsp;
 ___
 ### setAutoReleaseRecursively
+
 <div style="margin-left: 10px;">
 
 ▸   **setAutoReleaseRecursively**<`void`\>(`asset: Asset | string, autoRelease: boolean`) : `void`
-
 
 
 
@@ -1310,7 +987,6 @@ Use this API to change the default behavior on the specified asset and its recur
 to force preserve or release specified asset when scene switching.<br>
 <br>
 See: {{setAutoRelease}}, {{isAutoRelease}}
-
 
 
 
@@ -1330,34 +1006,20 @@ loader.setAutoReleaseRecursively(prefab, false);
 
 
 
-
 **`deprecated`** loader.setAutoReleaseRecursively is deprecated, if you want to prevent some asset from auto releasing, please use Asset.addRef instead
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `asset` | `Asset \| string` | The asset or its url or its uuid  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `autoRelease` | `boolean` | Whether to release automatically during scene switch  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/deprecated.ts:784](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/deprecated.ts#L784)&nbsp;

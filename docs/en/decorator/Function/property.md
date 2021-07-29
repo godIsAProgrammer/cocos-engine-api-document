@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Declare as a CCClass property with options
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `IPropertyOptions` | property options  |
-
 
 #### Returns `LegacyPropertyDecorator` 
 ___
@@ -31,7 +29,6 @@ ___
 ___
 
 
-
 **`en`** Declare as a CCClass property with the property type
 
 
@@ -41,7 +38,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `PropertyType` | A {{ccclass}} type or a {{ValueType}}  |
-
 
 #### Returns `LegacyPropertyDecorator` 
 ___
@@ -54,7 +50,6 @@ ___
 ___
 
 
-
 **`en`** Declare as a CCClass property
 
 
@@ -64,7 +59,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `args` | `Parameters` | - |
-
 
 #### Returns `void` 
 ___

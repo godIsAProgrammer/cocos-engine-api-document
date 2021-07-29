@@ -32,9 +32,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L583)&nbsp;
-
 ___
 #### _rect
 
@@ -45,9 +43,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:584](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L584)&nbsp;
-
 ___
 #### _rotated
 
@@ -58,9 +54,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:585](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L585)&nbsp;
-
 ___
 #### b
 
@@ -71,9 +65,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:573](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L573)&nbsp;
-
 ___
 #### cx
 
@@ -84,9 +76,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L574)&nbsp;
-
 ___
 #### cy
 
@@ -97,9 +87,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:575](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L575)&nbsp;
-
 ___
 #### gid
 
@@ -110,9 +98,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:579](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L579)&nbsp;
-
 ___
 #### height
 
@@ -123,9 +109,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:569](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L569)&nbsp;
-
 ___
 #### l
 
@@ -136,9 +120,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:571](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L571)&nbsp;
-
 ___
 #### offsetX
 
@@ -149,9 +131,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L576)&nbsp;
-
 ___
 #### offsetY
 
@@ -162,9 +142,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:577](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L577)&nbsp;
-
 ___
 #### r
 
@@ -175,9 +153,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:572](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L572)&nbsp;
-
 ___
 #### rotated
 
@@ -188,9 +164,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:578](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L578)&nbsp;
-
 ___
 #### spriteFrame
 
@@ -201,9 +175,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:580](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L580)&nbsp;
-
 ___
 #### t
 
@@ -214,9 +186,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:570](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L570)&nbsp;
-
 ___
 #### texture
 
@@ -227,9 +197,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:581](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L581)&nbsp;
-
 ___
 #### tileset
 
@@ -240,9 +208,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:565](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L565)&nbsp;
-
 ___
 #### width
 
@@ -253,9 +219,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:568](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L568)&nbsp;
-
 ___
 #### x
 
@@ -266,9 +230,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:566](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L566)&nbsp;
-
 ___
 #### y
 
@@ -279,7 +241,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:567](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L567)&nbsp;
-
 ___

@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -66,7 +65,6 @@
 
 
 
-
 **`en`** 
 Gets the physical system instance.
 
@@ -85,7 +83,6 @@ ___
 
 ### ID
 <div style="margin-left: 10px;">
-
 
 
 
@@ -110,7 +107,6 @@ ___
 
 
 
-
 **`en`** 
 Gets the collision matrix。
 
@@ -129,7 +125,6 @@ ___
 
 ### physicsWorld
 <div style="margin-left: 10px;">
-
 
 
 
@@ -154,7 +149,6 @@ ___
 
 
 
-
 **`en`** 
 The position Iterations for the position constraint solver.
 
@@ -173,7 +167,6 @@ ___
 
 ### velocityIterations
 <div style="margin-left: 10px;">
-
 
 
 
@@ -214,7 +207,6 @@ ___
 
 
 
-
 **`en`** 
 Turn on or off the automatic simulation.
 
@@ -252,7 +244,6 @@ ___
 
 
 
-
 **`en`** 
 Gets or sets whether the physical system is enabled, which can be used to pause or continue running the physical system.
 
@@ -274,7 +265,6 @@ ___
 
 
 
-
 **`en`** 
 Gets or sets the fixed delta time consumed by each simulation step.
 
@@ -293,7 +283,6 @@ ___
 
 ### gravity
 <div style="margin-left: 10px;">
-
 
 
 
@@ -331,7 +320,6 @@ ___
 
 ### maxSubSteps
 <div style="margin-left: 10px;">
-
 
 
 
@@ -392,10 +380,10 @@ ___
 ## Methods
 
 ### sortByPriority
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **sortByPriority**(`a: System, b: System`)
-
 
 
 
@@ -403,35 +391,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `System` | System a  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `System` | System b  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L62)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`type: EventType, arg0: any, arg1: any, arg2: any, arg3: any, arg4: any`) : `void`
-
 
 
 
@@ -439,53 +416,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | event type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg2` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg3` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg4` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L141)&nbsp;
 ___
 ### hasEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **hasEventListener**<`boolean`\>(`type: string, callback: undefined | , target: any`) : `boolean`
-
 
 
 
@@ -493,41 +445,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | Event type.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `undefined \| ` | Callback function when event triggered.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | Callback callee.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L52)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\> : `void`
-
 
 
 
@@ -536,32 +472,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L76)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: EventType, callback: TFunction, thisArg: any`) : `void`
 
 
 
-
 **`en`** 
 Removes the listeners previously registered with the same type, callback, target and or useCapture,
 if only type is passed as parameter, all listeners registered with that type will be removed.
-
 
 
 
@@ -583,48 +509,31 @@ eventTarget.off('fire');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type being removed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback to remove.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L114)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**(`type: EventType, callback: TFunction, thisArg: any, once: undefined | false | true`)
 
 
 
-
 **`en`** 
 Register an callback of a specific event type on the EventTarget.
 This type of event should be triggered via `emit`.
-
 
 
 
@@ -641,50 +550,32 @@ eventTarget.on('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `once` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L72)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**(`type: EventType, callback: TFunction, thisArg: any`)
 
 
 
-
 **`en`** 
 Register an callback of a specific event type on the EventTarget,
 the callback will remove itself after the first time it is triggered.
-
 
 
 
@@ -701,39 +592,25 @@ eventTarget.once('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L91)&nbsp;
 ___
 ### postUpdate
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdate**<`void`\>(`deltaTime: number`) : `void`
-
 
 
 
@@ -742,11 +619,6 @@ Perform a simulation of the physics system, which will now be performed automati
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -754,21 +626,16 @@ Perform a simulation of the physics system, which will now be performed automati
 | `deltaTime` | `number` | 与上一次执行相差的时间，目前为每帧消耗时间  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:227](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L227)&nbsp;
 ___
 ### raycast
+
 <div style="margin-left: 10px;">
 
 ▸   **raycast**(`p1: IVec2Like, p2: IVec2Like, type: ERaycast2DType, mask: number`)
-
 
 
 
@@ -778,59 +645,36 @@ The raycast ignores colliders that contain the starting point.
 
 
 
-
 **`method`** rayCast
 
 
-
-
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p1` | `IVec2Like` | start point of the raycast  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `p2` | `IVec2Like` | end point of the raycast  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `ERaycast2DType` | optional, default is RayCastType.Closest  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `mask` | `number` | optional, default is 0xffffffff  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:312](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L312)&nbsp;
 ___
 ### removeAll
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAll**<`void`\>(`typeOrTarget: any`) : `void`
 
 
 
-
 **`en`** Removes all callbacks registered in a certain event type or all callbacks registered with a certain target
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -839,21 +683,16 @@ ___
 | `typeOrTarget` | `any` | The event type or target with which the listeners will be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L133)&nbsp;
 ___
 ### resetAccumulator
+
 <div style="margin-left: 10px;">
 
 ▸   **resetAccumulator**<`void`\>(`time: number`) : `void`
-
 
 
 
@@ -862,11 +701,6 @@ Reset the accumulator of time to given value.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -874,21 +708,16 @@ Reset the accumulator of time to given value.
 | `time` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:284](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L284)&nbsp;
 ___
 ### step
+
 <div style="margin-left: 10px;">
 
 ▸   **step**<`void`\>(`fixedTimeStep: number`) : `void`
-
 
 
 
@@ -897,11 +726,6 @@ Perform simulation steps for the physics world.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -909,21 +733,16 @@ Perform simulation steps for the physics world.
 | `fixedTimeStep` | `number` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:295](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L295)&nbsp;
 ___
 ### targetOff
+
 <div style="margin-left: 10px;">
 
 ▸   **targetOff**<`void`\>(`typeOrTarget: any`) : `void`
-
 
 
 
@@ -934,11 +753,6 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -946,30 +760,22 @@ It's only for removing all listeners (callback and target couple) registered on 
 | `typeOrTarget` | `any` | The target to be searched for all related listeners  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L126)&nbsp;
 ___
 ### testAABB
+
 <div style="margin-left: 10px;">
 
 ▸   **testAABB**(`rect: Rect`)
 
 
 
-
 **`en`** Test which colliders contain the point.
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -978,30 +784,22 @@ ___
 | `rect` | `Rect` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:328](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L328)&nbsp;
 ___
 ### testPoint
+
 <div style="margin-left: 10px;">
 
 ▸   **testPoint**(`p: Vec2`)
 
 
 
-
 **`en`** Test which colliders contain the point.
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1010,32 +808,22 @@ ___
 | `p` | `Vec2` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/physics-system.ts:320](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/physics-system.ts#L320)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`dt: number`) : `void`
 
 
 
-
 **`en`** Update function of the system, it will be invoked between all components update phase and late update phase.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1044,12 +832,7 @@ ___
 | `dt` | `number` | Delta time after the last frame  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L82)&nbsp;

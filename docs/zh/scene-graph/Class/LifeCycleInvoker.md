@@ -46,14 +46,10 @@ ___
 • **new LifeCycleInvoker**(`invokeFunc: any`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `invokeFunc` | `any` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L101)&nbsp;

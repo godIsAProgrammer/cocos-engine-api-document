@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Generate a cylinder with radiusTop radiusBottom 0.5, height 2 and centered at origin,
 but may be repositioned through the `center` option.
@@ -20,19 +19,9 @@ but may be repositioned through the `center` option.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radiusTop` | `number` | 顶部半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `radiusBottom` | `number` | 底部半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `RecursivePartial` | 圆柱参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

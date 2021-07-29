@@ -101,6 +101,9 @@ ___
 • **new OptimizedKey**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/curve.ts:89](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/curve.ts#L89)&nbsp;
@@ -112,16 +115,12 @@ ___
 ## Methods
 
 ### evaluate
+
 <div style="margin-left: 10px;">
 
 ▸   **evaluate**<`number`\>(`T: number`) : `number`
 
 
-
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
 
 #### Parameters
 
@@ -130,12 +129,7 @@ ___
 | `T` | `number` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/curve.ts:97](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/curve.ts#L97)&nbsp;

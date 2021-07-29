@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ctor` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `decoratorName` | `any` | - |
-
 
 #### Returns `any` 
 ___

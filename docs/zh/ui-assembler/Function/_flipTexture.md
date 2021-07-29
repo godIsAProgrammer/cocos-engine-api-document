@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `inGrid` | `TiledGrid` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gid` | `MixedGID` | - |
-
 
 #### Returns `void` 
 ___

@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `WebGL2Device` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gpuTexture` | `IWebGL2GPUTexture` | - |
-
 
 #### Returns `void` 
 ___

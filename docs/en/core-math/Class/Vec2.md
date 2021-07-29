@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** Representation of 2D vectors and points.
 
 
@@ -141,7 +139,6 @@ ___
 
 
 
-
 **`en`** x component.
 
 
@@ -159,7 +156,6 @@ ___
 
 ### y
 <div style="margin-left: 10px;">
-
 
 
 
@@ -187,33 +183,18 @@ ___
 • **new Vec2**(`other: Vec2`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `other` | `Vec2` |
-
-
-
-
-
 • **new Vec2**(`x: undefined | number, y: undefined | number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `x` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `y` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:434](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L434)&nbsp;   [cocos/core/math/vec2.ts:436](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L436)&nbsp;   [cocos/core/math/vec2.ts:438](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L438)&nbsp;
@@ -225,10 +206,10 @@ ___
 ## Methods
 
 ### transformMat4
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **transformMat4**<`Out`\>(`out: Out, a: Out, m: IMat4Like`) : `Out`
-
 
 
 
@@ -236,41 +217,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `m` | `IMat4Like` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:348](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L348)&nbsp;
 ___
 ### transformMat3
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **transformMat3**<`Out`\>(`out: Out, a: Out, m: IMat3Like`) : `Out`
-
 
 
 
@@ -278,41 +243,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `m` | `IMat3Like` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:336](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L336)&nbsp;
 ___
 ### toArray
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **toArray**<`Out`\>(`out: Out, v: IVec2Like, ofs: number`) : `Out`
-
 
 
 
@@ -320,41 +269,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `v` | `IVec2Like` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ofs` | `number` | Array Start Offset  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:369](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L369)&nbsp;
 ___
 ### subtract
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **subtract**<`Out`\>(`out: Out, a: Out, b: Out`) : `Out`
-
 
 
 
@@ -362,41 +295,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:94](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L94)&nbsp;
 ___
 ### strictEquals
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **strictEquals**<`boolean`\>(`a: Out, b: Out`) : `boolean`
-
 
 
 
@@ -404,37 +321,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:390](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L390)&nbsp;
 ___
 ### str
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **str**<`string`\>(`a: Out`) : `string`
-
 
 
 
@@ -442,11 +346,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -454,21 +353,16 @@ ___
 | `a` | `Out` | - |
 
 
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:360](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L360)&nbsp;
 ___
 ### squaredDistance
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **squaredDistance**<`number`\>(`a: Out, b: Out`) : `number`
-
 
 
 
@@ -476,37 +370,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:204](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L204)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **set**<`Out`\>(`out: Out, x: number, y: number`) : `Out`
-
 
 
 
@@ -514,41 +395,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:74](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L74)&nbsp;
 ___
 ### scaleAndAdd
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **scaleAndAdd**<`Out`\>(`out: Out, a: Out, b: Out, scale: number`) : `Out`
-
 
 
 
@@ -556,45 +421,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scale` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:184](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L184)&nbsp;
 ___
 ### round
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **round**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -602,37 +448,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:164](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L164)&nbsp;
 ___
 ### random
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **random**<`Out`\>(`out: Out, scale: undefined | number`) : `Out`
-
 
 
 
@@ -640,37 +473,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scale` | `undefined \| number` | vector length  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:324](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L324)&nbsp;
 ___
 ### normalize
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **normalize**<`Out`\>(`out: Out, a: Vec2Like`) : `Out`
-
 
 
 
@@ -678,37 +498,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Vec2Like` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:277](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L277)&nbsp;
 ___
 ### negate
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **negate**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -716,37 +523,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:234](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L234)&nbsp;
 ___
 ### multiplyScalar
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **multiplyScalar**<`Out`\>(`out: Out, a: Out, b: number`) : `Out`
-
 
 
 
@@ -754,41 +548,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:174](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L174)&nbsp;
 ___
 ### multiply
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **multiply**<`Out`\>(`out: Out, a: Out, b: Out`) : `Out`
-
 
 
 
@@ -796,41 +574,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:104](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L104)&nbsp;
 ___
 ### min
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **min**<`Out`\>(`out: Out, a: Out, b: Out`) : `Out`
-
 
 
 
@@ -838,41 +600,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:144](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L144)&nbsp;
 ___
 ### max
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **max**<`Out`\>(`out: Out, a: Out, b: Out`) : `Out`
-
 
 
 
@@ -880,41 +626,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:154](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L154)&nbsp;
 ___
 ### lerp
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **lerp**<`Out`\>(`out: Out, a: Out, b: Out, t: number`) : `Out`
-
 
 
 
@@ -922,45 +652,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `t` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:311](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L311)&nbsp;
 ___
 ### lengthSqr
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **lengthSqr**<`number`\>(`a: Out`) : `number`
-
 
 
 
@@ -968,11 +679,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -980,21 +686,16 @@ ___
 | `a` | `Out` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:224](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L224)&nbsp;
 ___
 ### len
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **len**<`number`\>(`a: Out`) : `number`
-
 
 
 
@@ -1002,11 +703,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1014,21 +710,16 @@ ___
 | `a` | `Out` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:214](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L214)&nbsp;
 ___
 ### inverseSafe
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **inverseSafe**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -1036,37 +727,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:254](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L254)&nbsp;
 ___
 ### inverse
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **inverse**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -1074,37 +752,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:244](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L244)&nbsp;
 ___
 ### fromArray
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromArray**<`Out`\>(`out: Out, arr: IWritableArrayLike, ofs: number`) : `Out`
-
 
 
 
@@ -1112,41 +777,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arr` | `IWritableArrayLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ofs` | `number` | Array Start Offset  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:380](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L380)&nbsp;
 ___
 ### floor
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **floor**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -1154,37 +803,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:134](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L134)&nbsp;
 ___
 ### equals
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **equals**<`boolean`\>(`a: Out, b: Out, epsilon: number`) : `boolean`
-
 
 
 
@@ -1192,41 +828,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `epsilon` | `number` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:398](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L398)&nbsp;
 ___
 ### dot
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **dot**<`number`\>(`a: Out, b: Out`) : `number`
-
 
 
 
@@ -1234,37 +854,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:293](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L293)&nbsp;
 ___
 ### divide
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **divide**<`Out`\>(`out: Out, a: Out, b: Out`) : `Out`
-
 
 
 
@@ -1272,41 +879,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L114)&nbsp;
 ___
 ### distance
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **distance**<`number`\>(`a: Out, b: Out`) : `number`
-
 
 
 
@@ -1314,37 +905,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:194](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L194)&nbsp;
 ___
 ### cross
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **cross**<`Vec3`\>(`out: Vec3, a: Out, b: Out`) : `Vec3`
-
 
 
 
@@ -1352,41 +930,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Vec3` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:301](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L301)&nbsp;
 ___
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **copy**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -1394,37 +956,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:64](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L64)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **clone**<`Vec2`\>(`a: Out`) : `Vec2`
-
 
 
 
@@ -1432,11 +981,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1444,21 +988,16 @@ ___
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L56)&nbsp;
 ___
 ### ceil
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **ceil**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -1466,37 +1005,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:124](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L124)&nbsp;
 ___
 ### angle
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **angle**<`number`\>(`a: Out, b: Out`) : `number`
-
 
 
 
@@ -1504,37 +1030,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:411](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L411)&nbsp;
 ___
 ### add
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **add**<`Out`\>(`out: Out, a: Out, b: Out`) : `Out`
-
 
 
 
@@ -1542,52 +1055,31 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:84](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L84)&nbsp;
 ___
 ### add
+
 <div style="margin-left: 10px;">
 
 ▸   **add**<`this`\>(`other: Vec2`) : `this`
 
 
 
-
 **`en`** Adds the current vector with another one and return this
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -1596,21 +1088,16 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:582](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L582)&nbsp;
 ___
 ### add2f
+
 <div style="margin-left: 10px;">
 
 ▸   **add2f**<`this`\>(`x: number, y: number`) : `this`
-
 
 
 
@@ -1618,37 +1105,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | The x value of specified vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | The y value of specified vector  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:594](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L594)&nbsp;
 ___
 ### angle
+
 <div style="margin-left: 10px;">
 
 ▸   **angle**<`number`\>(`other: Vec2`) : `number`
-
 
 
 
@@ -1656,12 +1130,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` The angle between the current vector and the specified vector (in radians); if there are zero vectors in the current vector and the specified vector, 0 is returned.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1669,21 +1137,16 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:752](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L752)&nbsp;
 ___
 ### clampf
+
 <div style="margin-left: 10px;">
 
 ▸   **clampf**<`this`\>(`minInclusive: Vec2, maxInclusive: Vec2`) : `this`
-
 
 
 
@@ -1691,38 +1154,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` &#x60;this&#x60;
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `minInclusive` | `Vec2` | Minimum value allowed  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxInclusive` | `Vec2` | Maximum value allowed  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:571](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L571)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸   **clone**<`Vec2`\> : `Vec2`
-
 
 
 
@@ -1731,25 +1180,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
-
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:455](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L455)&nbsp;
 ___
 ### cross
+
 <div style="margin-left: 10px;">
 
 ▸   **cross**<`number`\>(`other: Vec2`) : `number`
-
 
 
 
@@ -1757,12 +1197,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` &#x60;out&#x60;
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1770,32 +1204,22 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:708](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L708)&nbsp;
 ___
 ### divide
+
 <div style="margin-left: 10px;">
 
 ▸   **divide**<`this`\>(`other: Vec2`) : `this`
 
 
 
-
 **`en`** Element-wisely divides this vector with another one, and return this.
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -1804,21 +1228,16 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:664](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L664)&nbsp;
 ___
 ### divide2f
+
 <div style="margin-left: 10px;">
 
 ▸   **divide2f**<`this`\>(`x: number, y: number`) : `this`
-
 
 
 
@@ -1826,37 +1245,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | The x value of specified vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | The y value of specified vector  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:676](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L676)&nbsp;
 ___
 ### dot
+
 <div style="margin-left: 10px;">
 
 ▸   **dot**<`number`\>(`other: Vec2`) : `number`
-
 
 
 
@@ -1864,12 +1270,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` The result of calculates the dot product with another vector
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1877,60 +1277,41 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:698](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L698)&nbsp;
 ___
 ### equals
+
 <div style="margin-left: 10px;">
 
 ▸   **equals**<`boolean`\>(`other: Vec2, epsilon: number`) : `boolean`
 
 
 
-
 **`en`** Check whether the vector approximately equals another one.
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` Returns &#x60;true&#x60; when the components of both vectors are equal within the specified range of error; otherwise it returns &#x60;false&#x60;.
--->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `other` | `Vec2` | Specified vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `epsilon` | `number` | The error allowed. It`s should be a non-negative number.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:494](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L494)&nbsp;
 ___
 ### equals2f
+
 <div style="margin-left: 10px;">
 
 ▸   **equals2f**<`boolean`\>(`x: number, y: number, epsilon: number`) : `boolean`
-
 
 
 
@@ -1938,42 +1319,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` Returns &#x60;true&#x60; when the components of both vectors are equal within the specified range of error; otherwise it returns &#x60;false&#x60;.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | The x value of specified vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | The y value of specified vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `epsilon` | `number` | The error allowed. It`s should be a non-negative number.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:511](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L511)&nbsp;
 ___
 ### length
+
 <div style="margin-left: 10px;">
 
 ▸   **length**<`number`\> : `number`
-
 
 
 
@@ -1982,26 +1346,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` Length of vector
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:717](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L717)&nbsp;
 ___
 ### lengthSqr
+
 <div style="margin-left: 10px;">
 
 ▸   **lengthSqr**<`number`\> : `number`
-
 
 
 
@@ -2010,26 +1364,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` the squared length of this vector
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:726](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L726)&nbsp;
 ___
 ### lerp
+
 <div style="margin-left: 10px;">
 
 ▸   **lerp**<`this`\>(`to: Vec2, ratio: number`) : `this`
-
 
 
 
@@ -2037,48 +1381,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `to` | `Vec2` | Target vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | The interpolation coefficient.The range is [0,1].  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:556](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L556)&nbsp;
 ___
 ### multiply
+
 <div style="margin-left: 10px;">
 
 ▸   **multiply**<`this`\>(`other: Vec2`) : `this`
 
 
 
-
 **`en`** Multiplies the current vector with another one and return this
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -2087,21 +1413,16 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:640](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L640)&nbsp;
 ___
 ### multiply2f
+
 <div style="margin-left: 10px;">
 
 ▸   **multiply2f**<`this`\>(`x: number, y: number`) : `this`
-
 
 
 
@@ -2109,48 +1430,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | The x value of specified vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | The y value of specified vector  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:653](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L653)&nbsp;
 ___
 ### multiplyScalar
+
 <div style="margin-left: 10px;">
 
 ▸   **multiplyScalar**<`this`\>(`scalar: number`) : `this`
 
 
 
-
 **`en`** Multiplies the current vector with a number, and returns this.
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -2159,21 +1462,16 @@ ___
 | `scalar` | `number` | scalar number  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:628](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L628)&nbsp;
 ___
 ### negative
+
 <div style="margin-left: 10px;">
 
 ▸   **negative**<`this`\> : `this`
-
 
 
 
@@ -2182,25 +1480,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:686](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L686)&nbsp;
 ___
 ### normalize
+
 <div style="margin-left: 10px;">
 
 ▸   **normalize**<`this`\> : `this`
-
 
 
 
@@ -2209,36 +1498,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:734](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L734)&nbsp;
 ___
 ### project
+
 <div style="margin-left: 10px;">
 
 ▸   **project**<`this`\>(`other: Vec2`) : `this`
 
 
 
-
 **`en`** Projects the current vector on another one
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -2247,32 +1522,22 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:800](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L800)&nbsp;
 ___
 ### rotate
+
 <div style="margin-left: 10px;">
 
 ▸   **rotate**<`this`\>(`radians: number`) : `this`
 
 
 
-
 **`en`** Rotates the current vector by an angle in radian value
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -2281,33 +1546,22 @@ ___
 | `radians` | `number` | radius of rotation  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:784](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L784)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸   **set**<`any`\>(`other: Vec2`) : `any`
 
 
 
-
 **`en`** Set the current vector value with the given vector.
 
 
-
-
-<!---->
-<!--    #### Returns `any` &#x60;this&#x60;
--->
-<!---->
 
 #### Parameters
 
@@ -2316,12 +1570,9 @@ ___
 | `other` | `Vec2` | Specified vector  |
 
 
-
 ##### Returns `any`
 
-
 ▸   **set**<`any`\>(`x: undefined | number, y: undefined | number`) : `any`
-
 
 
 
@@ -2329,38 +1580,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `any` &#x60;this&#x60;
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `undefined \| number` | x value  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `undefined \| number` | y value  |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L465)&nbsp;   [cocos/core/math/vec2.ts:474](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L474)&nbsp;   [cocos/core/math/vec2.ts:476](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L476)&nbsp;
 ___
 ### signAngle
+
 <div style="margin-left: 10px;">
 
 ▸   **signAngle**<`number`\>(`other: Vec2`) : `number`
-
 
 
 
@@ -2368,12 +1605,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` The signed angle between the current vector and the specified vector (in radians); if there is a zero vector in the current vector and the specified vector, 0 is returned.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2381,33 +1612,22 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:774](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L774)&nbsp;
 ___
 ### strictEquals
+
 <div style="margin-left: 10px;">
 
 ▸   **strictEquals**<`boolean`\>(`other: Vec2`) : `boolean`
 
 
 
-
 **`en`** Check whether the current vector strictly equals another Vec2.
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` Returns &#x60;true&#x60; when the components of both vectors are equal within the specified range of error; otherwise it returns &#x60;false&#x60;.
--->
-<!---->
 
 #### Parameters
 
@@ -2416,71 +1636,47 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:526](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L526)&nbsp;
 ___
 ### strictEquals2f
+
 <div style="margin-left: 10px;">
 
 ▸   **strictEquals2f**<`boolean`\>(`x: number, y: number`) : `boolean`
 
 
 
-
 **`en`** Check whether the current vector strictly equals another Vec2.
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` Returns &#x60;true&#x60; when the components of both vectors are equal within the specified range of error; otherwise it returns &#x60;false&#x60;.
--->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | The x value of specified vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | The y value of specified vector  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:537](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L537)&nbsp;
 ___
 ### subtract
+
 <div style="margin-left: 10px;">
 
 ▸   **subtract**<`this`\>(`other: Vec2`) : `this`
 
 
 
-
 **`en`** Subtracts one vector from this, and returns this.
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -2489,21 +1685,16 @@ ___
 | `other` | `Vec2` | specified vector  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:605](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L605)&nbsp;
 ___
 ### subtract2f
+
 <div style="margin-left: 10px;">
 
 ▸   **subtract2f**<`this`\>(`x: number, y: number`) : `this`
-
 
 
 
@@ -2511,37 +1702,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | The x value of specified vector  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | The y value of specified vector  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:617](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L617)&nbsp;
 ___
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸   **toString**<`string`\> : `string`
-
 
 
 
@@ -2550,37 +1728,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `string` The string with vector information
--->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:546](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L546)&nbsp;
 ___
 ### transformMat4
+
 <div style="margin-left: 10px;">
 
 ▸   **transformMat4**<`this`\>(`matrix: Mat4`) : `this`
 
 
 
-
 **`en`** Transforms the vec2 with a mat4. 3rd vector component is implicitly '0', 4th vector component is implicitly '1'
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -2589,12 +1752,7 @@ ___
 | `matrix` | `Mat4` | matrix to transform with  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/vec2.ts:813](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/vec2.ts#L813)&nbsp;

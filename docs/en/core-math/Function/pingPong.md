@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `t` | `number` | Time start at 0.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `length` | `number` | Time of one cycle.  |
-
 
 #### Returns `number` The time wrapped in the first cycle.
 

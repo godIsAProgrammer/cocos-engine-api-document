@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `start` | `Vec2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `end` | `Vec2` | - |
-
 
 #### Returns `number` 
 ___

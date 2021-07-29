@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** GFX 光栅化状态。
 
 
@@ -262,102 +261,21 @@ ___
 • **new RasterizerState**(`isDiscard: boolean, polygonMode: PolygonMode, shadeModel: ShadeModel, cullMode: CullMode, isFrontFaceCCW: boolean, depthBiasEnabled: boolean, depthBias: number, depthBiasClamp: number, depthBiasSlop: number, isDepthClip: boolean, isMultisample: boolean, lineWidth: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `isDiscard` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `polygonMode` | `PolygonMode` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `shadeModel` | `ShadeModel` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `cullMode` | `CullMode` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isFrontFaceCCW` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthBiasEnabled` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthBias` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthBiasClamp` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthBiasSlop` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isDepthClip` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isMultisample` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `lineWidth` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:60](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L60)&nbsp;
@@ -369,16 +287,12 @@ ___
 ## Methods
 
 ### assign
+
 <div style="margin-left: 10px;">
 
 ▸   **assign**<`void`\>(`rs: RasterizerState`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -387,17 +301,13 @@ ___
 | `rs` | `RasterizerState` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:92](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L92)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -405,21 +315,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:98](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L98)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
@@ -427,16 +329,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:77](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L77)&nbsp;

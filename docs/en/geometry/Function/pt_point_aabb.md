@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 the closest point on aabb to a given point
 
@@ -19,15 +18,8 @@ the closest point on aabb to a given point
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Vec3` | 最近点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `point` | `Vec3` | 给定点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `aabb_` | `AABB` | - |
-
 
 #### Returns `Vec3` 最近点。
 

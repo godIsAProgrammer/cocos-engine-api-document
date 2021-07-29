@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `WebGL2Device` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gpuBuffer` | `IWebGL2GPUBuffer` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `buffer` | `BufferSource` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `size` | `number` | - |
-
 
 #### Returns `void` 
 ___

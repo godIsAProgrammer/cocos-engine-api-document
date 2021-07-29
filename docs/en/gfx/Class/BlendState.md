@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** GFX blend state.
 
 
@@ -125,38 +124,13 @@ ___
 • **new BlendState**(`isA2C: boolean, isIndepend: boolean, blendColor: Color, targets: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `isA2C` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isIndepend` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `blendColor` | `Color` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `targets` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:204](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L204)&nbsp;
@@ -168,6 +142,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -175,21 +150,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:242](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L242)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
@@ -197,25 +164,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:229](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L229)&nbsp;
 ___
 ### setTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **setTarget**<`void`\>(`index: number, target: BlendTarget`) : `void`
-
 
 
 
@@ -226,28 +184,15 @@ such as `blendState[i] = target;`.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `index` | `number` | The index to set target.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `BlendTarget` | The target to be set.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:221](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L221)&nbsp;

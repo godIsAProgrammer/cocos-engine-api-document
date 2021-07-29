@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `mipmap` | `ITextureCubeMipmap` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | - |   |
-
 
 #### Returns `void` 
 ___

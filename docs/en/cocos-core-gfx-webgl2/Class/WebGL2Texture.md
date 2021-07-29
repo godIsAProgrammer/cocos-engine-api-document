@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -53,7 +52,6 @@
 
 
 
-
 **`en`** Get texture depth.
 
 
@@ -74,7 +72,6 @@ ___
 
 
 
-
 **`en`** Get texture flags.
 
 
@@ -92,7 +89,6 @@ ___
 
 ### format
 <div style="margin-left: 10px;">
-
 
 
 
@@ -148,7 +144,6 @@ ___
 
 
 
-
 **`en`** Get texture height.
 
 
@@ -166,7 +161,6 @@ ___
 
 ### layerCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -190,7 +184,6 @@ ___
 
 
 
-
 **`en`** Get texture mip level.
 
 
@@ -208,7 +201,6 @@ ___
 
 ### samples
 <div style="margin-left: 10px;">
-
 
 
 
@@ -232,7 +224,6 @@ ___
 
 
 
-
 **`en`** Get texture size.
 
 
@@ -250,7 +241,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -274,7 +264,6 @@ ___
 
 
 
-
 **`en`** Get texture usage.
 
 
@@ -292,7 +281,6 @@ ___
 
 ### width
 <div style="margin-left: 10px;">
-
 
 
 
@@ -320,14 +308,10 @@ ___
 • **new WebGL2Texture**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/texture.ts:152](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/texture.ts#L152)&nbsp;
@@ -339,6 +323,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -346,31 +331,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-texture.ts:93](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-texture.ts#L93)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: TextureInfo | TextureViewInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -379,45 +351,28 @@ ___
 | `info` | `TextureInfo \| TextureViewInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-texture.ts:39](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-texture.ts#L39)&nbsp;
 ___
 ### resize
+
 <div style="margin-left: 10px;">
 
 ▸   **resize**<`void`\>(`width: number, height: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-texture.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-texture.ts#L101)&nbsp;

@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`zh`** 生成一个类，该类继承自指定的基类，并以和 [[EventTarget]] 等同的方式实现了 [[IEventified]] 的所有接口。
-
 
 
 
@@ -31,6 +29,7 @@ function (o: MyClass) {
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `TBase` |
@@ -40,7 +39,6 @@ function (o: MyClass) {
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `base` | `Constructor` | The base class  |
-
 
 #### Returns `Constructor` 
 ___

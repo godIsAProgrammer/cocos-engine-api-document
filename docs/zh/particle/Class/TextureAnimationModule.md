@@ -11,7 +11,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -51,7 +50,6 @@
 
 
 
-
 **`zh`** 动画播放方式 [[Animation]]。
 
 
@@ -73,7 +71,6 @@ ___
 
 
 
-
 **`zh`** 一个生命周期内播放循环的次数。
 
 
@@ -92,7 +89,6 @@ ___
 
 ### frameOverTime
 <div style="margin-left: 10px;">
-
 
 
 
@@ -165,7 +161,6 @@ ___
 
 
 
-
 **`zh`** 随机从动画贴图中选择一行以生成动画。<br>
 此选项仅在动画播放方式为 SingleRow 时生效。
 
@@ -188,7 +183,6 @@ ___
 
 
 
-
 **`zh`** 从动画贴图中选择特定行以生成动画。<br>
 此选项仅在动画播放方式为 SingleRow 时且禁用 randomRow 时可用。
 
@@ -208,7 +202,6 @@ ___
 
 ### startFrame
 <div style="margin-left: 10px;">
-
 
 
 
@@ -249,7 +242,6 @@ ___
 
 
 
-
 **`zh`** 是否启用。
 
 
@@ -287,7 +279,6 @@ ___
 
 
 
-
 **`zh`** 设定粒子贴图动画的类型（暂只支持 Grid 模式）[[Mode]]。
 
 
@@ -309,7 +300,6 @@ ___
 
 
 
-
 **`zh`** X 方向动画帧数。
 
 
@@ -328,7 +318,6 @@ ___
 
 ### numTilesY
 <div style="margin-left: 10px;">
-
 
 
 
@@ -367,49 +356,33 @@ ___
 ## Methods
 
 ### animate
+
 <div style="margin-left: 10px;">
 
 ▸   **animate**<`void`\>(`p: Particle, dt: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p` | `Particle` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dt` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/texture-animation.ts:245](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/texture-animation.ts#L245)&nbsp;
 ___
 ### bindTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **bindTarget**<`void`\>(`target: IParticleSystemRenderer`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -418,27 +391,18 @@ ___
 | `target` | `IParticleSystemRenderer` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/particle.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/particle.ts#L126)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\>(`p: Particle`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -447,45 +411,28 @@ ___
 | `p` | `Particle` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/texture-animation.ts:241](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/texture-animation.ts#L241)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`space: number, trans: Mat4`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `space` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `trans` | `Mat4` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/particle.ts:130](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/particle.ts#L130)&nbsp;

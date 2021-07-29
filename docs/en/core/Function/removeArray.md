@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`en`** 
 Removes multiple array elements.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,11 +23,7 @@ Removes multiple array elements.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 源数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `removals` | - | 所有待移除的元素。此数组的每个元素所对应的首个源数组的元素都会被移除。  |
-
 
 #### Returns `void` 
 ___

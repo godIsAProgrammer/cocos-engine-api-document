@@ -63,17 +63,13 @@ ___
 ## Methods
 
 ### availHeight
+
 <div style="margin-left: 10px;">
 
 ▸   **availHeight**<`number`\>(`frame: any`) : `number`
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -81,28 +77,19 @@ ___
 | `frame` | `any` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L68)&nbsp;
 ___
 ### availWidth
+
 <div style="margin-left: 10px;">
 
 ▸   **availWidth**<`number`\>(`frame: any`) : `number`
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -110,17 +97,13 @@ ___
 | `frame` | `any` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:60](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L60)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\> : `void`
@@ -128,16 +111,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L54)&nbsp;

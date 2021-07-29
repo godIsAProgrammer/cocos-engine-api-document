@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`en`** Get the main name of a file name.
-
 
 
 
@@ -24,7 +22,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `fileName` | `string` | - |
-
 
 #### Returns `string` 
 ___

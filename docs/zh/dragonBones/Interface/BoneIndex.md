@@ -20,9 +20,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [node_modules/typescript/lib/lib.es5.d.ts:602](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/typescript/lib/lib.es5.d.ts#L602)&nbsp;
-
 ___
 #### _any
 
@@ -33,9 +31,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:110](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L110)&nbsp;
-
 ___
 #### toExponential
 
@@ -46,9 +42,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [node_modules/typescript/lib/lib.es5.d.ts:559](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/typescript/lib/lib.es5.d.ts#L559)&nbsp;
-
 ___
 #### toFixed
 
@@ -59,9 +53,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [node_modules/typescript/lib/lib.es5.d.ts:553](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/typescript/lib/lib.es5.d.ts#L553)&nbsp;
-
 ___
 #### toLocaleString
 
@@ -72,9 +64,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [node_modules/typescript/lib/lib.es5.d.ts:4412](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/typescript/lib/lib.es5.d.ts#L4412)&nbsp;
-
 ___
 #### toPrecision
 
@@ -85,9 +75,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [node_modules/typescript/lib/lib.es5.d.ts:565](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/typescript/lib/lib.es5.d.ts#L565)&nbsp;
-
 ___
 #### toString
 
@@ -98,9 +86,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [node_modules/typescript/lib/lib.es5.d.ts:547](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/typescript/lib/lib.es5.d.ts#L547)&nbsp;
-
 ___
 #### valueOf
 
@@ -111,7 +97,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [node_modules/typescript/lib/lib.es5.d.ts:568](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/typescript/lib/lib.es5.d.ts#L568)&nbsp;
-
 ___

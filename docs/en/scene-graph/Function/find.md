@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Finds a node by hierarchy path, the path is case-sensitive.
 It will traverse the hierarchy by splitting the path using '/' character.
 This function will still returns the node even if it is inactive.
@@ -21,11 +20,7 @@ It is recommended to not use this function every frame instead cache the result 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `path` | `string` | The path of the target node  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `referenceNode` | `Node` | If given, the search will be limited in the sub node tree of the reference node  |
-
 
 ___
 

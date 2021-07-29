@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Converts geometry to wireframe mode. Only geometry with triangle topology is supported.
 
@@ -19,7 +18,6 @@ Converts geometry to wireframe mode. Only geometry with triangle topology is sup
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `geometry` | `IGeometry` | 几何体信息。  |
-
 
 #### Returns `IGeometry` 
 ___

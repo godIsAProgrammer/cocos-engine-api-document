@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `C1` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `C2` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `C3` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `C4` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `t` | `number` | - |
-
 
 #### Returns `number` 
 ___

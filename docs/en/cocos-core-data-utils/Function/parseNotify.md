@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `val` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propName` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `notify` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `properties` | `any` | - |
-
 
 #### Returns `void` 
 ___

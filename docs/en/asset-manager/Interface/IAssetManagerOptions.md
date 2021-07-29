@@ -17,10 +17,8 @@
 
 
 
-
 **`zh`** 
 所有 bundle 的版本信息
-
 
 
 
@@ -33,9 +31,7 @@ Version for all bundles
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:90](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L90)&nbsp;
-
 ___
 #### importBase
 
@@ -46,9 +42,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L76)&nbsp;
-
 ___
 #### jsbDownloaderMaxTasks
 
@@ -59,9 +53,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:80](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L80)&nbsp;
-
 ___
 #### jsbDownloaderTimeout
 
@@ -72,9 +64,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L82)&nbsp;
-
 ___
 #### nativeBase
 
@@ -85,9 +75,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:78](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L78)&nbsp;
-
 ___
 #### remoteBundles
 
@@ -95,10 +83,8 @@ ___
 
 
 
-
 **`zh`** 
 配置为远程包的 bundle
-
 
 
 
@@ -111,9 +97,7 @@ All remote bundles
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L114)&nbsp;
-
 ___
 #### server
 
@@ -121,10 +105,8 @@ ___
 
 
 
-
 **`zh`** 
 远程服务器地址
-
 
 
 
@@ -137,9 +119,7 @@ Remote server address
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:98](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L98)&nbsp;
-
 ___
 #### subpackages
 
@@ -147,10 +127,8 @@ ___
 
 
 
-
 **`zh`** 
 配置为子包的 bundle
-
 
 
 
@@ -163,7 +141,5 @@ All subpackages
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L106)&nbsp;
-
 ___

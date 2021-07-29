@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `leftDown` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rightTop` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rowMoveDir` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `colMoveDir` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `comp` | `TiledLayer` | - |
-
 
 #### Returns `void` 
 ___

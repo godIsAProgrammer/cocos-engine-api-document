@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Node's UI properties abstraction
 
 
@@ -50,7 +49,6 @@ ___
 
 
 
-
 **`en`** The opacity of the UI node
 
 
@@ -71,7 +69,6 @@ ___
 
 
 
-
 **`en`** The base UI component
 
 
@@ -89,7 +86,6 @@ ___
 
 ### uiTransformComp
 <div style="margin-left: 10px;">
-
 
 
 
@@ -117,14 +113,10 @@ ___
 • **new NodeUIProperties**(`node: any`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `node` | `any` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/node-ui-properties.ts:80](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/node-ui-properties.ts#L80)&nbsp;

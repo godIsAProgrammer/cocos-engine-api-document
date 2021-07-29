@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Counts number of trailing zeros.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
 
 #### Returns `number` 
 ___

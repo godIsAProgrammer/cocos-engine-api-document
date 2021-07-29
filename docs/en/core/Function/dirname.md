@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`en`** Get dirname of a file path.
-
 
 
 
@@ -28,7 +26,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `path` | `string` | - |
-
 
 #### Returns `string` 
 ___

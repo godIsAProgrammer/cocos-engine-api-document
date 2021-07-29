@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Terrain layer
 
 
@@ -31,7 +30,6 @@
 
 
 
-
 **`en`** detail texture
 
 
@@ -49,7 +47,6 @@ ___
 
 ### metallic
 <div style="margin-left: 10px;">
-
 
 
 
@@ -73,7 +70,6 @@ ___
 
 
 
-
 **`en`** normal texture
 
 
@@ -94,7 +90,6 @@ ___
 
 
 
-
 **`en`** roughness
 
 
@@ -112,7 +107,6 @@ ___
 
 ### tileSize
 <div style="margin-left: 10px;">
-
 
 
 

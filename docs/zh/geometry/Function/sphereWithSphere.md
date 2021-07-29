@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 球和球的相交性检测。
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sphere0` | `Sphere` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sphere1` | `Sphere` | - |
-
 
 #### Returns `boolean` true or false
 

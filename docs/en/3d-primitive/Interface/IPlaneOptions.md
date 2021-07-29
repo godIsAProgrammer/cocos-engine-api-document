@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/plane.ts:49](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/plane.ts#L49)&nbsp;
-
 ___
 #### lengthSegments
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/plane.ts:59](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/plane.ts#L59)&nbsp;
-
 ___
 #### width
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/plane.ts:44](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/plane.ts#L44)&nbsp;
-
 ___
 #### widthSegments
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/plane.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/plane.ts#L54)&nbsp;
-
 ___

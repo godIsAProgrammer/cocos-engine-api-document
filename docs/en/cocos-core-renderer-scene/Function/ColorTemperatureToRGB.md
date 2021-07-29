@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `rgb` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `kelvin` | `number` | - |
-
 
 #### Returns `void` 
 ___

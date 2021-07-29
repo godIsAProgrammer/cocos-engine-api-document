@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 将三个数字按位交错编码，每个数字占十位。有利于在八叉树中使用。
 
 
@@ -19,15 +18,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `z` | `number` | - |
-
 
 #### Returns `number` 
 ___

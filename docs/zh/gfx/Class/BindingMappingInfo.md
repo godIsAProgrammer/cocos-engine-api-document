@@ -84,30 +84,12 @@ ___
 • **new BindingMappingInfo**(`bufferOffsets: undefined, samplerOffsets: undefined, flexibleSet: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `bufferOffsets` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `samplerOffsets` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `flexibleSet` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:923](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L923)&nbsp;
@@ -119,16 +101,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: BindingMappingInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -137,12 +115,7 @@ ___
 | `info` | `BindingMappingInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:931](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L931)&nbsp;

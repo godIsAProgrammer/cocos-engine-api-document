@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `color` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `parentOpacity` | `number` | - |
-
 
 #### Returns `void` 
 ___

@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `IVec2Like` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `IVec2Like` | - |
-
 
 #### Returns `number` 
 ___

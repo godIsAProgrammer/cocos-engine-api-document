@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `extent` | `Vec3` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `m3` | `Mat3` | - |
-
 
 #### Returns `void` 
 ___

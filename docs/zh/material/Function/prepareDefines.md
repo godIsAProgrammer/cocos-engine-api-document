@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `defs` | `MacroRecord` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tDefs` | - | - |
-
 
 ___
 

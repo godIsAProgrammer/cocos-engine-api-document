@@ -199,86 +199,19 @@ ___
 • **new PipelineStateInfo**(`shader: Shader, pipelineLayout: PipelineLayout, renderPass: RenderPass, inputState: InputState, rasterizerState: RasterizerState, depthStencilState: DepthStencilState, blendState: BlendState, primitive: PrimitiveMode, dynamicStates: DynamicStateFlags, bindPoint: PipelineBindPoint`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `shader` | `Shader` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `pipelineLayout` | `PipelineLayout` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `renderPass` | `RenderPass` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `inputState` | `InputState` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `rasterizerState` | `RasterizerState` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthStencilState` | `DepthStencilState` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `blendState` | `BlendState` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `primitive` | `PrimitiveMode` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dynamicStates` | `DynamicStateFlags` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `bindPoint` | `PipelineBindPoint` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:246](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L246)&nbsp;

@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`zh`** 更改文件路径的扩展名。
-
 
 
 
@@ -28,11 +26,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `path` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `extName` | - | - |
-
 
 #### Returns `string` 
 ___

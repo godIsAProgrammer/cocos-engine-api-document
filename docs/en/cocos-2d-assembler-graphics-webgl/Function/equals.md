@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p1` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `p2` | `Aim` | - |
-
 
 #### Returns `boolean` 
 ___

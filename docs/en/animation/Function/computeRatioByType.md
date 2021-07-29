@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ratio` | `number` | The origin ratio  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `EasingMethod` | If it's Array, then ratio will be computed with bezierByTime.If it's string, then ratio will be computed with cc.easing function  |
-
 
 #### Returns `number` 
 ___

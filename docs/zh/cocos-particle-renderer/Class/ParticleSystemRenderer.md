@@ -33,7 +33,6 @@
 
 
 
-
 **`zh`** 在粒子生成方式为 StrecthedBillboard 时,对粒子在运动方向上按粒子大小进行拉伸。
 
 
@@ -71,7 +70,6 @@ ___
 
 
 
-
 **`zh`** 粒子发射的模型。
 
 
@@ -90,7 +88,6 @@ ___
 
 ### particleMaterial
 <div style="margin-left: 10px;">
-
 
 
 
@@ -115,7 +112,6 @@ ___
 
 
 
-
 **`zh`** 设定粒子生成模式。
 
 
@@ -134,7 +130,6 @@ ___
 
 ### trailMaterial
 <div style="margin-left: 10px;">
-
 
 
 
@@ -175,7 +170,6 @@ ___
 
 
 
-
 **`zh`** 在粒子生成方式为 StrecthedBillboard 时,对粒子在运动方向上按速度大小进行拉伸。
 
 
@@ -195,16 +189,12 @@ ___
 ## Methods
 
 ### onInit
+
 <div style="margin-left: 10px;">
 
 ▸   **onInit**<`void`\>(`ps: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -213,12 +203,7 @@ ___
 | `ps` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/particle-system-renderer-data.ts:206](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/particle-system-renderer-data.ts#L206)&nbsp;

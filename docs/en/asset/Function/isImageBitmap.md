@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `imageSource` | `any` | - |
 
-
 #### Returns `imageSource` 
 ___
 

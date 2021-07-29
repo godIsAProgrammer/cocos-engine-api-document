@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `vertices` | - | - |
-
 
 ___
 

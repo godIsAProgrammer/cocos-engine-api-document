@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `node` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `comp` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `any` | - |
-
 
 #### Returns `void` 
 ___

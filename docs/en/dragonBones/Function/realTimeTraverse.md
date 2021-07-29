@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `armature` | `Armature` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `parentMat` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `parentOpacity` | `number` | - |
-
 
 #### Returns `void` 
 ___

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Outputs an error message to the Cocos Creator Console (editor) or Web Console (runtime).<br/>
 - In Cocos Creator, error is red.<br/>
@@ -21,11 +20,7 @@ Outputs an error message to the Cocos Creator Console (editor) or Web Console (r
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `message` | `any` | A JavaScript string containing zero or more substitution strings.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `optionalParams` | - | JavaScript objects with which to replace substitution strings within msg.This gives you additional control over the format of the output.  |
-
 
 #### Returns `void` 
 ___

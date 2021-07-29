@@ -67,14 +67,10 @@ ___
 • **new WebGL2CmdObject**(`type: WebGL2Cmd`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `type` | `WebGL2Cmd` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-commands.ts:655](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-commands.ts#L655)&nbsp;
@@ -86,6 +82,7 @@ ___
 ## Methods
 
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`any`\> : `any`
@@ -93,16 +90,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-commands.ts:661](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-commands.ts#L661)&nbsp;

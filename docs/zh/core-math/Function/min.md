@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 计算整数x和y中的最小值。
 
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
 
 #### Returns `number` 
 ___

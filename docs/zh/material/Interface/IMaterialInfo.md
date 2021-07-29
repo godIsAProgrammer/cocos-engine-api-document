@@ -14,10 +14,8 @@
 
 
 
-
 **`en`** 
 The shader macro definitions. Default to 0 or the specified value in [[EffectAsset]].
-
 
 
 
@@ -30,9 +28,7 @@ The shader macro definitions. Default to 0 or the specified value in [[EffectAss
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/material.ts:75](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/material.ts#L75)&nbsp;
-
 ___
 #### effectAsset
 
@@ -40,9 +36,7 @@ ___
 
 
 
-
 **`en`** The EffectAsset to use. Must provide if `effectName` is not specified.
-
 
 
 
@@ -55,9 +49,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/material.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/material.ts#L54)&nbsp;
-
 ___
 #### effectName
 
@@ -65,10 +57,8 @@ ___
 
 
 
-
 **`en`** 
 The name of the EffectAsset to use. Must provide if `effectAsset` is not specified.
-
 
 
 
@@ -81,9 +71,7 @@ The name of the EffectAsset to use. Must provide if `effectAsset` is not specifi
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/material.ts:61](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/material.ts#L61)&nbsp;
-
 ___
 #### states
 
@@ -91,10 +79,8 @@ ___
 
 
 
-
 **`en`** 
 The override values on top of the pipeline states specified in [[EffectAsset]].
-
 
 
 
@@ -108,9 +94,7 @@ The override values on top of the pipeline states specified in [[EffectAsset]].
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/material.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/material.ts#L83)&nbsp;
-
 ___
 #### technique
 
@@ -118,10 +102,8 @@ ___
 
 
 
-
 **`en`** 
 The index of the technique to use.
-
 
 
 
@@ -134,7 +116,5 @@ The index of the technique to use.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/material.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/material.ts#L68)&nbsp;
-
 ___

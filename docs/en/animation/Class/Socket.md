@@ -27,7 +27,6 @@
 
 
 
-
 **`en`** Path of the target joint.
 
 
@@ -45,7 +44,6 @@ ___
 
 ### target
 <div style="margin-left: 10px;">
-
 
 
 
@@ -73,22 +71,11 @@ ___
 • **new Socket**(`path: string, target: Node | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `path` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `target` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/3d/skeletal-animation/skeletal-animation.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/skeletal-animation/skeletal-animation.ts#L62)&nbsp;

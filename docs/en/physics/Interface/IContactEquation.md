@@ -19,10 +19,8 @@
 
 
 
-
 **`en`** 
 Gets the lowLevel object, through which all the exposed properties can be accessed.
-
 
 
 
@@ -35,9 +33,7 @@ Gets the lowLevel object, through which all the exposed properties can be access
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:103](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L103)&nbsp;
-
 ___
 #### isBodyA
 
@@ -45,10 +41,8 @@ ___
 
 
 
-
 **`en`** 
 Gets whether the rigid body bound to the selfCollider is A.
-
 
 
 
@@ -61,9 +55,7 @@ Gets whether the rigid body bound to the selfCollider is A.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L111)&nbsp;
-
 ___
 #### getLocalNormalOnA
 
@@ -74,9 +66,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:156](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L156)&nbsp;
-
 ___
 #### getLocalNormalOnB
 
@@ -87,9 +77,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:165](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L165)&nbsp;
-
 ___
 #### getLocalPointOnA
 
@@ -100,9 +88,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:120](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L120)&nbsp;
-
 ___
 #### getLocalPointOnB
 
@@ -113,9 +99,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L129)&nbsp;
-
 ___
 #### getWorldNormalOnA
 
@@ -126,9 +110,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:174](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L174)&nbsp;
-
 ___
 #### getWorldNormalOnB
 
@@ -139,9 +121,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:183](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L183)&nbsp;
-
 ___
 #### getWorldPointOnA
 
@@ -152,9 +132,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:138](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L138)&nbsp;
-
 ___
 #### getWorldPointOnB
 
@@ -165,7 +143,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-interface.ts:147](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-interface.ts#L147)&nbsp;
-
 ___

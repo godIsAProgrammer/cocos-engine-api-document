@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 aabb-plane intersect detect.
 
@@ -19,11 +18,7 @@ aabb-plane intersect detect.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `aabb` | `AABB` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `plane` | `Plane` | - |
-
 
 #### Returns `number` inside(back) &#x3D; -1, outside(front) &#x3D; 0, intersect &#x3D; 1
 

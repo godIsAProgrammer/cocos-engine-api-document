@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 比较排序函数。不透明对象按优先级 -> 深度由前向后 -> Shader ID 顺序排序。
 
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `IRenderPass` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `IRenderPass` | - |
-
 
 #### Returns `number` 
 ___

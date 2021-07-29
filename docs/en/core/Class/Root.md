@@ -323,14 +323,10 @@ ___
 • **new Root**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:223](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L223)&nbsp;
@@ -342,16 +338,12 @@ ___
 ## Methods
 
 ### activeWindow
+
 <div style="margin-left: 10px;">
 
 ▸   **activeWindow**<`void`\>(`window: RenderWindow`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -360,17 +352,13 @@ ___
 | `window` | `RenderWindow` | GFX 窗口  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:362](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L362)&nbsp;
 ___
 ### createCamera
+
 <div style="margin-left: 10px;">
 
 ▸   **createCamera**<`Camera`\> : `Camera`
@@ -378,31 +366,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Camera` -->
-<!---->
-
-
 ##### Returns `Camera`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:532](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L532)&nbsp;
 ___
 ### createLight
+
 <div style="margin-left: 10px;">
 
 ▸   **createLight**<`T`\>(`LightCtor: undefined`) : `T`
 
 
-
-
-<!---->
-<!--    #### Returns `T` -->
-<!---->
 
 #### Parameters
 
@@ -411,27 +386,18 @@ ___
 | `LightCtor` |  | - |
 
 
-
 ##### Returns `T`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:536](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L536)&nbsp;
 ___
 ### createModel
+
 <div style="margin-left: 10px;">
 
 ▸   **createModel**<`T`\>(`ModelCtor: undefined`) : `T`
 
 
-
-
-<!---->
-<!--    #### Returns `T` -->
-<!---->
 
 #### Parameters
 
@@ -440,27 +406,18 @@ ___
 | `ModelCtor` |  | - |
 
 
-
 ##### Returns `T`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:508](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L508)&nbsp;
 ___
 ### createScene
+
 <div style="margin-left: 10px;">
 
 ▸   **createScene**<`RenderScene`\>(`info: IRenderSceneInfo`) : `RenderScene`
 
 
-
-
-<!---->
-<!--    #### Returns `RenderScene` -->
-<!---->
 
 #### Parameters
 
@@ -469,25 +426,18 @@ ___
 | `info` | `IRenderSceneInfo` | 渲染场景描述信息  |
 
 
-
 ##### Returns `RenderScene`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:475](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L475)&nbsp;
 ___
 ### createWindow
+
 <div style="margin-left: 10px;">
 
 ▸   **createWindow**(`info: IRenderWindowInfo`)
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -496,17 +446,13 @@ ___
 | `info` | `IRenderWindowInfo` | GFX 窗口描述信息  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:437](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L437)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -514,31 +460,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:270](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L270)&nbsp;
 ___
 ### destroyLight
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyLight**<`void`\>(`l: Light`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -547,27 +480,18 @@ ___
 | `l` | `Light` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:547](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L547)&nbsp;
 ___
 ### destroyModel
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyModel**<`void`\>(`m: Model`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -576,27 +500,18 @@ ___
 | `m` | `Model` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:519](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L519)&nbsp;
 ___
 ### destroyScene
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyScene**<`void`\>(`scene: RenderScene`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -605,17 +520,13 @@ ___
 | `scene` | `RenderScene` | 渲染场景  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:487](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L487)&nbsp;
 ___
 ### destroyScenes
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyScenes**<`void`\> : `void`
@@ -623,31 +534,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:501](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L501)&nbsp;
 ___
 ### destroyWindow
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyWindow**<`void`\>(`window: RenderWindow`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -656,17 +554,13 @@ ___
 | `window` | `RenderWindow` | GFX 窗口  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:449](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L449)&nbsp;
 ___
 ### destroyWindows
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyWindows**<`void`\> : `void`
@@ -674,31 +568,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:463](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L463)&nbsp;
 ___
 ### frameMove
+
 <div style="margin-left: 10px;">
 
 ▸   **frameMove**<`void`\>(`deltaTime: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -707,27 +588,18 @@ ___
 | `deltaTime` | `number` | 间隔时间  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:379](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L379)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`Promise`\>(`info: IRootInfo`) : `Promise`
 
 
-
-
-<!---->
-<!--    #### Returns `Promise` -->
-<!---->
 
 #### Parameters
 
@@ -736,17 +608,13 @@ ___
 | `info` | `IRootInfo` | Root描述信息  |
 
 
-
 ##### Returns `Promise`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:244](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L244)&nbsp;
 ___
 ### onGlobalPipelineStateChanged
+
 <div style="margin-left: 10px;">
 
 ▸   **onGlobalPipelineStateChanged**<`void`\> : `void`
@@ -754,21 +622,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:349](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L349)&nbsp;
 ___
 ### resetCumulativeTime
+
 <div style="margin-left: 10px;">
 
 ▸   **resetCumulativeTime**<`void`\> : `void`
@@ -776,64 +636,39 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:370](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L370)&nbsp;
 ___
 ### resize
+
 <div style="margin-left: 10px;">
 
 ▸   **resize**<`void`\>(`width: number, height: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | 屏幕宽度  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | 屏幕高度  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:299](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L299)&nbsp;
 ___
 ### setRenderPipeline
+
 <div style="margin-left: 10px;">
 
 ▸   **setRenderPipeline**<`boolean`\>(`rppl: RenderPipeline`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -842,12 +677,7 @@ ___
 | `rppl` | `RenderPipeline` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/root.ts:318](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/root.ts#L318)&nbsp;

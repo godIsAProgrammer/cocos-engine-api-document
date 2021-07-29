@@ -53,6 +53,9 @@ ___
 • **new ContentStrategy**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:985](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L985)&nbsp;
@@ -64,10 +67,10 @@ ___
 ## Methods
 
 ### apply
+
 <div style="margin-left: 10px;">
 
 ▸   **apply**<`AdaptResult`\>(`_view: View, designedResolution: Size`) : `AdaptResult`
-
 
 
 
@@ -75,38 +78,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `AdaptResult` The result scale and viewport rect
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `_view` | `View` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `designedResolution` | `Size` | - |
 
 
-
 ##### Returns `AdaptResult`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:1008](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L1008)&nbsp;
 ___
 ### postApply
+
 <div style="margin-left: 10px;">
 
 ▸   **postApply**<`void`\>(`_view: View`) : `void`
-
 
 
 
@@ -114,11 +103,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -126,21 +110,16 @@ ___
 | `_view` | `View` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:1017](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L1017)&nbsp;
 ___
 ### preApply
+
 <div style="margin-left: 10px;">
 
 ▸   **preApply**<`void`\>(`_view: View`) : `void`
-
 
 
 
@@ -148,11 +127,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -160,12 +134,7 @@ ___
 | `_view` | `View` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:998](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L998)&nbsp;

@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -50,7 +49,6 @@
 
 
 
-
 **`zh`** GFX 混合状态。
 
 
@@ -72,7 +70,6 @@ ___
 
 
 
-
 **`zh`** GFX 深度模板状态。
 
 
@@ -91,7 +88,6 @@ ___
 
 ### dynamicStates
 <div style="margin-left: 10px;">
-
 
 
 
@@ -148,7 +144,6 @@ ___
 
 
 
-
 **`zh`** GFX 输入状态。
 
 
@@ -167,7 +162,6 @@ ___
 
 ### pipelineLayout
 <div style="margin-left: 10px;">
-
 
 
 
@@ -192,7 +186,6 @@ ___
 
 
 
-
 **`zh`** GFX 图元模式。
 
 
@@ -211,7 +204,6 @@ ___
 
 ### rasterizerState
 <div style="margin-left: 10px;">
-
 
 
 
@@ -236,7 +228,6 @@ ___
 
 
 
-
 **`zh`** GFX 渲染过程。
 
 
@@ -255,7 +246,6 @@ ___
 
 ### shader
 <div style="margin-left: 10px;">
-
 
 
 
@@ -284,14 +274,10 @@ ___
 • **new WebGLPipelineState**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/pipeline-state.ts:357](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/pipeline-state.ts#L357)&nbsp;
@@ -303,6 +289,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -310,31 +297,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-pipeline-state.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-pipeline-state.ts#L102)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: PipelineStateInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -343,12 +317,7 @@ ___
 | `info` | `PipelineStateInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-pipeline-state.ts:57](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-pipeline-state.ts#L57)&nbsp;

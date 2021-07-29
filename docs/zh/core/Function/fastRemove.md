@@ -8,13 +8,13 @@ ___
 ___
 
 
-
 **`zh`** 
 移除首个指定的数组元素。判定元素相等时相当于于使用了 `Array.prototype.indexOf`。
 此函数十分高效，但会改变数组的元素次序。
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -24,11 +24,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `T` | 待移除元素。  |
-
 
 #### Returns `void` 
 ___

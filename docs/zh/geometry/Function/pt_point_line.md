@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 计算给定点距离直线上最近的一点。
 
@@ -19,19 +18,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Vec3` | 最近点  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `point` | `Vec3` | 给定点  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `linePointA` | `Vec3` | 线上的某点 A  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `linePointB` | `Vec3` | 线上的某点 B  |
-
 
 #### Returns `void` 
 ___

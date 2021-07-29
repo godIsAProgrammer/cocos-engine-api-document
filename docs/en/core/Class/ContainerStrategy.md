@@ -43,10 +43,10 @@ ___
 ## Methods
 
 ### apply
+
 <div style="margin-left: 10px;">
 
 ▸   **apply**<`void`\>(`_view: View, designedResolution: Size`) : `void`
-
 
 
 
@@ -54,37 +54,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `_view` | `View` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `designedResolution` | `Size` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:907](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L907)&nbsp;
 ___
 ### postApply
+
 <div style="margin-left: 10px;">
 
 ▸   **postApply**<`void`\>(`_view: View`) : `void`
-
 
 
 
@@ -93,11 +80,6 @@ Manipulation after applying the strategy
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -105,21 +87,16 @@ Manipulation after applying the strategy
 | `_view` | `View` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:916](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L916)&nbsp;
 ___
 ### preApply
+
 <div style="margin-left: 10px;">
 
 ▸   **preApply**<`void`\>(`_view: View`) : `void`
-
 
 
 
@@ -127,11 +104,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -139,12 +111,7 @@ ___
 | `_view` | `View` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:898](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L898)&nbsp;

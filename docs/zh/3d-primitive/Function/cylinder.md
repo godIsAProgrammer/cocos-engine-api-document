@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 生成一个圆柱。
 
@@ -19,19 +18,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radiusTop` | `number` | 顶部半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `radiusBottom` | `number` | 底部半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `RecursivePartial` | 圆柱参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

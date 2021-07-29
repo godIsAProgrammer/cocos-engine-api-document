@@ -12,8 +12,6 @@
 
 
 
-
-
 **`en`** 
 Scheduler is responsible of triggering the scheduled callbacks.<br>
 You should not use NSTimer. Instead use this class.<br>
@@ -125,6 +123,9 @@ ___
 • **new Scheduler**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:385](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L385)&nbsp;
@@ -136,10 +137,10 @@ ___
 ## Methods
 
 ### sortByPriority
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **sortByPriority**(`a: System, b: System`)
-
 
 
 
@@ -147,35 +148,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `System` | System a  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `System` | System b  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L62)&nbsp;
 ___
 ### enableForTarget
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **enableForTarget**<`void`\>(`target: ISchedulable`) : `void`
-
 
 
 
@@ -184,11 +174,6 @@ This method will add a `id` property if it doesn't exist.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -196,21 +181,16 @@ This method will add a `id` property if it doesn't exist.
 | `target` | `ISchedulable` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:370](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L370)&nbsp;
 ___
 ### getTimeScale
+
 <div style="margin-left: 10px;">
 
 ▸   **getTimeScale**<`number`\> : `number`
-
 
 
 
@@ -219,25 +199,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:428](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L428)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\> : `void`
-
 
 
 
@@ -246,25 +217,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L76)&nbsp;
 ___
 ### isScheduled
+
 <div style="margin-left: 10px;">
 
 ▸   **isScheduled**(`callback: any, target: ISchedulable`)
-
 
 
 
@@ -272,46 +234,30 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback to check.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `ISchedulable` | The target of the callback.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:866](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L866)&nbsp;
 ___
 ### isTargetPaused
+
 <div style="margin-left: 10px;">
 
 ▸   **isTargetPaused**<`any`\>(`target: ISchedulable`) : `any`
 
 
 
-
 **`en`** Returns whether or not the target is paused.
 
 
-
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
 
 #### Parameters
 
@@ -320,21 +266,16 @@ ___
 | `target` | `ISchedulable` |   |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:1062](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L1062)&nbsp;
 ___
 ### pauseAllTargets
+
 <div style="margin-left: 10px;">
 
 ▸   **pauseAllTargets**<`any`\> : `any`
-
 
 
 
@@ -345,25 +286,16 @@ You should NEVER call this method, unless you know what you are doing.
 
 
 
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:906](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L906)&nbsp;
 ___
 ### pauseAllTargetsWithMinPriority
+
 <div style="margin-left: 10px;">
 
 ▸   **pauseAllTargetsWithMinPriority**<`any`\>(`minPriority: number`) : `any`
-
 
 
 
@@ -373,11 +305,6 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -385,21 +312,16 @@ You should only call this with kCCPriorityNonSystemMin or higher.
 | `minPriority` | `number` |   |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:919](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L919)&nbsp;
 ___
 ### pauseTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **pauseTarget**<`void`\>(`target: ISchedulable`) : `void`
-
 
 
 
@@ -410,11 +332,6 @@ If the target is not present, nothing happens.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -422,32 +339,22 @@ If the target is not present, nothing happens.
 | `target` | `ISchedulable` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:1002](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L1002)&nbsp;
 ___
 ### postUpdate
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdate**<`void`\>(`dt: number`) : `void`
 
 
 
-
 **`en`** Post update function of the system, it will be invoked after all components late update phase and before the rendering process.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -456,21 +363,16 @@ ___
 | `dt` | `number` | Delta time after the last frame  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:88](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L88)&nbsp;
 ___
 ### resumeTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **resumeTarget**<`void`\>(`target: ISchedulable`) : `void`
-
 
 
 
@@ -481,11 +383,6 @@ If the target is not present, nothing happens.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -493,21 +390,16 @@ If the target is not present, nothing happens.
 | `target` | `ISchedulable` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:1035](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L1035)&nbsp;
 ___
 ### resumeTargets
+
 <div style="margin-left: 10px;">
 
 ▸   **resumeTargets**<`void`\>(`targetsToResume: any`) : `void`
-
 
 
 
@@ -517,11 +409,6 @@ This can be useful for undoing a call to pauseAllCallbacks.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -529,21 +416,16 @@ This can be useful for undoing a call to pauseAllCallbacks.
 | `targetsToResume` | `any` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:981](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L981)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: Function, target: ISchedulable, interval: number, repeat: undefined | number, delay: undefined | number, paused: undefined | false | true`) : `void`
-
 
 
 
@@ -559,53 +441,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `Function` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `ISchedulable` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `undefined \| number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `undefined \| number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `paused` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:555](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L555)&nbsp;
 ___
 ### scheduleUpdate
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleUpdate**<`void`\>(`target: ISchedulable, priority: number, paused: boolean`) : `void`
-
 
 
 
@@ -615,41 +472,25 @@ During every frame after schedule started, the "update" function of target will 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `ISchedulable` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `priority` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `paused` | `boolean` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:623](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L623)&nbsp;
 ___
 ### setTimeScale
+
 <div style="margin-left: 10px;">
 
 ▸   **setTimeScale**<`void`\>(`timeScale: any`) : `void`
-
 
 
 
@@ -662,11 +503,6 @@ Note：It will affect EVERY scheduled selector / action.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -674,21 +510,16 @@ Note：It will affect EVERY scheduled selector / action.
 | `timeScale` | `any` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:420](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L420)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback: any, target: ISchedulable`) : `void`
-
 
 
 
@@ -698,37 +529,24 @@ If you want to unschedule the "update", use `unscheduleUpdate()`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback to be unscheduled  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `ISchedulable` | The target bound to the callback.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:676](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L676)&nbsp;
 ___
 ### unscheduleAll
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAll**<`void`\> : `void`
-
 
 
 
@@ -739,25 +557,16 @@ You should NEVER call this method, unless you know what you are doing.
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:794](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L794)&nbsp;
 ___
 ### unscheduleAllForTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllForTarget**<`void`\>(`target: any`) : `void`
-
 
 
 
@@ -767,11 +576,6 @@ This also includes the "update" callback.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -779,21 +583,16 @@ This also includes the "update" callback.
 | `target` | `any` | The target to be unscheduled.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:751](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L751)&nbsp;
 ___
 ### unscheduleAllWithMinPriority
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllWithMinPriority**<`void`\>(`minPriority: number`) : `void`
-
 
 
 
@@ -803,11 +602,6 @@ You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -815,32 +609,22 @@ You should only call this with `PRIORITY_NON_SYSTEM_MIN` or higher.
 | `minPriority` | `number` | The minimum priority of selector to be unscheduled. Which means, all selectors which       priority is higher than minPriority will be unscheduled.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:808](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L808)&nbsp;
 ___
 ### unscheduleUpdate
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleUpdate**<`void`\>(`target: ISchedulable`) : `void`
 
 
 
-
 **`en`** Unschedules the update callback for a given target.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -849,32 +633,22 @@ ___
 | `target` | `ISchedulable` | The target to be unscheduled.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:724](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L724)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`dt: any`) : `void`
 
 
 
-
 **`en`** 'update' the scheduler. (You should NEVER call this method, unless you know what you are doing.)
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -883,12 +657,7 @@ ___
 | `dt` | `any` | delta time  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:437](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L437)&nbsp;

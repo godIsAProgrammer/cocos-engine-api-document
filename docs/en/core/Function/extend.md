@@ -15,11 +15,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `cls` | `Function` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `base` | `Function` | The baseclass to inherit.  |
-
 
 ___
 

@@ -13,27 +13,11 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ctor` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `properties` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propertyKey` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `descriptor` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cache` | `any` | - |
-
 
 #### Returns `void` 
 ___

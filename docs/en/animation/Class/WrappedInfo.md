@@ -135,14 +135,10 @@ ___
 • **new WrappedInfo**(`info: WrappedInfo`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `info` | `WrappedInfo` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/types.ts:94](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/types.ts#L94)&nbsp;
@@ -154,16 +150,12 @@ ___
 ## Methods
 
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸   **set**<`void`\>(`info: WrappedInfo`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -172,12 +164,7 @@ ___
 | `info` | `WrappedInfo` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/types.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/types.ts#L102)&nbsp;

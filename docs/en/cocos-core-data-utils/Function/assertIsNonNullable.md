@@ -8,6 +8,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -17,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `expr` | `T` | Testing expression.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `message` | - | Optional message.  |
-
 
 #### Returns `expr` 
 ___

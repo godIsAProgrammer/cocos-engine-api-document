@@ -203,86 +203,19 @@ ___
 • **new TextureInfo**(`type: TextureType, usage: TextureUsage, format: Format, width: number, height: number, flags: TextureFlags, layerCount: number, levelCount: number, samples: SampleCount, depth: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `type` | `TextureType` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `usage` | `TextureUsage` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `format` | `Format` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `width` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `height` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `flags` | `TextureFlags` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `layerCount` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `levelCount` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `samples` | `SampleCount` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depth` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1037](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1037)&nbsp;
@@ -294,16 +227,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: TextureInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -312,12 +241,7 @@ ___
 | `info` | `TextureInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1052](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1052)&nbsp;

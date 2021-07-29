@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 sphere-plane intersect, not necessarily faster than obb-plane,due to the length calculation of the
 plane normal to factor out the unnomalized plane distance.
@@ -20,11 +19,7 @@ plane normal to factor out the unnomalized plane distance.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sphere` | `Sphere` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `plane` | `Plane` | - |
-
 
 #### Returns `number` inside(back) &#x3D; -1, outside(front) &#x3D; 0, intersect &#x3D; 1
 

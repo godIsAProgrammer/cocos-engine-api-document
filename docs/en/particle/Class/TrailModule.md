@@ -263,6 +263,9 @@ ___
 • **new TrailModule**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:326](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L326)&nbsp;
@@ -274,39 +277,28 @@ ___
 ## Methods
 
 ### animate
+
 <div style="margin-left: 10px;">
 
 ▸   **animate**<`void`\>(`p: Particle, scaledDt: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p` | `Particle` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scaledDt` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:440](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L440)&nbsp;
 ___
 ### beforeRender
+
 <div style="margin-left: 10px;">
 
 ▸   **beforeRender**<`void`\> : `void`
@@ -314,21 +306,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:591](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L591)&nbsp;
 ___
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`void`\> : `void`
@@ -336,21 +320,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:406](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L406)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -358,21 +334,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:388](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L388)&nbsp;
 ___
 ### onDisable
+
 <div style="margin-left: 10px;">
 
 ▸   **onDisable**<`void`\> : `void`
@@ -380,21 +348,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:368](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L368)&nbsp;
 ___
 ### onEnable
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnable**<`void`\> : `void`
@@ -402,31 +362,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:364](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L364)&nbsp;
 ___
 ### onInit
+
 <div style="margin-left: 10px;">
 
 ▸   **onInit**<`void`\>(`ps: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -435,17 +382,13 @@ ___
 | `ps` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L346)&nbsp;
 ___
 ### play
+
 <div style="margin-left: 10px;">
 
 ▸   **play**<`void`\> : `void`
@@ -453,31 +396,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:400](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L400)&nbsp;
 ___
 ### removeParticle
+
 <div style="margin-left: 10px;">
 
 ▸   **removeParticle**<`void`\>(`p: Particle`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -486,17 +416,13 @@ ___
 | `p` | `Particle` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:497](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L497)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\> : `void`
@@ -504,31 +430,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:429](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L429)&nbsp;
 ___
 ### updateIA
+
 <div style="margin-left: 10px;">
 
 ▸   **updateIA**<`void`\>(`count: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -537,17 +450,13 @@ ___
 | `count` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:579](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L579)&nbsp;
 ___
 ### updateMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **updateMaterial**<`void`\> : `void`
@@ -555,21 +464,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:420](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L420)&nbsp;
 ___
 ### updateRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **updateRenderData**<`void`\> : `void`
@@ -577,16 +478,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/trail.ts:506](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/trail.ts#L506)&nbsp;

@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `seed` | `number` | The random seed.  |
 
-
 #### Returns `number` The pseudo random.
 
 ___

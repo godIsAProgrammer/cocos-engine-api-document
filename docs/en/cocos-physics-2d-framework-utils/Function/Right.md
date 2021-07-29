@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `c` | `IVec2Like` | - |
-
 
 #### Returns `boolean` 
 ___

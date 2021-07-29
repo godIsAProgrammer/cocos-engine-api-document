@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 A collection of information about a request
 
@@ -59,7 +58,6 @@ ___
 
 
 
-
 **`en`** 
 The content of asset
 
@@ -79,7 +77,6 @@ ___
 
 ### ext
 <div style="margin-left: 10px;">
-
 
 
 
@@ -105,7 +102,6 @@ ___
 
 
 
-
 **`en`** 
 The file of asset
 
@@ -125,7 +121,6 @@ ___
 
 ### info
 <div style="margin-left: 10px;">
-
 
 
 
@@ -151,7 +146,6 @@ ___
 
 
 
-
 **`en`** 
 Whether or not it is native asset
 
@@ -171,7 +165,6 @@ ___
 
 ### options
 <div style="margin-left: 10px;">
-
 
 
 
@@ -197,7 +190,6 @@ ___
 
 
 
-
 **`en`** 
 The final url of request
 
@@ -217,7 +209,6 @@ ___
 
 ### uuid
 <div style="margin-left: 10px;">
-
 
 
 
@@ -243,7 +234,6 @@ ___
 
 
 
-
 **`en`** 
 The id of request, combined from uuid and isNative
 
@@ -264,10 +254,10 @@ ___
 ## Methods
 
 ### create
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **create**<`RequestItem`\> : `RequestItem`
-
 
 
 
@@ -278,27 +268,16 @@ Create a new request item from pool
 
 
 
-<!---->
-<!--    #### Returns `RequestItem` requestItem
-
--->
-<!---->
-
-
 ##### Returns `RequestItem`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/request-item.ts:67](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/request-item.ts#L67)&nbsp;
 ___
 ### recycle
+
 <div style="margin-left: 10px;">
 
 ▸   **recycle**<`void`\> : `void`
-
 
 
 
@@ -309,16 +288,7 @@ Recycle this for reuse
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/request-item.ts:172](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/request-item.ts#L172)&nbsp;

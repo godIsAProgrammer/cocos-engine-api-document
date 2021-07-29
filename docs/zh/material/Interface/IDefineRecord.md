@@ -19,9 +19,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:45](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L45)&nbsp;
-
 ___
 #### _offset
 
@@ -32,9 +30,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:46](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L46)&nbsp;
-
 ___
 #### default
 
@@ -45,9 +41,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:96](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L96)&nbsp;
-
 ___
 #### name
 
@@ -58,9 +52,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:92](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L92)&nbsp;
-
 ___
 #### options
 
@@ -71,9 +63,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:95](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L95)&nbsp;
-
 ___
 #### range
 
@@ -84,9 +74,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:94](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L94)&nbsp;
-
 ___
 #### type
 
@@ -97,7 +85,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/effect-asset.ts:93](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/effect-asset.ts#L93)&nbsp;
-
 ___

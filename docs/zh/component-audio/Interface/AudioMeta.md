@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/audio/audio-clip.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/audio/audio-clip.ts#L41)&nbsp;
-
 ___
 #### type
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/audio/audio-clip.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/audio/audio-clip.ts#L40)&nbsp;
-
 ___
 #### url
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/audio/audio-clip.ts:39](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/audio/audio-clip.ts#L39)&nbsp;
-
 ___

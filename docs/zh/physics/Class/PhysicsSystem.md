@@ -12,8 +12,6 @@
 
 
 
-
-
 **`zh`** 
 物理系统。
 
@@ -68,7 +66,6 @@
 
 
 
-
 **`zh`** 
 获取预定义的物理分组。
 
@@ -88,7 +85,6 @@ ___
 
 ### instance
 <div style="margin-left: 10px;">
-
 
 
 
@@ -114,7 +110,6 @@ ___
 
 
 
-
 **`zh`** 
 获取此系统的ID。
 
@@ -134,7 +129,6 @@ ___
 
 ### collisionMatrix
 <div style="margin-left: 10px;">
-
 
 
 
@@ -160,7 +154,6 @@ ___
 
 
 
-
 **`zh`** 
 获取物理世界的封装对象，通过它你可以访问到实际的底层对象。
 
@@ -183,7 +176,6 @@ ___
 
 
 
-
 **`zh`** 
 获取 raycastClosest 的检测结果。
 
@@ -203,7 +195,6 @@ ___
 
 ### raycastResults
 <div style="margin-left: 10px;">
-
 
 
 
@@ -245,10 +236,8 @@ ___
 
 
 
-
 **`zh`** 
 Gets or sets whether the physical system allows automatic sleep, which defaults to true.
-
 
 
 
@@ -274,7 +263,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置是否自动模拟。
 
@@ -294,7 +282,6 @@ ___
 
 ### defaultMaterial
 <div style="margin-left: 10px;">
-
 
 
 
@@ -320,7 +307,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置是否启用物理系统，可以用于暂停或继续运行物理系统。
 
@@ -343,7 +329,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置每步模拟消耗的固定时间。
 
@@ -363,7 +348,6 @@ ___
 
 ### gravity
 <div style="margin-left: 10px;">
-
 
 
 
@@ -405,7 +389,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置每帧模拟的最大子步数。
 
@@ -444,7 +427,6 @@ ___
 
 
 
-
 **`zh`** 
 获取或设置进入休眠的默认速度临界值。
 
@@ -471,10 +453,10 @@ ___
 ## Methods
 
 ### sortByPriority
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **sortByPriority**(`a: System, b: System`)
-
 
 
 
@@ -482,35 +464,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `System` | System a  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `System` | System b  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L62)&nbsp;
 ___
 ### emitEvents
+
 <div style="margin-left: 10px;">
 
 ▸   **emitEvents**<`void`\> : `void`
-
 
 
 
@@ -521,25 +492,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-system.ts:386](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-system.ts#L386)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\> : `void`
-
 
 
 
@@ -549,25 +511,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L76)&nbsp;
 ___
 ### postUpdate
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdate**<`void`\>(`deltaTime: number`) : `void`
-
 
 
 
@@ -576,11 +529,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -588,21 +536,16 @@ ___
 | `deltaTime` | `number` | the time since last frame.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-system.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-system.ts#L317)&nbsp;
 ___
 ### raycast
+
 <div style="margin-left: 10px;">
 
 ▸   **raycast**<`boolean`\>(`worldRay: Ray, mask: number, maxDistance: number, queryTrigger: boolean`) : `boolean`
-
 
 
 
@@ -611,46 +554,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` boolean 表示是否有检测到碰撞盒
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `worldRay` | `Ray` | 世界空间下的一条射线  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `mask` | `number` | 掩码，默认为 0xffffffff  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxDistance` | `number` | 最大检测距离，默认为 10000000，目前请勿传入 Infinity 或 Number.MAX_VALUE  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `queryTrigger` | `boolean` | 是否检测触发器  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-system.ts:401](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-system.ts#L401)&nbsp;
 ___
 ### raycastClosest
+
 <div style="margin-left: 10px;">
 
 ▸   **raycastClosest**<`boolean`\>(`worldRay: Ray, mask: number, maxDistance: number, queryTrigger: boolean`) : `boolean`
-
 
 
 
@@ -659,46 +582,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` boolean 表示是否有检测到碰撞盒
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `worldRay` | `Ray` | 世界空间下的一条射线  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `mask` | `number` | 掩码，默认为 0xffffffff  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxDistance` | `number` | 最大检测距离，默认为 10000000，目前请勿传入 Infinity 或 Number.MAX_VALUE  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `queryTrigger` | `boolean` | 是否检测触发器  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-system.ts:422](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-system.ts#L422)&nbsp;
 ___
 ### resetAccumulator
+
 <div style="margin-left: 10px;">
 
 ▸   **resetAccumulator**<`void`\>(`time: number`) : `void`
-
 
 
 
@@ -708,11 +611,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -720,21 +618,16 @@ ___
 | `time` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-system.ts:355](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-system.ts#L355)&nbsp;
 ___
 ### step
+
 <div style="margin-left: 10px;">
 
 ▸   **step**<`void`\>(`fixedTimeStep: number, deltaTime: undefined | number, maxSubSteps: undefined | number`) : `void`
-
 
 
 
@@ -743,41 +636,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `fixedTimeStep` | `number` |   |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `deltaTime` | `undefined \| number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxSubSteps` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-system.ts:366](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-system.ts#L366)&nbsp;
 ___
 ### syncSceneToPhysics
+
 <div style="margin-left: 10px;">
 
 ▸   **syncSceneToPhysics**<`void`\> : `void`
-
 
 
 
@@ -788,36 +665,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-system.ts:376](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-system.ts#L376)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`dt: number`) : `void`
 
 
 
-
 **`zh`** 系统的帧更新函数，它会在所有组件的 update 和 lateUpdate 之间被调用
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -826,12 +689,7 @@ ___
 | `dt` | `number` | Delta time after the last frame  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L82)&nbsp;

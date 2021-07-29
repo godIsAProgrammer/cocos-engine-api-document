@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`en`** Join strings to be a path.
-
 
 
 
@@ -28,7 +26,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `segments` | - | - |
-
 
 #### Returns `string` 
 ___

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Tests whether or not the arguments have approximately the same value by given maxDiff<br/>
 
 
@@ -18,15 +17,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `number` | The first number to test.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `number` | The second number to test.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxDiff` | `number` | Maximum difference.  |
-
 
 #### Returns `boolean` True if the numbers are approximately equal, false otherwise.
 

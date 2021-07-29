@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 鼠标事件类型
 
 
@@ -84,7 +82,6 @@
 
 
 
-
 **`zh`** 
 加速器事件类型。
 
@@ -104,7 +101,6 @@ ___
 
 ### KEYBOARD
 <div style="margin-left: 10px;">
-
 
 
 
@@ -130,7 +126,6 @@ ___
 
 
 
-
 **`zh`** 
 鼠标事件类型。
 
@@ -150,7 +145,6 @@ ___
 
 ### NONE
 <div style="margin-left: 10px;">
-
 
 
 
@@ -176,7 +170,6 @@ ___
 
 
 
-
 **`zh`** 
 触摸事件类型。
 
@@ -196,7 +189,6 @@ ___
 
 ### bubbles
 <div style="margin-left: 10px;">
-
 
 
 
@@ -222,7 +214,6 @@ ___
 
 
 
-
 **`zh`** 
 当前目标。
 
@@ -242,7 +233,6 @@ ___
 
 ### eventPhase
 <div style="margin-left: 10px;">
-
 
 
 
@@ -268,7 +258,6 @@ ___
 
 
 
-
 **`zh`** 鼠标事件类型，可以是 UP, DOWN, MOVE, CANCELED。
 
 
@@ -287,7 +276,6 @@ ___
 
 ### movementX
 <div style="margin-left: 10px;">
-
 
 
 
@@ -312,7 +300,6 @@ ___
 
 
 
-
 **`zh`** 鼠标在 UI 坐标系下 Y 轴上的移动距离
 
 
@@ -331,7 +318,6 @@ ___
 
 ### propagationImmediateStopped
 <div style="margin-left: 10px;">
-
 
 
 
@@ -357,7 +343,6 @@ ___
 
 
 
-
 **`zh`** 
 停止传递当前事件。
 
@@ -380,7 +365,6 @@ ___
 
 
 
-
 **`zh`** 
 最初事件触发的目标。
 
@@ -400,7 +384,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -430,30 +413,12 @@ ___
 • **new EventMouse**(`eventType: string, bubbles: undefined | false | true, prevLoc: Vec2`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `eventType` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `bubbles` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `prevLoc` | `Vec2` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L129)&nbsp;
@@ -465,10 +430,10 @@ ___
 ## Methods
 
 ### getButton
+
 <div style="margin-left: 10px;">
 
 ▸   **getButton**<`number`\> : `number`
-
 
 
 
@@ -478,25 +443,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:327](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L327)&nbsp;
 ___
 ### getCurrentTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **getCurrentTarget**
-
 
 
 
@@ -506,34 +462,22 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:273](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L273)&nbsp;
 ___
 ### getDelta
+
 <div style="margin-left: 10px;">
 
 ▸   **getDelta**<`Vec2`\>(`out: Vec2`) : `Vec2`
 
 
 
-
 **`zh`** 获取鼠标距离上一次事件移动的距离对象，对象包含 x 和 y 属性。
 
 
-
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
 
 #### Parameters
 
@@ -542,21 +486,16 @@ ___
 | `out` | `Vec2` | Pass the out object to avoid object creation, very good practice  |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:259](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L259)&nbsp;
 ___
 ### getDeltaX
+
 <div style="margin-left: 10px;">
 
 ▸   **getDeltaX**<`number`\> : `number`
-
 
 
 
@@ -566,25 +505,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:272](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L272)&nbsp;
 ___
 ### getDeltaY
+
 <div style="margin-left: 10px;">
 
 ▸   **getDeltaY**<`number`\> : `number`
-
 
 
 
@@ -594,25 +524,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:280](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L280)&nbsp;
 ___
 ### getLocation
+
 <div style="margin-left: 10px;">
 
 ▸   **getLocation**<`Vec2`\>(`out: Vec2`) : `Vec2`
-
 
 
 
@@ -620,11 +541,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -632,21 +548,16 @@ ___
 | `out` | `Vec2` | Pass the out object to avoid object creation, very good practice  |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:187](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L187)&nbsp;
 ___
 ### getLocationInView
+
 <div style="margin-left: 10px;">
 
 ▸   **getLocationInView**<`Vec2`\>(`out: Vec2`) : `Vec2`
-
 
 
 
@@ -654,11 +565,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -666,21 +572,16 @@ ___
 | `out` | `Vec2` | Pass the out object to avoid object creation, very good practice  |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:201](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L201)&nbsp;
 ___
 ### getLocationX
+
 <div style="margin-left: 10px;">
 
 ▸   **getLocationX**<`number`\> : `number`
-
 
 
 
@@ -690,25 +591,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:335](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L335)&nbsp;
 ___
 ### getLocationY
+
 <div style="margin-left: 10px;">
 
 ▸   **getLocationY**<`number`\> : `number`
-
 
 
 
@@ -718,36 +610,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:343](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L343)&nbsp;
 ___
 ### getPreviousLocation
+
 <div style="margin-left: 10px;">
 
 ▸   **getPreviousLocation**<`Vec2`\>(`out: Vec2`) : `Vec2`
 
 
 
-
 **`zh`** 获取鼠标点击在上一次事件时的位置对象，对象包含 x 和 y 属性。
 
 
-
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
 
 #### Parameters
 
@@ -756,21 +634,16 @@ ___
 | `out` | `Vec2` | Pass the out object to avoid object creation, very good practice  |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:230](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L230)&nbsp;
 ___
 ### getScrollX
+
 <div style="margin-left: 10px;">
 
 ▸   **getScrollX**<`number`\> : `number`
-
 
 
 
@@ -780,25 +653,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:159](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L159)&nbsp;
 ___
 ### getScrollY
+
 <div style="margin-left: 10px;">
 
 ▸   **getScrollY**<`number`\> : `number`
-
 
 
 
@@ -808,25 +672,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:167](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L167)&nbsp;
 ___
 ### getType
+
 <div style="margin-left: 10px;">
 
 ▸   **getType**<`string`\> : `string`
-
 
 
 
@@ -837,36 +692,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:283](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L283)&nbsp;
 ___
 ### getUIDelta
+
 <div style="margin-left: 10px;">
 
 ▸   **getUIDelta**<`Vec2`\>(`out: Vec2`) : `Vec2`
 
 
 
-
 **`zh`** 获取鼠标距离上一次事件移动在 UI 坐标系下的距离对象，对象包含 x 和 y 属性。
 
 
-
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
 
 #### Parameters
 
@@ -875,21 +716,16 @@ ___
 | `out` | `Vec2` | Pass the out object to avoid object creation, very good practice  |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:289](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L289)&nbsp;
 ___
 ### getUIDeltaX
+
 <div style="margin-left: 10px;">
 
 ▸   **getUIDeltaX**<`number`\> : `number`
-
 
 
 
@@ -899,25 +735,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:302](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L302)&nbsp;
 ___
 ### getUIDeltaY
+
 <div style="margin-left: 10px;">
 
 ▸   **getUIDeltaY**<`number`\> : `number`
-
 
 
 
@@ -927,36 +754,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:310](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L310)&nbsp;
 ___
 ### getUILocation
+
 <div style="margin-left: 10px;">
 
 ▸   **getUILocation**<`Vec2`\>(`out: Vec2`) : `Vec2`
 
 
 
-
 **`zh`** 获取当前事件在 UI 窗口内的坐标位置，对象包含 x 和 y 属性。
 
 
-
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
 
 #### Parameters
 
@@ -965,21 +778,16 @@ ___
 | `out` | `Vec2` | Pass the out object to avoid object creation, very good practice  |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L215)&nbsp;
 ___
 ### getUILocationX
+
 <div style="margin-left: 10px;">
 
 ▸   **getUILocationX**<`number`\> : `number`
-
 
 
 
@@ -989,25 +797,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:351](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L351)&nbsp;
 ___
 ### getUILocationY
+
 <div style="margin-left: 10px;">
 
 ▸   **getUILocationY**<`number`\> : `number`
-
 
 
 
@@ -1017,36 +816,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:360](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L360)&nbsp;
 ___
 ### getUIPreviousLocation
+
 <div style="margin-left: 10px;">
 
 ▸   **getUIPreviousLocation**<`Vec2`\>(`out: Vec2`) : `Vec2`
 
 
 
-
 **`zh`** 获取鼠标点击在上一次事件时的位置对象，对象包含 x 和 y 属性。
 
 
-
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
 
 #### Parameters
 
@@ -1055,21 +840,16 @@ ___
 | `out` | `Vec2` | Pass the out object to avoid object creation, very good practice  |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:244](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L244)&nbsp;
 ___
 ### isStopped
+
 <div style="margin-left: 10px;">
 
 ▸   **isStopped**<`boolean`\> : `boolean`
-
 
 
 
@@ -1080,25 +860,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:260](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L260)&nbsp;
 ___
 ### reuse
+
 <div style="margin-left: 10px;">
 
 ▸   **reuse**<`void`\>(`type: string, bubbles: undefined | false | true`) : `void`
-
 
 
 
@@ -1107,48 +878,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | The name of the event (case-sensitive), e.g. "click", "fire", or "submit"  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bubbles` | `undefined \| false \| true` | A boolean indicating whether the event bubbles up through the tree or not  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:231](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L231)&nbsp;
 ___
 ### setButton
+
 <div style="margin-left: 10px;">
 
 ▸   **setButton**<`void`\>(`button: number`) : `void`
 
 
 
-
 **`zh`** 设置鼠标按键。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1157,21 +910,16 @@ ___
 | `button` | `number` | The button code  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L319)&nbsp;
 ___
 ### setLocation
+
 <div style="margin-left: 10px;">
 
 ▸   **setLocation**<`void`\>(`x: number, y: number`) : `void`
-
 
 
 
@@ -1179,37 +927,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | The location on x axis  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | The location on y axis  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:177](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L177)&nbsp;
 ___
 ### setScrollData
+
 <div style="margin-left: 10px;">
 
 ▸   **setScrollData**<`void`\>(`scrollX: number, scrollY: number`) : `void`
-
 
 
 
@@ -1217,37 +952,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `scrollX` | `number` | The scroll value on x axis  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scrollY` | `number` | The scroll value on y axis  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/event-manager/events.ts:150](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/event-manager/events.ts#L150)&nbsp;
 ___
 ### unuse
+
 <div style="margin-left: 10px;">
 
 ▸   **unuse**<`void`\> : `void`
-
 
 
 
@@ -1258,16 +980,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/event.ts:214](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/event.ts#L214)&nbsp;

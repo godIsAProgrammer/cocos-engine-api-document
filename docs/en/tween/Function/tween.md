@@ -8,10 +8,8 @@ ___
 ___
 
 
-
 **`en`** 
 tween is a utility function that helps instantiate Tween instances.
-
 
 
 
@@ -29,6 +27,7 @@ tween(this.node)
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -38,7 +37,6 @@ tween(this.node)
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `T` | 缓动的目标  |
-
 
 #### Returns `Tween` Tween 实例
 ___

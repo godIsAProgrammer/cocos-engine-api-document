@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 大部分对象的基类。
 
@@ -38,7 +37,6 @@
 
 
 
-
 **`zh`** 在继承 CCObject 对象后，控制是否需要隐藏，锁定，序列化等功能。
 
 
@@ -60,7 +58,6 @@ ___
 
 
 
-
 **`zh`** 
 表示该对象是否可用（被 destroy 后将不可用）。<br>
 当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。<br>
@@ -69,9 +66,7 @@ ___
 
 
 
-
 **`default`** true
-
 
 
 
@@ -110,14 +105,11 @@ ___
 
 
 
-
 **`zh`** 该对象的名称。
 
 
 
-
 **`default`** ""
-
 
 
 
@@ -153,14 +145,10 @@ ___
 • **new CCObject**(`name: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:194](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L194)&nbsp;
@@ -172,10 +160,10 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
-
 
 
 
@@ -183,7 +171,6 @@ ___
 销毁该对象，并释放所有它对其它对象的引用。<br/>
 实际销毁操作会延迟到当前帧渲染前执行。从下一帧开始，该对象将不再可用。
 您可以在访问对象之前使用 `isValid(obj)` 来检查对象是否已被销毁。
-
 
 
 
@@ -200,16 +187,7 @@ obj.destroy();
 
 
 
-<!---->
-<!--    #### Returns `boolean` whether it is the first time the destroy being called-->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:286](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L286)&nbsp;

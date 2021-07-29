@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `Type` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gl` | `WebGL2RenderingContext` | - |
-
 
 #### Returns `GLenum` 
 ___

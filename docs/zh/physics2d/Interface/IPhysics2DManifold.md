@@ -13,12 +13,10 @@
 
 
 
-
 **`en`** 
 -Physics2DManifoldType.Circles: not used
 -Physics2DManifoldType.FaceA: the normal on polygonA
 -Physics2DManifoldType.FaceB: the normal on polygonB
-
 
 
 
@@ -33,14 +31,11 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:151](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L151)&nbsp;
-
 ___
 #### localPoint
 
 <div style="margin-left: 10px;">
-
 
 
 
@@ -49,7 +44,6 @@ The local point usage depends on the manifold type:
 -Physics2DManifoldType.Circles: the local center of circleA
 -Physics2DManifoldType.FaceA: the center of faceA
 -Physics2DManifoldType.FaceB: the center of faceB
-
 
 
 
@@ -65,9 +59,7 @@ The local point usage depends on the manifold type:
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:140](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L140)&nbsp;
-
 ___
 #### points
 
@@ -75,10 +67,8 @@ ___
 
 
 
-
 **`en`** 
 the points of contact.
-
 
 
 
@@ -91,9 +81,7 @@ the points of contact.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:159](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L159)&nbsp;
-
 ___
 #### type
 
@@ -101,10 +89,8 @@ ___
 
 
 
-
 **`en`** 
 Manifold type
-
 
 
 
@@ -117,7 +103,5 @@ Manifold 类型
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:127](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L127)&nbsp;
-
 ___

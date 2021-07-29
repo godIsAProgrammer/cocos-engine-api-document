@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Skybox related information
 
 
@@ -34,7 +33,6 @@
 
 
 
-
 **`en`** Whether activate skybox in the scene
 
 
@@ -52,7 +50,6 @@ ___
 
 ### envmap
 <div style="margin-left: 10px;">
-
 
 
 
@@ -76,7 +73,6 @@ ___
 
 
 
-
 **`en`** Whether enable RGBE data support in skybox shader
 
 
@@ -94,7 +90,6 @@ ___
 
 ### useIBL
 <div style="margin-left: 10px;">
-
 
 
 
@@ -116,16 +111,12 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`resource: Skybox`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -134,12 +125,7 @@ ___
 | `resource` | `Skybox` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:180](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L180)&nbsp;

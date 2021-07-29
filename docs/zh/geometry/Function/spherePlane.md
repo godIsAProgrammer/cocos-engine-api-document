@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 球与平面的相交性检测。
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sphere` | `Sphere` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `plane` | `Plane` | - |
-
 
 #### Returns `number` inside(back) &#x3D; -1, outside(front) &#x3D; 0, intersect &#x3D; 1
 

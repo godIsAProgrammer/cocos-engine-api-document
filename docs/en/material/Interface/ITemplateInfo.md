@@ -22,9 +22,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:58](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L58)&nbsp;
-
 ___
 #### blockSizes
 
@@ -35,9 +33,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:53](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L53)&nbsp;
-
 ___
 #### gfxAttributes
 
@@ -48,9 +44,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L52)&nbsp;
-
 ___
 #### gfxBlocks
 
@@ -61,9 +55,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L50)&nbsp;
-
 ___
 #### gfxSamplerTextures
 
@@ -74,9 +66,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L51)&nbsp;
-
 ___
 #### gfxStages
 
@@ -87,9 +77,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L54)&nbsp;
-
 ___
 #### hPipelineLayout
 
@@ -100,9 +88,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L56)&nbsp;
-
 ___
 #### handleMap
 
@@ -113,9 +99,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:57](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L57)&nbsp;
-
 ___
 #### samplerStartBinding
 
@@ -126,9 +110,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:59](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L59)&nbsp;
-
 ___
 #### setLayouts
 
@@ -139,7 +121,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/renderer/core/program-lib.ts:55](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/core/program-lib.ts#L55)&nbsp;
-
 ___

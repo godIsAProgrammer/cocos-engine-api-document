@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ctor` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propName` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `key` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `any` | - |
-
 
 #### Returns `void` 
 ___

@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`en`** Change file name of a file path.
-
 
 
 
@@ -28,15 +26,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `path` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `baseName` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `isSameExt` | - | - |
-
 
 #### Returns `string` 
 ___

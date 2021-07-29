@@ -12,8 +12,6 @@
 
 
 
-
-
 **`en`** 
 Tween system.
 
@@ -46,7 +44,6 @@ Tween system.
 
 
 
-
 **`en`** 
 The ID flag of the system.
 
@@ -68,7 +65,6 @@ ___
 
 
 
-
 **`en`** 
 Gets the instance of the tween system.
 
@@ -87,7 +83,6 @@ ___
 
 ### ActionManager
 <div style="margin-left: 10px;">
-
 
 
 
@@ -142,10 +137,10 @@ ___
 ## Methods
 
 ### sortByPriority
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **sortByPriority**(`a: System, b: System`)
-
 
 
 
@@ -153,35 +148,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `System` | System a  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `System` | System b  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L62)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\> : `void`
-
 
 
 
@@ -190,36 +174,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L76)&nbsp;
 ___
 ### postUpdate
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdate**<`void`\>(`dt: number`) : `void`
 
 
 
-
 **`en`** Post update function of the system, it will be invoked after all components late update phase and before the rendering process.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -228,21 +198,16 @@ ___
 | `dt` | `number` | Delta time after the last frame  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/system.ts:88](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/system.ts#L88)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`dt: number`) : `void`
-
 
 
 
@@ -251,11 +216,6 @@ The update will auto execute after all compnents update.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -263,12 +223,7 @@ The update will auto execute after all compnents update.
 | `dt` | `number` | 间隔时间  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween-system.ts:78](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween-system.ts#L78)&nbsp;

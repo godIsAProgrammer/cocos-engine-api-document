@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 为类设置别名。
 当 `setClassAlias(target, alias)` 后，
 `alias` 将作为类 `target`的“单向 ID” 和“单向名称”。
@@ -22,11 +21,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `Constructor` | Constructor of target class.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `alias` | `string` | Alias to set. The name shall not have been set as class name or alias of another class.  |
-
 
 #### Returns `void` 
 ___

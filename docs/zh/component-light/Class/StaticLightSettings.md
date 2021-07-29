@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 静态灯光设置
 
 
@@ -28,7 +27,6 @@
 
 ### bakeable
 <div style="margin-left: 10px;">
-
 
 
 
@@ -71,7 +69,6 @@ ___
 
 
 
-
 **`zh`** 是否投射阴影。
 
 
@@ -90,7 +87,6 @@ ___
 
 ### editorOnly
 <div style="margin-left: 10px;">
-
 
 
 

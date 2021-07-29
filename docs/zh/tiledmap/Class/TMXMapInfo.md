@@ -87,7 +87,6 @@ Current string stored from characters stream.
 
 
 
-
 **`property`** {String}   currentString
 
 
@@ -108,7 +107,6 @@ ___
 ### layerAttrs
 <div style="margin-left: 10px;">
 Layer attributes.
-
 
 
 
@@ -135,7 +133,6 @@ Map orientation.
 
 
 
-
 **`property`** {Number}   orientation
 
 
@@ -156,7 +153,6 @@ ___
 ### parentElement
 <div style="margin-left: 10px;">
 Parent element.
-
 
 
 
@@ -183,7 +179,6 @@ Parent GID.
 
 
 
-
 **`property`** {Number}   parentGID
 
 
@@ -204,7 +199,6 @@ ___
 ### properties
 <div style="margin-left: 10px;">
 Properties of the map info.
-
 
 
 
@@ -244,7 +238,6 @@ ___
 ### storingCharacters
 <div style="margin-left: 10px;">
 Is reading storing characters stream.
-
 
 
 
@@ -372,46 +365,14 @@ ___
 • **new TMXMapInfo**(`tmxFile: string, tsxContentMap: undefined, spfTexturesMap: undefined, textureSizes: undefined, imageLayerTextures: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `tmxFile` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `tsxContentMap` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `spfTexturesMap` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `textureSizes` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `imageLayerTextures` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:211](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L211)&nbsp;
@@ -423,17 +384,13 @@ ___
 ## Methods
 
 ### getShortName
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **getShortName**<`string`\>(`name: string`) : `string`
 
 
 
-
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -441,28 +398,19 @@ ___
 | `name` | `string` | - |
 
 
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:1070](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L1070)&nbsp;
 ___
 ### getNameWithPostfix
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **getNameWithPostfix**<`string`\>(`name: string`) : `string`
 
 
 
-
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -470,17 +418,13 @@ ___
 | `name` | `string` | - |
 
 
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:1063](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L1063)&nbsp;
 ___
 ### getAllChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getAllChildren**
@@ -488,19 +432,13 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:414](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L414)&nbsp;
 ___
 ### getCurrentString
+
 <div style="margin-left: 10px;">
 
 ▸   **getCurrentString**
@@ -509,19 +447,13 @@ ___
 Gets the currentString
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:1051](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L1051)&nbsp;
 ___
 ### getHexSideLength
+
 <div style="margin-left: 10px;">
 
 ▸   **getHexSideLength**<`number`\> : `number`
@@ -530,22 +462,13 @@ ___
 Gets Hex side length.
 
 
-<!---->
-<!--    #### Returns `number` 
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:268](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L268)&nbsp;
 ___
 ### getImageLayers
+
 <div style="margin-left: 10px;">
 
 ▸   **getImageLayers**
@@ -554,19 +477,13 @@ ___
 ImageLayers
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:368](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L368)&nbsp;
 ___
 ### getLayerAttribs
+
 <div style="margin-left: 10px;">
 
 ▸   **getLayerAttribs**<`number`\> : `number`
@@ -575,22 +492,13 @@ ___
 Layer attribute
 
 
-<!---->
-<!--    #### Returns `number` 
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:454](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L454)&nbsp;
 ___
 ### getLayers
+
 <div style="margin-left: 10px;">
 
 ▸   **getLayers**
@@ -599,19 +507,13 @@ ___
 Layers
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:351](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L351)&nbsp;
 ___
 ### getMapSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getMapSize**<`Size`\> : `Size`
@@ -620,22 +522,13 @@ ___
 Map width &amp; height
 
 
-<!---->
-<!--    #### Returns `Size` 
--->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:284](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L284)&nbsp;
 ___
 ### getObjectGroups
+
 <div style="margin-left: 10px;">
 
 ▸   **getObjectGroups**
@@ -644,19 +537,13 @@ ___
 ObjectGroups
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:401](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L401)&nbsp;
 ___
 ### getOrientation
+
 <div style="margin-left: 10px;">
 
 ▸   **getOrientation**
@@ -664,19 +551,13 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:221](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L221)&nbsp;
 ___
 ### getParentElement
+
 <div style="margin-left: 10px;">
 
 ▸   **getParentElement**
@@ -685,19 +566,13 @@ ___
 parent element
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:422](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L422)&nbsp;
 ___
 ### getParentGID
+
 <div style="margin-left: 10px;">
 
 ▸   **getParentGID**<`number`\> : `number`
@@ -706,22 +581,13 @@ ___
 parent GID
 
 
-<!---->
-<!--    #### Returns `number` 
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:438](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L438)&nbsp;
 ___
 ### getProperties
+
 <div style="margin-left: 10px;">
 
 ▸   **getProperties**
@@ -730,19 +596,13 @@ ___
 Properties
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:486](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L486)&nbsp;
 ___
 ### getStaggerAxis
+
 <div style="margin-left: 10px;">
 
 ▸   **getStaggerAxis**
@@ -751,19 +611,13 @@ ___
 Gets the staggerAxis of map.
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:236](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L236)&nbsp;
 ___
 ### getStaggerIndex
+
 <div style="margin-left: 10px;">
 
 ▸   **getStaggerIndex**
@@ -772,19 +626,13 @@ ___
 Gets stagger index
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:252](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L252)&nbsp;
 ___
 ### getStoringCharacters
+
 <div style="margin-left: 10px;">
 
 ▸   **getStoringCharacters**<`boolean`\> : `boolean`
@@ -793,22 +641,13 @@ ___
 Is reading storing characters stream
 
 
-<!---->
-<!--    #### Returns `boolean` 
--->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:470](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L470)&nbsp;
 ___
 ### getTileAnimations
+
 <div style="margin-left: 10px;">
 
 ▸   **getTileAnimations**<`TiledAnimationType`\> : `TiledAnimationType`
@@ -817,22 +656,13 @@ ___
 Gets the tile animations.
 
 
-<!---->
-<!--    #### Returns `TiledAnimationType` 
--->
-<!---->
-
-
 ##### Returns `TiledAnimationType`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:1027](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L1027)&nbsp;
 ___
 ### getTileProperties
+
 <div style="margin-left: 10px;">
 
 ▸   **getTileProperties**<`Map`\> : `Map`
@@ -841,22 +671,13 @@ ___
 Gets the tile properties.
 
 
-<!---->
-<!--    #### Returns `Map` 
--->
-<!---->
-
-
 ##### Returns `Map`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:1035](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L1035)&nbsp;
 ___
 ### getTileSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getTileSize**<`Size`\> : `Size`
@@ -865,22 +686,13 @@ ___
 Tiles width &amp; height
 
 
-<!---->
-<!--    #### Returns `Size` 
--->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:315](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L315)&nbsp;
 ___
 ### getTilesets
+
 <div style="margin-left: 10px;">
 
 ▸   **getTilesets**
@@ -889,19 +701,13 @@ ___
 tilesets
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:385](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L385)&nbsp;
 ___
 ### initWithXML
+
 <div style="margin-left: 10px;">
 
 ▸   **initWithXML**<`HTMLElement`\>(`tmxString: string, tsxMap: undefined, spfTextureMap: undefined, textureSizes: undefined, imageLayerTextures: undefined`) : `HTMLElement`
@@ -909,46 +715,24 @@ ___
 
 initializes a TMX format with an XML string and a TMX resource path
 
-
-<!---->
-<!--    #### Returns `HTMLElement` 
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `tmxString` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tsxMap` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `spfTextureMap` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `textureSizes` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `imageLayerTextures` |  | - |
 
 
-
 ##### Returns `HTMLElement`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:505](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L505)&nbsp;
 ___
 ### parseXMLString
+
 <div style="margin-left: 10px;">
 
 ▸   **parseXMLString**<`HTMLElement`\>(`xmlStr: string, tilesetFirstGid: undefined | number`) : `HTMLElement`
@@ -956,45 +740,27 @@ ___
 
 Initializes parsing of an XML string, either a tmx (Map) string or tsx (Tileset) string
 
-
-<!---->
-<!--    #### Returns `HTMLElement` 
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `xmlStr` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tilesetFirstGid` | `undefined \| number` | - |
 
 
-
 ##### Returns `HTMLElement`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:537](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L537)&nbsp;
 ___
 ### setCurrentString
+
 <div style="margin-left: 10px;">
 
 ▸   **setCurrentString**<`void`\>(`currentString: string`) : `void`
 
 
 Set the currentString
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1003,28 +769,19 @@ Set the currentString
 | `currentString` | `string` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:1059](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L1059)&nbsp;
 ___
 ### setHexSideLength
+
 <div style="margin-left: 10px;">
 
 ▸   **setHexSideLength**<`void`\>(`value: number`) : `void`
 
 
 Set the Hex side length.
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1033,28 +790,19 @@ Set the Hex side length.
 | `value` | `number` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:276](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L276)&nbsp;
 ___
 ### setImageLayers
+
 <div style="margin-left: 10px;">
 
 ▸   **setImageLayers**<`void`\>(`value: TMXImageLayerInfo`) : `void`
 
 
 ImageLayers
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1063,28 +811,19 @@ ImageLayers
 | `value` | `TMXImageLayerInfo` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:376](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L376)&nbsp;
 ___
 ### setLayerAttribs
+
 <div style="margin-left: 10px;">
 
 ▸   **setLayerAttribs**<`void`\>(`value: any`) : `void`
 
 
 Layer attribute
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1093,28 +832,19 @@ Layer attribute
 | `value` | `any` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:462](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L462)&nbsp;
 ___
 ### setLayers
+
 <div style="margin-left: 10px;">
 
 ▸   **setLayers**<`void`\>(`value: TMXLayerInfo`) : `void`
 
 
 Layers
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1123,28 +853,19 @@ Layers
 | `value` | `TMXLayerInfo` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:359](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L359)&nbsp;
 ___
 ### setMapSize
+
 <div style="margin-left: 10px;">
 
 ▸   **setMapSize**<`void`\>(`value: Size`) : `void`
 
 
 Map width &amp; height
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1153,28 +874,19 @@ Map width &amp; height
 | `value` | `Size` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L292)&nbsp;
 ___
 ### setObjectGroups
+
 <div style="margin-left: 10px;">
 
 ▸   **setObjectGroups**<`void`\>(`value: TMXObjectGroupInfo`) : `void`
 
 
 ObjectGroups
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1183,28 +895,19 @@ ObjectGroups
 | `value` | `TMXObjectGroupInfo` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:409](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L409)&nbsp;
 ___
 ### setOrientation
+
 <div style="margin-left: 10px;">
 
 ▸   **setOrientation**<`void`\>(`value: Orientation`) : `void`
 
 
 Set the Map orientation.
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1213,17 +916,13 @@ Set the Map orientation.
 | `value` | `Orientation` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:229](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L229)&nbsp;
 ___
 ### setParentElement
+
 <div style="margin-left: 10px;">
 
 ▸   **setParentElement**<`void`\>(`value: any`) : `void`
@@ -1231,11 +930,6 @@ ___
 
 parent element
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1243,17 +937,13 @@ parent element
 | `value` | `any` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:430](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L430)&nbsp;
 ___
 ### setParentGID
+
 <div style="margin-left: 10px;">
 
 ▸   **setParentGID**<`void`\>(`value: any`) : `void`
@@ -1261,11 +951,6 @@ ___
 
 parent GID
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1273,17 +958,13 @@ parent GID
 | `value` | `any` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:446](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L446)&nbsp;
 ___
 ### setProperties
+
 <div style="margin-left: 10px;">
 
 ▸   **setProperties**<`void`\>(`value: any`) : `void`
@@ -1291,11 +972,6 @@ ___
 
 Properties
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1303,28 +979,19 @@ Properties
 | `value` | `any` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:494](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L494)&nbsp;
 ___
 ### setStaggerAxis
+
 <div style="margin-left: 10px;">
 
 ▸   **setStaggerAxis**<`void`\>(`value: StaggerAxis`) : `void`
 
 
 Set the staggerAxis of map.
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1333,17 +1000,13 @@ Set the staggerAxis of map.
 | `value` | `StaggerAxis` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:244](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L244)&nbsp;
 ___
 ### setStaggerIndex
+
 <div style="margin-left: 10px;">
 
 ▸   **setStaggerIndex**<`void`\>(`value: any`) : `void`
@@ -1351,11 +1014,6 @@ ___
 
 Set the stagger index.
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1363,17 +1021,13 @@ Set the stagger index.
 | `value` | `any` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:260](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L260)&nbsp;
 ___
 ### setStoringCharacters
+
 <div style="margin-left: 10px;">
 
 ▸   **setStoringCharacters**<`void`\>(`value: any`) : `void`
@@ -1381,11 +1035,6 @@ ___
 
 Is reading storing characters stream
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1393,29 +1042,19 @@ Is reading storing characters stream
 | `value` | `any` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:478](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L478)&nbsp;
 ___
 ### setTileAnimations
+
 <div style="margin-left: 10px;">
 
 ▸   **setTileAnimations**<`void`\>(`animations: TiledAnimationType`) : `void`
 
 
 Sets the tile animations.
-
-
-<!---->
-<!--    #### Returns `void` 
--->
-<!---->
 
 #### Parameters
 
@@ -1424,28 +1063,19 @@ Sets the tile animations.
 | `animations` | `TiledAnimationType` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:1019](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L1019)&nbsp;
 ___
 ### setTileProperties
+
 <div style="margin-left: 10px;">
 
 ▸   **setTileProperties**<`void`\>(`tileProperties: Map`) : `void`
 
 
 Set the tile properties.
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1454,28 +1084,19 @@ Set the tile properties.
 | `tileProperties` | `Map` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:1043](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L1043)&nbsp;
 ___
 ### setTileSize
+
 <div style="margin-left: 10px;">
 
 ▸   **setTileSize**<`void`\>(`value: Size`) : `void`
 
 
 Tiles width &amp; height
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1484,28 +1105,19 @@ Tiles width &amp; height
 | `value` | `Size` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:323](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L323)&nbsp;
 ___
 ### setTilesets
+
 <div style="margin-left: 10px;">
 
 ▸   **setTilesets**<`void`\>(`value: TMXTilesetInfo`) : `void`
 
 
 tilesets
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1514,12 +1126,7 @@ tilesets
 | `value` | `TMXTilesetInfo` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tmx-xml-parser.ts:393](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tmx-xml-parser.ts#L393)&nbsp;

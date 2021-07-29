@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ear` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `minX` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `minY` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `size` | `any` | - |
-
 
 #### Returns `boolean` 
 ___

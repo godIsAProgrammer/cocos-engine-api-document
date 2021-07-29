@@ -85,30 +85,12 @@ ___
 • **new CubicSplineNumberValue**(`dataPoint: number, inTangent: number, outTangent: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `dataPoint` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `inTangent` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `outTangent` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/cubic-spline-value.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cubic-spline-value.ts#L141)&nbsp;
@@ -120,6 +102,7 @@ ___
 ## Methods
 
 ### getNoLerp
+
 <div style="margin-left: 10px;">
 
 ▸   **getNoLerp**<`number`\> : `number`
@@ -127,53 +110,29 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/cubic-spline-value.ts:164](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cubic-spline-value.ts#L164)&nbsp;
 ___
 ### lerp
+
 <div style="margin-left: 10px;">
 
 ▸   **lerp**<`number`\>(`to: CubicSplineNumberValue, t: number, dt: number`) : `number`
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `to` | `CubicSplineNumberValue` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `t` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dt` | `number` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/cubic-spline-value.ts:149](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cubic-spline-value.ts#L149)&nbsp;

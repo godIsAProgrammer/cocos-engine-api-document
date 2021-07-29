@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 线段与球的相交性检测
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `line` | `Line` | 线段  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sphere` | `Sphere` | 球  |
-
 
 #### Returns `number` 0 或 非0
 

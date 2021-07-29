@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 返回给定范围内的值的比率。
 
 
@@ -18,15 +17,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `from` | `number` | Start value.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `to` | `number` | End value.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `number` | Given value.  |
-
 
 #### Returns `number` The ratio between [from, to].
 

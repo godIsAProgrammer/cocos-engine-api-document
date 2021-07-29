@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Returns -1, 0, +1 depending on sign of x.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
 
 #### Returns `number` 
 ___

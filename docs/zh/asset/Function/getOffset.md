@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `attributes` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attributeIndex` | `number` | - |
-
 
 #### Returns `number` 
 ___

@@ -74,32 +74,22 @@ ___
 ## Methods
 
 ### isTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **isTarget**(`localID: undefined, propPath: undefined`)
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `localID` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propPath` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/prefab/prefab-info.ts:66](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/prefab/prefab-info.ts#L66)&nbsp;

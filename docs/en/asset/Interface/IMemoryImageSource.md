@@ -17,9 +17,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/image-asset.ts:46](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/image-asset.ts#L46)&nbsp;
-
 ___
 #### _data
 
@@ -30,9 +28,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/image-asset.ts:45](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/image-asset.ts#L45)&nbsp;
-
 ___
 #### format
 
@@ -43,9 +39,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/image-asset.ts:49](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/image-asset.ts#L49)&nbsp;
-
 ___
 #### height
 
@@ -56,9 +50,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/image-asset.ts:48](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/image-asset.ts#L48)&nbsp;
-
 ___
 #### width
 
@@ -69,7 +61,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/image-asset.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/image-asset.ts#L47)&nbsp;
-
 ___

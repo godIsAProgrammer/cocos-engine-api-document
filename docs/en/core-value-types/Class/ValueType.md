@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** The base class of all value types.
 
 
@@ -25,10 +24,10 @@
 ## Methods
 
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸   **clone**<`ValueType`\> : `ValueType`
-
 
 
 
@@ -40,26 +39,16 @@ The derived class **must** rewrite this method and the returned object should no
 
 
 
-<!---->
-<!--    #### Returns `ValueType` The cloned object
--->
-<!---->
-
-
 ##### Returns `ValueType`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/value-types/value-type.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/value-types/value-type.ts#L52)&nbsp;
 ___
 ### equals
+
 <div style="margin-left: 10px;">
 
 ▸   **equals**<`boolean`\>(`other: this`) : `boolean`
-
 
 
 
@@ -70,12 +59,6 @@ The base version of this method will returns `false'.
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` 相等则返回 &#x60;true&#x60;，否则返回 &#x60;false&#x60;。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -83,21 +66,16 @@ The base version of this method will returns `false'.
 | `other` | `this` | 相比较的值。  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/value-types/value-type.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/value-types/value-type.ts#L68)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸   **set**<`void`\>(`other: this`) : `void`
-
 
 
 
@@ -107,11 +85,6 @@ The base version of this method will returns `this' and the derived class **must
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -119,21 +92,16 @@ The base version of this method will returns `this' and the derived class **must
 | `other` | `this` | The other object  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/value-types/value-type.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/value-types/value-type.ts#L82)&nbsp;
 ___
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸   **toString**<`string`\> : `string`
-
 
 
 
@@ -144,17 +112,7 @@ The base version of this method will returns an empty string.
 
 
 
-<!---->
-<!--    #### Returns `string` The string representation of the current object
--->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/value-types/value-type.ts:95](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/value-types/value-type.ts#L95)&nbsp;

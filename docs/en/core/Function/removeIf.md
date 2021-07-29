@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`en`** 
 Removes the first occurrence of a specific object from the array where `predicate` is `true`.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,11 +23,7 @@ Removes the first occurrence of a specific object from the array where `predicat
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `predicate` | - | 谓词。  |
-
 
 ___
 

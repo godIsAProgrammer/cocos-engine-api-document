@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L40)&nbsp;
-
 ___
 #### values
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/particle-2d/tiff-reader.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle-2d/tiff-reader.ts#L41)&nbsp;
-
 ___

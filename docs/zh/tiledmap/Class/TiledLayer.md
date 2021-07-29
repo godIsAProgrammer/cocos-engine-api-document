@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 渲染 TMX layer。
 
 
@@ -148,7 +146,6 @@
 
 
 
-
 **`zh`** 渲染数据组装器
 
 
@@ -170,9 +167,7 @@ ___
 
 
 
-
 **`zh`** 混合模式枚举类型
-
 
 
 
@@ -194,7 +189,6 @@ ___
 
 ### PostAssembler
 <div style="margin-left: 10px;">
-
 
 
 
@@ -251,9 +245,7 @@ ___
 
 
 
-
 **`zh`** 该组件被附加到的节点。组件总会附加到一个节点。
-
 
 
 
@@ -299,7 +291,6 @@ ___
 
 ### stencilStage
 <div style="margin-left: 10px;">
-
 
 
 
@@ -404,7 +395,6 @@ ___
 
 
 
-
 **`zh`** 渲染颜色，一般情况下会和贴图颜色相乘。
 
 
@@ -439,7 +429,6 @@ ___
 
 ### customMaterial
 <div style="margin-left: 10px;">
-
 
 
 
@@ -480,9 +469,7 @@ ___
 
 
 
-
 **`zh`** 指定目标的混合模式，这会克隆一个新的材质对象，注意这带来的性能和内存损耗。
-
 
 
 
@@ -494,7 +481,6 @@ ___
 sprite.dstBlendFactor = BlendFactor.ONE_MINUS_SRC_ALPHA;
 
 ```
-
 
 
 
@@ -519,9 +505,7 @@ ___
 
 
 
-
 **`zh`** 开启或关闭裁剪。
-
 
 
 
@@ -545,14 +529,11 @@ ___
 
 
 
-
 **`zh`** 表示该组件自身是否启用。
 
 
 
-
 **`default`** true
-
 
 
 
@@ -586,9 +567,7 @@ ___
 
 
 
-
 **`zh`** 表示该组件是否被启用并且所在的节点也处于激活状态。
-
 
 
 
@@ -622,7 +601,6 @@ ___
 
 
 
-
 **`zh`** 在继承 CCObject 对象后，控制是否需要隐藏，锁定，序列化等功能。
 
 
@@ -644,7 +622,6 @@ ___
 
 
 
-
 **`zh`** 
 表示该对象是否可用（被 destroy 后将不可用）。<br>
 当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。<br>
@@ -653,9 +630,7 @@ ___
 
 
 
-
 **`default`** true
-
 
 
 
@@ -755,7 +730,6 @@ ___
 
 ### materials
 <div style="margin-left: 10px;">
-
 
 
 
@@ -876,9 +850,7 @@ ___
 
 
 
-
 **`zh`** 指定源的混合模式，这会克隆一个新的材质对象，注意这带来的性能和内存损耗。
-
 
 
 
@@ -890,7 +862,6 @@ ___
 sprite.srcBlendFactor = BlendFactor.ONE;
 
 ```
-
 
 
 
@@ -915,9 +886,7 @@ ___
 
 
 
-
 **`zh`** 组件的 uuid，用于编辑器。
-
 
 
 
@@ -971,6 +940,9 @@ ___
 • **new TiledLayer**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:176](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L176)&nbsp;
@@ -982,15 +954,14 @@ ___
 ## Methods
 
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -1007,9 +978,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1017,17 +985,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -1043,9 +1007,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1053,21 +1014,16 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### addUserNode
+
 <div style="margin-left: 10px;">
 
 ▸   **addUserNode**<`boolean`\>(`node: Node`) : `boolean`
-
 
 
 
@@ -1075,16 +1031,9 @@ ___
 
 
 
-
 **`method`** addUserNode
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` 
--->
-<!---->
 
 #### Parameters
 
@@ -1093,17 +1042,13 @@ ___
 | `node` | `Node` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:212](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L212)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -1111,21 +1056,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### destroyRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyRenderData**<`void`\> : `void`
@@ -1133,25 +1070,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1416](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1416)&nbsp;
 ___
 ### destroyUserNode
+
 <div style="margin-left: 10px;">
 
 ▸   **destroyUserNode**<`void`\>(`node: Node`) : `void`
-
 
 
 
@@ -1159,15 +1087,9 @@ ___
 
 
 
-
 **`method`** destroyUserNode
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1176,17 +1098,13 @@ ___
 | `node` | `Node` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:267](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L267)&nbsp;
 ___
 ### getBlendState
+
 <div style="margin-left: 10px;">
 
 ▸   **getBlendState**<`BlendState`\> : `BlendState`
@@ -1194,32 +1112,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `BlendState` -->
-<!---->
-
-
 ##### Returns `BlendState`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:494](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L494)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -1237,9 +1145,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1247,19 +1152,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -1276,9 +1177,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1286,26 +1184,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -1322,9 +1214,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1332,17 +1221,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -1358,9 +1243,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1368,26 +1250,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -1404,9 +1280,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1414,17 +1287,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -1440,9 +1309,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1450,26 +1316,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -1486,9 +1346,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1496,17 +1353,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -1522,9 +1375,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1532,21 +1382,16 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### getLayerName
+
 <div style="margin-left: 10px;">
 
 ▸   **getLayerName**<`string`\> : `string`
-
 
 
 
@@ -1554,9 +1399,7 @@ ___
 
 
 
-
 **`method`** getLayerName
-
 
 
 
@@ -1572,25 +1415,16 @@ cc.log(layerName);
 
 
 
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:439](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L439)&nbsp;
 ___
 ### getLayerOrientation
+
 <div style="margin-left: 10px;">
 
 ▸   **getLayerOrientation**
-
 
 
 
@@ -1598,9 +1432,7 @@ ___
 
 
 
-
 **`method`** getLayerOrientation
-
 
 
 
@@ -1616,23 +1448,16 @@ cc.log("Layer Orientation: " + orientation);
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:884](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L884)&nbsp;
 ___
 ### getLayerSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getLayerSize**<`Size`\> : `Size`
-
 
 
 
@@ -1640,9 +1465,7 @@ ___
 
 
 
-
 **`method`** getLayerSize
-
 
 
 
@@ -1658,25 +1481,16 @@ cc.log("layer size: " + size);
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1214](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1214)&nbsp;
 ___
 ### getMapTileSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getMapTileSize**<`Size`\> : `Size`
-
 
 
 
@@ -1684,9 +1498,7 @@ ___
 
 
 
-
 **`method`** getMapTileSize
-
 
 
 
@@ -1702,25 +1514,16 @@ cc.log("MapTile size: " + mapTileSize);
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1227](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1227)&nbsp;
 ___
 ### getMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterial**(`idx: number`)
-
 
 
 
@@ -1729,9 +1532,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1739,21 +1539,16 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L129)&nbsp;
 ___
 ### getMaterialInstance
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaterialInstance**(`idx: number`)
-
 
 
 
@@ -1762,9 +1557,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1772,58 +1564,39 @@ ___
 | `idx` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:173](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L173)&nbsp;
 ___
 ### getNodesByRowCol
+
 <div style="margin-left: 10px;">
 
 ▸   **getNodesByRowCol**(`row: number, col: number`)
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `row` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `col` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:278](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L278)&nbsp;
 ___
 ### getNodesCountByRow
+
 <div style="margin-left: 10px;">
 
 ▸   **getNodesCountByRow**<`number`\>(`row: any`) : `number`
 
 
-
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
 
 #### Parameters
 
@@ -1832,21 +1605,16 @@ ___
 | `row` | `any` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:284](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L284)&nbsp;
 ___
 ### getPositionAt
+
 <div style="margin-left: 10px;">
 
 ▸   **getPositionAt**(`pos: IVec2Like | number, y: undefined | number`)
-
 
 
 
@@ -1854,9 +1622,7 @@ ___
 
 
 
-
 **`method`** getPositionAt
-
 
 
 
@@ -1873,35 +1639,24 @@ cc.log("Pos: " + pos);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `pos` | `IVec2Like \| number` | position or x  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:482](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L482)&nbsp;
 ___
 ### getProperties
+
 <div style="margin-left: 10px;">
 
 ▸   **getProperties**
-
 
 
 
@@ -1909,9 +1664,7 @@ ___
 
 
 
-
 **`method`** getProperties
-
 
 
 
@@ -1927,23 +1680,16 @@ cc.log("Properties: " + properties);
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:897](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L897)&nbsp;
 ___
 ### getProperty
+
 <div style="margin-left: 10px;">
 
 ▸   **getProperty**(`propertyName: string`)
-
 
 
 
@@ -1951,9 +1697,7 @@ ___
 
 
 
-
 **`method`** getProperty
-
 
 
 
@@ -1968,9 +1712,6 @@ cc.log(property);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1978,21 +1719,16 @@ cc.log(property);
 | `propertyName` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L465)&nbsp;
 ___
 ### getRenderMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **getRenderMaterial**(`index: number`)
-
 
 
 
@@ -2001,9 +1737,6 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2011,21 +1744,16 @@ ___
 | `index` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:208](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L208)&nbsp;
 ___
 ### getTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **getTexture**(`index: undefined | number`)
-
 
 
 
@@ -2033,13 +1761,9 @@ ___
 
 
 
-
 **`method`** getTexture
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -2048,26 +1772,20 @@ ___
 | `index` | `undefined \| number` | The index of textures  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1166](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1166)&nbsp;
 ___
 ### getTextures
+
 <div style="margin-left: 10px;">
 
 ▸   **getTextures**
 
 
 
-
 **`zh`** 获取纹理。
-
 
 
 
@@ -2076,23 +1794,16 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1180](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1180)&nbsp;
 ___
 ### getTileFlagsAt
+
 <div style="margin-left: 10px;">
 
 ▸   **getTileFlagsAt**(`x: number, y: number`)
-
 
 
 
@@ -2102,9 +1813,7 @@ ___
 
 
 
-
 **`method`** getTileGIDAt
-
 
 
 
@@ -2118,35 +1827,24 @@ let tileGid = tiledLayer.getTileGIDAt(0, 0);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:711](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L711)&nbsp;
 ___
 ### getTileGIDAt
+
 <div style="margin-left: 10px;">
 
 ▸   **getTileGIDAt**(`x: number, y: number`)
-
 
 
 
@@ -2156,9 +1854,7 @@ ___
 
 
 
-
 **`method`** getTileGIDAt
-
 
 
 
@@ -2172,35 +1868,24 @@ let tileGid = tiledLayer.getTileGIDAt(0, 0);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:683](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L683)&nbsp;
 ___
 ### getTileSet
+
 <div style="margin-left: 10px;">
 
 ▸   **getTileSet**(`index: number`)
-
 
 
 
@@ -2208,13 +1893,9 @@ ___
 
 
 
-
 **`method`** getTileSet
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -2223,26 +1904,20 @@ ___
 | `index` | `number` | The index of tilesets  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1238](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1238)&nbsp;
 ___
 ### getTileSets
+
 <div style="margin-left: 10px;">
 
 ▸   **getTileSets**
 
 
 
-
 **`zh`** 获取 layer 所有的 Tileset 信息。
-
 
 
 
@@ -2251,23 +1926,16 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1252](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1252)&nbsp;
 ___
 ### getTiledTileAt
+
 <div style="margin-left: 10px;">
 
 ▸   **getTiledTileAt**(`x: number, y: number, forceCreate: undefined | false | true`)
-
 
 
 
@@ -2278,9 +1946,7 @@ ___
 
 
 
-
 **`method`** getTiledTileAt
-
 
 
 
@@ -2295,35 +1961,22 @@ cc.log(tile);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `forceCreate` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1102)&nbsp;
 ___
 ### hasAnimation
+
 <div style="margin-left: 10px;">
 
 ▸   **hasAnimation**<`boolean`\> : `boolean`
@@ -2331,21 +1984,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:186](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L186)&nbsp;
 ___
 ### hasTiledNode
+
 <div style="margin-left: 10px;">
 
 ▸   **hasTiledNode**<`boolean`\> : `boolean`
@@ -2353,66 +1998,37 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:182](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L182)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\>(`layerInfo: TMXLayerInfo, mapInfo: TMXMapInfo, tilesets: undefined, textures: undefined, texGrids: TiledTextureGrids`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `layerInfo` | `TMXLayerInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `mapInfo` | `TMXMapInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tilesets` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `textures` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `texGrids` | `TiledTextureGrids` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1294](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1294)&nbsp;
 ___
 ### isCullingDirty
+
 <div style="margin-left: 10px;">
 
 ▸   **isCullingDirty**<`boolean`\> : `boolean`
@@ -2420,54 +2036,34 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:731](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L731)&nbsp;
 ___
 ### isInvalidPosition
+
 <div style="margin-left: 10px;">
 
 ▸   **isInvalidPosition**<`boolean`\>(`x: number, y: number`) : `boolean`
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:503](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L503)&nbsp;
 ___
 ### isUserNodeDirty
+
 <div style="margin-left: 10px;">
 
 ▸   **isUserNodeDirty**<`boolean`\> : `boolean`
@@ -2475,36 +2071,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:387](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L387)&nbsp;
 ___
 ### markForUpdateRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **markForUpdateRenderData**<`void`\>(`enable: boolean`) : `void`
 
 
 
-
 **`zh`** 标记当前组件的渲染数据为已修改状态，这样渲染数据才会重新计算。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2513,17 +2095,13 @@ ___
 | `enable` | `boolean` | Marked necessary to update or not  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:372](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L372)&nbsp;
 ___
 ### onDestroy
+
 <div style="margin-left: 10px;">
 
 ▸   **onDestroy**<`void`\> : `void`
@@ -2531,21 +2109,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:426](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L426)&nbsp;
 ___
 ### onDisable
+
 <div style="margin-left: 10px;">
 
 ▸   **onDisable**<`void`\> : `void`
@@ -2553,21 +2123,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:407](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L407)&nbsp;
 ___
 ### onEnable
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnable**<`void`\> : `void`
@@ -2575,21 +2137,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:395](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L395)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -2597,21 +2151,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -2619,21 +2165,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### onRestore
+
 <div style="margin-left: 10px;">
 
 ▸   **onRestore**<`void`\> : `void`
@@ -2641,25 +2179,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:340](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L340)&nbsp;
 ___
 ### postUpdateAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **postUpdateAssembler**<`void`\>(`render: Batcher2D`) : `void`
-
 
 
 
@@ -2670,11 +2199,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2682,21 +2206,16 @@ ___
 | `render` | `Batcher2D` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:434](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L434)&nbsp;
 ___
 ### removeUserNode
+
 <div style="margin-left: 10px;">
 
 ▸   **removeUserNode**<`boolean`\>(`node: Node`) : `boolean`
-
 
 
 
@@ -2704,16 +2223,9 @@ ___
 
 
 
-
 **`method`** removeUserNode
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` 
--->
-<!---->
 
 #### Parameters
 
@@ -2722,17 +2234,13 @@ ___
 | `node` | `Node` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:244](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L244)&nbsp;
 ___
 ### requestMeshRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **requestMeshRenderData**<`TiledMeshData`\> : `TiledMeshData`
@@ -2740,25 +2248,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `TiledMeshData` -->
-<!---->
-
-
 ##### Returns `TiledMeshData`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1374](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1374)&nbsp;
 ___
 ### requestRenderData
+
 <div style="margin-left: 10px;">
 
 ▸   **requestRenderData**<`RenderData`\> : `RenderData`
-
 
 
 
@@ -2767,22 +2266,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `RenderData` The new render data
--->
-<!---->
-
-
 ##### Returns `RenderData`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:391](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L391)&nbsp;
 ___
 ### requestSubNodesData
+
 <div style="margin-left: 10px;">
 
 ▸   **requestSubNodesData**<`TiledSubNodeData`\> : `TiledSubNodeData`
@@ -2790,25 +2280,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `TiledSubNodeData` -->
-<!---->
-
-
 ##### Returns `TiledSubNodeData`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1396](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1396)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -2818,32 +2299,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`zh`** 
 调度一个自定义的回调任务。<br/>
 如果回调任务已调度，那么将不会重复调度它，只会更新时间间隔参数。
-
 
 
 
@@ -2860,45 +2331,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -2906,14 +2358,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -2930,43 +2379,26 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### setCullingDirty
+
 <div style="margin-left: 10px;">
 
 ▸   **setCullingDirty**<`void`\>(`value: boolean`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2975,21 +2407,16 @@ ___
 | `value` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:727](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L727)&nbsp;
 ___
 ### setLayerName
+
 <div style="margin-left: 10px;">
 
 ▸   **setLayerName**<`void`\>(`layerName: string`) : `void`
-
 
 
 
@@ -2997,9 +2424,7 @@ ___
 
 
 
-
 **`method`** SetLayerName
-
 
 
 
@@ -3013,11 +2438,6 @@ tiledLayer.setLayerName("New Layer");
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -3025,21 +2445,16 @@ tiledLayer.setLayerName("New Layer");
 | `layerName` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:451](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L451)&nbsp;
 ___
 ### setMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **setMaterial**<`void`\>(`material: Material | null, index: number`) : `void`
-
 
 
 
@@ -3048,37 +2463,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `material` | `Material \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L141)&nbsp;
 ___
 ### setMaterialInstance
+
 <div style="margin-left: 10px;">
 
 ▸   **setMaterialInstance**<`void`\>(`index: number, matInst: Material | null`) : `void`
-
 
 
 
@@ -3087,37 +2489,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `index` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `matInst` | `Material \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/renderable-component.ts:192](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/renderable-component.ts#L192)&nbsp;
 ___
 ### setTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **setTexture**<`void`\>(`texture: SpriteFrame`) : `void`
-
 
 
 
@@ -3125,15 +2514,9 @@ ___
 
 
 
-
 **`method`** setTexture
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3142,21 +2525,16 @@ ___
 | `texture` | `SpriteFrame` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1190](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1190)&nbsp;
 ___
 ### setTextures
+
 <div style="margin-left: 10px;">
 
 ▸   **setTextures**<`void`\>(`textures: undefined`) : `void`
-
 
 
 
@@ -3164,15 +2542,9 @@ ___
 
 
 
-
 **`method`** setTexture
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3181,21 +2553,16 @@ ___
 | `textures` |  |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1200](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1200)&nbsp;
 ___
 ### setTileGIDAt
+
 <div style="margin-left: 10px;">
 
 ▸   **setTileGIDAt**<`void`\>(`gid: MixedGID, x: number, y: number, flags: undefined | number`) : `void`
-
 
 
 
@@ -3206,9 +2573,7 @@ tile 的 GID 可以使用方法 “tileGIDAt” 来获得。<br />
 
 
 
-
 **`method`** setTileGIDAt
-
 
 
 
@@ -3222,45 +2587,26 @@ tiledLayer.setTileGIDAt(1001, 10, 10, 1)
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `gid` | `MixedGID` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `flags` | `undefined \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:630](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L630)&nbsp;
 ___
 ### setTileSet
+
 <div style="margin-left: 10px;">
 
 ▸   **setTileSet**<`void`\>(`tileset: TMXTilesetInfo`) : `void`
-
 
 
 
@@ -3268,15 +2614,9 @@ ___
 
 
 
-
 **`method`** setTileSet
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3285,21 +2625,16 @@ ___
 | `tileset` | `TMXTilesetInfo` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1262](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1262)&nbsp;
 ___
 ### setTileSets
+
 <div style="margin-left: 10px;">
 
 ▸   **setTileSets**<`void`\>(`tilesets: undefined`) : `void`
-
 
 
 
@@ -3307,15 +2642,9 @@ ___
 
 
 
-
 **`method`** setTileSets
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3324,21 +2653,16 @@ ___
 | `tilesets` |  |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1272](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1272)&nbsp;
 ___
 ### setTiledTileAt
+
 <div style="margin-left: 10px;">
 
 ▸   **setTiledTileAt**(`x: number, y: number, tiledTile: TiledTile | null`)
-
 
 
 
@@ -3347,44 +2671,29 @@ ___
 
 
 
-
 **`method`** setTiledTileAt
 
 
-
-
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tiledTile` | `TiledTile \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:1137](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L1137)&nbsp;
 ___
 ### setTilesGIDAt
+
 <div style="margin-left: 10px;">
 
 ▸   **setTilesGIDAt**<`void`\>(`gids: undefined, beginCol: number, beginRow: number, totalCols: number`) : `void`
-
 
 
 
@@ -3393,9 +2702,7 @@ ___
 
 
 
-
 **`method`** setTilesGIDAt
-
 
 
 
@@ -3409,51 +2716,28 @@ tiledLayer.setTilesGIDAt([1, 1, 1, 1], 10, 10, 2)
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `gids` |  | an array contains gid  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `beginCol` | `number` | begin col number  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `beginRow` | `number` | begin row number  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `totalCols` | `number` | count of column  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:598](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L598)&nbsp;
 ___
 ### setUserNodeDirty
+
 <div style="margin-left: 10px;">
 
 ▸   **setUserNodeDirty**<`void`\>(`value: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -3462,26 +2746,20 @@ ___
 | `value` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:391](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L391)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`zh`** 取消调度一个自定义的回调任务。
-
 
 
 
@@ -3497,11 +2775,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -3509,26 +2782,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`zh`** 取消调度所有已调度的回调函数。
-
 
 
 
@@ -3545,25 +2812,16 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;
 ___
 ### updateAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **updateAssembler**<`void`\>(`render: Batcher2D`) : `void`
-
 
 
 
@@ -3574,11 +2832,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -3586,17 +2839,13 @@ ___
 | `render` | `Batcher2D` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:418](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L418)&nbsp;
 ___
 ### updateBlendHash
+
 <div style="margin-left: 10px;">
 
 ▸   **updateBlendHash**<`void`\> : `void`
@@ -3604,21 +2853,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/framework/renderable-2d.ts:318](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/framework/renderable-2d.ts#L318)&nbsp;
 ___
 ### updateCulling
+
 <div style="margin-left: 10px;">
 
 ▸   **updateCulling**<`void`\> : `void`
@@ -3626,57 +2867,30 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:850](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L850)&nbsp;
 ___
 ### updateViewPort
+
 <div style="margin-left: 10px;">
 
 ▸   **updateViewPort**<`void`\>(`x: number, y: number, width: number, height: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `width` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-layer.ts:737](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-layer.ts#L737)&nbsp;

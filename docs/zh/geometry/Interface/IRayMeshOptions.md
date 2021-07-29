@@ -14,10 +14,8 @@
 
 
 
-
 **`en`** 
 The maximum distance of the raycast, `Infinity` by default.
-
 
 
 
@@ -30,9 +28,7 @@ The maximum distance of the raycast, `Infinity` by default.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/geometry/spec.ts:127](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/spec.ts#L127)&nbsp;
-
 ___
 #### doubleSided
 
@@ -40,10 +36,8 @@ ___
 
 
 
-
 **`en`** 
 Whether to detect the double-sided or not，`false` by default.
-
 
 
 
@@ -56,9 +50,7 @@ Whether to detect the double-sided or not，`false` by default.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/geometry/spec.ts:143](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/spec.ts#L143)&nbsp;
-
 ___
 #### mode
 
@@ -66,10 +58,8 @@ ___
 
 
 
-
 **`en`** 
 The raycast mode，`ANY` by default.
-
 
 
 
@@ -82,9 +72,7 @@ The raycast mode，`ANY` by default.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/geometry/spec.ts:119](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/spec.ts#L119)&nbsp;
-
 ___
 #### result
 
@@ -92,10 +80,8 @@ ___
 
 
 
-
 **`en`** 
 An array used to store the results of a ray detection.
-
 
 
 
@@ -108,9 +94,7 @@ An array used to store the results of a ray detection.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/geometry/spec.ts:135](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/spec.ts#L135)&nbsp;
-
 ___
 #### subIndices
 
@@ -118,10 +102,8 @@ ___
 
 
 
-
 **`en`** 
 The index of the sub mesh.
-
 
 
 
@@ -134,7 +116,5 @@ The index of the sub mesh.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/geometry/spec.ts:160](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/spec.ts#L160)&nbsp;
-
 ___

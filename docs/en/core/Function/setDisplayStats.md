@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Sets whether display the FPS and debug informations on the bottom-left corner.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `displayStats` | `boolean` | - |
-
 
 #### Returns `void` 
 ___

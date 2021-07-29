@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`zh`** 
 定义一个位掩码类型。
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,7 +23,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `obj` | `T` | A JavaScript literal object containing BitMask names and values  |
-
 
 #### Returns `T` The defined BitMask type
 

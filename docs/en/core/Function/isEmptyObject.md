@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `obj` | `any` | The object.  |
 
-
 #### Returns `boolean` The result. Note that if the &#x60;obj&#x60; is not of type &#x60;&#x27;object&#x27;&#x60;, &#x60;true&#x60; is returned.
 
 ___

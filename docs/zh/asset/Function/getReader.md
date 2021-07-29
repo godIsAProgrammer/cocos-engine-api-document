@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `dataView` | `DataView` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `format` | `Format` | - |
-
 
 ___
 

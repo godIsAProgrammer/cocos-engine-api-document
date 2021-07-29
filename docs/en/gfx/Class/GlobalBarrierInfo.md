@@ -67,22 +67,11 @@ ___
 • **new GlobalBarrierInfo**(`prevAccesses: undefined, nextAccesses: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `prevAccesses` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `nextAccesses` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1462](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1462)&nbsp;
@@ -94,16 +83,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: GlobalBarrierInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -112,12 +97,7 @@ ___
 | `info` | `GlobalBarrierInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1469](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1469)&nbsp;

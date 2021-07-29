@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `func` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `funcName` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `className` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cls` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `base` | `any` | - |
-
 
 ___
 

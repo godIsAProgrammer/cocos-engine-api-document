@@ -118,46 +118,14 @@ ___
 • **new SubpassInfo**(`inputs: undefined, colors: undefined, resolves: undefined, preserves: undefined, depthStencil: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `inputs` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `colors` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `resolves` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `preserves` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthStencil` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1424](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1424)&nbsp;
@@ -169,16 +137,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: SubpassInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -187,12 +151,7 @@ ___
 | `info` | `SubpassInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1434](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1434)&nbsp;

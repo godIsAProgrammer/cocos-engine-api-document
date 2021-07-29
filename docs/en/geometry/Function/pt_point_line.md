@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Calculate the nearest point on the line to the given point.
 
@@ -19,19 +18,9 @@ Calculate the nearest point on the line to the given point.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Vec3` | 最近点  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `point` | `Vec3` | 给定点  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `linePointA` | `Vec3` | 线上的某点 A  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `linePointB` | `Vec3` | 线上的某点 B  |
-
 
 #### Returns `void` 
 ___

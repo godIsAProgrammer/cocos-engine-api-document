@@ -6,10 +6,8 @@
 
 
 
-
 **`en`** 
 Tween provide a simple and flexible way to action, It's transplanted from cocos creator。
-
 
 
 
@@ -71,14 +69,10 @@ tween(this.node)
 • **new Tween**(`target: T | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `target` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:66](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L66)&nbsp;
@@ -90,10 +84,10 @@ tween(this.node)
 ## Methods
 
 ### stopAllByTarget
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **stopAllByTarget**<`void`\>(`target: undefined | object`) : `void`
-
 
 
 
@@ -102,11 +96,6 @@ Stop all tweens by target
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -114,21 +103,16 @@ Stop all tweens by target
 | `target` | `undefined \| object` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:408](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L408)&nbsp;
 ___
 ### stopAllByTag
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **stopAllByTag**<`void`\>(`tag: number, target: undefined | object`) : `void`
-
 
 
 
@@ -137,37 +121,24 @@ Stop all tweens by tag
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `tag` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `undefined \| object` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:399](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L399)&nbsp;
 ___
 ### stopAll
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **stopAll**<`void`\> : `void`
-
 
 
 
@@ -177,25 +148,16 @@ Stop all tweens
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:390](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L390)&nbsp;
 ___
 ### by
+
 <div style="margin-left: 10px;">
 
 ▸   **by**<`Tween`\>(`duration: number, props: ConstructorType, opts: ITweenOption`) : `Tween`
-
 
 
 
@@ -204,47 +166,29 @@ Add an action which calculate with relative value.
 
 
 
-
 **`method`** by
 
 
-
-
-<!---->
-<!--    #### Returns `Tween` 
--->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `duration` | `number` | 缓动时间，单位为秒  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `props` | `ConstructorType` | 缓动的属性列表  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `ITweenOption` | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:197](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L197)&nbsp;
 ___
 ### call
+
 <div style="margin-left: 10px;">
 
 ▸   **call**<`Tween`\>(`callback: Function`) : `Tween`
-
 
 
 
@@ -253,16 +197,9 @@ Add an callback action.
 
 
 
-
 **`method`** call
 
 
-
-
-<!---->
-<!--    #### Returns `Tween` 
--->
-<!---->
 
 #### Parameters
 
@@ -271,21 +208,16 @@ Add an callback action.
 | `callback` | `Function` | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:244](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L244)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸   **clone**<`Tween`\>(`target: T`) : `Tween`
-
 
 
 
@@ -294,11 +226,6 @@ Clone a tween.
 
 
 
-
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -306,21 +233,16 @@ Clone a tween.
 | `target` | `T` | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L146)&nbsp;
 ___
 ### delay
+
 <div style="margin-left: 10px;">
 
 ▸   **delay**<`Tween`\>(`duration: number`) : `Tween`
-
 
 
 
@@ -329,16 +251,9 @@ Add an delay action.
 
 
 
-
 **`method`** delay
 
 
-
-
-<!---->
-<!--    #### Returns `Tween` 
--->
-<!---->
 
 #### Parameters
 
@@ -347,21 +262,16 @@ Add an delay action.
 | `duration` | `number` | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:229](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L229)&nbsp;
 ___
 ### hide
+
 <div style="margin-left: 10px;">
 
 ▸   **hide**<`Tween`\> : `Tween`
-
 
 
 
@@ -371,25 +281,16 @@ Add an hide action, only for node target.
 
 
 
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:354](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L354)&nbsp;
 ___
 ### parallel
+
 <div style="margin-left: 10px;">
 
 ▸   **parallel**<`Tween`\>(`args: undefined`) : `Tween`
-
 
 
 
@@ -398,11 +299,6 @@ Add an parallel action.
 
 
 
-
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -410,21 +306,16 @@ Add an parallel action.
 | `args` |  | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:268](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L268)&nbsp;
 ___
 ### removeSelf
+
 <div style="margin-left: 10px;">
 
 ▸   **removeSelf**<`Tween`\> : `Tween`
-
 
 
 
@@ -434,25 +325,16 @@ Add an removeSelf action, only for node target.
 
 
 
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:378](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L378)&nbsp;
 ___
 ### repeat
+
 <div style="margin-left: 10px;">
 
 ▸   **repeat**<`Tween`\>(`repeatTimes: number, embedTween: Tween`) : `Tween`
-
 
 
 
@@ -462,37 +344,24 @@ This action will integrate before actions to a sequence action as their paramete
 
 
 
-
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `repeatTimes` | `number` | 重复次数  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `embedTween` | `Tween` | 可选，嵌入 Tween  |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:283](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L283)&nbsp;
 ___
 ### repeatForever
+
 <div style="margin-left: 10px;">
 
 ▸   **repeatForever**<`Tween`\>(`embedTween: Tween`) : `Tween`
-
 
 
 
@@ -502,15 +371,9 @@ This action will integrate before actions to a sequence action as their paramete
 
 
 
-
 **`method`** repeatForever
 
 
-
-
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
 
 #### Parameters
 
@@ -519,21 +382,16 @@ This action will integrate before actions to a sequence action as their paramete
 | `embedTween` | `Tween` | 可选，嵌入 Tween  |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:311](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L311)&nbsp;
 ___
 ### reverseTime
+
 <div style="margin-left: 10px;">
 
 ▸   **reverseTime**<`Tween`\>(`embedTween: Tween`) : `Tween`
-
 
 
 
@@ -543,15 +401,9 @@ This action will integrate before actions to a sequence action as their paramete
 
 
 
-
 **`method`** reverseTime
 
 
-
-
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
 
 #### Parameters
 
@@ -560,21 +412,16 @@ This action will integrate before actions to a sequence action as their paramete
 | `embedTween` | `Tween` | 可选，嵌入 Tween  |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:334](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L334)&nbsp;
 ___
 ### sequence
+
 <div style="margin-left: 10px;">
 
 ▸   **sequence**<`Tween`\>(`args: undefined`) : `Tween`
-
 
 
 
@@ -583,11 +430,6 @@ Add an sequence action.
 
 
 
-
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -595,21 +437,16 @@ Add an sequence action.
 | `args` |  | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:256](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L256)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸   **set**<`Tween`\>(`props: ConstructorType`) : `Tween`
-
 
 
 
@@ -618,16 +455,9 @@ Directly set target properties.
 
 
 
-
 **`method`** set
 
 
-
-
-<!---->
-<!--    #### Returns `Tween` 
--->
-<!---->
 
 #### Parameters
 
@@ -636,21 +466,16 @@ Directly set target properties.
 | `props` | `ConstructorType` | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:214](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L214)&nbsp;
 ___
 ### show
+
 <div style="margin-left: 10px;">
 
 ▸   **show**<`Tween`\> : `Tween`
-
 
 
 
@@ -660,25 +485,16 @@ Add an show action, only for node target.
 
 
 
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:366](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L366)&nbsp;
 ___
 ### start
+
 <div style="margin-left: 10px;">
 
 ▸   **start**<`Tween`\> : `Tween`
-
 
 
 
@@ -688,25 +504,16 @@ Start this tween.
 
 
 
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:113](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L113)&nbsp;
 ___
 ### stop
+
 <div style="margin-left: 10px;">
 
 ▸   **stop**<`Tween`\> : `Tween`
-
 
 
 
@@ -716,36 +523,22 @@ Stop this tween.
 
 
 
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L133)&nbsp;
 ___
 ### tag
+
 <div style="margin-left: 10px;">
 
 ▸   **tag**<`this`\>(`tag: number`) : `this`
 
 
 
-
 **`en`** Sets tween tag
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -754,21 +547,16 @@ ___
 | `tag` | `number` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L76)&nbsp;
 ___
 ### target
+
 <div style="margin-left: 10px;">
 
 ▸   **target**<`Tween`\>(`target: T`) : `Tween`
-
 
 
 
@@ -777,11 +565,6 @@ Sets tween target.
 
 
 
-
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -789,21 +572,16 @@ Sets tween target.
 | `target` | `T` | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L102)&nbsp;
 ___
 ### then
+
 <div style="margin-left: 10px;">
 
 ▸   **then**<`Tween`\>(`other: Tween`) : `Tween`
-
 
 
 
@@ -812,11 +590,6 @@ Insert an action or tween to this sequence.
 
 
 
-
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -824,21 +597,16 @@ Insert an action or tween to this sequence.
 | `other` | `Tween` | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:87](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L87)&nbsp;
 ___
 ### to
+
 <div style="margin-left: 10px;">
 
 ▸   **to**<`Tween`\>(`duration: number, props: ConstructorType, opts: ITweenOption`) : `Tween`
-
 
 
 
@@ -847,46 +615,29 @@ Add an action which calculate with absolute value.
 
 
 
-
 **`method`** to
 
 
-
-
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `duration` | `number` | 缓动时间，单位为秒  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `props` | `ConstructorType` | 缓动的属性列表  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `ITweenOption` | - |
 
 
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:176](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L176)&nbsp;
 ___
 ### union
+
 <div style="margin-left: 10px;">
 
 ▸   **union**<`Tween`\> : `Tween`
-
 
 
 
@@ -896,16 +647,7 @@ Integrate all previous actions to an action.
 
 
 
-<!---->
-<!--    #### Returns `Tween` -->
-<!---->
-
-
 ##### Returns `Tween`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tween/tween.ts:157](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tween/tween.ts#L157)&nbsp;

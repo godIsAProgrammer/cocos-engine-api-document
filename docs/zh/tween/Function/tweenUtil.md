@@ -8,10 +8,8 @@ ___
 ___
 
 
-
 **`zh`** 
 tweenUtil 是一个工具函数，帮助实例化 Tween 实例。
-
 
 
 
@@ -20,6 +18,7 @@ tweenUtil 是一个工具函数，帮助实例化 Tween 实例。
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -29,7 +28,6 @@ tweenUtil 是一个工具函数，帮助实例化 Tween 实例。
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `T` | - |
-
 
 #### Returns `Tween` 
 ___

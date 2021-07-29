@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `value` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `strictMode` | - | - |
-
 
 #### Returns `boolean` 
 ___

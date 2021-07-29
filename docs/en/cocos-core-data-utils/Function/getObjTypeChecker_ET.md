@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `typeCtor` | `any` | - |
 
-
 #### Returns `(Anonymous function)` 
 ___
 

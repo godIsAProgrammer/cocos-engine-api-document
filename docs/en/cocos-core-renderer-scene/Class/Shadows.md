@@ -57,7 +57,6 @@
 
 
 
-
 **`en`** get or set shadow max received.
 
 
@@ -75,7 +74,6 @@ ___
 
 ### sphere
 <div style="margin-left: 10px;">
-
 
 
 
@@ -99,7 +97,6 @@ ___
 
 
 
-
 **`en`** get or set shadow camera aspect.
 
 
@@ -117,7 +114,6 @@ ___
 
 ### autoAdapt
 <div style="margin-left: 10px;">
-
 
 
 
@@ -141,7 +137,6 @@ ___
 
 
 
-
 **`en`** get or set shadow bias.
 
 
@@ -159,7 +154,6 @@ ___
 
 ### distance
 <div style="margin-left: 10px;">
-
 
 
 
@@ -183,7 +177,6 @@ ___
 
 
 
-
 **`en`** Whether activate planar shadow.
 
 
@@ -201,7 +194,6 @@ ___
 
 ### far
 <div style="margin-left: 10px;">
-
 
 
 
@@ -257,7 +249,6 @@ ___
 
 
 
-
 **`en`** on or off linear depth.
 
 
@@ -310,7 +301,6 @@ ___
 
 
 
-
 **`en`** get or set shadow camera near.
 
 
@@ -328,7 +318,6 @@ ___
 
 ### normal
 <div style="margin-left: 10px;">
-
 
 
 
@@ -352,7 +341,6 @@ ___
 
 
 
-
 **`en`** get or set normal bias.
 
 
@@ -370,7 +358,6 @@ ___
 
 ### orthoSize
 <div style="margin-left: 10px;">
-
 
 
 
@@ -394,7 +381,6 @@ ___
 
 
 
-
 **`en`** on or off packing depth.
 
 
@@ -412,7 +398,6 @@ ___
 
 ### pcf
 <div style="margin-left: 10px;">
-
 
 
 
@@ -436,7 +421,6 @@ ___
 
 
 
-
 **`en`** on or off Self-shadowing.
 
 
@@ -454,7 +438,6 @@ ___
 
 ### shadowColor
 <div style="margin-left: 10px;">
-
 
 
 
@@ -478,7 +461,6 @@ ___
 
 
 
-
 **`en`** shadow Map size has been modified.
 
 
@@ -499,7 +481,6 @@ ___
 
 
 
-
 **`en`** get or set shadow camera orthoSize.
 
 
@@ -517,7 +498,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -545,6 +525,9 @@ ___
 • **new Shadows**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/shadows.ts:357](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/shadows.ts#L357)&nbsp;
@@ -556,6 +539,7 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\> : `void`
@@ -563,21 +547,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/shadows.ts:407](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/shadows.ts#L407)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -585,32 +561,19 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/shadows.ts:447](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/shadows.ts#L447)&nbsp;
 ___
 ### getPlanarInstanceShader
+
 <div style="margin-left: 10px;">
 
 ▸   **getPlanarInstanceShader**<`ShaderHandle`\>(`patches: array<IMacroPatch> | null`) : `ShaderHandle`
 
 
 
-
-<!---->
-<!--    #### Returns `ShaderHandle` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -618,28 +581,19 @@ ___
 | `patches` | `array<IMacroPatch> \| null` | - |
 
 
-
 ##### Returns `ShaderHandle`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/shadows.ts:373](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/shadows.ts#L373)&nbsp;
 ___
 ### getPlanarShader
+
 <div style="margin-left: 10px;">
 
 ▸   **getPlanarShader**<`ShaderHandle`\>(`patches: array<IMacroPatch> | null`) : `ShaderHandle`
 
 
 
-
-<!---->
-<!--    #### Returns `ShaderHandle` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -647,27 +601,18 @@ ___
 | `patches` | `array<IMacroPatch> \| null` | - |
 
 
-
 ##### Returns `ShaderHandle`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/shadows.ts:363](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/shadows.ts#L363)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`shadowsInfo: ShadowsInfo`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -676,12 +621,7 @@ ___
 | `shadowsInfo` | `ShadowsInfo` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/shadows.ts:383](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/shadows.ts#L383)&nbsp;

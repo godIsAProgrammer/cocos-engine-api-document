@@ -84,30 +84,12 @@ ___
 • **new Extent**(`width: number, height: number, depth: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `width` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `height` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depth` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:763](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L763)&nbsp;
@@ -119,16 +101,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: Extent`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -137,12 +115,7 @@ ___
 | `info` | `Extent` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:771](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L771)&nbsp;

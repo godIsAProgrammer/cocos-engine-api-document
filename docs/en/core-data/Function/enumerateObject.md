@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `obj` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clone` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `parent` | `any` | - |
-
 
 #### Returns `void` 
 ___

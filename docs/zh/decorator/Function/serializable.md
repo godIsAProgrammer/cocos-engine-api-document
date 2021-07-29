@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `Object` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propertyKey` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `descriptor` | - | - |
-
 
 #### Returns `void` 
 ___

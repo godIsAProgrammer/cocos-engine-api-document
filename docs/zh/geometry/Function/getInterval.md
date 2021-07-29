@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `vertices` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `axis` | `Vec3` | - |
-
 
 ___
 

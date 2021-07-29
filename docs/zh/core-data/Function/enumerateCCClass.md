@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `klass` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `obj` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clone` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `parent` | `any` | - |
-
 
 #### Returns `void` 
 ___

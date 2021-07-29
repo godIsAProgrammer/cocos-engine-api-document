@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Convert Radian To Degree<br/>
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `number` | Angle in Radian  |
-
 
 #### Returns `number` 
 ___

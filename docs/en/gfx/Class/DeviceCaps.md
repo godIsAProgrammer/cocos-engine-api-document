@@ -424,190 +424,32 @@ ___
 • **new DeviceCaps**(`maxVertexAttributes: number, maxVertexUniformVectors: number, maxFragmentUniformVectors: number, maxTextureUnits: number, maxImageUnits: number, maxVertexTextureUnits: number, maxColorRenderTargets: number, maxShaderStorageBufferBindings: number, maxShaderStorageBlockSize: number, maxUniformBufferBindings: number, maxUniformBlockSize: number, maxTextureSize: number, maxCubeMapTextureSize: number, depthBits: number, stencilBits: number, uboOffsetAlignment: number, maxComputeSharedMemorySize: number, maxComputeWorkGroupInvocations: number, maxComputeWorkGroupSize: Size, maxComputeWorkGroupCount: Size, clipSpaceMinZ: number, screenSpaceSignY: number, clipSpaceSignY: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `maxVertexAttributes` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxVertexUniformVectors` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxFragmentUniformVectors` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxTextureUnits` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxImageUnits` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxVertexTextureUnits` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxColorRenderTargets` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxShaderStorageBufferBindings` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxShaderStorageBlockSize` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxUniformBufferBindings` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxUniformBlockSize` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxTextureSize` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxCubeMapTextureSize` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `depthBits` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stencilBits` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `uboOffsetAlignment` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxComputeSharedMemorySize` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxComputeWorkGroupInvocations` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxComputeWorkGroupSize` | `Size` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `maxComputeWorkGroupCount` | `Size` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `clipSpaceMinZ` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `screenSpaceSignY` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `clipSpaceSignY` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:670](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L670)&nbsp;
@@ -619,16 +461,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: DeviceCaps`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -637,12 +475,7 @@ ___
 | `info` | `DeviceCaps` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:698](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L698)&nbsp;

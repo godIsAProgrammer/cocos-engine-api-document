@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/render-texture.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/render-texture.ts#L47)&nbsp;
-
 ___
 #### name
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/render-texture.ts:45](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/render-texture.ts#L45)&nbsp;
-
 ___
 #### passInfo
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/render-texture.ts:48](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/render-texture.ts#L48)&nbsp;
-
 ___
 #### width
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/render-texture.ts:46](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/render-texture.ts#L46)&nbsp;
-
 ___

@@ -135,54 +135,15 @@ ___
 • **new ColorAttachment**(`format: Format, sampleCount: SampleCount, loadOp: LoadOp, storeOp: StoreOp, beginAccesses: undefined, endAccesses: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `format` | `Format` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `sampleCount` | `SampleCount` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `loadOp` | `LoadOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `storeOp` | `StoreOp` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `beginAccesses` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `endAccesses` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1374](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1374)&nbsp;
@@ -194,16 +155,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: ColorAttachment`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -212,12 +169,7 @@ ___
 | `info` | `ColorAttachment` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1385](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1385)&nbsp;

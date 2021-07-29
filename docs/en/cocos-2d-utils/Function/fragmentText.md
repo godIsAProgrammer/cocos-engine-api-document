@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `stringToken` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `allWidth` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxWidth` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `measureText` | - | - |
-
 
 ___
 

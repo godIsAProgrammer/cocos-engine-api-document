@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Constructs a `Size` object.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `other` | `Size` | Specified Size.  |
-
 
 #### Returns `Size` &#x60;new Size(other)&#x60;
 
@@ -32,7 +30,6 @@ ___
 ___
 
 
-
 **`en`** Constructs a `Size` object.
 
 
@@ -42,11 +39,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | - | Specified width  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | - | Specified height  |
-
 
 #### Returns `Size` &#x60;new Size(w, h)&#x60;
 

@@ -58,7 +58,6 @@ ___
 
 
 
-
 **`zh`** 是否启用全局雾效
 
 
@@ -76,7 +75,6 @@ ___
 
 ### fogAtten
 <div style="margin-left: 10px;">
-
 
 
 
@@ -100,7 +98,6 @@ ___
 
 
 
-
 **`zh`** 全局雾颜色
 
 
@@ -118,7 +115,6 @@ ___
 
 ### fogDensity
 <div style="margin-left: 10px;">
-
 
 
 
@@ -142,7 +138,6 @@ ___
 
 
 
-
 **`zh`** 雾效结束位置，只适用于线性雾
 
 
@@ -160,7 +155,6 @@ ___
 
 ### fogRange
 <div style="margin-left: 10px;">
-
 
 
 
@@ -184,7 +178,6 @@ ___
 
 
 
-
 **`zh`** 雾效起始位置，只适用于线性雾
 
 
@@ -202,7 +195,6 @@ ___
 
 ### fogTop
 <div style="margin-left: 10px;">
-
 
 
 
@@ -242,7 +234,6 @@ ___
 
 
 
-
 **`zh`** 当前雾化类型。
 
 
@@ -267,6 +258,9 @@ ___
 • **new Fog**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/fog.ts:206](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/fog.ts#L206)&nbsp;
@@ -278,6 +272,7 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\> : `void`
@@ -285,21 +280,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/fog.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/fog.ts#L226)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -307,31 +294,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/fog.ts:239](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/fog.ts#L239)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`fogInfo: FogInfo`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -340,12 +314,7 @@ ___
 | `fogInfo` | `FogInfo` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/fog.ts:212](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/fog.ts#L212)&nbsp;

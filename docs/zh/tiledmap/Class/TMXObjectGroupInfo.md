@@ -136,7 +136,6 @@ Properties of the ObjectGroup info.
 
 
 
-
 **`property`** {Array} properties
 
 
@@ -189,6 +188,7 @@ ___
 ## Methods
 
 ### getProperties
+
 <div style="margin-left: 10px;">
 
 ▸   **getProperties**
@@ -197,30 +197,19 @@ ___
 Gets the Properties.
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:428](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L428)&nbsp;
 ___
 ### setProperties
+
 <div style="margin-left: 10px;">
 
 ▸   **setProperties**<`void`\>(`value: PropertiesInfo`) : `void`
 
 
 Set the Properties.
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -229,12 +218,7 @@ Set the Properties.
 | `value` | `PropertiesInfo` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/tiledmap/tiled-types.ts:436](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/tiledmap/tiled-types.ts#L436)&nbsp;

@@ -118,46 +118,14 @@ ___
 • **new BufferInfo**(`usage: BufferUsage, memUsage: MemoryUsage, size: number, stride: number, flags: BufferFlags`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `usage` | `BufferUsage` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `memUsage` | `MemoryUsage` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `size` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stride` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `flags` | `BufferFlags` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:940](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L940)&nbsp;
@@ -169,16 +137,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: BufferInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -187,12 +151,7 @@ ___
 | `info` | `BufferInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:950](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L950)&nbsp;

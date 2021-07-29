@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 前向渲染阶段。
 
 
@@ -71,7 +69,6 @@ ___
 
 
 
-
 **`zh`** 当前渲染阶段的名字。
 
 
@@ -93,7 +90,6 @@ ___
 
 
 
-
 **`zh`** 当前渲染阶段的优先级。
 
 
@@ -112,7 +108,6 @@ ___
 
 ### tag
 <div style="margin-left: 10px;">
-
 
 
 
@@ -141,6 +136,9 @@ ___
 • **new PostprocessStage**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/postprocess-stage.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/postprocess-stage.ts#L91)&nbsp;
@@ -152,39 +150,28 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`pipeline: DeferredPipeline, flow: LightingFlow`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `pipeline` | `DeferredPipeline` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `flow` | `LightingFlow` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/postprocess-stage.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/postprocess-stage.ts#L106)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -192,31 +179,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/postprocess-stage.ts:136](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/postprocess-stage.ts#L136)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: IRenderStageInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -225,27 +199,18 @@ ___
 | `info` | `IRenderStageInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/postprocess-stage.ts:98](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/postprocess-stage.ts#L98)&nbsp;
 ___
 ### render
+
 <div style="margin-left: 10px;">
 
 ▸   **render**<`void`\>(`camera: Camera`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -254,12 +219,7 @@ ___
 | `camera` | `Camera` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/postprocess-stage.ts:139](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/postprocess-stage.ts#L139)&nbsp;

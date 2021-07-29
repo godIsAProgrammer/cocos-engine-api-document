@@ -380,38 +380,23 @@ ___
 ## Methods
 
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\>(`texUnit: number, bufferBindings: number, vertexAttributes: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `texUnit` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bufferBindings` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `vertexAttributes` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl2/webgl2-state-cache.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl2/webgl2-state-cache.ts#L56)&nbsp;

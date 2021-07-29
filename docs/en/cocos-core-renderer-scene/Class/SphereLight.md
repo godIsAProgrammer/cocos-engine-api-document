@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -301,6 +300,9 @@ ___
 • **new SphereLight**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/sphere-light.ts:69](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/sphere-light.ts#L69)&nbsp;
@@ -312,16 +314,12 @@ ___
 ## Methods
 
 ### attachToScene
+
 <div style="margin-left: 10px;">
 
 ▸   **attachToScene**<`void`\>(`scene: RenderScene`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -330,17 +328,13 @@ ___
 | `scene` | `RenderScene` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/light.ts:165](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/light.ts#L165)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -348,21 +342,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/sphere-light.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/sphere-light.ts#L101)&nbsp;
 ___
 ### detachFromScene
+
 <div style="margin-left: 10px;">
 
 ▸   **detachFromScene**<`void`\> : `void`
@@ -370,21 +356,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/light.ts:169](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/light.ts#L169)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\> : `void`
@@ -392,21 +370,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/sphere-light.ts:77](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/sphere-light.ts#L77)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\> : `void`
@@ -414,16 +384,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/sphere-light.ts:88](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/sphere-light.ts#L88)&nbsp;

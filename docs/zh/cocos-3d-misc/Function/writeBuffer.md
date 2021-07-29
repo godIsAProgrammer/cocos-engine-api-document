@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `DataView` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `data` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `format` | `Format` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `stride` | `number` | - |
-
 
 #### Returns `void` 
 ___

@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 缓存管理器是一个模块，在非 WEB 平台上，用于管理所有从服务器上下载下来的缓存，这是一个单例，所有成员能通过 `cc.assetManager.cacheManager` 访问。
 
@@ -43,7 +42,6 @@
 
 
 
-
 **`zh`** 
 是否在存储空间满了后自动清理缓存，此属性只在小游戏平台有效
 
@@ -67,7 +65,6 @@ ___
 
 
 
-
 **`zh`** 
 缓存目录的名称
 
@@ -87,7 +84,6 @@ ___
 
 ### cacheEnabled
 <div style="margin-left: 10px;">
-
 
 
 
@@ -114,7 +110,6 @@ ___
 
 
 
-
 **`zh`** 
 缓存资源的间隔时间，此属性只在小游戏平台有效，单位：毫秒
 
@@ -135,7 +130,6 @@ ___
 
 ### cachedFiles
 <div style="margin-left: 10px;">
-
 
 
 
@@ -162,7 +156,6 @@ ___
 
 
 
-
 **`zh`** 
 清理资源的间隔时间，当你使用 `cleanLRU` 时，资源将以此间隔被删除，单位：毫秒
 
@@ -184,10 +177,10 @@ ___
 ## Methods
 
 ### clearCache
+
 <div style="margin-left: 10px;">
 
 ▸   **clearCache**<`void`\> : `void`
-
 
 
 
@@ -199,25 +192,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L133)&nbsp;
 ___
 ### clearLRU
+
 <div style="margin-left: 10px;">
 
 ▸   **clearLRU**<`void`\> : `void`
-
 
 
 
@@ -229,25 +213,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:143](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L143)&nbsp;
 ___
 ### getCache
+
 <div style="margin-left: 10px;">
 
 ▸   **getCache**<`string`\>(`originUrl: string`) : `string`
-
 
 
 
@@ -257,12 +232,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `string` The cached path
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -270,21 +239,16 @@ ___
 | `originUrl` | `string` | - |
 
 
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L111)&nbsp;
 ___
 ### getTemp
+
 <div style="margin-left: 10px;">
 
 ▸   **getTemp**<`string`\>(`originUrl: string`) : `string`
-
 
 
 
@@ -294,12 +258,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `string` The temp path
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -307,21 +265,16 @@ ___
 | `originUrl` | `string` | - |
 
 
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:123](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L123)&nbsp;
 ___
 ### removeCache
+
 <div style="margin-left: 10px;">
 
 ▸   **removeCache**<`void`\>(`originUrl: string`) : `void`
-
 
 
 
@@ -332,11 +285,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -344,12 +292,7 @@ ___
 | `originUrl` | `string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache-manager.ts:153](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache-manager.ts#L153)&nbsp;

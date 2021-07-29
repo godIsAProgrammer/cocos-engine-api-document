@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`en`** 
 Apply the options to default.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `GeometryOptions` |
@@ -23,7 +23,6 @@ Apply the options to default.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `RecursivePartial` | - |
-
 
 #### Returns `GeometryOptions` 
 ___

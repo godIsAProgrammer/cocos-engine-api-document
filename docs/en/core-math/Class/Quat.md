@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** quaternion
 
 
@@ -111,7 +109,6 @@ ___
 
 
 
-
 **`en`** w component.
 
 
@@ -129,7 +126,6 @@ ___
 
 ### x
 <div style="margin-left: 10px;">
-
 
 
 
@@ -153,7 +149,6 @@ ___
 
 
 
-
 **`en`** y component.
 
 
@@ -171,7 +166,6 @@ ___
 
 ### z
 <div style="margin-left: 10px;">
-
 
 
 
@@ -199,49 +193,20 @@ ___
 • **new Quat**(`other: Quat`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `other` | `Quat` |
-
-
-
-
-
 • **new Quat**(`x: undefined | number, y: undefined | number, z: undefined | number, w: undefined | number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `x` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `y` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `z` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `w` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:689](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L689)&nbsp;   [cocos/core/math/quat.ts:691](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L691)&nbsp;   [cocos/core/math/quat.ts:693](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L693)&nbsp;
@@ -253,10 +218,10 @@ ___
 ## Methods
 
 ### toEuler
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **toEuler**<`IVec3Like`\>(`out: IVec3Like, q: IQuatLike, outerZ: undefined | false | true`) : `IVec3Like`
-
 
 
 
@@ -264,41 +229,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `IVec3Like` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `IVec3Like` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q` | `IQuatLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `outerZ` | `undefined \| false \| true` | change z value range to [-180, -90] U [90, 180]  |
 
 
-
 ##### Returns `IVec3Like`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:591](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L591)&nbsp;
 ___
 ### toAxisZ
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **toAxisZ**<`IVec3Like`\>(`out: IVec3Like, q: IQuatLike`) : `IVec3Like`
-
 
 
 
@@ -306,37 +255,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `IVec3Like` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `IVec3Like` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q` | `IQuatLike` | - |
 
 
-
 ##### Returns `IVec3Like`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:575](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L575)&nbsp;
 ___
 ### toAxisY
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **toAxisY**<`IVec3Like`\>(`out: IVec3Like, q: IQuatLike`) : `IVec3Like`
-
 
 
 
@@ -344,37 +280,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `IVec3Like` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `IVec3Like` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q` | `IQuatLike` | - |
 
 
-
 ##### Returns `IVec3Like`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:560](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L560)&nbsp;
 ___
 ### toAxisX
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **toAxisX**<`IVec3Like`\>(`out: IVec3Like, q: IQuatLike`) : `IVec3Like`
-
 
 
 
@@ -382,37 +305,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `IVec3Like` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `IVec3Like` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q` | `IQuatLike` | - |
 
 
-
 ##### Returns `IVec3Like`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:546](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L546)&nbsp;
 ___
 ### toArray
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **toArray**<`Out`\>(`out: Out, q: IQuatLike, ofs: number`) : `Out`
-
 
 
 
@@ -420,41 +330,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q` | `IQuatLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ofs` | `number` | Array Start Offset  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:627](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L627)&nbsp;
 ___
 ### strictEquals
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **strictEquals**<`boolean`\>(`a: IQuatLike, b: IQuatLike`) : `boolean`
-
 
 
 
@@ -462,37 +356,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `IQuatLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `IQuatLike` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:652](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L652)&nbsp;
 ___
 ### sqlerp
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **sqlerp**<`Out`\>(`out: Out, a: Out, b: Out, c: Out, d: Out, t: number`) : `Out`
-
 
 
 
@@ -500,53 +381,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `c` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `d` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `t` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L352)&nbsp;
 ___
 ### slerp
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **slerp**<`Out`\>(`out: Out, a: QuatLike_1, b: QuatLike_2, t: number`) : `Out`
-
 
 
 
@@ -554,45 +410,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `QuatLike_1` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `QuatLike_2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `t` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:304](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L304)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **set**<`Out`\>(`out: Out, x: number, y: number, z: number, w: number`) : `Out`
-
 
 
 
@@ -600,49 +437,27 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `z` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:70](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L70)&nbsp;
 ___
 ### scaleAndAdd
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **scaleAndAdd**<`Out`\>(`out: Out, a: Out, b: Out, scale: number`) : `Out`
-
 
 
 
@@ -650,45 +465,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scale` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:175](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L175)&nbsp;
 ___
 ### rotationTo
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **rotationTo**<`Out`\>(`out: Out, a: VecLike, b: VecLike`) : `Out`
-
 
 
 
@@ -696,41 +492,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `VecLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `VecLike` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:94](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L94)&nbsp;
 ___
 ### rotateZ
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **rotateZ**<`Out`\>(`out: Out, a: Out, rad: number`) : `Out`
-
 
 
 
@@ -738,41 +518,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rad` | `number` | radius of rotation  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L226)&nbsp;
 ___
 ### rotateY
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **rotateY**<`Out`\>(`out: Out, a: Out, rad: number`) : `Out`
-
 
 
 
@@ -780,41 +544,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rad` | `number` | radius of rotation  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:207](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L207)&nbsp;
 ___
 ### rotateX
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **rotateX**<`Out`\>(`out: Out, a: Out, rad: number`) : `Out`
-
 
 
 
@@ -822,41 +570,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rad` | `number` | radius of rotation  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:188](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L188)&nbsp;
 ___
 ### rotateAroundLocal
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **rotateAroundLocal**<`Out`\>(`out: Out, rot: Out, axis: VecLike, rad: number`) : `Out`
-
 
 
 
@@ -864,45 +596,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rot` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `axis` | `VecLike` | axis of rotation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rad` | `number` | radius of rotation  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:262](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L262)&nbsp;
 ___
 ### rotateAround
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **rotateAround**<`Out`\>(`out: Out, rot: Out, axis: VecLike, rad: number`) : `Out`
-
 
 
 
@@ -910,45 +623,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rot` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `axis` | `VecLike` | axis of rotation, normalized by default  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rad` | `number` | radius of rotation  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:246](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L246)&nbsp;
 ___
 ### normalize
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **normalize**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -956,37 +650,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:408](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L408)&nbsp;
 ___
 ### multiplyScalar
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **multiplyScalar**<`Out`\>(`out: Out, a: Out, b: number`) : `Out`
-
 
 
 
@@ -994,41 +675,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:163](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L163)&nbsp;
 ___
 ### multiply
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **multiply**<`Out`\>(`out: Out, a: QuatLike_1, b: QuatLike_2`) : `Out`
-
 
 
 
@@ -1036,41 +701,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `QuatLike_1` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `QuatLike_2` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:147](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L147)&nbsp;
 ___
 ### lerp
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **lerp**<`Out`\>(`out: Out, a: Out, b: Out, t: number`) : `Out`
-
 
 
 
@@ -1078,45 +727,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `t` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L292)&nbsp;
 ___
 ### lengthSqr
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **lengthSqr**<`number`\>(`a: Out`) : `number`
-
 
 
 
@@ -1124,11 +754,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1136,21 +761,16 @@ ___
 | `a` | `Out` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:400](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L400)&nbsp;
 ___
 ### len
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **len**<`number`\>(`a: Out`) : `number`
-
 
 
 
@@ -1158,11 +778,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1170,21 +785,16 @@ ___
 | `a` | `Out` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:392](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L392)&nbsp;
 ___
 ### invert
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **invert**<`Out`\>(`out: Out, a: QuatLike`) : `Out`
-
 
 
 
@@ -1192,37 +802,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `QuatLike` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:363](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L363)&nbsp;
 ___
 ### identity
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **identity**<`Out`\>(`out: Out`) : `Out`
-
 
 
 
@@ -1230,11 +827,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1242,21 +834,16 @@ ___
 | `out` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L82)&nbsp;
 ___
 ### getAxisAngle
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **getAxisAngle**<`number`\>(`outAxis: VecLike, q: Out`) : `number`
-
 
 
 
@@ -1264,38 +851,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` radius of rotation
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `outAxis` | `VecLike` | output axis  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q` | `Out` | input quaternion  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:127](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L127)&nbsp;
 ___
 ### fromViewUp
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromViewUp**<`Out`\>(`out: Out, view: VecLike, up: Vec3`) : `Out`
-
 
 
 
@@ -1303,41 +876,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `view` | `VecLike` | The view direction, it`s must be normalized.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `up` | `Vec3` | The view up direction, it`s must be normalized, default value is (0, 1, 0).  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:438](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L438)&nbsp;
 ___
 ### fromMat3
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromMat3**<`Out`\>(`out: Out, m: Mat3`) : `Out`
-
 
 
 
@@ -1345,37 +902,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `m` | `Mat3` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:461](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L461)&nbsp;
 ___
 ### fromEuler
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromEuler**<`Out`\>(`out: Out, x: number, y: number, z: number`) : `Out`
-
 
 
 
@@ -1383,45 +927,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `z` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:507](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L507)&nbsp;
 ___
 ### fromAxisAngle
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromAxisAngle**<`Out`\>(`out: Out, axis: VecLike, rad: number`) : `Out`
-
 
 
 
@@ -1429,41 +954,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `axis` | `VecLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `rad` | `number` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:447](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L447)&nbsp;
 ___
 ### fromAxes
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromAxes**<`Out`\>(`out: Out, xAxis: VecLike, yAxis: VecLike, zAxis: VecLike`) : `Out`
-
 
 
 
@@ -1471,45 +980,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `xAxis` | `VecLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `yAxis` | `VecLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `zAxis` | `VecLike` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:424](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L424)&nbsp;
 ___
 ### fromArray
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromArray**<`IQuatLike`\>(`out: IQuatLike, arr: IWritableArrayLike, ofs: number`) : `IQuatLike`
-
 
 
 
@@ -1517,41 +1007,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `IQuatLike` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `IQuatLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arr` | `IWritableArrayLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ofs` | `number` | Array Start Offset  |
 
 
-
 ##### Returns `IQuatLike`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:640](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L640)&nbsp;
 ___
 ### fromAngleZ
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromAngleZ**<`Out`\>(`out: Out, z: number`) : `Out`
-
 
 
 
@@ -1559,37 +1033,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | Output quaternion  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `z` | `number` | Angle to rotate around Z axis in degrees.  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:534](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L534)&nbsp;
 ___
 ### equals
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **equals**<`boolean`\>(`a: IQuatLike, b: IQuatLike, epsilon: number`) : `boolean`
-
 
 
 
@@ -1597,41 +1058,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `IQuatLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `IQuatLike` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `epsilon` | `number` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:660](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L660)&nbsp;
 ___
 ### dot
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **dot**<`number`\>(`a: Out, b: Out`) : `number`
-
 
 
 
@@ -1639,37 +1084,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `Out` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:284](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L284)&nbsp;
 ___
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **copy**<`Out`\>(`out: Out, a: QuatLike`) : `Out`
-
 
 
 
@@ -1677,37 +1109,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `QuatLike` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:58](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L58)&nbsp;
 ___
 ### conjugate
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **conjugate**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -1715,37 +1134,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:380](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L380)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **clone**<`Quat`\>(`a: Out`) : `Quat`
-
 
 
 
@@ -1753,11 +1159,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Quat` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1765,21 +1166,16 @@ ___
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Quat`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L50)&nbsp;
 ___
 ### calculateW
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **calculateW**<`Out`\>(`out: Out, a: Out`) : `Out`
-
 
 
 
@@ -1787,37 +1183,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:272](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L272)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸   **clone**<`Quat`\> : `Quat`
-
 
 
 
@@ -1826,25 +1209,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Quat` -->
-<!---->
-
-
 ##### Returns `Quat`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:714](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L714)&nbsp;
 ___
 ### equals
+
 <div style="margin-left: 10px;">
 
 ▸   **equals**<`boolean`\>(`other: Quat, epsilon: number`) : `boolean`
-
 
 
 
@@ -1852,49 +1226,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` Returns &#x60;true&#x27; when the components of the two quaternions are equal within the specified error range; otherwise, returns &#x60;false&#x27;.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `other` | `Quat` | Comparative quaternion  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `epsilon` | `number` | The error allowed. It`s should be a non-negative number.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:755](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L755)&nbsp;
 ___
 ### getEulerAngles
+
 <div style="margin-left: 10px;">
 
 ▸   **getEulerAngles**<`IVec3Like`\>(`out: Vec3`) : `IVec3Like`
 
 
 
-
 **`en`** Convert quaternion to Euler angles
 
 
-
-
-<!---->
-<!--    #### Returns `IVec3Like` -->
-<!---->
 
 #### Parameters
 
@@ -1903,21 +1258,16 @@ ___
 | `out` | `Vec3` | the output vector  |
 
 
-
 ##### Returns `IVec3Like`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:777](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L777)&nbsp;
 ___
 ### length
+
 <div style="margin-left: 10px;">
 
 ▸   **length**<`number`\> : `number`
-
 
 
 
@@ -1926,25 +1276,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:809](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L809)&nbsp;
 ___
 ### lengthSqr
+
 <div style="margin-left: 10px;">
 
 ▸   **lengthSqr**<`number`\> : `number`
-
 
 
 
@@ -1953,25 +1294,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:817](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L817)&nbsp;
 ___
 ### lerp
+
 <div style="margin-left: 10px;">
 
 ▸   **lerp**<`this`\>(`to: Quat, ratio: number`) : `this`
-
 
 
 
@@ -1979,49 +1311,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `to` | `Quat` | The target quaternion  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | The interpolation coefficient. The range is [0,1].  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:787](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L787)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸   **set**<`Quat`\>(`other: Quat`) : `Quat`
 
 
 
-
 **`en`** Set values with another quaternion
 
 
-
-
-<!---->
-<!--    #### Returns `Quat` &#x60;this&#x60;
--->
-<!---->
 
 #### Parameters
 
@@ -2030,12 +1343,9 @@ ___
 | `other` | `Quat` | Specified quaternion  |
 
 
-
 ##### Returns `Quat`
 
-
 ▸   **set**<`Quat`\>(`x: undefined | number, y: undefined | number, z: undefined | number, w: undefined | number`) : `Quat`
-
 
 
 
@@ -2043,46 +1353,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Quat` &#x60;this&#x60;
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `undefined \| number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `undefined \| number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `z` | `undefined \| number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `undefined \| number` | - |
 
 
-
 ##### Returns `Quat`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:724](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L724)&nbsp;   [cocos/core/math/quat.ts:731](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L731)&nbsp;   [cocos/core/math/quat.ts:733](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L733)&nbsp;
 ___
 ### slerp
+
 <div style="margin-left: 10px;">
 
 ▸   **slerp**<`this`\>(`to: Quat, ratio: number`) : `this`
-
 
 
 
@@ -2090,49 +1380,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `to` | `Quat` | The target quaternion  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | The interpolation coefficient. The range is [0,1].  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:801](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L801)&nbsp;
 ___
 ### strictEquals
+
 <div style="margin-left: 10px;">
 
 ▸   **strictEquals**<`boolean`\>(`other: Quat`) : `boolean`
 
 
 
-
 **`en`** Check whether the current quaternion strictly equals other quaternion
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` Returns &#x60;true&#x27; when the components of the two quaternions are equal within the specified error range; otherwise, returns &#x60;false&#x27;.
--->
-<!---->
 
 #### Parameters
 
@@ -2141,21 +1412,16 @@ ___
 | `other` | `Quat` | Comparative quaternion  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/quat.ts:768](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/quat.ts#L768)&nbsp;
 ___
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸   **toString**<`string`\> : `string`
-
 
 
 
@@ -2166,17 +1432,7 @@ The base version of this method will returns an empty string.
 
 
 
-<!---->
-<!--    #### Returns `string` The string representation of the current object
--->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/value-types/value-type.ts:95](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/value-types/value-type.ts#L95)&nbsp;

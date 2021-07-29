@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 任务用于在管线中运行以达成某种效果
 
@@ -50,7 +49,6 @@
 
 
 
-
 **`zh`** 
 任务id
 
@@ -71,7 +69,6 @@ ___
 
 ### input
 <div style="margin-left: 10px;">
-
 
 
 
@@ -98,7 +95,6 @@ ___
 
 
 
-
 **`zh`** 
 此任务是否已经完成
 
@@ -119,7 +115,6 @@ ___
 
 ### onComplete
 <div style="margin-left: 10px;">
-
 
 
 
@@ -146,7 +141,6 @@ ___
 
 
 
-
 **`zh`** 
 错误回调
 
@@ -167,7 +161,6 @@ ___
 
 ### onProgress
 <div style="margin-left: 10px;">
-
 
 
 
@@ -194,7 +187,6 @@ ___
 
 
 
-
 **`zh`** 
 自定义参数
 
@@ -215,7 +207,6 @@ ___
 
 ### output
 <div style="margin-left: 10px;">
-
 
 
 
@@ -241,7 +232,6 @@ ___
 
 
 
-
 **`zh`** 
 任务的进度
 
@@ -262,7 +252,6 @@ ___
 
 ### source
 <div style="margin-left: 10px;">
-
 
 
 
@@ -293,14 +282,10 @@ ___
 • **new Task**(`options: ITaskOption`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `options` | `ITaskOption` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:183](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L183)&nbsp;
@@ -312,10 +297,10 @@ ___
 ## Methods
 
 ### create
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **create**<`Task`\>(`options: ITaskOption`) : `Task`
-
 
 
 
@@ -326,17 +311,9 @@ ___
 
 
 
-
 **`method`** create
 
 
-
-
-<!---->
-<!--    #### Returns `Task` task
-
--->
-<!---->
 
 #### Parameters
 
@@ -345,27 +322,21 @@ ___
 | `options` | `ITaskOption` | Some optional paramters  |
 
 
-
 ##### Returns `Task`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L71)&nbsp;
 ___
 ### dispatch
+
 <div style="margin-left: 10px;">
 
 ▸   **dispatch**<`void`\>(`event: string, param1: any, param2: any, param3: any, param4: any`) : `void`
 
 
 
-
 **`zh`** 
 发布事件
-
 
 
 
@@ -383,49 +354,27 @@ Task.dispatch('complete', 'hello world');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `event` | `string` | The event name  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param1` | `any` | Parameter 1  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param2` | `any` | Parameter 2  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param3` | `any` | Parameter 3  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `param4` | `any` | Parameter 4  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:254](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L254)&nbsp;
 ___
 ### recycle
+
 <div style="margin-left: 10px;">
 
 ▸   **recycle**<`void`\> : `void`
-
 
 
 
@@ -437,31 +386,21 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:289](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L289)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸   **set**<`void`\>(`options: ITaskOption`) : `void`
 
 
 
-
 **`zh`** 
 设置任务的参数
-
 
 
 
@@ -478,11 +417,6 @@ task.set({input: ['test'], onComplete: (err, result) => console.log(err), onProg
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -490,12 +424,7 @@ task.set({input: ['test'], onComplete: (err, result) => console.log(err), onProg
 | `options` | `ITaskOption` | Some optional paramters  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/task.ts:224](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/task.ts#L224)&nbsp;

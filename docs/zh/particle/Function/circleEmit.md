@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radius` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `radiusThickness` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `theta` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `pos` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dir` | `any` | - |
-
 
 #### Returns `void` 
 ___

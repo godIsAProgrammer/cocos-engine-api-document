@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** GFX buffer.
 
 
@@ -50,7 +48,6 @@
 
 ### count
 <div style="margin-left: 10px;">
-
 
 
 
@@ -106,7 +103,6 @@ ___
 
 
 
-
 **`en`** Memory usage of the buffer.
 
 
@@ -124,7 +120,6 @@ ___
 
 ### size
 <div style="margin-left: 10px;">
-
 
 
 
@@ -148,7 +143,6 @@ ___
 
 
 
-
 **`en`** Stride of the buffer.
 
 
@@ -166,7 +160,6 @@ ___
 
 ### usage
 <div style="margin-left: 10px;">
-
 
 
 
@@ -194,14 +187,10 @@ ___
 • **new Buffer**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/buffer.ts:104](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/buffer.ts#L104)&nbsp;
@@ -213,6 +202,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -220,31 +210,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/buffer.ts:113](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/buffer.ts#L113)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: BufferInfo | BufferViewInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -253,32 +230,22 @@ ___
 | `info` | `BufferInfo \| BufferViewInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/buffer.ts:111](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/buffer.ts#L111)&nbsp;
 ___
 ### resize
+
 <div style="margin-left: 10px;">
 
 ▸   **resize**<`void`\>(`size: number`) : `void`
 
 
 
-
 **`en`** Resize the buffer.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -287,21 +254,16 @@ ___
 | `size` | `number` | The new buffer size.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/buffer.ts:120](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/buffer.ts#L120)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`buffer: BufferSource, size: undefined | number`) : `void`
-
 
 
 
@@ -309,28 +271,15 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `buffer` | `BufferSource` | The new buffer data.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `size` | `undefined \| number` | Size in bytes to be updated.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/buffer.ts:128](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/buffer.ts#L128)&nbsp;

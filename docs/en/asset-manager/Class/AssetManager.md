@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 This module controls asset's behaviors and information, include loading, releasing etc. it is a singleton
 All member can be accessed with `cc.assetManager`.
@@ -66,7 +65,6 @@ All member can be accessed with `cc.assetManager`.
 
 
 
-
 **`en`** 
 Whether to use image bitmap to load image first. If enabled, images loading will become faster but memory usage will increase.
 
@@ -86,7 +84,6 @@ ___
 
 ### assets
 <div style="margin-left: 10px;">
-
 
 
 
@@ -112,7 +109,6 @@ ___
 
 
 
-
 **`en`** 
 The collection of bundle which is already loaded, you can remove cache with {{#crossLink "AssetManager/removeBundle:method"}}{{/crossLink}}
 
@@ -132,7 +128,6 @@ ___
 
 ### cacheAsset
 <div style="margin-left: 10px;">
-
 
 
 
@@ -158,7 +153,6 @@ ___
 
 
 
-
 **`en`** 
 Cache manager is a module which controls all caches downloaded from server in non-web platform.
 
@@ -181,7 +175,6 @@ ___
 
 
 
-
 **`en`** 
 Manage relationship between asset and its dependencies
 
@@ -201,7 +194,6 @@ ___
 
 ### downloader
 <div style="margin-left: 10px;">
-
 
 
 
@@ -259,7 +251,6 @@ ___
 
 
 
-
 **`en`** 
 Fetching pipeline
 
@@ -279,7 +270,6 @@ ___
 
 ### force
 <div style="margin-left: 10px;">
-
 
 
 
@@ -353,7 +343,6 @@ ___
 
 
 
-
 **`en`** 
 Manage all packed asset
 
@@ -376,7 +365,6 @@ ___
 
 
 
-
 **`en`** 
 Manage all parsing task
 
@@ -396,7 +384,6 @@ ___
 
 ### pipeline
 <div style="margin-left: 10px;">
-
 
 
 
@@ -438,7 +425,6 @@ ___
 
 
 
-
 **`en`** 
 The preset of options
 
@@ -477,7 +463,6 @@ ___
 
 
 
-
 **`en`** 
 Url transformer
 
@@ -497,7 +482,6 @@ ___
 
 ### utils
 <div style="margin-left: 10px;">
-
 
 
 
@@ -523,7 +507,6 @@ ___
 
 
 
-
 **`en`** 
 The builtin 'main' bundle
 
@@ -543,7 +526,6 @@ ___
 
 ### resources
 <div style="margin-left: 10px;">
-
 
 
 
@@ -567,16 +549,15 @@ ___
 ## Methods
 
 ### getBundle
+
 <div style="margin-left: 10px;">
 
 ▸   **getBundle**(`name: string`)
 
 
 
-
 **`en`** 
 Get the bundle which has been loaded
-
 
 
 
@@ -595,9 +576,6 @@ cc.assetManager.getBundle('resources');
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -605,21 +583,16 @@ cc.assetManager.getBundle('resources');
 | `name` | `string` | The name of bundle  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:368](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L368)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\>(`options: IAssetManagerOptions`) : `void`
-
 
 
 
@@ -629,11 +602,6 @@ Initialize assetManager with options
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -641,21 +609,16 @@ Initialize assetManager with options
 | `options` | `IAssetManagerOptions` | the configuration  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:329](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L329)&nbsp;
 ___
 ### loadAny
+
 <div style="margin-left: 10px;">
 
 ▸   **loadAny**<`void`\>(`requests: Request, options: IOptions | null, onProgress: ProgressCallback | null, onComplete: CompleteCallbackWithData | null`) : `void`
-
 
 
 
@@ -671,7 +634,6 @@ Reserved Keyword: `uuid`, `url`, `path`, `dir`, `scene`, `type`, `priority`, `pr
 `bundle`, `onFileProgress`, `maxConcurrency`, `maxRequestsPerFrame`, `maxRetryCount`, `version`, `xhrResponseType`,
 `xhrWithCredentials`, `xhrMimeType`, `xhrTimeout`, `xhrHeader`, `reloadAsset`, `cacheAsset`, `cacheEnabled`,
 Please DO NOT use these words as custom options!
-
 
 
 
@@ -700,179 +662,103 @@ cc.assetManager.loadAny({ url: 'http://example.com/my.asset', skin: 'xxx', model
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` | `Request` | The request you want to load  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IOptions \| null` | Optional parameters  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onProgress` | `ProgressCallback \| null` | Callback invoked when progression change  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | Callback invoked when finish loading  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **loadAny**<`void`\>(`requests: Request, onProgress: ProgressCallback | null, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` | `Request` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onProgress` | `ProgressCallback \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
 
 
-
 ##### Returns `void`
-
 
 ▸   **loadAny**<`void`\>(`requests: Request, options: IOptions | null, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` | `Request` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IOptions \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
-
 
 
 ##### Returns `void`
 
-
 ▸   **loadAny**<`void`\>(`requests: string, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
-
 
 
 ##### Returns `void`
 
-
 ▸   **loadAny**<`void`\>(`requests: undefined, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` |  | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
-
 
 
 ##### Returns `void`
 
-
 ▸   **loadAny**<`void`\>(`requests: Request, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` | `Request` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:441](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L441)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:442](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L442)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:443](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L443)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:444](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L444)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:445](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L445)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:446](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L446)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:447](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L447)&nbsp;
 ___
 ### loadBundle
+
 <div style="margin-left: 10px;">
 
 ▸   **loadBundle**<`void`\>(`nameOrUrl: string, options: IBundleOptions | null, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
 
-
 **`en`** 
 load bundle
-
 
 
 
@@ -888,71 +774,44 @@ loadBundle('http://localhost:8080/test', null, (err, bundle) => console.log(err)
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `nameOrUrl` | `string` | The name or root path of bundle  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IBundleOptions \| null` | Some optional paramter, same like downloader.downloadFile  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | Callback when bundle loaded or failed  |
-
 
 
 ##### Returns `void`
 
-
 ▸   **loadBundle**<`void`\>(`nameOrUrl: string, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `nameOrUrl` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:617](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L617)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:618](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L618)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:619](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L619)&nbsp;
 ___
 ### loadRemote
+
 <div style="margin-left: 10px;">
 
 ▸   **loadRemote**<`void`\>(`url: string, options: IRemoteOptions | null, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
 
-
 **`en`** 
 Load remote asset with url, such as audio, image, text and so on.
-
 
 
 
@@ -970,71 +829,44 @@ cc.assetManager.loadRemote('http://www.cloud.com/test3', { ext: '.png' }, (err, 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | The url of asset  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IRemoteOptions \| null` | Some optional parameters  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | Callback invoked when finish loading  |
-
 
 
 ##### Returns `void`
 
-
 ▸   **loadRemote**<`void`\>(`url: string, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `url` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:575](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L575)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L576)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:577](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L577)&nbsp;
 ___
 ### postLoadNative
+
 <div style="margin-left: 10px;">
 
 ▸   **postLoadNative**<`void`\>(`asset: Asset, options: INativeAssetOptions | null, onComplete: CompleteCallbackNoData | null`) : `void`
 
 
 
-
 **`en`** 
 Load native file of asset, if you check the option 'Async Load Assets', you may need to load native file with this before you use the asset
-
 
 
 
@@ -1050,65 +882,39 @@ cc.assetManager.postLoadNative(texture, (err) => console.log(err));
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `asset` | `Asset` | The asset  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `INativeAssetOptions \| null` | Some optional parameters  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackNoData \| null` | Callback invoked when finish loading  |
-
 
 
 ##### Returns `void`
 
-
 ▸   **postLoadNative**<`void`\>(`asset: Asset, onComplete: CompleteCallbackNoData | null`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `asset` | `Asset` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackNoData \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:522](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L522)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:523](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L523)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:524](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L524)&nbsp;
 ___
 ### preloadAny
+
 <div style="margin-left: 10px;">
 
 ▸   **preloadAny**<`void`\>(`requests: Request, options: IOptions | null, onProgress: ProgressCallback | null, onComplete: CompleteCallbackWithData | null`) : `void`
-
 
 
 
@@ -1117,7 +923,6 @@ General interface used to preload assets with a progression callback and a compl
 more simple API, such as `preloadRes`, `preloadResDir` etc. Everything about preload is just likes `cc.assetManager.loadAny`, the
 difference is `cc.assetManager.preloadAny` will only download asset but not parse asset. You need to invoke `cc.assetManager.loadAny(preloadTask)`
 to finish loading asset
-
 
 
 
@@ -1133,125 +938,70 @@ cc.assetManager.preloadAny('0cbZa5Y71CTZAccaIFluuZ', (err) => cc.assetManager.lo
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` | `Request` | The request you want to preload  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IOptions \| null` | Optional parameters  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onProgress` | `ProgressCallback \| null` | Callback invoked when progression change  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | Callback invoked when finish preloading  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **preloadAny**<`void`\>(`requests: Request, onProgress: ProgressCallback | null, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` | `Request` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onProgress` | `ProgressCallback \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
 
 
-
 ##### Returns `void`
-
 
 ▸   **preloadAny**<`void`\>(`requests: Request, options: IOptions | null, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` | `Request` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IOptions \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
 
 
-
 ##### Returns `void`
-
 
 ▸   **preloadAny**<`void`\>(`requests: Request, onComplete: CompleteCallbackWithData | null`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `requests` | `Request` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallbackWithData \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:485](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L485)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:490](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L490)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:491](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L491)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:492](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L492)&nbsp;   [cocos/core/asset-manager/asset-manager.ts:493](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L493)&nbsp;
 ___
 ### releaseAll
+
 <div style="margin-left: 10px;">
 
 ▸   **releaseAll**<`void`\> : `void`
-
 
 
 
@@ -1262,25 +1012,16 @@ Release all assets. Refer to {{#crossLink "AssetManager/releaseAsset:method"}}{{
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:692](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L692)&nbsp;
 ___
 ### releaseAsset
+
 <div style="margin-left: 10px;">
 
 ▸   **releaseAsset**<`void`\>(`asset: Asset`) : `void`
-
 
 
 
@@ -1290,7 +1031,6 @@ This method will not only remove the cache of the asset in assetManager, but als
 For example, if you release a texture, the texture asset and its gl texture data will be freed up.
 Notice, this method may cause the texture to be unusable, if there are still other nodes use the same texture,
 they may turn to black and report gl errors.
-
 
 
 
@@ -1307,11 +1047,6 @@ cc.assetManager.releaseAsset(texture);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1319,21 +1054,16 @@ cc.assetManager.releaseAsset(texture);
 | `asset` | `Asset` | The asset to be released  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:664](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L664)&nbsp;
 ___
 ### removeBundle
+
 <div style="margin-left: 10px;">
 
 ▸   **removeBundle**<`void`\>(`bundle: Bundle`) : `void`
-
 
 
 
@@ -1344,17 +1074,11 @@ you can call {{#crossLink "Bundle/releaseAll:method"}}{{/crossLink}} manually be
 
 
 
-
 **`typescript`** 
 removeBundle(bundle: cc.AssetManager.Bundle): void
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1363,12 +1087,7 @@ removeBundle(bundle: cc.AssetManager.Bundle): void
 | `bundle` | `Bundle` | The bundle to be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/asset-manager.ts:385](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/asset-manager.ts#L385)&nbsp;

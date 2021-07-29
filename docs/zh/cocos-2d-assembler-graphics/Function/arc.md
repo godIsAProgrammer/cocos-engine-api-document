@@ -13,31 +13,12 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ctx` | `Impl` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `r` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `startAngle` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `endAngle` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `counterclockwise` | `boolean` | - |
-
 
 #### Returns `void` 
 ___

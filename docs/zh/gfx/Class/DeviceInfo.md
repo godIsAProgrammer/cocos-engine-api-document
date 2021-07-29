@@ -156,62 +156,16 @@ ___
 • **new DeviceInfo**(`canvasElm: HTMLElement, isAntialias: boolean, isPremultipliedAlpha: boolean, devicePixelRatio: number, nativeWidth: number, nativeHeight: number, bindingMappingInfo: BindingMappingInfo`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `canvasElm` | `HTMLElement` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isAntialias` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isPremultipliedAlpha` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `devicePixelRatio` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `nativeWidth` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `nativeHeight` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `bindingMappingInfo` | `BindingMappingInfo` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1674](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1674)&nbsp;

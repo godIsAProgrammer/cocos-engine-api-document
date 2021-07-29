@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array1` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `array2` | - | - |
-
 
 #### Returns `boolean` 
 ___

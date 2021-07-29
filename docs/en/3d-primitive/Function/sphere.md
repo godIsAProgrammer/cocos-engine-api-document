@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Generate a shpere with radius 0.5.
 
@@ -19,11 +18,7 @@ Generate a shpere with radius 0.5.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radius` | `number` | 球半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `RecursivePartial` | - |
-
 
 #### Returns `IGeometry` 
 ___

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 This function generates a plane on XOZ plane with positive Y direction.
 
@@ -19,7 +18,6 @@ This function generates a plane on XOZ plane with positive Y direction.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `IPlaneOptions` | 平面参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

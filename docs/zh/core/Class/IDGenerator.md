@@ -84,14 +84,10 @@ ___
 • **new IDGenerator**(`category: undefined | string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `category` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/id-generator.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/id-generator.ts#L47)&nbsp;
@@ -103,6 +99,7 @@ ___
 ## Methods
 
 ### getNewId
+
 <div style="margin-left: 10px;">
 
 ▸   **getNewId**<`string`\> : `string`
@@ -110,16 +107,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/id-generator.ts:58](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/id-generator.ts#L58)&nbsp;

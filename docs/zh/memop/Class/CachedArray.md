@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 适用于对象缓存的数组类型封装，一般用于不易被移除的常驻数据。
 它的内部数组长度会持续增长，不会减少。
@@ -47,7 +46,6 @@
 
 
 
-
 **`zh`** 
 实际存储数据内容的数组
 
@@ -67,7 +65,6 @@ ___
 
 ### length
 <div style="margin-left: 10px;">
-
 
 
 
@@ -97,22 +94,11 @@ ___
 • **new CachedArray**(`length: number, compareFn: undefined | `)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `length` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `compareFn` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L56)&nbsp;
@@ -124,10 +110,10 @@ ___
 ## Methods
 
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`void`\> : `void`
-
 
 
 
@@ -138,25 +124,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:113](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L113)&nbsp;
 ___
 ### concat
+
 <div style="margin-left: 10px;">
 
 ▸   **concat**<`void`\>(`array: undefined`) : `void`
-
 
 
 
@@ -165,11 +142,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -177,21 +149,16 @@ ___
 | `array` |  | The given array to be appended  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L146)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
-
 
 
 
@@ -202,36 +169,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:123](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L123)&nbsp;
 ___
 ### fastRemove
+
 <div style="margin-left: 10px;">
 
 ▸   **fastRemove**<`void`\>(`idx: number`) : `void`
 
 
 
-
 **`zh`** 删除指定位置的元素并将最后一个元素移动至该位置。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -240,21 +193,16 @@ ___
 | `idx` | `number` | The index of the element to be deleted  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:157](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L157)&nbsp;
 ___
 ### get
+
 <div style="margin-left: 10px;">
 
 ▸   **get**<`T`\>(`idx: number`) : `T`
-
 
 
 
@@ -263,12 +211,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `T` The element at given index
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -276,32 +218,22 @@ ___
 | `idx` | `number` | The index of the requested element  |
 
 
-
 ##### Returns `T`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:103](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L103)&nbsp;
 ___
 ### indexOf
+
 <div style="margin-left: 10px;">
 
 ▸   **indexOf**<`number`\>(`val: T`) : `number`
 
 
 
-
 **`zh`** 返回在数组中可以找到一个给定元素的第一个索引。
 
 
-
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
 
 #### Parameters
 
@@ -310,21 +242,16 @@ ___
 | `val` | `T` | The element  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:170](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L170)&nbsp;
 ___
 ### pop
+
 <div style="margin-left: 10px;">
 
 ▸   **pop**
-
 
 
 
@@ -334,23 +261,16 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L91)&nbsp;
 ___
 ### push
+
 <div style="margin-left: 10px;">
 
 ▸   **push**<`void`\>(`item: T`) : `void`
-
 
 
 
@@ -359,11 +279,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -371,21 +286,16 @@ ___
 | `item` | `T` | The item to be added  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:80](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L80)&nbsp;
 ___
 ### sort
+
 <div style="margin-left: 10px;">
 
 ▸   **sort**<`void`\> : `void`
-
 
 
 
@@ -396,16 +306,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/memop/cached-array.ts:134](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/memop/cached-array.ts#L134)&nbsp;

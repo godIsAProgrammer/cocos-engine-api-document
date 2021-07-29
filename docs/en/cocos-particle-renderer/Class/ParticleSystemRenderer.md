@@ -159,16 +159,12 @@ ___
 ## Methods
 
 ### onInit
+
 <div style="margin-left: 10px;">
 
 ▸   **onInit**<`void`\>(`ps: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -177,12 +173,7 @@ ___
 | `ps` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/renderer/particle-system-renderer-data.ts:206](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/renderer/particle-system-renderer-data.ts#L206)&nbsp;

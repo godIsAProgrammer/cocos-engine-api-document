@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`method`** setClassName
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `className` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `constructor` | `Constructor` |   |
-
 
 #### Returns `void` 
 ___

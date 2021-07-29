@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `name` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `macros` | - | - |
-
 
 #### Returns `string` 
 ___

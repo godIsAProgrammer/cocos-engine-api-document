@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 
 轴对齐矩形。
 矩形内的所有点都大于等于矩形的最小点 (xMin, yMin) 并且小于等于矩形的最大点 (xMax, yMax)。
@@ -73,7 +71,6 @@
 
 
 
-
 **`zh`** 矩形的高度。
 
 
@@ -92,7 +89,6 @@ ___
 
 ### width
 <div style="margin-left: 10px;">
-
 
 
 
@@ -117,7 +113,6 @@ ___
 
 
 
-
 **`zh`** 矩形最小点的 x 坐标。
 
 
@@ -136,7 +131,6 @@ ___
 
 ### y
 <div style="margin-left: 10px;">
-
 
 
 
@@ -161,7 +155,6 @@ ___
 
 
 
-
 **`zh`** 获取或设置矩形中心点的坐标。
 
 
@@ -183,7 +176,6 @@ ___
 
 
 
-
 **`zh`** 获取或设置矩形的 x 和 y 坐标。
 
 
@@ -202,7 +194,6 @@ ___
 
 ### size
 <div style="margin-left: 10px;">
-
 
 
 
@@ -243,7 +234,6 @@ ___
 
 
 
-
 **`zh`** 获取或设置矩形在 x 轴上的最大值。
 
 
@@ -262,7 +252,6 @@ ___
 
 ### xMin
 <div style="margin-left: 10px;">
-
 
 
 
@@ -287,7 +276,6 @@ ___
 
 
 
-
 **`zh`** 获取或设置矩形在 y 轴上的最大值。
 
 
@@ -306,7 +294,6 @@ ___
 
 ### yMin
 <div style="margin-left: 10px;">
-
 
 
 
@@ -351,49 +338,20 @@ ___
 • **new Rect**(`other: Rect`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `other` | `Rect` |
-
-
-
-
-
 • **new Rect**(`x: undefined | number, y: undefined | number, width: undefined | number, height: undefined | number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `x` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `y` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `width` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `height` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:256](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L256)&nbsp;   [cocos/core/math/rect.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L263)&nbsp;   [cocos/core/math/rect.ts:273](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L273)&nbsp;
@@ -405,10 +363,10 @@ ___
 ## Methods
 
 ### union
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **union**<`Out`\>(`out: Out, one: Out, other: Out`) : `Out`
-
 
 
 
@@ -416,41 +374,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | Output Rect.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `one` | `Out` | One of the specify Rect.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `other` | `Out` | Another of the specify Rect.  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L121)&nbsp;
 ___
 ### lerp
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **lerp**<`Out`\>(`out: Out, from: Out, to: Out, ratio: number`) : `Out`
-
 
 
 
@@ -458,45 +400,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | Output rect.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `from` | `Out` | Original rect.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `to` | `Out` | Target rect.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | The interpolation coefficient.The range is [0,1].  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:77](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L77)&nbsp;
 ___
 ### intersection
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **intersection**<`Out`\>(`out: Out, one: Out, other: Out`) : `Out`
-
 
 
 
@@ -504,41 +427,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | Output Rect.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `one` | `Out` | One of the specify Rect.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `other` | `Out` | Another of the specify Rect.  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:97](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L97)&nbsp;
 ___
 ### fromMinMax
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromMinMax**<`Out`\>(`out: Out, v1: VecLike, v2: VecLike`) : `Out`
-
 
 
 
@@ -546,42 +453,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Out` Target rectangle.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Out` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `v1` | `VecLike` | Specified point 1.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `v2` | `VecLike` | Specified point 2.  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L56)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸   **clone**<`Rect`\> : `Rect`
-
 
 
 
@@ -591,37 +481,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Rect` -->
-<!---->
-
-
 ##### Returns `Rect`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:294](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L294)&nbsp;
 ___
 ### contains
+
 <div style="margin-left: 10px;">
 
 ▸   **contains**<`boolean`\>(`point: Vec2`) : `boolean`
 
 
 
-
 **`zh`** 判断当前矩形是否包含指定的点。
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` The specified point is included in the rectangle and returns &#x60;true&#x27;, otherwise it returns &#x60;false&#x27;.
--->
-<!---->
 
 #### Parameters
 
@@ -630,21 +505,16 @@ ___
 | `point` | `Vec2` | Specified point.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:393](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L393)&nbsp;
 ___
 ### containsRect
+
 <div style="margin-left: 10px;">
 
 ▸   **containsRect**<`boolean`\>(`other: Rect`) : `boolean`
-
 
 
 
@@ -652,12 +522,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` Returns &#x60;true&#x27; if all the points of the specified rectangle are included in the current rectangle, &#x60;false&#x27; otherwise.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -665,21 +529,16 @@ ___
 | `other` | `Rect` | Specified rectangles.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:406](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L406)&nbsp;
 ___
 ### equals
+
 <div style="margin-left: 10px;">
 
 ▸   **equals**<`boolean`\>(`other: Rect`) : `boolean`
-
 
 
 
@@ -687,12 +546,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` Returns &#x60;true&#x27; when the minimum and maximum values of both rectangles are equal, respectively; otherwise, returns &#x60;false&#x27;.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -700,21 +553,16 @@ ___
 | `other` | `Rect` | Specified rectangles.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:338](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L338)&nbsp;
 ___
 ### intersects
+
 <div style="margin-left: 10px;">
 
 ▸   **intersects**<`boolean`\>(`other: Rect`) : `boolean`
-
 
 
 
@@ -722,12 +570,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` If intersected, return &#x60;true&#x27;, otherwise return &#x60;false&#x27;.
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -735,21 +577,16 @@ ___
 | `other` | `Rect` | Specified rectangles.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:379](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L379)&nbsp;
 ___
 ### lerp
+
 <div style="margin-left: 10px;">
 
 ▸   **lerp**<`this`\>(`to: Rect, ratio: number`) : `this`
-
 
 
 
@@ -757,49 +594,30 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `to` | `Rect` | Target Rect.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ratio` | `number` | The interpolation coefficient.The range is [0,1].  |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:351](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L351)&nbsp;
 ___
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸   **set**<`any`\>(`other: Rect`) : `any`
 
 
 
-
 **`zh`** 设置当前矩形使其与指定矩形相等。
 
 
-
-
-<!---->
-<!--    #### Returns `any` &#x60;this&#x60;
--->
-<!---->
 
 #### Parameters
 
@@ -808,12 +626,9 @@ ___
 | `other` | `Rect` | Specified Rect.  |
 
 
-
 ##### Returns `any`
 
-
 ▸   **set**<`any`\>(`x: undefined | number, y: undefined | number, width: undefined | number, height: undefined | number`) : `any`
-
 
 
 
@@ -821,46 +636,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `any` &#x60;this&#x60;
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `undefined \| number` | The x parameter of the specified rectangle  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `undefined \| number` | The y parameter of the specified rectangle  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `width` | `undefined \| number` | The width parameter of the specified rectangle  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `undefined \| number` | The height parameter of the specified rectangle  |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:304](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L304)&nbsp;   [cocos/core/math/rect.ts:315](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L315)&nbsp;   [cocos/core/math/rect.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L317)&nbsp;
 ___
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸   **toString**<`string`\> : `string`
-
 
 
 
@@ -869,26 +664,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `string` The information of the current rect in string
--->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:369](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L369)&nbsp;
 ___
 ### transformMat4
+
 <div style="margin-left: 10px;">
 
 ▸   **transformMat4**<`this`\>(`mat: Mat4`) : `this`
-
 
 
 
@@ -900,11 +685,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -912,17 +692,13 @@ ___
 | `mat` | `Mat4` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:422](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L422)&nbsp;
 ___
 ### transformMat4ToPoints
+
 <div style="margin-left: 10px;">
 
 ▸   **transformMat4ToPoints**<`void`\>(`mat: Mat4, out_lb: Vec2, out_lt: Vec2, out_rt: Vec2, out_rb: Vec2`) : `void`
@@ -930,40 +706,18 @@ ___
 
 应用矩阵变换到当前矩形，并将结果输出到四个顶点上。
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `mat` | `Mat4` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out_lb` | `Vec2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out_lt` | `Vec2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out_rt` | `Vec2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out_rb` | `Vec2` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/math/rect.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/math/rect.ts#L452)&nbsp;

@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 基础几何 截头锥体。
 
@@ -45,10 +44,8 @@
 
 
 
-
 **`zh`** 
 创建一个正交视锥体。
-
 
 
 
@@ -56,9 +53,7 @@
 
 
 
-
 **`param`** 正交视锥体的宽度。
-
 
 
 
@@ -66,9 +61,7 @@
 
 
 
-
 **`param`** 正交视锥体的近平面值。
-
 
 
 
@@ -76,9 +69,7 @@
 
 
 
-
 **`param`** 正交视锥体的变换矩阵。
-
 
 
 
@@ -164,7 +155,6 @@ ___
 
 
 
-
 **`zh`** 
 设置是否在此截锥体上使用精确的相交测试函数。
 
@@ -184,7 +174,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -214,6 +203,9 @@ ___
 • **new Frustum**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/frustum.ts:159](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/frustum.ts#L159)&nbsp;
@@ -225,10 +217,10 @@ ___
 ## Methods
 
 ### create
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **create**<`Frustum`\> : `Frustum`
-
 
 
 
@@ -238,26 +230,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Frustum` frustum.
--->
-<!---->
-
-
 ##### Returns `Frustum`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/frustum.ts:115](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/frustum.ts#L115)&nbsp;
 ___
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **copy**<`Frustum`\>(`out: Frustum, f: Frustum`) : `Frustum`
-
 
 
 
@@ -267,37 +249,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Frustum` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Frustum` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `f` | `Frustum` | - |
 
 
-
 ##### Returns `Frustum`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/frustum.ts:135](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/frustum.ts#L135)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **clone**<`Frustum`\>(`f: Frustum`) : `Frustum`
-
 
 
 
@@ -307,11 +276,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Frustum` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -319,21 +283,16 @@ ___
 | `f` | `Frustum` | - |
 
 
-
 ##### Returns `Frustum`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/frustum.ts:125](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/frustum.ts#L125)&nbsp;
 ___
 ### transform
+
 <div style="margin-left: 10px;">
 
 ▸   **transform**<`void`\>(`mat: Mat4`) : `void`
-
 
 
 
@@ -342,11 +301,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -354,21 +308,16 @@ ___
 | `mat` | `Mat4` | 变换矩阵。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/frustum.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/frustum.ts#L228)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`m: Mat4, inv: Mat4`) : `void`
-
 
 
 
@@ -377,28 +326,15 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `m` | `Mat4` | the view-projection matrix  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `inv` | `Mat4` | the inverse view-projection matrix  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/frustum.ts:182](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/frustum.ts#L182)&nbsp;

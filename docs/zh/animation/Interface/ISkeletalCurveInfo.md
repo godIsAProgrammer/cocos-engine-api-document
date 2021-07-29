@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/3d/skeletal-animation/skeletal-animation-data-hub.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/skeletal-animation/skeletal-animation-data-hub.ts#L47)&nbsp;
-
 ___
 #### sample
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/3d/skeletal-animation/skeletal-animation-data-hub.ts:48](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/3d/skeletal-animation/skeletal-animation-data-hub.ts#L48)&nbsp;
-
 ___

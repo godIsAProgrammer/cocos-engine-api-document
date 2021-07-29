@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 用于保存物理射线检测结果。
 
@@ -36,7 +35,6 @@
 
 
 
-
 **`zh`** 
 击中的碰撞盒
 
@@ -56,7 +54,6 @@ ___
 
 ### distance
 <div style="margin-left: 10px;">
-
 
 
 
@@ -82,7 +79,6 @@ ___
 
 
 
-
 **`zh`** 
 在世界坐标系下击中面的法线。
 
@@ -102,7 +98,6 @@ ___
 
 ### hitPoint
 <div style="margin-left: 10px;">
-
 
 
 
@@ -126,10 +121,10 @@ ___
 ## Methods
 
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸   **clone**<`PhysicsRayResult`\> : `PhysicsRayResult`
-
 
 
 
@@ -140,16 +135,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `PhysicsRayResult` -->
-<!---->
-
-
 ##### Returns `PhysicsRayResult`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics/framework/physics-ray-result.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics/framework/physics-ray-result.ts#L106)&nbsp;

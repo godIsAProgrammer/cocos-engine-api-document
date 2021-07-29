@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 This function generates a box with specified extents and centered at origin,
 but may be repositioned through the `center` option.
@@ -20,7 +19,6 @@ but may be repositioned through the `center` option.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `IBoxOptions` | 参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

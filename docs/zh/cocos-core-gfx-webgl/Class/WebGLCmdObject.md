@@ -67,14 +67,10 @@ ___
 • **new WebGLCmdObject**(`type: WebGLCmd`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `type` | `WebGLCmd` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-commands.ts:526](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-commands.ts#L526)&nbsp;
@@ -86,6 +82,7 @@ ___
 ## Methods
 
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`any`\> : `any`
@@ -93,16 +90,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-commands.ts:532](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-commands.ts#L532)&nbsp;

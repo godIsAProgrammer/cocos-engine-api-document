@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `vertices` | - | - |
-
 
 #### Returns `boolean` 
 ___

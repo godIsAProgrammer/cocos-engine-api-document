@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-atlas.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-atlas.ts#L40)&nbsp;
-
 ___
 #### spriteFrames
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-atlas.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-atlas.ts#L41)&nbsp;
-
 ___

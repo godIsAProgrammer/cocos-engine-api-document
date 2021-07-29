@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 
 精灵帧资源。
 一个 SpriteFrame 支持多种类型
@@ -30,7 +28,6 @@
  - uv: 四边形 UV
  - uvSliced: 九宫格 UV
 可通过 `SpriteFrame` 获取该组件。
-
 
 
 
@@ -185,7 +182,6 @@ ___
 
 
 
-
 **`zh`** 
 该资源是否已经成功加载。
 
@@ -221,7 +217,6 @@ ___
 
 ### uv
 <div style="margin-left: 10px;">
-
 
 
 
@@ -262,7 +257,6 @@ ___
 
 
 
-
 **`zh`** 九宫格的顶点 UV。
 
 
@@ -281,7 +275,6 @@ ___
 
 ### vertices
 <div style="margin-left: 10px;">
-
 
 
 
@@ -306,7 +299,6 @@ ___
 
 
 
-
 **`zh`** 图集资源的 uuid。
 
 
@@ -325,7 +317,6 @@ ___
 
 ### flipUVX
 <div style="margin-left: 10px;">
-
 
 
 
@@ -350,7 +341,6 @@ ___
 
 
 
-
 **`zh`** 延 Y 轴方向, 翻转 UV
 
 
@@ -369,7 +359,6 @@ ___
 
 ### height
 <div style="margin-left: 10px;">
-
 
 
 
@@ -394,7 +383,6 @@ ___
 
 
 
-
 **`zh`** 在继承 CCObject 对象后，控制是否需要隐藏，锁定，序列化等功能。
 
 
@@ -413,7 +401,6 @@ ___
 
 ### insetBottom
 <div style="margin-left: 10px;">
-
 
 
 
@@ -438,7 +425,6 @@ ___
 
 
 
-
 **`zh`** 九宫格内部矩形左边框距离 SpriteFrame 矩形的距离。
 
 
@@ -457,7 +443,6 @@ ___
 
 ### insetRight
 <div style="margin-left: 10px;">
-
 
 
 
@@ -482,7 +467,6 @@ ___
 
 
 
-
 **`zh`** 九宫格内部矩形顶部边框距离 SpriteFrame 矩形的距离。
 
 
@@ -504,7 +488,6 @@ ___
 
 
 
-
 **`zh`** 
 表示该对象是否可用（被 destroy 后将不可用）。<br>
 当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。<br>
@@ -513,9 +496,7 @@ ___
 
 
 
-
 **`default`** true
-
 
 
 
@@ -554,14 +535,11 @@ ___
 
 
 
-
 **`zh`** 该对象的名称。
 
 
 
-
 **`default`** ""
-
 
 
 
@@ -593,10 +571,8 @@ ___
 
 
 
-
 **`zh`** 
 返回该资源对应的目标平台资源的 URL，如果没有将返回一个空字符串。
-
 
 
 
@@ -618,7 +594,6 @@ ___
 
 ### offset
 <div style="margin-left: 10px;">
-
 
 
 
@@ -660,7 +635,6 @@ ___
 
 
 
-
 **`zh`** 修剪前的原始大小。
 
 
@@ -698,7 +672,6 @@ ___
 
 
 
-
 **`zh`** 获取 SpriteFrame 的纹理矩形区域。
 如果是一个 atlas 的贴图，则为当前贴图的实际剔除透明像素区域。
 
@@ -718,7 +691,6 @@ ___
 
 ### refCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -744,7 +716,6 @@ ___
 
 
 
-
 **`zh`** 是否旋转。
 
 
@@ -766,7 +737,6 @@ ___
 
 
 
-
 **`zh`** 贴图对象资源，可以是 [[TextureBase]] 或 [[RenderTexture]] 类型
 
 
@@ -785,7 +755,6 @@ ___
 
 ### width
 <div style="margin-left: 10px;">
-
 
 
 
@@ -814,6 +783,9 @@ ___
 • **new SpriteFrame**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:536](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L536)&nbsp;
@@ -825,10 +797,10 @@ ___
 ## Methods
 
 ### deserialize
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **deserialize**<`any`\>(`data: any`) : `any`
-
 
 
 
@@ -837,12 +809,6 @@ ___
 
 应 AssetDB 要求提供这个方法。
 
-
-<!---->
-<!--    #### Returns `any` 
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -850,32 +816,22 @@ ___
 | `data` | `any` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L71)&nbsp;
 ___
 ### createWithImage
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **createWithImage**<`SpriteFrame`\>(`imageSourceOrImageAsset: ImageSource | ImageAsset`) : `SpriteFrame`
 
 
 
-
 **`zh`** 通过 Image 资源或者平台相关 Image 对象创建一个 SpriteFrame 对象
 
 
-
-
-<!---->
-<!--    #### Returns `SpriteFrame` -->
-<!---->
 
 #### Parameters
 
@@ -884,21 +840,16 @@ ___
 | `imageSourceOrImageAsset` | `ImageSource \| ImageAsset` | ImageAsset or ImageSource, ImageSource support HTMLCanvasElement HTMLImageElement IMemoryImageSource  |
 
 
-
 ##### Returns `SpriteFrame`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:234](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L234)&nbsp;
 ___
 ### addRef
+
 <div style="margin-left: 10px;">
 
 ▸   **addRef**<`Asset`\> : `Asset`
-
 
 
 
@@ -909,38 +860,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Asset` itself
-
--->
-<!---->
-
-
 ##### Returns `Asset`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L263)&nbsp;
 ___
 ### checkRect
+
 <div style="margin-left: 10px;">
 
 ▸   **checkRect**<`boolean`\>(`texture: TextureBase | RenderTexture`) : `boolean`
 
 
 
-
 **`zh`** 判断精灵计算的矩形区域是否越界。
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -949,17 +884,13 @@ ___
 | `texture` | `TextureBase \| RenderTexture` |   |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:761](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L761)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸   **clone**<`SpriteFrame`\> : `SpriteFrame`
@@ -967,25 +898,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `SpriteFrame` -->
-<!---->
-
-
 ##### Returns `SpriteFrame`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:1233](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L1233)&nbsp;
 ___
 ### createNode
+
 <div style="margin-left: 10px;">
 
 ▸   **createNode**<`void`\>(`callback: CreateNodeCallback`) : `void`
-
 
 
 
@@ -996,11 +918,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1008,21 +925,16 @@ ___
 | `callback` | `CreateNodeCallback` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:233](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L233)&nbsp;
 ___
 ### decRef
+
 <div style="margin-left: 10px;">
 
 ▸   **decRef**<`Asset`\>(`autoRelease: boolean`) : `Asset`
-
 
 
 
@@ -1032,13 +944,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Asset` itself
-
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1046,17 +951,13 @@ ___
 | `autoRelease` | `boolean` | - |
 
 
-
 ##### Returns `Asset`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:278](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L278)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -1064,25 +965,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:791](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L791)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`type: EventType, arg0: any, arg1: any, arg2: any, arg3: any, arg4: any`) : `void`
-
 
 
 
@@ -1090,53 +982,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | event type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg2` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg3` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg4` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L141)&nbsp;
 ___
 ### getGFXSampler
+
 <div style="margin-left: 10px;">
 
 ▸   **getGFXSampler**<`Sampler`\> : `Sampler`
-
 
 
 
@@ -1146,25 +1013,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Sampler` -->
-<!---->
-
-
 ##### Returns `Sampler`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:666](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L666)&nbsp;
 ___
 ### getGFXTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **getGFXTexture**
-
 
 
 
@@ -1174,23 +1032,16 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:658](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L658)&nbsp;
 ___
 ### getHash
+
 <div style="margin-left: 10px;">
 
 ▸   **getHash**<`number`\> : `number`
-
 
 
 
@@ -1200,30 +1051,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:674](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L674)&nbsp;
 ___
 ### getOffset
+
 <div style="margin-left: 10px;">
 
 ▸   **getOffset**<`Vec2`\>(`out: Vec2`) : `Vec2`
 
 
 
-
 **`zh`** 获取偏移量。
-
 
 
 
@@ -1232,11 +1073,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1244,26 +1080,20 @@ ___
 | `out` | `Vec2` | The output offset object  |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:635](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L635)&nbsp;
 ___
 ### getOriginalSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getOriginalSize**<`Size`\>(`out: Size`) : `Size`
 
 
 
-
 **`zh`** 获取修剪前的原始大小。
-
 
 
 
@@ -1272,11 +1102,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1284,21 +1109,16 @@ ___
 | `out` | `Size` | - |
 
 
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:610](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L610)&nbsp;
 ___
 ### getRect
+
 <div style="margin-left: 10px;">
 
 ▸   **getRect**<`Rect`\>(`out: Rect`) : `Rect`
-
 
 
 
@@ -1307,16 +1127,10 @@ ___
 
 
 
-
 **`deprecated`** since v1.2, please use [[rect]]
 
 
 
-
-
-<!---->
-<!--    #### Returns `Rect` -->
-<!---->
 
 #### Parameters
 
@@ -1325,21 +1139,16 @@ ___
 | `out` | `Rect` | - |
 
 
-
 ##### Returns `Rect`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:587](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L587)&nbsp;
 ___
 ### getSamplerHash
+
 <div style="margin-left: 10px;">
 
 ▸   **getSamplerHash**<`number`\> : `number`
-
 
 
 
@@ -1349,25 +1158,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:682](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L682)&nbsp;
 ___
 ### hasEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **hasEventListener**<`boolean`\>(`type: string, callback: undefined | , target: any`) : `boolean`
-
 
 
 
@@ -1375,47 +1175,27 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | Event type.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `undefined \| ` | Callback function when event triggered.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | Callback callee.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L52)&nbsp;
 ___
 ### initDefault
+
 <div style="margin-left: 10px;">
 
 ▸   **initDefault**<`void`\>(`uuid: undefined | string`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1424,27 +1204,21 @@ ___
 | `uuid` | `undefined \| string` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:1296](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L1296)&nbsp;
 ___
 ### isRotated
+
 <div style="margin-left: 10px;">
 
 ▸   **isRotated**<`boolean`\> : `boolean`
 
 
 
-
 **`zh`** 
 获取 SpriteFrame 是否旋转。
-
 
 
 
@@ -1454,31 +1228,21 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:564](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L564)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: EventType, callback: TFunction, thisArg: any`) : `void`
 
 
 
-
 **`zh`** 
 删除之前用同类型，回调，目标或 useCapture 注册的事件监听器，如果只传递 type，将会删除 type 类型的所有事件监听器。
-
 
 
 
@@ -1501,47 +1265,30 @@ eventTarget.off('fire');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type being removed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback to remove.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L114)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**(`type: EventType, callback: TFunction, thisArg: any, once: undefined | false | true`)
 
 
 
-
 **`zh`** 
 注册事件目标的特定事件类型回调。这种类型的事件应该被 `emit` 触发。
-
 
 
 
@@ -1559,39 +1306,23 @@ eventTarget.on('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `once` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L72)&nbsp;
 ___
 ### onLoaded
+
 <div style="margin-left: 10px;">
 
 ▸   **onLoaded**<`void`\> : `void`
@@ -1599,31 +1330,21 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:786](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L786)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**(`type: EventType, callback: TFunction, thisArg: any`)
 
 
 
-
 **`zh`** 
 注册事件目标的特定事件类型回调，回调会在第一时间被触发后删除自身。
-
 
 
 
@@ -1641,50 +1362,31 @@ eventTarget.once('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L91)&nbsp;
 ___
 ### removeAll
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAll**<`void`\>(`typeOrTarget: any`) : `void`
 
 
 
-
 **`zh`** 移除在特定事件类型中注册的所有回调或在某个目标中注册的所有回调。
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1693,21 +1395,16 @@ ___
 | `typeOrTarget` | `any` | The event type or target with which the listeners will be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L133)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\>(`info: ISpriteFrameInitInfo, clearData: boolean`) : `void`
-
 
 
 
@@ -1715,42 +1412,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `info` | `ISpriteFrameInitInfo` | SpriteFrame initialization information  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clearData` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:691](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L691)&nbsp;
 ___
 ### setOffset
+
 <div style="margin-left: 10px;">
 
 ▸   **setOffset**<`void`\>(`offset: Vec2`) : `void`
 
 
 
-
 **`zh`** 设置偏移量。
-
 
 
 
@@ -1759,11 +1442,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1771,26 +1449,20 @@ ___
 | `offset` | `Vec2` | The new offset  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:650](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L650)&nbsp;
 ___
 ### setOriginalSize
+
 <div style="margin-left: 10px;">
 
 ▸   **setOriginalSize**<`void`\>(`size: Size`) : `void`
 
 
 
-
 **`zh`** 设置修剪前的原始大小。
-
 
 
 
@@ -1799,11 +1471,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1811,26 +1478,20 @@ ___
 | `size` | `Size` | The new original size  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:625](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L625)&nbsp;
 ___
 ### setRect
+
 <div style="margin-left: 10px;">
 
 ▸   **setRect**<`void`\>(`rect: Rect`) : `void`
 
 
 
-
 **`zh`** 设置 SpriteFrame 的纹理矩形区域。
-
 
 
 
@@ -1839,11 +1500,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1851,21 +1507,16 @@ ___
 | `rect` | `Rect` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:601](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L601)&nbsp;
 ___
 ### setRotated
+
 <div style="margin-left: 10px;">
 
 ▸   **setRotated**<`void`\>(`rotated: boolean`) : `void`
-
 
 
 
@@ -1874,16 +1525,10 @@ ___
 
 
 
-
 **`deprecated`** since v1.2, please use [[rotated]] instead
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -1892,21 +1537,16 @@ ___
 | `rotated` | `boolean` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L576)&nbsp;
 ___
 ### targetOff
+
 <div style="margin-left: 10px;">
 
 ▸   **targetOff**<`void`\>(`typeOrTarget: any`) : `void`
-
 
 
 
@@ -1916,11 +1556,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1928,21 +1563,16 @@ ___
 | `typeOrTarget` | `any` | The target to be searched for all related listeners  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L126)&nbsp;
 ___
 ### textureLoaded
+
 <div style="margin-left: 10px;">
 
 ▸   **textureLoaded**<`boolean`\> : `boolean`
-
 
 
 
@@ -1953,25 +1583,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:553](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L553)&nbsp;
 ___
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸   **toString**<`string`\> : `string`
-
 
 
 
@@ -1987,28 +1608,18 @@ JavaScript 会自动调用 toString() 方法。<br>
 
 
 
-
 **`method`** toString
 
 
 
 
-<!---->
-<!--    #### Returns `string` 
--->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/asset.ts:192](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/asset.ts#L192)&nbsp;
 ___
 ### validate
+
 <div style="margin-left: 10px;">
 
 ▸   **validate**<`boolean`\> : `boolean`
@@ -2016,16 +1627,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:1304](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L1304)&nbsp;

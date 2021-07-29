@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `clip` | `AnimationClip` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `curve` | `IPropertyCurve` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `frames` | `number` | - |
-
 
 #### Returns `void` 
 ___

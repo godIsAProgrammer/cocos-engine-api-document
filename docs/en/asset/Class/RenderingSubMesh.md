@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Sub mesh for rendering which contains all geometry data, it can be used to create [[InputAssembler]].
 
 
@@ -80,7 +79,6 @@ ___
 
 
 
-
 **`en`** All vertex attributes used by the sub mesh
 
 
@@ -101,7 +99,6 @@ ___
 
 
 
-
 **`en`** Flatted vertex buffers
 
 
@@ -119,7 +116,6 @@ ___
 
 ### geometricInfo
 <div style="margin-left: 10px;">
-
 
 
 
@@ -175,7 +171,6 @@ ___
 
 
 
-
 **`en`** Index buffer used by the sub mesh
 
 
@@ -193,7 +188,6 @@ ___
 
 ### indirectBuffer
 <div style="margin-left: 10px;">
-
 
 
 
@@ -217,7 +211,6 @@ ___
 
 
 
-
 **`en`** The vertex buffer for joint after mapping
 
 
@@ -238,7 +231,6 @@ ___
 
 
 
-
 **`en`** Primitive mode used by the sub mesh
 
 
@@ -256,7 +248,6 @@ ___
 
 ### vertexBuffers
 <div style="margin-left: 10px;">
-
 
 
 
@@ -284,46 +275,14 @@ ___
 • **new RenderingSubMesh**(`vertexBuffers: undefined, attributes: undefined, primitiveMode: PrimitiveMode, indexBuffer: Buffer | null, indirectBuffer: Buffer | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `vertexBuffers` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `attributes` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `primitiveMode` | `PrimitiveMode` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `indexBuffer` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `indirectBuffer` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L121)&nbsp;
@@ -335,6 +294,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -342,25 +302,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:327](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L327)&nbsp;
 ___
 ### enableVertexIdChannel
+
 <div style="margin-left: 10px;">
 
 ▸   **enableVertexIdChannel**<`void`\>(`device: Device`) : `void`
-
 
 
 
@@ -371,11 +322,6 @@ Subsequent calls to this function take no effect.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -383,17 +329,13 @@ Subsequent calls to this function take no effect.
 | `device` | `Device` | Device used to create related rendering resources.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:363](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L363)&nbsp;
 ___
 ### genFlatBuffers
+
 <div style="margin-left: 10px;">
 
 ▸   **genFlatBuffers**<`void`\> : `void`
@@ -401,16 +343,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:223](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L223)&nbsp;

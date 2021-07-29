@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 前向渲染流程。
 
 
@@ -52,7 +50,6 @@
 
 
 
-
 **`zh`** 渲染流程的名字
 
 
@@ -71,7 +68,6 @@ ___
 
 ### pipeline
 <div style="margin-left: 10px;">
-
 
 
 
@@ -96,7 +92,6 @@ ___
 
 
 
-
 **`zh`** 当前渲染流程的优先级。
 
 
@@ -118,9 +113,7 @@ ___
 
 
 
-
 **`zh`** 渲染流程 stage 列表。
-
 
 
 
@@ -145,7 +138,6 @@ ___
 
 
 
-
 **`zh`** 当前渲染流程的标签。
 
 
@@ -165,16 +157,12 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`pipeline: RenderPipeline`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -183,17 +171,13 @@ ___
 | `pipeline` | `RenderPipeline` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/lighting-flow.ts:64](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/lighting-flow.ts#L64)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -201,31 +185,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/lighting-flow.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/lighting-flow.ts#L72)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: IRenderFlowInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -234,27 +205,18 @@ ___
 | `info` | `IRenderFlowInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/lighting-flow.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/lighting-flow.ts#L54)&nbsp;
 ___
 ### render
+
 <div style="margin-left: 10px;">
 
 ▸   **render**<`void`\>(`camera: Camera`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -263,12 +225,7 @@ ___
 | `camera` | `Camera` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/deferred/lighting-flow.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/deferred/lighting-flow.ts#L68)&nbsp;

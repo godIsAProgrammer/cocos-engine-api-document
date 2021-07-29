@@ -6,14 +6,11 @@
 
 
 
-
 **`zh`** 用于“优先更新”的列表
 
 
 
-
 **`param`** not retained (retained by hashUpdateEntry)
-
 
 
 
@@ -120,38 +117,13 @@ ___
 • **new ListEntry**(`target: ISchedulable, priority: number, paused: boolean, markedForDeletion: boolean`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `target` | `ISchedulable` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `priority` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `paused` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `markedForDeletion` | `boolean` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L83)&nbsp;
@@ -163,16 +135,12 @@ ___
 ## Methods
 
 ### put
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **put**<`void`\>(`entry: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -181,53 +149,30 @@ ___
 | `entry` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L71)&nbsp;
 ___
 ### get
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **get**<`any`\>(`target: ISchedulable, priority: number, paused: boolean, markedForDeletion: boolean`) : `any`
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `ISchedulable` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `priority` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `paused` | `boolean` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `markedForDeletion` | `boolean` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:58](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L58)&nbsp;

@@ -6,15 +6,12 @@
 
 
 
-
 **`en`** Hash Element used for "selectors with interval"
 
 
 
 
-
 **`param`** hash key (retained)
-
 
 
 
@@ -156,54 +153,15 @@ ___
 • **new HashTimerEntry**(`timers: any, target: ISchedulable, timerIndex: number, currentTimer: any, currentTimerSalvaged: any, paused: any`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `timers` | `any` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `target` | `ISchedulable` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `timerIndex` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `currentTimer` | `any` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `currentTimerSalvaged` | `any` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `paused` | `any` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:179](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L179)&nbsp;
@@ -215,16 +173,12 @@ ___
 ## Methods
 
 ### put
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **put**<`void`\>(`entry: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -233,61 +187,32 @@ ___
 | `entry` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:165](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L165)&nbsp;
 ___
 ### get
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **get**<`any`\>(`timers: any, target: ISchedulable, timerIndex: number, currentTimer: any, currentTimerSalvaged: any, paused: any`) : `any`
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `timers` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `ISchedulable` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `timerIndex` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `currentTimer` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `currentTimerSalvaged` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `paused` | `any` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:150](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L150)&nbsp;

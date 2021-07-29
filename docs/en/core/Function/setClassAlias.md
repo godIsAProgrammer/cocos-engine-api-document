@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Set an alias name for class.
 If `setClassAlias(target, alias)`, `alias` will be a single way short cut for class `target`.
 If you try `js.getClassByName(alias)`, you will get target.
@@ -21,11 +20,7 @@ But `js.getClassName(target)` will return the original name of `target`, not the
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `Constructor` | Constructor of target class.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `alias` | `string` | Alias to set. The name shall not have been set as class name or alias of another class.  |
-
 
 #### Returns `void` 
 ___

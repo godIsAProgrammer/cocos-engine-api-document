@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:35](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L35)&nbsp;
-
 ___
 #### armature
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:34](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L34)&nbsp;
-
 ___
 #### curAnimationCache
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:33](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L33)&nbsp;
-
 ___

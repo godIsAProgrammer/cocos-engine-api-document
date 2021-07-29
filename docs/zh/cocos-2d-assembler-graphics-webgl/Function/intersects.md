@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p1` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q1` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `p2` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q2` | `Aim` | - |
-
 
 #### Returns `boolean` 
 ___

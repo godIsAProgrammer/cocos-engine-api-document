@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 输出错误消息到 Cocos Creator 编辑器的 Console 或运行时页面端的 Console 中。<br/>
 - 在 Cocos Creator 中，错误信息显示是红色的。<br/>
@@ -21,11 +20,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `message` | `any` | A JavaScript string containing zero or more substitution strings.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `optionalParams` | - | JavaScript objects with which to replace substitution strings within msg.This gives you additional control over the format of the output.  |
-
 
 #### Returns `void` 
 ___

@@ -13,55 +13,18 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `WebGLDevice` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gpuPipelineState` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gpuInputAssembler` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gpuDescriptorSets` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dynamicOffsets` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `viewport` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `scissor` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `lineWidth` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `depthBias` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `blendConstants` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `depthBounds` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `stencilWriteMask` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `stencilCompareMask` | - | - |
-
 
 #### Returns `void` 
 ___

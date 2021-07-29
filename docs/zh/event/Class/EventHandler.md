@@ -6,10 +6,8 @@
 
 
 
-
 **`zh`** 
 “EventHandler” 类用来设置场景中的事件回调，该类允许用户设置回调目标节点，目标组件名，组件方法名，并可通过 emit 方法调用目标函数。
-
 
 
 
@@ -66,7 +64,6 @@ eventHandler.customEventData = "my data";
 
 
 
-
 **`zh`** 
 事件响应函数所在组件名（脚本名）, 比如例子中的脚本名 'MainMenu'
 
@@ -86,7 +83,6 @@ ___
 
 ### customEventData
 <div style="margin-left: 10px;">
-
 
 
 
@@ -112,7 +108,6 @@ ___
 
 
 
-
 **`zh`** 
 响应事件函数名，比如例子中的 'onClick' 方法名
 
@@ -132,7 +127,6 @@ ___
 
 ### target
 <div style="margin-left: 10px;">
-
 
 
 
@@ -156,10 +150,10 @@ ___
 ## Methods
 
 ### emitEvents
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **emitEvents**<`void`\>(`events: undefined, args: undefined`) : `void`
-
 
 
 
@@ -169,42 +163,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `events` |  | The event list to be emitted  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `args` |  | The callback arguments  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component-event-handler.ts:84](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component-event-handler.ts#L84)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`params: undefined`) : `void`
 
 
 
-
 **`zh`** 触发目标组件上的指定 handler 函数，可以选择传递参数。
-
 
 
 
@@ -225,11 +205,6 @@ eventHandler.emit(["param1", "param2", ....]);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -237,12 +212,7 @@ eventHandler.emit(["param1", "param2", ....]);
 | `params` |  | The arguments for invoking the callback  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component-event-handler.ts:155](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component-event-handler.ts#L155)&nbsp;

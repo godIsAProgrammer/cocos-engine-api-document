@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `datas` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `holeIndices` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dim` | `number` | - |
-
 
 ___
 

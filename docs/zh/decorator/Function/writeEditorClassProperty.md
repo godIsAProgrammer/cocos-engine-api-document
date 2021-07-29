@@ -8,6 +8,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `TValue` |
@@ -17,15 +18,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `constructor` | `Function` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `propertyName` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `TValue` | - |
-
 
 #### Returns `void` 
 ___

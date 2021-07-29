@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 根据指定的 Uniform 类型来获取默认值
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `Type` | The type of the uniform  |
-
 
 ___
 

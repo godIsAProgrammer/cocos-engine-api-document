@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/audio/audio-manager.ts:31](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/audio/audio-manager.ts#L31)&nbsp;
-
 ___
 #### playTime
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/audio/audio-manager.ts:32](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/audio/audio-manager.ts#L32)&nbsp;
-
 ___

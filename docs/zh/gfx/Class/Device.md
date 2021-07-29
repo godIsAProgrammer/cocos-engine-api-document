@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** GFX 设备。
 
 
@@ -75,7 +74,6 @@
 
 
 
-
 **`zh`** HTML 画布。
 
 
@@ -94,7 +92,6 @@ ___
 
 ### canvas2D
 <div style="margin-left: 10px;">
-
 
 
 
@@ -119,7 +116,6 @@ ___
 
 
 
-
 **`zh`** 当前设备能立数据。
 
 
@@ -138,7 +134,6 @@ ___
 
 ### colorFormat
 <div style="margin-left: 10px;">
-
 
 
 
@@ -163,7 +158,6 @@ ___
 
 
 
-
 **`zh`** GFX 默认命令缓冲。
 
 
@@ -182,7 +176,6 @@ ___
 
 ### depthStencilFormat
 <div style="margin-left: 10px;">
-
 
 
 
@@ -207,7 +200,6 @@ ___
 
 
 
-
 **`zh`** DPR 设备像素比。
 
 
@@ -226,7 +218,6 @@ ___
 
 ### gfxAPI
 <div style="margin-left: 10px;">
-
 
 
 
@@ -251,7 +242,6 @@ ___
 
 
 
-
 **`zh`** 设备像素高度。
 
 
@@ -270,7 +260,6 @@ ___
 
 ### memoryStatus
 <div style="margin-left: 10px;">
-
 
 
 
@@ -295,7 +284,6 @@ ___
 
 
 
-
 **`zh`** 设备原生的像素高度。
 
 
@@ -314,7 +302,6 @@ ___
 
 ### nativeWidth
 <div style="margin-left: 10px;">
-
 
 
 
@@ -339,7 +326,6 @@ ___
 
 
 
-
 **`zh`** 绘制调用次数。
 
 
@@ -358,7 +344,6 @@ ___
 
 ### numInstances
 <div style="margin-left: 10px;">
-
 
 
 
@@ -383,7 +368,6 @@ ___
 
 
 
-
 **`zh`** 渲染三角形数量。
 
 
@@ -402,7 +386,6 @@ ___
 
 ### queue
 <div style="margin-left: 10px;">
-
 
 
 
@@ -427,7 +410,6 @@ ___
 
 
 
-
 **`zh`** 渲染器描述。
 
 
@@ -446,7 +428,6 @@ ___
 
 ### surfaceTransform
 <div style="margin-left: 10px;">
-
 
 
 
@@ -471,7 +452,6 @@ ___
 
 
 
-
 **`zh`** 厂商描述。
 
 
@@ -490,7 +470,6 @@ ___
 
 ### width
 <div style="margin-left: 10px;">
-
 
 
 
@@ -513,10 +492,10 @@ ___
 ## Methods
 
 ### acquire
+
 <div style="margin-left: 10px;">
 
 ▸   **acquire**<`void`\> : `void`
-
 
 
 
@@ -526,25 +505,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:261](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L261)&nbsp;
 ___
 ### copyBuffersToTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **copyBuffersToTexture**<`void`\>(`buffers: undefined, texture: Texture, regions: undefined`) : `void`
-
 
 
 
@@ -552,41 +522,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `buffers` |  | The buffers to be copied.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `texture` | `Texture` | The texture to copy to.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `regions` |  | The region descriptions.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:387](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L387)&nbsp;
 ___
 ### copyFramebufferToBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **copyFramebufferToBuffer**<`void`\>(`srcFramebuffer: Framebuffer, dstBuffer: ArrayBuffer, regions: undefined`) : `void`
-
 
 
 
@@ -594,41 +548,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `srcFramebuffer` | `Framebuffer` | The frame buffer to be copied.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dstBuffer` | `ArrayBuffer` | The buffer to copy to.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `regions` |  | The region descriptions.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:405](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L405)&nbsp;
 ___
 ### copyTexImagesToTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **copyTexImagesToTexture**<`void`\>(`texImages: undefined, texture: Texture, regions: undefined`) : `void`
-
 
 
 
@@ -636,52 +574,31 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `texImages` |  | The texture to be copied.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `texture` | `Texture` | The texture to copy to.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `regions` |  | The region descriptions.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:396](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L396)&nbsp;
 ___
 ### createBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **createBuffer**<`Buffer`\>(`info: BufferInfo | BufferViewInfo`) : `Buffer`
 
 
 
-
 **`zh`** 创建缓冲。
 
 
-
-
-<!---->
-<!--    #### Returns `Buffer` -->
-<!---->
 
 #### Parameters
 
@@ -690,32 +607,22 @@ ___
 | `info` | `BufferInfo \| BufferViewInfo` | GFX buffer description info.  |
 
 
-
 ##### Returns `Buffer`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:287](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L287)&nbsp;
 ___
 ### createCommandBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **createCommandBuffer**<`CommandBuffer`\>(`info: CommandBufferInfo`) : `CommandBuffer`
 
 
 
-
 **`zh`** 创建命令缓冲。
 
 
-
-
-<!---->
-<!--    #### Returns `CommandBuffer` -->
-<!---->
 
 #### Parameters
 
@@ -724,32 +631,22 @@ ___
 | `info` | `CommandBufferInfo` | GFX command buffer description info.  |
 
 
-
 ##### Returns `CommandBuffer`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:280](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L280)&nbsp;
 ___
 ### createDescriptorSet
+
 <div style="margin-left: 10px;">
 
 ▸   **createDescriptorSet**<`DescriptorSet`\>(`info: DescriptorSetInfo`) : `DescriptorSet`
 
 
 
-
 **`zh`** 创建描述符集组。
 
 
-
-
-<!---->
-<!--    #### Returns `DescriptorSet` -->
-<!---->
 
 #### Parameters
 
@@ -758,32 +655,22 @@ ___
 | `info` | `DescriptorSetInfo` | GFX descriptor sets description info.  |
 
 
-
 ##### Returns `DescriptorSet`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:308](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L308)&nbsp;
 ___
 ### createDescriptorSetLayout
+
 <div style="margin-left: 10px;">
 
 ▸   **createDescriptorSetLayout**<`DescriptorSetLayout`\>(`info: DescriptorSetLayoutInfo`) : `DescriptorSetLayout`
 
 
 
-
 **`zh`** 创建描述符集布局。
 
 
-
-
-<!---->
-<!--    #### Returns `DescriptorSetLayout` -->
-<!---->
 
 #### Parameters
 
@@ -792,32 +679,22 @@ ___
 | `info` | `DescriptorSetLayoutInfo` | GFX descriptor set layout description info.  |
 
 
-
 ##### Returns `DescriptorSetLayout`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:343](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L343)&nbsp;
 ___
 ### createFramebuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **createFramebuffer**<`Framebuffer`\>(`info: FramebufferInfo`) : `Framebuffer`
 
 
 
-
 **`zh`** 创建帧缓冲。
 
 
-
-
-<!---->
-<!--    #### Returns `Framebuffer` -->
-<!---->
 
 #### Parameters
 
@@ -826,32 +703,22 @@ ___
 | `info` | `FramebufferInfo` | GFX frame buffer description info.  |
 
 
-
 ##### Returns `Framebuffer`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:336](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L336)&nbsp;
 ___
 ### createGlobalBarrier
+
 <div style="margin-left: 10px;">
 
 ▸   **createGlobalBarrier**<`GlobalBarrier`\>(`info: GlobalBarrierInfo`) : `GlobalBarrier`
 
 
 
-
 **`zh`** 创建全局内存屏障。
 
 
-
-
-<!---->
-<!--    #### Returns `GlobalBarrier` -->
-<!---->
 
 #### Parameters
 
@@ -860,32 +727,22 @@ ___
 | `info` | `GlobalBarrierInfo` | GFX global barrier description info.  |
 
 
-
 ##### Returns `GlobalBarrier`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:371](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L371)&nbsp;
 ___
 ### createInputAssembler
+
 <div style="margin-left: 10px;">
 
 ▸   **createInputAssembler**<`InputAssembler`\>(`info: InputAssemblerInfo`) : `InputAssembler`
 
 
 
-
 **`zh`** 创建纹理。
 
 
-
-
-<!---->
-<!--    #### Returns `InputAssembler` -->
-<!---->
 
 #### Parameters
 
@@ -894,32 +751,22 @@ ___
 | `info` | `InputAssemblerInfo` | GFX input assembler description info.  |
 
 
-
 ##### Returns `InputAssembler`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:322](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L322)&nbsp;
 ___
 ### createPipelineLayout
+
 <div style="margin-left: 10px;">
 
 ▸   **createPipelineLayout**<`PipelineLayout`\>(`info: PipelineLayoutInfo`) : `PipelineLayout`
 
 
 
-
 **`zh`** 创建管线布局。
 
 
-
-
-<!---->
-<!--    #### Returns `PipelineLayout` -->
-<!---->
 
 #### Parameters
 
@@ -928,32 +775,22 @@ ___
 | `info` | `PipelineLayoutInfo` | GFX pipeline layout description info.  |
 
 
-
 ##### Returns `PipelineLayout`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:350](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L350)&nbsp;
 ___
 ### createPipelineState
+
 <div style="margin-left: 10px;">
 
 ▸   **createPipelineState**<`PipelineState`\>(`info: PipelineStateInfo`) : `PipelineState`
 
 
 
-
 **`zh`** 创建管线状态。
 
 
-
-
-<!---->
-<!--    #### Returns `PipelineState` -->
-<!---->
 
 #### Parameters
 
@@ -962,32 +799,22 @@ ___
 | `info` | `PipelineStateInfo` | GFX pipeline state description info.  |
 
 
-
 ##### Returns `PipelineState`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:357](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L357)&nbsp;
 ___
 ### createQueue
+
 <div style="margin-left: 10px;">
 
 ▸   **createQueue**<`Queue`\>(`info: QueueInfo`) : `Queue`
 
 
 
-
 **`zh`** 创建队列。
 
 
-
-
-<!---->
-<!--    #### Returns `Queue` -->
-<!---->
 
 #### Parameters
 
@@ -996,32 +823,22 @@ ___
 | `info` | `QueueInfo` | GFX queue description info.  |
 
 
-
 ##### Returns `Queue`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:364](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L364)&nbsp;
 ___
 ### createRenderPass
+
 <div style="margin-left: 10px;">
 
 ▸   **createRenderPass**<`RenderPass`\>(`info: RenderPassInfo`) : `RenderPass`
 
 
 
-
 **`zh`** 创建渲染过程。
 
 
-
-
-<!---->
-<!--    #### Returns `RenderPass` -->
-<!---->
 
 #### Parameters
 
@@ -1030,32 +847,22 @@ ___
 | `info` | `RenderPassInfo` | GFX render pass description info.  |
 
 
-
 ##### Returns `RenderPass`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:329](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L329)&nbsp;
 ___
 ### createSampler
+
 <div style="margin-left: 10px;">
 
 ▸   **createSampler**<`Sampler`\>(`info: SamplerInfo`) : `Sampler`
 
 
 
-
 **`zh`** 创建采样器。
 
 
-
-
-<!---->
-<!--    #### Returns `Sampler` -->
-<!---->
 
 #### Parameters
 
@@ -1064,32 +871,22 @@ ___
 | `info` | `SamplerInfo` | GFX sampler description info.  |
 
 
-
 ##### Returns `Sampler`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:301](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L301)&nbsp;
 ___
 ### createShader
+
 <div style="margin-left: 10px;">
 
 ▸   **createShader**<`Shader`\>(`info: ShaderInfo`) : `Shader`
 
 
 
-
 **`zh`** 创建着色器。
 
 
-
-
-<!---->
-<!--    #### Returns `Shader` -->
-<!---->
 
 #### Parameters
 
@@ -1098,32 +895,22 @@ ___
 | `info` | `ShaderInfo` | GFX shader description info.  |
 
 
-
 ##### Returns `Shader`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:315](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L315)&nbsp;
 ___
 ### createTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **createTexture**<`Texture`\>(`info: TextureInfo | TextureViewInfo`) : `Texture`
 
 
 
-
 **`zh`** 创建纹理。
 
 
-
-
-<!---->
-<!--    #### Returns `Texture` -->
-<!---->
 
 #### Parameters
 
@@ -1132,32 +919,22 @@ ___
 | `info` | `TextureInfo \| TextureViewInfo` | GFX texture description info.  |
 
 
-
 ##### Returns `Texture`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:294](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L294)&nbsp;
 ___
 ### createTextureBarrier
+
 <div style="margin-left: 10px;">
 
 ▸   **createTextureBarrier**<`TextureBarrier`\>(`info: TextureBarrierInfo`) : `TextureBarrier`
 
 
 
-
 **`zh`** 创建贴图内存屏障。
 
 
-
-
-<!---->
-<!--    #### Returns `TextureBarrier` -->
-<!---->
 
 #### Parameters
 
@@ -1166,17 +943,13 @@ ___
 | `info` | `TextureBarrierInfo` | GFX texture barrier description info.  |
 
 
-
 ##### Returns `TextureBarrier`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:378](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L378)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -1184,25 +957,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L247)&nbsp;
 ___
 ### flushCommands
+
 <div style="margin-left: 10px;">
 
 ▸   **flushCommands**<`void`\>(`cmdBuffs: undefined`) : `void`
-
 
 
 
@@ -1211,11 +975,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1223,32 +982,22 @@ ___
 | `cmdBuffs` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:273](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L273)&nbsp;
 ___
 ### hasFeature
+
 <div style="margin-left: 10px;">
 
 ▸   **hasFeature**<`boolean`\>(`feature: Feature`) : `boolean`
 
 
 
-
 **`zh`** 是否具备特性。
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -1257,27 +1006,18 @@ ___
 | `feature` | `Feature` | The GFX feature to be queried.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:412](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L412)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: DeviceInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -1286,21 +1026,16 @@ ___
 | `info` | `DeviceInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:245](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L245)&nbsp;
 ___
 ### present
+
 <div style="margin-left: 10px;">
 
 ▸   **present**<`void`\> : `void`
-
 
 
 
@@ -1310,25 +1045,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:267](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L267)&nbsp;
 ___
 ### resize
+
 <div style="margin-left: 10px;">
 
 ▸   **resize**<`void`\>(`width: number, height: number`) : `void`
-
 
 
 
@@ -1336,28 +1062,15 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | The device width.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | The device height.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/device.ts:255](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/device.ts#L255)&nbsp;

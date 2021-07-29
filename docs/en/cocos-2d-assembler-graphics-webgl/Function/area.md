@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `q` | `Aim` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `r` | `Aim` | - |
-
 
 #### Returns `number` 
 ___

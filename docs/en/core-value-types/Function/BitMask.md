@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`en`** 
 Define an BitMask type.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,7 +23,6 @@ Define an BitMask type.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `obj` | `T` | A JavaScript literal object containing BitMask names and values  |
-
 
 #### Returns `T` The defined BitMask type
 

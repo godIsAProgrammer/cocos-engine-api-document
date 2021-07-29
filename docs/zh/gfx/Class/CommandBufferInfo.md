@@ -67,22 +67,11 @@ ___
 • **new CommandBufferInfo**(`queue: Queue, type: CommandBufferType`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `queue` | `Queue` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `type` | `CommandBufferType` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1592](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1592)&nbsp;
@@ -94,16 +83,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: CommandBufferInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -112,12 +97,7 @@ ___
 | `info` | `CommandBufferInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1599](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1599)&nbsp;

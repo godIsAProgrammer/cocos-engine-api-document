@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-cube.ts:309](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-cube.ts#L309)&nbsp;
-
 ___
 #### mipmaps
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-cube.ts:310](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-cube.ts#L310)&nbsp;
-
 ___

@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/animation-manager.ts:46](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-manager.ts#L46)&nbsp;
-
 ___
 #### transform
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/animation-manager.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-manager.ts#L47)&nbsp;
-
 ___

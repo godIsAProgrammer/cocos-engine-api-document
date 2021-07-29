@@ -118,46 +118,14 @@ ___
 • **new UniformSamplerTexture**(`set: number, binding: number, name: string, type: Type, count: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `set` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `binding` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `type` | `Type` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `count` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1162](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1162)&nbsp;
@@ -169,16 +137,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: UniformSamplerTexture`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -187,12 +151,7 @@ ___
 | `info` | `UniformSamplerTexture` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1172](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1172)&nbsp;

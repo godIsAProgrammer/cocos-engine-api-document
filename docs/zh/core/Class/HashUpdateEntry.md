@@ -6,9 +6,7 @@
 
 
 
-
 **`zh`** 更新条目列表
-
 
 
 
@@ -16,14 +14,11 @@
 
 
 
-
 **`param`** entry in the list
 
 
 
-
 **`param`** hash key (retained)
-
 
 
 
@@ -128,38 +123,13 @@ ___
 • **new HashUpdateEntry**(`list: any, entry: ListEntry, target: ISchedulable, callback: any`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `list` | `any` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `entry` | `ListEntry` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `target` | `ISchedulable` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `callback` | `any` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:128](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L128)&nbsp;
@@ -171,16 +141,12 @@ ___
 ## Methods
 
 ### put
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **put**<`void`\>(`entry: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -189,53 +155,30 @@ ___
 | `entry` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:116](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L116)&nbsp;
 ___
 ### get
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **get**<`any`\>(`list: any, entry: ListEntry, target: ISchedulable, callback: any`) : `any`
 
 
 
-
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `list` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `entry` | `ListEntry` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `ISchedulable` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `any` | - |
 
 
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scheduler.ts:103](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scheduler.ts#L103)&nbsp;

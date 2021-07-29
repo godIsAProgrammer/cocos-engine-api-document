@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `dataList` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `vert0` | `Vec2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `vert1` | `Vec2` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `vert2` | `Vec2` | - |
-
 
 #### Returns `void` 
 ___

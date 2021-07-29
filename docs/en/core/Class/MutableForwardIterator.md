@@ -6,7 +6,6 @@
 
 
 
-
 **`example`**
 
 ```ts
@@ -107,14 +106,10 @@ ___
 • **new MutableForwardIterator**(`array: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `array` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/mutable-forward-iterator.ts:45](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/mutable-forward-iterator.ts#L45)&nbsp;
@@ -126,16 +121,12 @@ ___
 ## Methods
 
 ### fastRemove
+
 <div style="margin-left: 10px;">
 
 ▸   **fastRemove**<`void`\>(`value: T`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -144,27 +135,18 @@ ___
 | `value` | `T` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/mutable-forward-iterator.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/mutable-forward-iterator.ts#L76)&nbsp;
 ___
 ### fastRemoveAt
+
 <div style="margin-left: 10px;">
 
 ▸   **fastRemoveAt**<`void`\>(`i: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -173,27 +155,18 @@ ___
 | `i` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/mutable-forward-iterator.ts:83](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/mutable-forward-iterator.ts#L83)&nbsp;
 ___
 ### push
+
 <div style="margin-left: 10px;">
 
 ▸   **push**<`void`\>(`item: T`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -202,27 +175,18 @@ ___
 | `item` | `T` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/mutable-forward-iterator.ts:93](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/mutable-forward-iterator.ts#L93)&nbsp;
 ___
 ### remove
+
 <div style="margin-left: 10px;">
 
 ▸   **remove**<`void`\>(`value: T`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -231,27 +195,18 @@ ___
 | `value` | `T` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/mutable-forward-iterator.ts:61](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/mutable-forward-iterator.ts#L61)&nbsp;
 ___
 ### removeAt
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAt**<`void`\>(`i: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -260,12 +215,7 @@ ___
 | `i` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/utils/mutable-forward-iterator.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/utils/mutable-forward-iterator.ts#L68)&nbsp;

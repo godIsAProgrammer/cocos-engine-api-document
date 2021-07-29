@@ -13,27 +13,11 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `start` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `triangles` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dim` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `minX` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `minY` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `size` | `number` | - |
-
 
 #### Returns `void` 
 ___

@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 用于缓存某些内容
 
@@ -45,7 +44,6 @@
 
 
 
-
 **`zh`** 
 缓存数量
 
@@ -73,14 +71,10 @@ ___
 • **new Cache**(`map: Record`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `map` | `Record` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache.ts#L41)&nbsp;
@@ -92,16 +86,15 @@ ___
 ## Methods
 
 ### add
+
 <div style="margin-left: 10px;">
 
 ▸   **add**<`T`\>(`key: string, val: T`) : `T`
 
 
 
-
 **`zh`** 
 增加键值对到缓存中
-
 
 
 
@@ -118,44 +111,29 @@ cache.add('test', null);
 
 
 
-
-<!---->
-<!--    #### Returns `T` The value
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `key` | `string` | The key  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `val` | `T` | The value  |
 
 
-
 ##### Returns `T`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache.ts:79](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache.ts#L79)&nbsp;
 ___
 ### clear
+
 <div style="margin-left: 10px;">
 
 ▸   **clear**<`void`\> : `void`
 
 
 
-
 **`zh`** 
 清除所有内容
-
 
 
 
@@ -173,25 +151,16 @@ cache.clear();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache.ts:160](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache.ts#L160)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
-
 
 
 
@@ -203,31 +172,21 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache.ts:233](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache.ts#L233)&nbsp;
 ___
 ### find
+
 <div style="margin-left: 10px;">
 
 ▸   **find**(`predicate: undefined`)
 
 
 
-
 **`zh`** 
 枚举所有内容，找到一个可以满足条件的元素
-
 
 
 
@@ -244,9 +203,6 @@ var val = cache.find((val, key) => key === 'test');
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -254,27 +210,21 @@ var val = cache.find((val, key) => key === 'test');
 | `predicate` |  | The condition  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache.ts:204](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache.ts#L204)&nbsp;
 ___
 ### forEach
+
 <div style="margin-left: 10px;">
 
 ▸   **forEach**<`void`\>(`func: undefined`) : `void`
 
 
 
-
 **`zh`** 
 枚举所有内容并执行方法
-
 
 
 
@@ -291,11 +241,6 @@ cache.forEach((val, key) => console.log(key));
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -303,27 +248,21 @@ cache.forEach((val, key) => console.log(key));
 | `func` |  | Function to be invoked  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache.ts:183](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache.ts#L183)&nbsp;
 ___
 ### get
+
 <div style="margin-left: 10px;">
 
 ▸   **get**(`key: string`)
 
 
 
-
 **`zh`** 
 通过 key 获取对应的 value
-
 
 
 
@@ -340,9 +279,6 @@ let test = cache.get('test');
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -350,27 +286,21 @@ let test = cache.get('test');
 | `key` | `string` | The key  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache.ts#L101)&nbsp;
 ___
 ### has
+
 <div style="margin-left: 10px;">
 
 ▸   **has**<`boolean`\>(`key: string`) : `boolean`
 
 
 
-
 **`zh`** 
 通过 Key 判断是否存在对应的内容
-
 
 
 
@@ -387,12 +317,6 @@ var exist = cache.has('test');
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` True indecates that content of the key exists
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -400,27 +324,21 @@ var exist = cache.has('test');
 | `key` | `string` | The key  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache.ts:120](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache.ts#L120)&nbsp;
 ___
 ### remove
+
 <div style="margin-left: 10px;">
 
 ▸   **remove**(`key: string`)
 
 
 
-
 **`zh`** 
 通过 Key 移除对应的内容
-
 
 
 
@@ -437,9 +355,6 @@ var content = cache.remove('test');
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -447,12 +362,7 @@ var content = cache.remove('test');
 | `key` | `string` | The key  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/cache.ts:139](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/cache.ts#L139)&nbsp;

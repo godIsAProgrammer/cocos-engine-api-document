@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `clip1` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `clip2` | - | - |
-
 
 #### Returns `boolean` 
 ___

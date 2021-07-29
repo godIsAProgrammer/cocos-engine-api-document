@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** 
 页面视图组件
 
@@ -187,7 +185,6 @@ ___
 
 
 
-
 **`zh`** 
 快速滑动翻页临界值。
 当用户快速滑动时，会根据滑动开始和结束的距离与时间计算出一个速度值，
@@ -212,7 +209,6 @@ ___
 
 
 
-
 **`zh`** 
 回弹持续的时间，0 表示将立即反弹。
 
@@ -232,7 +228,6 @@ ___
 
 ### brake
 <div style="margin-left: 10px;">
-
 
 
 
@@ -274,7 +269,6 @@ ___
 
 
 
-
 **`zh`** 
 是否允许滚动内容超过边界，并在停止触摸后回弹。
 
@@ -313,7 +307,6 @@ ___
 
 
 
-
 **`zh`** 
 是否开启滚动惯性。
 
@@ -336,9 +329,7 @@ ___
 
 
 
-
 **`zh`** 该组件被附加到的节点。组件总会附加到一个节点。
-
 
 
 
@@ -371,7 +362,6 @@ ___
 
 
 
-
 **`zh`** 滚动视图的事件回调函数
 
 
@@ -390,7 +380,6 @@ ___
 
 ### pageTurningSpeed
 <div style="margin-left: 10px;">
-
 
 
 
@@ -447,7 +436,6 @@ ___
 
 
 
-
 **`zh`** 
 可滚动展示内容的节点。
 
@@ -486,7 +474,6 @@ ___
 
 
 
-
 **`zh`** 
 页面视图滚动类型
 
@@ -509,14 +496,11 @@ ___
 
 
 
-
 **`zh`** 表示该组件自身是否启用。
 
 
 
-
 **`default`** true
-
 
 
 
@@ -550,9 +534,7 @@ ___
 
 
 
-
 **`zh`** 表示该组件是否被启用并且所在的节点也处于激活状态。
-
 
 
 
@@ -583,7 +565,6 @@ ___
 
 ### hideFlags
 <div style="margin-left: 10px;">
-
 
 
 
@@ -624,7 +605,6 @@ ___
 
 
 
-
 **`zh`** 
 页面视图指示器组件
 
@@ -647,7 +627,6 @@ ___
 
 
 
-
 **`zh`** 
 表示该对象是否可用（被 destroy 后将不可用）。<br>
 当一个对象的 `destroy` 调用以后，会在这一帧结束后才真正销毁。<br>
@@ -656,9 +635,7 @@ ___
 
 
 
-
 **`default`** true
-
 
 
 
@@ -713,7 +690,6 @@ ___
 
 
 
-
 **`zh`** 
 设置 PageView PageTurning 事件的发送时机。
 
@@ -733,7 +709,6 @@ ___
 
 ### scrollThreshold
 <div style="margin-left: 10px;">
-
 
 
 
@@ -759,7 +734,6 @@ ___
 
 
 
-
 **`zh`** 
 页面视图中每个页面大小类型
 
@@ -782,9 +756,7 @@ ___
 
 
 
-
 **`zh`** 组件的 uuid，用于编辑器。
-
 
 
 
@@ -854,14 +826,10 @@ ___
 • **new PageView**(`name: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:194](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L194)&nbsp;
@@ -873,15 +841,14 @@ ___
 ## Methods
 
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -898,9 +865,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -908,17 +872,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`zh`** 向节点添加一个指定类型的组件类，你还可以通过传入脚本的名称来添加组件。
-
 
 
 
@@ -934,9 +894,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -944,21 +901,16 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### addPage
+
 <div style="margin-left: 10px;">
 
 ▸   **addPage**<`void`\>(`page: Node`) : `void`
-
 
 
 
@@ -968,11 +920,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -980,17 +927,13 @@ ___
 | `page` | `Node` | 新视图。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:395](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L395)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -998,32 +941,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -1041,9 +974,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1051,19 +981,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`zh`** 
 获取节点上指定类型的组件，如果节点有附加指定类型的组件，则返回，如果没有则为空。<br/>
 传入参数也可以是脚本的名称。
-
 
 
 
@@ -1080,9 +1006,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1090,26 +1013,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -1126,9 +1043,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1136,17 +1050,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找所有子节点中第一个匹配指定类型的组件。
-
 
 
 
@@ -1162,9 +1072,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1172,26 +1079,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -1208,9 +1109,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1218,17 +1116,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`zh`** 返回节点上指定类型的所有组件。
-
 
 
 
@@ -1244,9 +1138,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1254,26 +1145,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -1290,9 +1175,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1300,17 +1182,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`zh`** 递归查找自身或所有子节点中指定类型的组件。
-
 
 
 
@@ -1326,9 +1204,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1336,27 +1211,21 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### getContentPosition
+
 <div style="margin-left: 10px;">
 
 ▸   **getContentPosition**<`Vec3`\> : `Vec3`
 
 
 
-
 **`zh`** 
 获取当前视图内容的坐标点。
-
 
 
 
@@ -1367,25 +1236,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Vec3` - current content position.-->
-<!---->
-
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:890](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L890)&nbsp;
 ___
 ### getCurrentPageIndex
+
 <div style="margin-left: 10px;">
 
 ▸   **getCurrentPageIndex**<`number`\> : `number`
-
 
 
 
@@ -1396,26 +1256,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` 当前页面索引。
--->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:357](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L357)&nbsp;
 ___
 ### getMaxScrollOffset
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaxScrollOffset**<`Vec2`\> : `Vec2`
-
 
 
 
@@ -1426,26 +1276,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Vec2` - 最大可滚动偏移量。
--->
-<!---->
-
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:736](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L736)&nbsp;
 ___
 ### getPages
+
 <div style="margin-left: 10px;">
 
 ▸   **getPages**
-
 
 
 
@@ -1456,19 +1296,13 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:382](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L382)&nbsp;
 ___
 ### getScrollEndedEventTiming
+
 <div style="margin-left: 10px;">
 
 ▸   **getScrollEndedEventTiming**<`number`\> : `number`
@@ -1476,25 +1310,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:514](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L514)&nbsp;
 ___
 ### getScrollOffset
+
 <div style="margin-left: 10px;">
 
 ▸   **getScrollOffset**<`Vec2`\> : `Vec2`
-
 
 
 
@@ -1505,26 +1330,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Vec2` - 当前滚动偏移量。
--->
-<!---->
-
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:720](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L720)&nbsp;
 ___
 ### insertPage
+
 <div style="margin-left: 10px;">
 
 ▸   **insertPage**<`void`\>(`page: Node, index: number`) : `void`
-
 
 
 
@@ -1534,37 +1349,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `page` | `Node` | 新视图。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | 指定位置。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:418](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L418)&nbsp;
 ___
 ### isAutoScrolling
+
 <div style="margin-left: 10px;">
 
 ▸   **isAutoScrolling**<`boolean`\> : `boolean`
-
 
 
 
@@ -1575,26 +1377,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` - 滚动视图是否在惯性滚动。
--->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:925](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L925)&nbsp;
 ___
 ### isScrolling
+
 <div style="margin-left: 10px;">
 
 ▸   **isScrolling**<`boolean`\> : `boolean`
-
 
 
 
@@ -1605,22 +1397,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` - 是否在拖拽当前滚动视图。
--->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:912](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L912)&nbsp;
 ___
 ### onDisable
+
 <div style="margin-left: 10px;">
 
 ▸   **onDisable**<`void`\> : `void`
@@ -1628,21 +1411,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L333)&nbsp;
 ___
 ### onEnable
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnable**<`void`\> : `void`
@@ -1650,21 +1425,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:325](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L325)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -1672,21 +1439,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLoad
+
 <div style="margin-left: 10px;">
 
 ▸   **onLoad**<`void`\> : `void`
@@ -1694,21 +1453,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:341](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L341)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -1716,25 +1467,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### removeAllPages
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAllPages**<`void`\> : `void`
-
 
 
 
@@ -1745,25 +1487,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L481)&nbsp;
 ___
 ### removePage
+
 <div style="margin-left: 10px;">
 
 ▸   **removePage**<`void`\>(`page: Node`) : `void`
-
 
 
 
@@ -1773,11 +1506,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1785,21 +1513,16 @@ ___
 | `page` | `Node` | 指定页面。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:445](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L445)&nbsp;
 ___
 ### removePageAtIndex
+
 <div style="margin-left: 10px;">
 
 ▸   **removePageAtIndex**<`void`\>(`index: number`) : `void`
-
 
 
 
@@ -1809,11 +1532,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1821,21 +1539,16 @@ ___
 | `index` | `number` | 页面下标。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:464](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L464)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -1845,32 +1558,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`zh`** 
 调度一个自定义的回调任务。<br/>
 如果回调任务已调度，那么将不会重复调度它，只会更新时间间隔参数。
-
 
 
 
@@ -1887,45 +1590,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -1933,14 +1617,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -1957,43 +1638,29 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### scrollTo
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollTo**<`void`\>(`anchor: Vec2, timeInSecond: undefined | number, attenuated: undefined | false | true`) : `void`
 
 
 
-
 **`zh`** 
 视图内容在规定时间内进行垂直方向和水平方向的滚动，并且滚动到指定百分比位置上。
-
 
 
 
@@ -2014,47 +1681,30 @@ scrollView.scrollTo(new Vec2(1, 0), 0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `anchor` | `Vec2` | 在 new Vec2(0,0) and new Vec2(1,1) 上取差值的一个点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到指定水平或垂直百分比位置。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `undefined \| false \| true` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:798](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L798)&nbsp;
 ___
 ### scrollToBottom
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToBottom**<`void`\>(`timeInSecond: undefined | number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容将在规定时间内滚动到视图底部。
-
 
 
 
@@ -2072,43 +1722,29 @@ scrollView.scrollToBottom(0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到底部边界。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:457](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L457)&nbsp;
 ___
 ### scrollToBottomLeft
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToBottomLeft**<`void`\>(`timeInSecond: undefined | number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容将在规定时间内滚动到视图左下角。
-
 
 
 
@@ -2126,43 +1762,29 @@ scrollView.scrollToBottomLeft(0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到左下边界。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:631](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L631)&nbsp;
 ___
 ### scrollToBottomRight
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToBottomRight**<`void`\>(`timeInSecond: undefined | number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容将在规定时间内滚动到视图右下角。
-
 
 
 
@@ -2180,43 +1802,29 @@ scrollView.scrollToBottomRight(0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到右边下边界。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:660](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L660)&nbsp;
 ___
 ### scrollToLeft
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToLeft**<`void`\>(`timeInSecond: undefined | number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容将在规定时间内滚动到视图左边。
-
 
 
 
@@ -2234,43 +1842,29 @@ scrollView.scrollToLeft(0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到左边边界。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:515](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L515)&nbsp;
 ___
 ### scrollToOffset
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToOffset**<`void`\>(`offset: Vec2, timeInSecond: undefined | number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容在规定时间内将滚动到 ScrollView 相对左上角原点的偏移位置, 如果 timeInSecond 参数不传，则立即滚动到指定偏移位置。
-
 
 
 
@@ -2289,41 +1883,25 @@ scrollView.scrollToOffset(new Vec2(maxScrollOffset.x / 2, 0), 0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `offset` | `Vec2` | 指定移动偏移量。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到指定偏移量处。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:691](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L691)&nbsp;
 ___
 ### scrollToPage
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToPage**<`void`\>(`idx: number, timeInSecond: number`) : `void`
-
 
 
 
@@ -2333,43 +1911,29 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `idx` | `number` | index of page.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `timeInSecond` | `number` | scrolling time.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:501](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L501)&nbsp;
 ___
 ### scrollToPercentHorizontal
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToPercentHorizontal**<`void`\>(`percent: number, timeInSecond: number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容在规定时间内将滚动到 ScrollView 水平方向的百分比位置上。
-
 
 
 
@@ -2387,47 +1951,30 @@ scrollView.scrollToBottomRight(0.5, 0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `percent` | `number` | 0 - 之间的百分比。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `timeInSecond` | `number` | 滚动时间（s）。 如果超时，内容将立即跳到指定水平百分比位置。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:765](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L765)&nbsp;
 ___
 ### scrollToPercentVertical
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToPercentVertical**<`void`\>(`percent: number, timeInSecond: undefined | number, attenuated: undefined | false | true`) : `void`
 
 
 
-
 **`zh`** 
 视图内容在规定时间内滚动到 ScrollView 垂直方向的百分比位置上。
-
 
 
 
@@ -2444,47 +1991,30 @@ scrollView.scrollToPercentVertical(0.5, 0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `percent` | `number` | 0 - 1 之间的百分比。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到指定垂直百分比位置。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `undefined \| false \| true` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:827](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L827)&nbsp;
 ___
 ### scrollToRight
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToRight**<`void`\>(`timeInSecond: undefined | number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容将在规定时间内滚动到视图右边。
-
 
 
 
@@ -2502,43 +2032,29 @@ scrollView.scrollToRight(0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到右边边界。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:544](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L544)&nbsp;
 ___
 ### scrollToTop
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToTop**<`void`\>(`timeInSecond: undefined | number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容将在规定时间内滚动到视图顶部。
-
 
 
 
@@ -2556,43 +2072,29 @@ scrollView.scrollToTop(0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到顶部边界。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:486](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L486)&nbsp;
 ___
 ### scrollToTopLeft
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToTopLeft**<`void`\>(`timeInSecond: undefined | number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容将在规定时间内滚动到视图左上角。
-
 
 
 
@@ -2610,43 +2112,29 @@ scrollView.scrollToTopLeft(0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到左上边边界。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:573](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L573)&nbsp;
 ___
 ### scrollToTopRight
+
 <div style="margin-left: 10px;">
 
 ▸   **scrollToTopRight**<`void`\>(`timeInSecond: undefined | number, attenuated: boolean`) : `void`
 
 
 
-
 **`zh`** 
 视图内容将在规定时间内滚动到视图右上角。
-
 
 
 
@@ -2664,37 +2152,24 @@ scrollView.scrollToTopRight(0.1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `timeInSecond` | `undefined \| number` | 滚动时间（s）。 如果超时，内容将立即跳到右上边界。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `attenuated` | `boolean` | 滚动加速是否衰减，默认为 true。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:602](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L602)&nbsp;
 ___
 ### setContentPosition
+
 <div style="margin-left: 10px;">
 
 ▸   **setContentPosition**<`void`\>(`position: Vec3`) : `void`
-
 
 
 
@@ -2704,16 +2179,10 @@ ___
 
 
 
-
 **`deprecated`** Since 3.1.0, setContentPosition is deprecated, please use scrollToOffset instead.
 
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2722,21 +2191,16 @@ ___
 | `position` | `Vec3` | current content position.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:863](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L863)&nbsp;
 ___
 ### setCurrentPageIndex
+
 <div style="margin-left: 10px;">
 
 ▸   **setCurrentPageIndex**<`void`\>(`index: number`) : `void`
-
 
 
 
@@ -2745,11 +2209,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2757,17 +2216,13 @@ ___
 | `index` | `number` | 索引。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/page-view.ts:369](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/page-view.ts#L369)&nbsp;
 ___
 ### start
+
 <div style="margin-left: 10px;">
 
 ▸   **start**<`void`\> : `void`
@@ -2775,25 +2230,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:933](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L933)&nbsp;
 ___
 ### stopAutoScroll
+
 <div style="margin-left: 10px;">
 
 ▸   **stopAutoScroll**<`void`\> : `void`
-
 
 
 
@@ -2804,30 +2250,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:848](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L848)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`zh`** 取消调度一个自定义的回调任务。
-
 
 
 
@@ -2843,11 +2279,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2855,26 +2286,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`zh`** 取消调度所有已调度的回调函数。
-
 
 
 
@@ -2891,31 +2316,18 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`dt: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2924,12 +2336,7 @@ ___
 | `dt` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/scroll-view.ts:959](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/scroll-view.ts#L959)&nbsp;

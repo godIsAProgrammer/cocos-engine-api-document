@@ -8,10 +8,8 @@ ___
 ___
 
 
-
 **`zh`** 
 非 UI 节点转换到 UI 节点(局部) 空间坐标系。
-
 
 
 
@@ -24,19 +22,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `mainCamera` | `Camera` | 主相机。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `wpos` | `Vec3` | 世界空间位置。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `uiNode` | `Node` | UI节点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Vec3` | 返回局部坐标。  |
-
 
 #### Returns `Vec3` 
 ___

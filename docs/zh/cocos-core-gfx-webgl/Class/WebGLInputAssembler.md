@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -54,7 +53,6 @@
 
 
 
-
 **`zh`** 顶点属性数组。
 
 
@@ -73,7 +71,6 @@ ___
 
 ### attributesHash
 <div style="margin-left: 10px;">
-
 
 
 
@@ -98,7 +95,6 @@ ___
 
 
 
-
 **`zh`** 起始索引。
 
 
@@ -120,7 +116,6 @@ ___
 
 
 
-
 **`zh`** 起始实例。
 
 
@@ -139,7 +134,6 @@ ___
 
 ### firstVertex
 <div style="margin-left: 10px;">
-
 
 
 
@@ -196,7 +190,6 @@ ___
 
 
 
-
 **`zh`** 索引缓冲。
 
 
@@ -215,7 +208,6 @@ ___
 
 ### indexCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -240,7 +232,6 @@ ___
 
 
 
-
 **`zh`** 间接绘制缓冲。
 
 
@@ -259,7 +250,6 @@ ___
 
 ### instanceCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -284,7 +274,6 @@ ___
 
 
 
-
 **`zh`** 顶点缓冲数组。
 
 
@@ -306,7 +295,6 @@ ___
 
 
 
-
 **`zh`** 顶点数量。
 
 
@@ -325,7 +313,6 @@ ___
 
 ### vertexOffset
 <div style="margin-left: 10px;">
-
 
 
 
@@ -354,14 +341,10 @@ ___
 • **new WebGLInputAssembler**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/input-assembler.ts:189](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/input-assembler.ts#L189)&nbsp;
@@ -373,6 +356,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -380,34 +364,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-input-assembler.ts:110](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-input-assembler.ts#L110)&nbsp;
 ___
 ### getVertexBuffer
+
 <div style="margin-left: 10px;">
 
 ▸   **getVertexBuffer**(`stream: number`)
 
 
 
-
 **`zh`** 获取顶点缓冲。
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -416,27 +388,18 @@ ___
 | `stream` | `number` | The stream index of the vertex buffer.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/input-assembler.ts:201](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/input-assembler.ts#L201)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: InputAssemblerInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -445,12 +408,7 @@ ___
 | `info` | `InputAssemblerInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/webgl/webgl-input-assembler.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/webgl/webgl-input-assembler.ts#L40)&nbsp;

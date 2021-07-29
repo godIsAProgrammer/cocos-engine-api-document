@@ -18,9 +18,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-cube.ts:49](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-cube.ts#L49)&nbsp;
-
 ___
 #### bottom
 
@@ -31,9 +29,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-cube.ts:53](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-cube.ts#L53)&nbsp;
-
 ___
 #### front
 
@@ -44,9 +40,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-cube.ts:48](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-cube.ts#L48)&nbsp;
-
 ___
 #### left
 
@@ -57,9 +51,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-cube.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-cube.ts#L50)&nbsp;
-
 ___
 #### right
 
@@ -70,9 +62,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-cube.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-cube.ts#L51)&nbsp;
-
 ___
 #### top
 
@@ -83,7 +73,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/assets/texture-cube.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/texture-cube.ts#L52)&nbsp;
-
 ___

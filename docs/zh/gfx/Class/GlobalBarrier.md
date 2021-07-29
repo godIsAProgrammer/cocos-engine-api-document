@@ -14,8 +14,6 @@
 
 
 
-
-
 **`zh`** GFX 着色器。
 
 
@@ -65,14 +63,10 @@ ___
 • **new GlobalBarrier**(`device: Device`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `device` | `Device` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/global-barrier.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/global-barrier.ts#L40)&nbsp;
@@ -84,16 +78,12 @@ ___
 ## Methods
 
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: GlobalBarrierInfo`) : `boolean`
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -102,12 +92,7 @@ ___
 | `info` | `GlobalBarrierInfo` | - |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/global-barrier.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/global-barrier.ts#L47)&nbsp;

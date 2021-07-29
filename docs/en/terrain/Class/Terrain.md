@@ -14,8 +14,6 @@
 
 
 
-
-
 **`en`** Terrain
 
 
@@ -128,9 +126,7 @@ ___
 
 
 
-
 **`en`** The node this component is attached to. A component is always attached to a node.
-
 
 
 
@@ -163,7 +159,6 @@ ___
 
 
 
-
 **`en`** get block count
 
 
@@ -181,7 +176,6 @@ ___
 
 ### effectAsset
 <div style="margin-left: 10px;">
-
 
 
 
@@ -205,14 +199,11 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled or not.
 
 
 
-
 **`default`** true
-
 
 
 
@@ -246,9 +237,7 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled and its node is also active in the hierarchy.
-
 
 
 
@@ -282,7 +271,6 @@ ___
 
 
 
-
 **`en`** get height buffer
 
 
@@ -300,7 +288,6 @@ ___
 
 ### hideFlags
 <div style="margin-left: 10px;">
-
 
 
 
@@ -324,7 +311,6 @@ ___
 
 
 
-
 **`en`** get terrain info
 
 
@@ -345,7 +331,6 @@ ___
 
 
 
-
 **`en`** 
 Indicates whether the object is not yet destroyed. (It will not be available after being destroyed)<br>
 When an object's `destroy` is called, it is actually destroyed after the end of this frame.
@@ -356,9 +341,7 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`default`** true
-
 
 
 
@@ -394,7 +377,6 @@ ___
 
 ### lightMapSize
 <div style="margin-left: 10px;">
-
 
 
 
@@ -434,7 +416,6 @@ ___
 
 
 
-
 **`en`** Receive shadow
 
 
@@ -452,7 +433,6 @@ ___
 
 ### size
 <div style="margin-left: 10px;">
-
 
 
 
@@ -476,7 +456,6 @@ ___
 
 
 
-
 **`en`** get tile count
 
 
@@ -494,7 +473,6 @@ ___
 
 ### tileSize
 <div style="margin-left: 10px;">
-
 
 
 
@@ -518,7 +496,6 @@ ___
 
 
 
-
 **`en`** Use normal map
 
 
@@ -536,7 +513,6 @@ ___
 
 ### usePBR
 <div style="margin-left: 10px;">
-
 
 
 
@@ -560,9 +536,7 @@ ___
 
 
 
-
 **`en`** The uuid for editor.
-
 
 
 
@@ -596,7 +570,6 @@ ___
 
 
 
-
 **`en`** check valid
 
 
@@ -614,7 +587,6 @@ ___
 
 ### vertexCount
 <div style="margin-left: 10px;">
-
 
 
 
@@ -638,7 +610,6 @@ ___
 
 
 
-
 **`en`** get weight map size
 
 
@@ -656,7 +627,6 @@ ___
 
 ### weights
 <div style="margin-left: 10px;">
-
 
 
 
@@ -684,6 +654,9 @@ ___
 • **new Terrain**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:830](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L830)&nbsp;
@@ -695,15 +668,14 @@ ___
 ## Methods
 
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -720,9 +692,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -730,17 +699,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -756,9 +721,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -766,32 +728,22 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### addLayer
+
 <div style="margin-left: 10px;">
 
 ▸   **addLayer**<`number`\>(`layer: TerrainLayer`) : `number`
 
 
 
-
 **`en`** add layer
 
 
-
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
 
 #### Parameters
 
@@ -800,32 +752,22 @@ ___
 | `layer` | `TerrainLayer` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1257](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1257)&nbsp;
 ___
 ### build
+
 <div style="margin-left: 10px;">
 
 ▸   **build**<`void`\>(`info: TerrainInfo`) : `void`
 
 
 
-
 **`en`** build
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -834,17 +776,13 @@ ___
 | `info` | `TerrainInfo` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1037](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1037)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -852,21 +790,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### exportAsset
+
 <div style="margin-left: 10px;">
 
 ▸   **exportAsset**<`TerrainAsset`\> : `TerrainAsset`
@@ -874,25 +804,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `TerrainAsset` -->
-<!---->
-
-
 ##### Returns `TerrainAsset`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1134](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1134)&nbsp;
 ___
 ### exportHeightField
+
 <div style="margin-left: 10px;">
 
 ▸   **exportHeightField**<`void`\>(`hf: HeightField, heightScale: number`) : `void`
-
 
 
 
@@ -900,37 +821,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `hf` | `HeightField` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `heightScale` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1116](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1116)&nbsp;
 ___
 ### getBlock
+
 <div style="margin-left: 10px;">
 
 ▸   **getBlock**<`TerrainBlock`\>(`i: number, j: number`) : `TerrainBlock`
-
 
 
 
@@ -938,37 +846,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `TerrainBlock` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
 
 
-
 ##### Returns `TerrainBlock`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1622](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1622)&nbsp;
 ___
 ### getBlockLayer
+
 <div style="margin-left: 10px;">
 
 ▸   **getBlockLayer**<`number`\>(`i: number, j: number, index: number`) : `number`
-
 
 
 
@@ -976,41 +871,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1604](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1604)&nbsp;
 ___
 ### getBlockLayers
+
 <div style="margin-left: 10px;">
 
 ▸   **getBlockLayers**(`i: number, j: number`)
-
 
 
 
@@ -1018,35 +897,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1589](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1589)&nbsp;
 ___
 ### getBlocks
+
 <div style="margin-left: 10px;">
 
 ▸   **getBlocks**
-
 
 
 
@@ -1055,30 +923,22 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1630](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1630)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1096,9 +956,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1106,19 +963,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1135,9 +988,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1145,26 +995,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1181,9 +1025,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1191,17 +1032,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1217,9 +1054,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1227,26 +1061,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1263,9 +1091,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1273,17 +1098,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1299,9 +1120,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1309,26 +1127,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1345,9 +1157,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1355,17 +1164,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1381,9 +1186,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1391,17 +1193,13 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### getEffectAsset
+
 <div style="margin-left: 10px;">
 
 ▸   **getEffectAsset**<`EffectAsset`\> : `EffectAsset`
@@ -1409,25 +1207,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `EffectAsset` -->
-<!---->
-
-
 ##### Returns `EffectAsset`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1170](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1170)&nbsp;
 ___
 ### getHeight
+
 <div style="margin-left: 10px;">
 
 ▸   **getHeight**<`number`\>(`i: number, j: number`) : `number`
-
 
 
 
@@ -1435,37 +1224,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1325](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1325)&nbsp;
 ___
 ### getHeightAt
+
 <div style="margin-left: 10px;">
 
 ▸   **getHeightAt**(`x: number, y: number`)
-
 
 
 
@@ -1473,35 +1249,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1344)&nbsp;
 ___
 ### getHeightClamp
+
 <div style="margin-left: 10px;">
 
 ▸   **getHeightClamp**<`number`\>(`i: number, j: number`) : `number`
-
 
 
 
@@ -1509,33 +1274,21 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1333)&nbsp;
 ___
 ### getHeightField
+
 <div style="margin-left: 10px;">
 
 ▸   **getHeightField**<`Uint16Array`\> : `Uint16Array`
@@ -1543,34 +1296,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Uint16Array` -->
-<!---->
-
-
 ##### Returns `Uint16Array`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1308](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1308)&nbsp;
 ___
 ### getLayer
+
 <div style="margin-left: 10px;">
 
 ▸   **getLayer**(`id: number`)
 
 
 
-
 **`en`** get layer
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -1579,21 +1320,16 @@ ___
 | `id` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1288](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1288)&nbsp;
 ___
 ### getMaxWeightLayerAt
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaxWeightLayerAt**(`x: number, y: number`)
-
 
 
 
@@ -1601,35 +1337,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1548](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1548)&nbsp;
 ___
 ### getNormal
+
 <div style="margin-left: 10px;">
 
 ▸   **getNormal**<`Vec3`\>(`i: number, j: number`) : `Vec3`
-
 
 
 
@@ -1637,37 +1362,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Vec3` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1396](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1396)&nbsp;
 ___
 ### getNormalAt
+
 <div style="margin-left: 10px;">
 
 ▸   **getNormalAt**(`x: number, y: number`)
-
 
 
 
@@ -1675,35 +1387,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1411](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1411)&nbsp;
 ___
 ### getPosition
+
 <div style="margin-left: 10px;">
 
 ▸   **getPosition**<`Vec3`\>(`i: number, j: number`) : `Vec3`
-
 
 
 
@@ -1711,37 +1412,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Vec3` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
 
 
-
 ##### Returns `Vec3`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1300](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1300)&nbsp;
 ___
 ### getWeight
+
 <div style="margin-left: 10px;">
 
 ▸   **getWeight**<`Vec4`\>(`i: number, j: number`) : `Vec4`
-
 
 
 
@@ -1749,37 +1437,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Vec4` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
 
 
-
 ##### Returns `Vec4`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1477](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1477)&nbsp;
 ___
 ### getWeightAt
+
 <div style="margin-left: 10px;">
 
 ▸   **getWeightAt**(`x: number, y: number`)
-
 
 
 
@@ -1787,35 +1462,24 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1493](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1493)&nbsp;
 ___
 ### importHeightField
+
 <div style="margin-left: 10px;">
 
 ▸   **importHeightField**<`void`\>(`hf: HeightField, heightScale: number`) : `void`
-
 
 
 
@@ -1823,33 +1487,21 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `hf` | `HeightField` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `heightScale` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1091](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1091)&nbsp;
 ___
 ### onDestroy
+
 <div style="margin-left: 10px;">
 
 ▸   **onDestroy**<`void`\> : `void`
@@ -1857,21 +1509,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1226)&nbsp;
 ___
 ### onDisable
+
 <div style="margin-left: 10px;">
 
 ▸   **onDisable**<`void`\> : `void`
@@ -1879,21 +1523,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1219](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1219)&nbsp;
 ___
 ### onEnable
+
 <div style="margin-left: 10px;">
 
 ▸   **onEnable**<`void`\> : `void`
@@ -1901,21 +1537,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1213](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1213)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -1923,21 +1551,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLoad
+
 <div style="margin-left: 10px;">
 
 ▸   **onLoad**<`void`\> : `void`
@@ -1945,21 +1565,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1178](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1178)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -1967,21 +1579,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### onRestore
+
 <div style="margin-left: 10px;">
 
 ▸   **onRestore**<`void`\> : `void`
@@ -1989,25 +1593,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1241](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1241)&nbsp;
 ___
 ### rayCheck
+
 <div style="margin-left: 10px;">
 
 ▸   **rayCheck**(`start: Vec3, dir: Vec3, step: number, worldSpace: boolean`)
-
 
 
 
@@ -2015,54 +1610,32 @@ ___
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `start` | `Vec3` | ray start  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dir` | `Vec3` | ray direction  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `step` | `number` | ray step  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `worldSpace` | `boolean` | is world space  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1642](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1642)&nbsp;
 ___
 ### rebuild
+
 <div style="margin-left: 10px;">
 
 ▸   **rebuild**<`void`\>(`info: TerrainInfo`) : `void`
 
 
 
-
 **`en`** rebuild
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2071,32 +1644,22 @@ ___
 | `info` | `TerrainInfo` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1051](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1051)&nbsp;
 ___
 ### removeLayer
+
 <div style="margin-left: 10px;">
 
 ▸   **removeLayer**<`void`\>(`id: number`) : `void`
 
 
 
-
 **`en`** remove layer
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2105,21 +1668,16 @@ ___
 | `id` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1280](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1280)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -2129,32 +1687,22 @@ This function is only called in editor.<br/>
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`en`** 
 Schedules a custom task.<br/>
 If the task is already scheduled, then the interval parameter will be updated without scheduling it again.
-
 
 
 
@@ -2171,45 +1719,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -2217,14 +1746,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -2241,37 +1767,24 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### setBlockLayer
+
 <div style="margin-left: 10px;">
 
 ▸   **setBlockLayer**<`void`\>(`i: number, j: number, index: number, layerId: number`) : `void`
-
 
 
 
@@ -2279,45 +1792,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `layerId` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1613](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1613)&nbsp;
 ___
 ### setHeight
+
 <div style="margin-left: 10px;">
 
 ▸   **setHeight**<`void`\>(`i: number, j: number, h: number`) : `void`
-
 
 
 
@@ -2325,41 +1819,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `h` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1316](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1316)&nbsp;
 ___
 ### setLayer
+
 <div style="margin-left: 10px;">
 
 ▸   **setLayer**<`void`\>(`i: number, layer: TerrainLayer`) : `void`
-
 
 
 
@@ -2367,37 +1845,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `layer` | `TerrainLayer` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1272](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1272)&nbsp;
 ___
 ### setWeight
+
 <div style="margin-left: 10px;">
 
 ▸   **setWeight**<`void`\>(`i: number, j: number, w: Vec4`) : `void`
-
 
 
 
@@ -2405,46 +1870,29 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `i` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `j` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `w` | `Vec4` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1464](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1464)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`en`** Un-schedules a custom task.
-
 
 
 
@@ -2460,11 +1908,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -2472,26 +1915,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`en`** unschedule all scheduled tasks.
-
 
 
 
@@ -2508,31 +1945,18 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`deltaTime: number`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -2541,12 +1965,7 @@ ___
 | `deltaTime` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:1247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L1247)&nbsp;

@@ -101,38 +101,13 @@ ___
 • **new UniformInputAttachment**(`set: number, binding: number, name: string, count: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `set` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `binding` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `count` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1267](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1267)&nbsp;
@@ -144,16 +119,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: UniformInputAttachment`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -162,12 +133,7 @@ ___
 | `info` | `UniformInputAttachment` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1276](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1276)&nbsp;

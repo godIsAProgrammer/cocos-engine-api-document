@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Render flow is a sub process of the [[RenderPipeline]], it dispatch the render task to all the [[RenderStage]]s.
 
 
@@ -38,7 +37,6 @@
 
 
 
-
 **`en`** The name of the render flow
 
 
@@ -56,7 +54,6 @@ ___
 
 ### pipeline
 <div style="margin-left: 10px;">
-
 
 
 
@@ -80,7 +77,6 @@ ___
 
 
 
-
 **`en`** Priority of the current flow
 
 
@@ -101,9 +97,7 @@ ___
 
 
 
-
 **`en`** The stages of flow.
-
 
 
 
@@ -128,7 +122,6 @@ ___
 
 
 
-
 **`en`** Tag of the current flow
 
 
@@ -147,21 +140,16 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`pipeline: RenderPipeline`) : `void`
 
 
 
-
 **`en`** Activate the current render flow in the given pipeline
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -170,21 +158,16 @@ ___
 | `pipeline` | `RenderPipeline` | The render pipeline to activate this render flow  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-flow.ts:130](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-flow.ts#L130)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
-
 
 
 
@@ -193,36 +176,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-flow.ts:154](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-flow.ts#L154)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`boolean`\>(`info: IRenderFlowInfo`) : `boolean`
 
 
 
-
 **`en`** The initialization process, user shouldn't use it in most case, only useful when need to generate render pipeline programmatically.
 
 
-
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
 
 #### Parameters
 
@@ -231,32 +200,22 @@ ___
 | `info` | `IRenderFlowInfo` | The render flow information  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-flow.ts:117](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-flow.ts#L117)&nbsp;
 ___
 ### render
+
 <div style="margin-left: 10px;">
 
 ▸   **render**<`void`\>(`camera: Camera`) : `void`
 
 
 
-
 **`en`** Render function, it basically run all render stages in sequence for the given view.
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -265,12 +224,7 @@ ___
 | `camera` | `Camera` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/pipeline/render-flow.ts:144](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/pipeline/render-flow.ts#L144)&nbsp;

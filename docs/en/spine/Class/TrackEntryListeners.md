@@ -125,16 +125,12 @@ ___
 ## Methods
 
 ### getListeners
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **getListeners**<`AnimationStateListener`\>(`entry: TrackEntry`) : `AnimationStateListener`
 
 
-
-
-<!---->
-<!--    #### Returns `AnimationStateListener` -->
-<!---->
 
 #### Parameters
 
@@ -143,12 +139,7 @@ ___
 | `entry` | `TrackEntry` | - |
 
 
-
 ##### Returns `AnimationStateListener`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/track-entry-listeners.ts:16](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/track-entry-listeners.ts#L16)&nbsp;

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 A simple wrapper of `Object.create(null)` which ensures the return object have no prototype (and thus no inherited members).
 This eliminates the need to make `hasOwnProperty` judgments when we look for values by key on the object,
@@ -21,7 +20,6 @@ which is helpful for performance in this case.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `forceDictMode` | - | - |
-
 
 #### Returns `any` 
 ___

@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `options` | `RecursivePartial` | 圆参数。  |
 
-
 #### Returns `ICircleOptions` 
 ___
 

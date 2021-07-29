@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Compute the lexicographically next bit permutation
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
 
 #### Returns `number` 
 ___

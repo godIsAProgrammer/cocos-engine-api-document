@@ -357,6 +357,9 @@ ___
 • **new ShapeModule**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/emitter/shape-module.ts:284](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/emitter/shape-module.ts#L284)&nbsp;
@@ -368,16 +371,12 @@ ___
 ## Methods
 
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`p: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -386,27 +385,18 @@ ___
 | `p` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/emitter/shape-module.ts:300](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/emitter/shape-module.ts#L300)&nbsp;
 ___
 ### onInit
+
 <div style="margin-left: 10px;">
 
 ▸   **onInit**<`void`\>(`ps: ParticleSystem`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -415,12 +405,7 @@ ___
 | `ps` | `ParticleSystem` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/emitter/shape-module.ts:294](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/emitter/shape-module.ts#L294)&nbsp;

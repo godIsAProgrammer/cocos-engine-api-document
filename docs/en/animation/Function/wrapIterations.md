@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `iterations` | `number` | - |
 
-
 #### Returns `number` 
 ___
 

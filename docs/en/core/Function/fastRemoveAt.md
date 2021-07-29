@@ -8,13 +8,13 @@ ___
 ___
 
 
-
 **`en`** 
 Removes the array item at the specified index.
 It's faster but the order of the array will be changed.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -24,11 +24,7 @@ It's faster but the order of the array will be changed.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | 待移除元素的索引。  |
-
 
 #### Returns `void` 
 ___

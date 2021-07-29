@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `unit` | `StorageUnit` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `elementType` | `ElementType` | - |
-
 
 #### Returns `number` 
 ___

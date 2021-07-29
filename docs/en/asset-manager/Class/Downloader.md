@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 Control all download process, it is a singleton. All member can be accessed with `cc.assetManager.downloader` , it can download several types of files:
 1. Text
@@ -166,7 +165,6 @@ ___
 
 
 
-
 **`en`** 
 The maximum number of concurrent when downloading
 
@@ -186,7 +184,6 @@ ___
 
 ### maxRequestsPerFrame
 <div style="margin-left: 10px;">
-
 
 
 
@@ -212,10 +209,8 @@ ___
 
 
 
-
 **`en`** 
 The max number of retries when fail
-
 
 
 
@@ -256,7 +251,6 @@ ___
 
 
 
-
 **`en`** 
 Wait for while before another retry, unit: ms
 
@@ -276,7 +270,6 @@ ___
 
 ### remoteServerAddress
 <div style="margin-left: 10px;">
-
 
 
 
@@ -300,16 +293,15 @@ ___
 ## Methods
 
 ### download
+
 <div style="margin-left: 10px;">
 
 ▸   **download**<`void`\>(`id: string, url: string, type: string, options: IDownloadParseOptions, onComplete: CompleteCallback`) : `void`
 
 
 
-
 **`en`** 
 Use corresponding handler to download file under limitation
-
 
 
 
@@ -325,91 +317,53 @@ download('http://example.com/test.tga', '.tga', {onFileProgress: (loaded, total)
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `id` | `string` | The unique id of this download  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `url` | `string` | The url should be downloaded  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `string` | The type indicates that which handler should be used to download, such as '.jpg'  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IDownloadParseOptions` | some optional paramters will be transferred to the corresponding handler.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallback` | callback when finishing downloading  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:322](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L322)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\>(`remoteServerAddress: string, bundleVers: Record, remoteBundles: undefined`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `remoteServerAddress` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bundleVers` | `Record` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `remoteBundles` |  | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:262](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L262)&nbsp;
 ___
 ### loadSubpackage
+
 <div style="margin-left: 10px;">
 
 ▸   **loadSubpackage**<`void`\>(`name: string, completeCallback: CompleteCallbackNoData`) : `void`
 
 
 
-
 **`en`** Load sub package with name.
-
 
 
 
@@ -418,43 +372,29 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `name` | `string` | Sub package name  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `completeCallback` | `CompleteCallbackNoData` | Callback invoked when sub package loaded  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:403](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L403)&nbsp;
 ___
 ### register
+
 <div style="margin-left: 10px;">
 
 ▸   **register**<`void`\>(`type: string, handler: DownloadHandler`) : `void`
 
 
 
-
 **`en`** 
 Register custom handler if you want to change default behavior or extend downloader to download other format file
-
 
 
 
@@ -471,34 +411,19 @@ downloader.register({'.tga': (url, options, onComplete) => onComplete(null, null
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | Extension likes '.jpg' or map likes {'.jpg': jpgHandler, '.png': pngHandler}  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `handler` | `DownloadHandler` | handler  |
-
 
 
 ##### Returns `void`
 
-
 ▸   **register**<`void`\>(`map: Record`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -507,12 +432,7 @@ downloader.register({'.tga': (url, options, onComplete) => onComplete(null, null
 | `map` | `Record` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/downloader.ts:288](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L288)&nbsp;   [cocos/core/asset-manager/downloader.ts:289](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L289)&nbsp;   [cocos/core/asset-manager/downloader.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/downloader.ts#L290)&nbsp;

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 aabb-frustum intersect detect, faster but has false positive corner cases.
 
@@ -19,11 +18,7 @@ aabb-frustum intersect detect, faster but has false positive corner cases.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `aabb` | `AABB` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `frustum` | `Frustum` | - |
-
 
 #### Returns `number` 0 或 非0
 

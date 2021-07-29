@@ -6,7 +6,6 @@
 
 
 
-
 **`deprecated`** Since v1.2
 
 
@@ -29,6 +28,9 @@
 • **new UIReorderComponent**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/ui/deprecated.ts:54](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/ui/deprecated.ts#L54)&nbsp;

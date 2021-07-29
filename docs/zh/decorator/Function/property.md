@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 声明属性为 CCClass 属性。
 
 
@@ -19,7 +18,6 @@ ___
 | :------: | :------: | :------: |
 | `options` | `IPropertyOptions` | property options  |
 
-
 #### Returns `LegacyPropertyDecorator` 
 ___
 
@@ -29,7 +27,6 @@ ___
 ___
 ▸ **property**<`LegacyPropertyDecorator`\>(`type: PropertyType`): `LegacyPropertyDecorator`
 ___
-
 
 
 **`zh`** 标注属性为 cc 属性。<br/>
@@ -43,7 +40,6 @@ ___
 | :------: | :------: | :------: |
 | `type` | `PropertyType` | A {{ccclass}} type or a {{ValueType}}  |
 
-
 #### Returns `LegacyPropertyDecorator` 
 ___
 
@@ -53,7 +49,6 @@ ___
 ___
 ▸ **property**<`void`\>(`args: Parameters`): `void`
 ___
-
 
 
 **`zh`** 标注属性为 cc 属性。<br/>
@@ -67,7 +62,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `args` | `Parameters` | - |
-
 
 #### Returns `void` 
 ___

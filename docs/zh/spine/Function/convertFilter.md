@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `filter` | `TextureFilter` | - |
 
-
 #### Returns `Filter` 
 ___
 

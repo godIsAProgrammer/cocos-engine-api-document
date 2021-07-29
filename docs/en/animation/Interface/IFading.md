@@ -15,9 +15,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cross-fade.ts:45](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cross-fade.ts#L45)&nbsp;
-
 ___
 #### easeTime
 
@@ -28,9 +26,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cross-fade.ts:44](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cross-fade.ts#L44)&nbsp;
-
 ___
 #### target
 
@@ -41,7 +37,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/animation/cross-fade.ts:43](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/cross-fade.ts#L43)&nbsp;
-
 ___

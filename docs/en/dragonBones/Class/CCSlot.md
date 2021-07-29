@@ -11,7 +11,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -65,9 +64,7 @@
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -94,9 +91,7 @@ ___
 
 
 
-
 **`version`** DragonBones 5.0
-
 
 
 
@@ -123,7 +118,6 @@ ___
 
 
 
-
 **`example`**
 
 ```ts
@@ -136,9 +130,7 @@ ___
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -165,7 +157,6 @@ ___
 
 
 
-
 **`example`**
 
 ```ts
@@ -178,9 +169,7 @@ ___
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -207,9 +196,7 @@ ___
 
 
 
-
 **`default`** null
-
 
 
 
@@ -217,9 +204,7 @@ ___
 
 
 
-
 **`see`** dragonBones.AnimationState#name
-
 
 
 
@@ -227,9 +212,7 @@ ___
 
 
 
-
 **`version`** DragonBones 4.5
-
 
 
 
@@ -256,7 +239,6 @@ ___
 
 
 
-
 **`example`**
 
 ```ts
@@ -270,9 +252,7 @@ ___
 
 
 
-
 **`version`** DragonBones 4.5
-
 
 
 
@@ -299,9 +279,7 @@ ___
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -328,14 +306,11 @@ ___
 
 
 
-
 **`see`** #updateGlobalTransform()
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -362,9 +337,7 @@ ___
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -391,9 +364,7 @@ ___
 
 
 
-
 **`version`** DragonBones 4.5
-
 
 
 
@@ -420,14 +391,11 @@ ___
 
 
 
-
 **`see`** dragonBones.SlotData#name
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -454,14 +422,11 @@ ___
 
 
 
-
 **`see`** #dragonBones.Bone#invalidUpdate()
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -488,9 +453,7 @@ ___
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -517,14 +480,11 @@ ___
 
 
 
-
 **`see`** dragonBones.SlotData
 
 
 
-
 **`version`** DragonBones 4.5
-
 
 
 
@@ -551,14 +511,11 @@ ___
 
 
 
-
 **`default`** true
 
 
 
-
 **`version`** DragonBones 5.6
-
 
 
 
@@ -588,6 +545,9 @@ ___
 • **new CCSlot**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/CCSlot.ts:24](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/CCSlot.ts#L24)&nbsp;
@@ -599,6 +559,7 @@ ___
 ## Methods
 
 ### toString
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **toString**<`string`\> : `string`
@@ -606,30 +567,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `string` -->
-<!---->
-
-
 ##### Returns `string`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/CCSlot.ts:15](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/CCSlot.ts#L15)&nbsp;
 ___
 ### setMaxCount
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **setMaxCount**<`void`\>(`objectConstructor: BaseObject | null, maxCount: number`) : `void`
 
 
 
-
 **`version`** DragonBones 4.5
-
 
 
 
@@ -639,42 +590,28 @@ ___
 
 - 设置特定对象池的最大缓存数量。
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `objectConstructor` | `BaseObject \| null` | 特定的类。 (不设置则设置所有对象池的最大缓存数量)  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxCount` | `number` | 最大缓存数量。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:312](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L312)&nbsp;
 ___
 ### clearPool
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **clearPool**<`void`\>(`objectConstructor: BaseObject | null`) : `void`
 
 
 
-
 **`version`** DragonBones 4.5
-
 
 
 
@@ -684,11 +621,6 @@ ___
 
 - 清除特定对象池的缓存实例。
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -696,26 +628,20 @@ ___
 | `objectConstructor` | `BaseObject \| null` | 特定的类。 (不设置则清除所有缓存的实例)  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:325](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L325)&nbsp;
 ___
 ### borrowObject
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **borrowObject**<`T`\>(`objectConstructor: undefined`) : `T`
 
 
 
-
 **`version`** DragonBones 4.5
-
 
 
 
@@ -725,11 +651,6 @@ ___
 
 - 从对象池中获取特定类的实例。
 
-
-<!---->
-<!--    #### Returns `T` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -737,17 +658,13 @@ ___
 | `objectConstructor` |  | 特定的类。  |
 
 
-
 ##### Returns `T`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:338](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L338)&nbsp;
 ___
 ### calculWorldMatrix
+
 <div style="margin-left: 10px;">
 
 ▸   **calculWorldMatrix**<`void`\> : `void`
@@ -755,30 +672,20 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/CCSlot.ts:47](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/CCSlot.ts#L47)&nbsp;
 ___
 ### containsPoint
+
 <div style="margin-left: 10px;">
 
 ▸   **containsPoint**<`boolean`\>(`x: number, y: number`) : `boolean`
 
 
 
-
 **`version`** DragonBones 5.0
-
 
 
 
@@ -790,37 +697,24 @@ ___
 点的坐标系为骨架内坐标系。
 自定义边界框需要在 DragonBones Pro 中自定义。
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `x` | `number` | 点的水平坐标。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `y` | `number` | 点的垂直坐标。  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:3876](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L3876)&nbsp;
 ___
 ### getDisplay
+
 <div style="margin-left: 10px;">
 
 ▸   **getDisplay**<`any`\> : `any`
-
 
 
 
@@ -832,21 +726,13 @@ ___
 - 已废弃，请参考 {@link #display}。
 
 
-<!---->
-<!--    #### Returns `any` -->
-<!---->
-
-
 ##### Returns `any`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:4076](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L4076)&nbsp;
 ___
 ### getTexture
+
 <div style="margin-left: 10px;">
 
 ▸   **getTexture**
@@ -854,28 +740,20 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/CCSlot.ts:38](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/CCSlot.ts#L38)&nbsp;
 ___
 ### intersectsSegment
+
 <div style="margin-left: 10px;">
 
 ▸   **intersectsSegment**<`number`\>(`xA: number, yA: number, xB: number, yB: number, intersectionPointA:  | null, intersectionPointB:  | null, normalRadians:  | null`) : `number`
 
 
 
-
 **`version`** DragonBones 5.0
-
 
 
 
@@ -887,62 +765,33 @@ ___
 线段和交点的坐标系均为骨架内坐标系。
 自定义边界框需要在 DragonBones Pro 中自定义。
 
-
-<!---->
-<!--    #### Returns `number` 相交的情况。 [-1: 不相交且线段在包围盒内, 0: 不相交, 1: 相交且有一个交点且终点在包围盒内, 2: 相交且有一个交点且起点在包围盒内, 3: 相交且有两个交点, N: 相交且有 N 个交点]-->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `xA` | `number` | 线段起点的水平坐标。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `yA` | `number` | 线段起点的垂直坐标。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `xB` | `number` | 线段终点的水平坐标。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `yB` | `number` | 线段终点的垂直坐标。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `intersectionPointA` | ` \| null` | 线段从起点到终点与边界框相交的第一个交点。 （如果未设置，则不计算交点）  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `intersectionPointB` | ` \| null` | 线段从终点到起点与边界框相交的第一个交点。 （如果未设置，则不计算交点）  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `normalRadians` | ` \| null` | 交点边界框切线的法线弧度。 [x: 第一个交点切线的法线弧度, y: 第二个交点切线的法线弧度] （如果未设置，则不计算法线）  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:3907](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L3907)&nbsp;
 ___
 ### invalidUpdate
+
 <div style="margin-left: 10px;">
 
 ▸   **invalidUpdate**<`void`\> : `void`
 
 
 
-
 **`version`** DragonBones 4.5
-
 
 
 
@@ -953,30 +802,20 @@ ___
 - 强制插槽在下一帧更新显示对象的状态。
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:3927](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L3927)&nbsp;
 ___
 ### returnToPool
+
 <div style="margin-left: 10px;">
 
 ▸   **returnToPool**<`void`\> : `void`
 
 
 
-
 **`version`** DragonBones 4.5
-
 
 
 
@@ -987,25 +826,16 @@ ___
 - 清除该实例的所有数据并将其返还对象池。
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:367](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L367)&nbsp;
 ___
 ### setDisplay
+
 <div style="margin-left: 10px;">
 
 ▸   **setDisplay**<`void`\>(`value: any`) : `void`
-
 
 
 
@@ -1016,11 +846,6 @@ ___
 
 - 已废弃，请参考 {@link #display}。
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1028,21 +853,16 @@ ___
 | `value` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:4087](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L4087)&nbsp;
 ___
 ### updateGlobalTransform
+
 <div style="margin-left: 10px;">
 
 ▸   **updateGlobalTransform**<`void`\> : `void`
-
 
 
 
@@ -1058,9 +878,7 @@ ___
 
 
 
-
 **`version`** DragonBones 3.0
-
 
 
 
@@ -1072,21 +890,13 @@ ___
 使用此方法可以保证访问到 {@link #global} 属性中正确的旋转或缩放。
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts:3253](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/node_modules/@cocos/dragonbones-js/out/dragonBones.d.ts#L3253)&nbsp;
 ___
 ### updateWorldMatrix
+
 <div style="margin-left: 10px;">
 
 ▸   **updateWorldMatrix**<`void`\> : `void`
@@ -1094,16 +904,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/dragon-bones/CCSlot.ts:338](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/CCSlot.ts#L338)&nbsp;

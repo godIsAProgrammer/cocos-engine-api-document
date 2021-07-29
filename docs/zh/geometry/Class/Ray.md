@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 基础几何 射线。
 
@@ -44,7 +43,6 @@
 
 
 
-
 **`zh`** 
 方向。
 
@@ -67,7 +65,6 @@ ___
 
 
 
-
 **`zh`** 
 起点。
 
@@ -87,7 +84,6 @@ ___
 
 ### type
 <div style="margin-left: 10px;">
-
 
 
 
@@ -117,54 +113,15 @@ ___
 • **new Ray**(`ox: number, oy: number, oz: number, dx: number, dy: number, dz: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `ox` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `oy` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `oz` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dx` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dy` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `dz` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/ray.ts:158](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/ray.ts#L158)&nbsp;
@@ -176,10 +133,10 @@ ___
 ## Methods
 
 ### set
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **set**<`Ray`\>(`out: Ray, ox: number, oy: number, oz: number, dx: number, dy: number, dz: number`) : `Ray`
-
 
 
 
@@ -188,58 +145,29 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Ray` out 接受操作的射线。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Ray` | 接受操作的射线。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ox` | `number` | 起点的 x 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `oy` | `number` | 起点的 y 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `oz` | `number` | 起点的 z 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dx` | `number` | 方向的 x 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dy` | `number` | 方向的 y 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dz` | `number` | 方向的 z 部分。  |
 
 
-
 ##### Returns `Ray`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/ray.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/ray.ts#L121)&nbsp;
 ___
 ### fromPoints
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **fromPoints**<`Ray`\>(`out: Ray, origin: Vec3, target: Vec3`) : `Ray`
-
 
 
 
@@ -248,42 +176,25 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Ray` out 接受操作的射线。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Ray` | 接受操作的射线。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `origin` | `Vec3` | 射线的起点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `Vec3` | 射线上的一点。  |
 
 
-
 ##### Returns `Ray`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/ray.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/ray.ts#L101)&nbsp;
 ___
 ### create
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **create**<`Ray`\>(`ox: number, oy: number, oz: number, dx: number, dy: number, dz: number`) : `Ray`
-
 
 
 
@@ -292,54 +203,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Ray` 射线。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ox` | `number` | 起点的 x 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `oy` | `number` | 起点的 y 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `oz` | `number` | 起点的 z 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dx` | `number` | 方向的 x 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dy` | `number` | 方向的 y 部分。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dz` | `number` | 方向的 z 部分。  |
 
 
-
 ##### Returns `Ray`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/ray.ts:56](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/ray.ts#L56)&nbsp;
 ___
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **copy**<`Ray`\>(`out: Ray, a: Ray`) : `Ray`
-
 
 
 
@@ -348,38 +233,24 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Ray` out 接受操作的 ray。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `Ray` | 接受操作的 ray。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `a` | `Ray` | 被复制的 ray。  |
 
 
-
 ##### Returns `Ray`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/ray.ts:84](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/ray.ts#L84)&nbsp;
 ___
 ### clone
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **clone**<`Ray`\>(`a: Ray`) : `Ray`
-
 
 
 
@@ -388,12 +259,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Ray` 克隆出的新对象。
--->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -401,21 +266,16 @@ ___
 | `a` | `Ray` | 克隆的目标。  |
 
 
-
 ##### Returns `Ray`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/ray.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/ray.ts#L68)&nbsp;
 ___
 ### computeHit
+
 <div style="margin-left: 10px;">
 
 ▸   **computeHit**<`void`\>(`out: IVec3Like, distance: number`) : `void`
-
 
 
 
@@ -424,28 +284,15 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `IVec3Like` | 射线上的另一点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `distance` | `number` | 给定距离。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/ray.ts:187](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/ray.ts#L187)&nbsp;

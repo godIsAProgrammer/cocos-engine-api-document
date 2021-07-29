@@ -11,6 +11,7 @@ ___
 ___
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `EnumT` |
@@ -20,7 +21,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `enumType` | `EnumT` | An enum type, eg, a kind of type with similar semantic defined by TypeScript.  |
-
 
 #### Returns `void` 
 ___

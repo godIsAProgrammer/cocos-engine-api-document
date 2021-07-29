@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 line-sphere intersect detect.
 
@@ -19,11 +18,7 @@ line-sphere intersect detect.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `line` | `Line` | 线段  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sphere` | `Sphere` | 球  |
-
 
 #### Returns `number` 0 或 非0
 

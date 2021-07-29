@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `handle` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `type` | `Type` | - |
-
 
 #### Returns `number` 
 ___

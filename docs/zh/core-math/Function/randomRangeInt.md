@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 返回最小(包含)和最大(不包含)之间的随机整数。
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `min` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `max` | `number` | - |
-
 
 #### Returns `number` The random integer.
 

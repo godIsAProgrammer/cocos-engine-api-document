@@ -340,6 +340,9 @@ ___
 • **new Model**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:212](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L212)&nbsp;
@@ -351,16 +354,12 @@ ___
 ## Methods
 
 ### attachToScene
+
 <div style="margin-left: 10px;">
 
 ▸   **attachToScene**<`void`\>(`scene: RenderScene`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -369,17 +368,13 @@ ___
 | `scene` | `RenderScene` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:276](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L276)&nbsp;
 ___
 ### createBoundingShape
+
 <div style="margin-left: 10px;">
 
 ▸   **createBoundingShape**<`void`\>(`minPos: Vec3, maxPos: Vec3`) : `void`
@@ -387,33 +382,21 @@ ___
 
 Create the bounding shape of this model
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `minPos` | `Vec3` | the min position of the model  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxPos` | `Vec3` | the max position of the model  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L344)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -421,21 +404,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:236](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L236)&nbsp;
 ___
 ### detachFromScene
+
 <div style="margin-left: 10px;">
 
 ▸   **detachFromScene**<`void`\> : `void`
@@ -443,29 +418,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:280](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L280)&nbsp;
 ___
 ### getMacroPatches
+
 <div style="margin-left: 10px;">
 
 ▸   **getMacroPatches**(`subModelIndex: number`)
 
 
-
-
-<!---->
 
 #### Parameters
 
@@ -474,54 +438,35 @@ ___
 | `subModelIndex` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:430](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L430)&nbsp;
 ___
 ### initSubModel
+
 <div style="margin-left: 10px;">
 
 ▸   **initSubModel**<`void`\>(`idx: number, subMeshData: RenderingSubMesh, mat: Material`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `idx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `subMeshData` | `RenderingSubMesh` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `mat` | `Material` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:356](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L356)&nbsp;
 ___
 ### initialize
+
 <div style="margin-left: 10px;">
 
 ▸   **initialize**<`void`\> : `void`
@@ -529,21 +474,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:221](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L221)&nbsp;
 ___
 ### onGlobalPipelineStateChanged
+
 <div style="margin-left: 10px;">
 
 ▸   **onGlobalPipelineStateChanged**<`void`\> : `void`
@@ -551,21 +488,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:391](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L391)&nbsp;
 ___
 ### onMacroPatchesStateChanged
+
 <div style="margin-left: 10px;">
 
 ▸   **onMacroPatchesStateChanged**<`void`\> : `void`
@@ -573,131 +502,82 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:398](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L398)&nbsp;
 ___
 ### setSubModelMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **setSubModelMaterial**<`void`\>(`idx: number, mat: Material`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `idx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `mat` | `Material` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:385](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L385)&nbsp;
 ___
 ### setSubModelMesh
+
 <div style="margin-left: 10px;">
 
 ▸   **setSubModelMesh**<`void`\>(`idx: number, subMesh: RenderingSubMesh`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `idx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `subMesh` | `RenderingSubMesh` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:380](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L380)&nbsp;
 ___
 ### updateLightingmap
+
 <div style="margin-left: 10px;">
 
 ▸   **updateLightingmap**<`void`\>(`texture: Texture2D | null, uvParam: Vec4`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `texture` | `Texture2D \| null` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `uvParam` | `Vec4` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:405](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L405)&nbsp;
 ___
 ### updateTransform
+
 <div style="margin-left: 10px;">
 
 ▸   **updateTransform**<`void`\>(`stamp: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -705,28 +585,19 @@ ___
 | `stamp` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:284](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L284)&nbsp;
 ___
 ### updateUBOs
+
 <div style="margin-left: 10px;">
 
 ▸   **updateUBOs**<`void`\>(`stamp: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -734,17 +605,13 @@ ___
 | `stamp` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:315](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L315)&nbsp;
 ___
 ### updateWorldBound
+
 <div style="margin-left: 10px;">
 
 ▸   **updateWorldBound**<`void`\> : `void`
@@ -752,16 +619,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/renderer/scene/model.ts:300](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/renderer/scene/model.ts#L300)&nbsp;

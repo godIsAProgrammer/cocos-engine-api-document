@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
-import { initIndexDB, addData, getData } from './indexDB.js';
+import { addData, getData } from './indexDB.js';
 const dbName = 'cocosSearch';
 const tableName = 'searchIndex';
 let INDEXS = {};
-let searchData = {};
 
 
 const LOCAL_STORAGE = {
@@ -181,10 +180,13 @@ export function ignoreDiacriticalMarks(keyword) {
  export function search(query) {
     const matchingResults = [];
     let data = [];
-
+  // console.log(INDEXS)
     Object.keys(INDEXS).forEach(key => {
       data = data.concat(INDEXS[key])
     });
+  // Object.keys(INDEXS).forEach(key => {
+  //   data = data.concat(Object.keys(INDEXS[key]).map(page => INDEXS[key][page]));
+  // });
 
     query = query.trim();
     let keywords = query.split(/[\s\-，\\/]+/);
@@ -325,8 +327,8 @@ export function init(config, vm) {
   let namespaceSuffix = '';
 
   //清空搜索结果
-  const $panel = Docsify.dom.find('.results-panel');
-  $panel.innerHTML = '';
+  // const $panel = Docsify.dom.find('.results-panel');
+  // $panel.innerHTML = '';
 
   // auto
   if (paths.length && isAuto && config.pathNamespaces) {
@@ -353,15 +355,11 @@ export function init(config, vm) {
     paths.unshift('/');
   }
 
-  const expireKey = resolveExpireKey(config.namespace) + namespaceSuffix;
-  const indexKey = resolveIndexKey(config.namespace) + namespaceSuffix;
-
+  // const expireKey = resolveExpireKey(config.namespace) + namespaceSuffix;
+  // const indexKey = resolveIndexKey(config.namespace) + namespaceSuffix;
+  //
   // const isExpired = localStorage.getItem(expireKey) < Date.now();
   // INDEXS = JSON.parse(localStorage.getItem(indexKey));
-
-  // const isExpired = searchData[expireKey] ? searchData[expireKey] < Date.now() : true;
-  // INDEXS = searchData[indexKey];
-
 
   Docsify.get('/cocos-engine-api-document/plugin/search/search.json', false, vm.config.requestHeaders).then(
     async (result) => {
@@ -380,7 +378,7 @@ export function init(config, vm) {
   // } else if (!isAuto) {
   //   return;
   // }
-
+  //
   // const len = paths.length;
   // let count = 0;
 
@@ -392,11 +390,12 @@ export function init(config, vm) {
   //   if (INDEXS[path]) {
   //     return count++;
   //   }
-
+  //
   //   Docsify.get(vm.router.getFile(path), false, vm.config.requestHeaders).then(
   //     result => {
-  //       // console.log(len, ++count, 'ooooo');
+  //
   //       INDEXS[path] = genIndex(path, result, vm.router, config.depth);
+  //       // console.log(INDEXS, 'ooooo');
   //       len === ++count && saveData(config.maxAge, expireKey, indexKey);
   //     }
   //   );

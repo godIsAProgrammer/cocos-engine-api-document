@@ -135,54 +135,15 @@ ___
 • **new Attribute**(`name: string, format: Format, isNormalized: boolean, stream: number, isInstanced: boolean, location: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `format` | `Format` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isNormalized` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `stream` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `isInstanced` | `boolean` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `location` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1301](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1301)&nbsp;
@@ -194,16 +155,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: Attribute`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -212,12 +169,7 @@ ___
 | `info` | `Attribute` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1312](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1312)&nbsp;

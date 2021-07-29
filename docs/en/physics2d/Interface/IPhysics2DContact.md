@@ -23,10 +23,8 @@
 
 
 
-
 **`en`** 
 One of the collider that collided
-
 
 
 
@@ -39,9 +37,7 @@ One of the collider that collided
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:177](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L177)&nbsp;
-
 ___
 #### colliderB
 
@@ -49,10 +45,8 @@ ___
 
 
 
-
 **`en`** 
 One of the collider that collided
-
 
 
 
@@ -65,9 +59,7 @@ One of the collider that collided
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:184](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L184)&nbsp;
-
 ___
 #### disabled
 
@@ -75,11 +67,9 @@ ___
 
 
 
-
 **`en`** 
 If set disabled to true, the contact will be ignored until contact end.
 If you just want to disabled contact for current time step or sub-step, please use disabledOnce.
-
 
 
 
@@ -93,9 +83,7 @@ If you just want to disabled contact for current time step or sub-step, please u
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:193](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L193)&nbsp;
-
 ___
 #### disabledOnce
 
@@ -103,10 +91,8 @@ ___
 
 
 
-
 **`en`** 
 Disabled contact for current time step or sub-step.
-
 
 
 
@@ -119,9 +105,7 @@ Disabled contact for current time step or sub-step.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:200](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L200)&nbsp;
-
 ___
 #### getFriction
 
@@ -132,9 +116,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L263)&nbsp;
-
 ___
 #### getImpulse
 
@@ -145,9 +127,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L226)&nbsp;
-
 ___
 #### getManifold
 
@@ -158,9 +138,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:216](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L216)&nbsp;
-
 ___
 #### getRestitution
 
@@ -171,9 +149,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:277](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L277)&nbsp;
-
 ___
 #### getTangentSpeed
 
@@ -184,9 +160,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:248](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L248)&nbsp;
-
 ___
 #### getWorldManifold
 
@@ -197,9 +171,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:208](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L208)&nbsp;
-
 ___
 #### isTouching
 
@@ -210,9 +182,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:234](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L234)&nbsp;
-
 ___
 #### setFriction
 
@@ -223,9 +193,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:256](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L256)&nbsp;
-
 ___
 #### setRestitution
 
@@ -236,9 +204,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:270](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L270)&nbsp;
-
 ___
 #### setTangentSpeed
 
@@ -249,7 +215,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:241](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L241)&nbsp;
-
 ___

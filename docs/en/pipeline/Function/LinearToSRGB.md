@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Convert color in linear space to SRGB space
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `out` | `IVec4Like` | Output color object  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `linear` | `IVec4Like` | Color value in linear space  |
-
 
 #### Returns `void` 
 ___

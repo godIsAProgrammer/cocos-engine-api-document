@@ -13,35 +13,13 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `ax` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ay` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `bx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `by` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cx` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `cy` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `px` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `py` | `number` | - |
-
 
 #### Returns `boolean` 
 ___

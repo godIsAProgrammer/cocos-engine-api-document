@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 平移几何体。
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `geometry` | `IGeometry` | 几何体信息。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `offset` | - | 偏移量。  |
-
 
 #### Returns `IGeometry` 
 ___

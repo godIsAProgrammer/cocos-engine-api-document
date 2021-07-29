@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Override the preprocess macros
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `target` | `MacroRecord` | Target preprocess macros to be overridden  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `source` | `MacroRecord` | Preprocess macros used for override  |
-
 
 #### Returns `boolean` 
 ___

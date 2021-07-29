@@ -10,6 +10,8 @@ ___
 
 #### Parameters
 
+| Name | Type | Description |
+| :------: | :------: | :------: |
 
 #### Returns `number` 
 ___

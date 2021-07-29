@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `tileset` | `TMXTilesetInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `texGrids` | `TiledTextureGrids` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `spFrame` | `SpriteFrame` | - |
-
 
 #### Returns `void` 
 ___

@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `tmpl` | `IProgramInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `tmplInfo` | `ITemplateInfo` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `defines` | `MacroRecord` | - |
-
 
 ___
 

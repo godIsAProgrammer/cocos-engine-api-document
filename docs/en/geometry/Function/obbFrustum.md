@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 obb-frustum intersect, faster but has false positive corner cases.
 
@@ -19,11 +18,7 @@ obb-frustum intersect, faster but has false positive corner cases.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `obb` | `OBB` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `frustum` | `Frustum` | - |
-
 
 #### Returns `number` 0 或 非0
 

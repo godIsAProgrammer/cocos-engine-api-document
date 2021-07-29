@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 应用默认圆参数。
 
@@ -19,7 +18,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `RecursivePartial` | 圆参数。  |
-
 
 #### Returns `ICircleOptions` 
 ___

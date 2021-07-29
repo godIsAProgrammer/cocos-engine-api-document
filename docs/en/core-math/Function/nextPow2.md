@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `val` | `number` | - |
 
-
 #### Returns `number` The the next power of two.
 
 ___

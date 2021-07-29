@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `dependencies` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `defines` | `MacroRecord` | - |
-
 
 #### Returns `boolean` 
 ___

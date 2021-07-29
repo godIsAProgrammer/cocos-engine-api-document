@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 返回t / length的浮点余数。
 
 
@@ -18,11 +17,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `t` | `number` | Time start at 0.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `length` | `number` | Time of one cycle.  |
-
 
 #### Returns `number` The Time wrapped in the first cycle.
 

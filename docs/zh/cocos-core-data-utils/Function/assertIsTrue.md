@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `expr` | `boolean` | Testing expression.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `message` | - | Optional message.  |
-
 
 #### Returns `void` 
 ___

@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -105,7 +104,6 @@ ___
 
 
 
-
 **`en`** 
 Whether to wake up this rigid body during initialization
 
@@ -124,7 +122,6 @@ ___
 
 ### bullet
 <div style="margin-left: 10px;">
-
 
 
 
@@ -169,9 +166,7 @@ ___
 
 
 
-
 **`en`** The node this component is attached to. A component is always attached to a node.
-
 
 
 
@@ -204,7 +199,6 @@ ___
 
 
 
-
 **`en`** 
 Set this flag to false if this body should never fall asleep.
 Note that this increases CPU usage.
@@ -224,7 +218,6 @@ ___
 
 ### angularDamping
 <div style="margin-left: 10px;">
-
 
 
 
@@ -251,7 +244,6 @@ ___
 
 
 
-
 **`en`** 
 The angular velocity of the body.
 
@@ -273,14 +265,11 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled or not.
 
 
 
-
 **`default`** true
-
 
 
 
@@ -314,9 +303,7 @@ ___
 
 
 
-
 **`en`** Indicates whether this component is enabled and its node is also active in the hierarchy.
-
 
 
 
@@ -350,7 +337,6 @@ ___
 
 
 
-
 **`en`** 
 Should this body be prevented from rotating?
 
@@ -369,7 +355,6 @@ ___
 
 ### gravityScale
 <div style="margin-left: 10px;">
-
 
 
 
@@ -394,7 +379,6 @@ ___
 
 
 
-
 **`en`** 
 Gets or sets the group of the rigid body.
 
@@ -413,7 +397,6 @@ ___
 
 ### hideFlags
 <div style="margin-left: 10px;">
-
 
 
 
@@ -453,7 +436,6 @@ ___
 
 
 
-
 **`en`** 
 Indicates whether the object is not yet destroyed. (It will not be available after being destroyed)<br>
 When an object's `destroy` is called, it is actually destroyed after the end of this frame.
@@ -464,9 +446,7 @@ but this is often caused by a particular logical requirements, which is not norm
 
 
 
-
 **`default`** true
-
 
 
 
@@ -505,7 +485,6 @@ ___
 
 
 
-
 **`en`** 
 Linear damping is use to reduce the linear velocity.
 The damping parameter can be larger than 1, but the damping effect becomes sensitive to the
@@ -526,7 +505,6 @@ ___
 
 ### linearVelocity
 <div style="margin-left: 10px;">
-
 
 
 
@@ -567,7 +545,6 @@ ___
 
 
 
-
 **`en`** 
 Rigidbody type : Static, Kinematic, Dynamic or Animated.
 
@@ -589,9 +566,7 @@ ___
 
 
 
-
 **`en`** The uuid for editor.
-
 
 
 
@@ -629,14 +604,10 @@ ___
 • **new RigidBody2D**(`name: string`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `name` | `string` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/data/object.ts:194](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/object.ts#L194)&nbsp;
@@ -648,15 +619,14 @@ ___
 ## Methods
 
 ### addComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **addComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -673,9 +643,6 @@ const sprite = node.addComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -683,17 +650,13 @@ const sprite = node.addComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **addComponent**(`className: string`)
 
 
 
-
 **`en`** Adds a component class to the node. You can also add component to node by passing in the name of the script.
-
 
 
 
@@ -709,9 +672,6 @@ const test = node.addComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -719,21 +679,16 @@ const test = node.addComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:215](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L215)&nbsp;   [cocos/core/components/component.ts:226](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L226)&nbsp;   [cocos/core/components/component.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L228)&nbsp;
 ___
 ### applyAngularImpulse
+
 <div style="margin-left: 10px;">
 
 ▸   **applyAngularImpulse**<`void`\>(`impulse: number, wake: boolean`) : `void`
-
 
 
 
@@ -742,37 +697,24 @@ Apply an angular impulse.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `impulse` | `number` | the angular impulse in units of kg*m*m/s  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `wake` | `boolean` | also wake up the body  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:385](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L385)&nbsp;
 ___
 ### applyForce
+
 <div style="margin-left: 10px;">
 
 ▸   **applyForce**<`void`\>(`force: Vec2, point: Vec2, wake: boolean`) : `void`
-
 
 
 
@@ -783,41 +725,25 @@ affect the angular velocity.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `force` | `Vec2` | the world force vector.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `point` | `Vec2` | the world position.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `wake` | `boolean` | also wake up the body.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:310](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L310)&nbsp;
 ___
 ### applyForceToCenter
+
 <div style="margin-left: 10px;">
 
 ▸   **applyForceToCenter**<`void`\>(`force: Vec2, wake: boolean`) : `void`
-
 
 
 
@@ -826,37 +752,24 @@ Apply a force to the center of mass.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `force` | `Vec2` | the world force vector.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `wake` | `boolean` | also wake up the body.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:324](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L324)&nbsp;
 ___
 ### applyLinearImpulse
+
 <div style="margin-left: 10px;">
 
 ▸   **applyLinearImpulse**<`void`\>(`impulse: Vec2, point: Vec2, wake: boolean`) : `void`
-
 
 
 
@@ -867,41 +780,25 @@ affect the angular velocity.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `impulse` | `Vec2` | the world impulse vector, usually in N-seconds or kg-m/s.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `point` | `Vec2` | the world position  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `wake` | `boolean` | alse wake up the body  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:356](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L356)&nbsp;
 ___
 ### applyLinearImpulseToCenter
+
 <div style="margin-left: 10px;">
 
 ▸   **applyLinearImpulseToCenter**<`void`\>(`impulse: Vec2, wake: boolean`) : `void`
-
 
 
 
@@ -910,37 +807,24 @@ Apply a impulse at the center of mass, this immediately modifies the velocity.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `impulse` | `Vec2` | the world impulse vector, usually in N-seconds or kg-m/s.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `wake` | `boolean` | alse wake up the body  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:371](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L371)&nbsp;
 ___
 ### applyTorque
+
 <div style="margin-left: 10px;">
 
 ▸   **applyTorque**<`void`\>(`torque: number, wake: boolean`) : `void`
-
 
 
 
@@ -949,33 +833,21 @@ Apply a torque. This affects the angular velocity.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `torque` | `number` | about the z-axis (out of the screen), usually in N-m.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `wake` | `boolean` | also wake up the body  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:338](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L338)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`boolean`\> : `boolean`
@@ -983,32 +855,22 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:352](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L352)&nbsp;
 ___
 ### getComponent
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponent**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1026,9 +888,6 @@ var sprite = node.getComponent(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1036,19 +895,15 @@ var sprite = node.getComponent(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved or to be created  |
 
 
-
 ##### Returns `void`
 
-
 ▸   **getComponent**(`className: string`)
-
 
 
 
 **`en`** 
 Returns the component of supplied type if the node has one attached, null if it doesn't.<br/>
 You can also get component in the node by passing in the name of the script.
-
 
 
 
@@ -1065,9 +920,6 @@ var test = node.getComponent("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1075,26 +927,20 @@ var test = node.getComponent("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:247](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L247)&nbsp;   [cocos/core/components/component.ts:263](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L263)&nbsp;   [cocos/core/components/component.ts:265](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L265)&nbsp;
 ___
 ### getComponentInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1111,9 +957,6 @@ const sprite = node.getComponentInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1121,17 +964,13 @@ const sprite = node.getComponentInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of component to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns the component of supplied type in any of its children using depth first search.
-
 
 
 
@@ -1147,9 +986,6 @@ var Test = node.getComponentInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1157,26 +993,20 @@ var Test = node.getComponentInChildren("Test");
 | `className` | `string` | A string for the class name of the component  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:306](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L306)&nbsp;   [cocos/core/components/component.ts:317](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L317)&nbsp;   [cocos/core/components/component.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L319)&nbsp;
 ___
 ### getComponents
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponents**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1193,9 +1023,6 @@ const sprites = node.getComponents(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1203,17 +1030,13 @@ const sprites = node.getComponents(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponents**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in the node.
-
 
 
 
@@ -1229,9 +1052,6 @@ const tests = node.getComponents("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1239,26 +1059,20 @@ const tests = node.getComponents("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:279](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L279)&nbsp;   [cocos/core/components/component.ts:290](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L290)&nbsp;   [cocos/core/components/component.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L292)&nbsp;
 ___
 ### getComponentsInChildren
+
 <div style="margin-left: 10px;">
 
 ▸   **getComponentsInChildren**(`classConstructor: Constructor`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1275,9 +1089,6 @@ const sprites = node.getComponentsInChildren(Sprite);
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1285,17 +1096,13 @@ const sprites = node.getComponentsInChildren(Sprite);
 | `classConstructor` | `Constructor` | The class of components to be retrieved  |
 
 
-
 ##### Returns `void`
-
 
 ▸   **getComponentsInChildren**(`className: string`)
 
 
 
-
 **`en`** Returns all components of supplied type in self or any of its children.
-
 
 
 
@@ -1311,9 +1118,6 @@ const tests = node.getComponentsInChildren("Test");
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1321,21 +1125,16 @@ const tests = node.getComponentsInChildren("Test");
 | `className` | `string` | A string for the class name of the components  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:333](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L333)&nbsp;   [cocos/core/components/component.ts:344](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L344)&nbsp;   [cocos/core/components/component.ts:346](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L346)&nbsp;
 ___
 ### getInertia
+
 <div style="margin-left: 10px;">
 
 ▸   **getInertia**<`number`\> : `number`
-
 
 
 
@@ -1345,25 +1144,16 @@ Get the rotational inertia of the body about the local origin.
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:493](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L493)&nbsp;
 ___
 ### getLinearVelocityFromWorldPoint
+
 <div style="margin-left: 10px;">
 
 ▸   **getLinearVelocityFromWorldPoint**<`Out`\>(`worldPoint: IVec2Like, out: Out`) : `Out`
-
 
 
 
@@ -1372,37 +1162,24 @@ Get the world linear velocity of a world point attached to this body.
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `worldPoint` | `IVec2Like` | a point in world coordinates.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Out` | optional, the receiving point  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:399](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L399)&nbsp;
 ___
 ### getLocalCenter
+
 <div style="margin-left: 10px;">
 
 ▸   **getLocalCenter**<`Out`\>(`out: Out`) : `Out`
-
 
 
 
@@ -1411,11 +1188,6 @@ Get the local position of the center of mass.
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1423,21 +1195,16 @@ Get the local position of the center of mass.
 | `out` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:468](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L468)&nbsp;
 ___
 ### getLocalPoint
+
 <div style="margin-left: 10px;">
 
 ▸   **getLocalPoint**<`Out`\>(`worldPoint: IVec2Like, out: Out`) : `Out`
-
 
 
 
@@ -1446,37 +1213,24 @@ Converts a given point in the world coordinate system to this rigid body's local
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `worldPoint` | `IVec2Like` | a point in world coordinates.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Out` | optional, the receiving point  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:442](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L442)&nbsp;
 ___
 ### getLocalVector
+
 <div style="margin-left: 10px;">
 
 ▸   **getLocalVector**<`Out`\>(`worldVector: IVec2Like, out: Out`) : `Out`
-
 
 
 
@@ -1485,37 +1239,24 @@ Converts a world coordinate point to the given rigid body coordinate.
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `worldVector` | `IVec2Like` | a vector in world coordinates.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Out` | optional, the receiving vector  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:413](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L413)&nbsp;
 ___
 ### getMass
+
 <div style="margin-left: 10px;">
 
 ▸   **getMass**<`number`\> : `number`
-
 
 
 
@@ -1525,25 +1266,16 @@ Get total mass of the body.
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:292](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L292)&nbsp;
 ___
 ### getWorldCenter
+
 <div style="margin-left: 10px;">
 
 ▸   **getWorldCenter**<`Out`\>(`out: Out`) : `Out`
-
 
 
 
@@ -1552,11 +1284,6 @@ Get the world position of the center of mass.
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1564,21 +1291,16 @@ Get the world position of the center of mass.
 | `out` | `Out` | - |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:480](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L480)&nbsp;
 ___
 ### getWorldPoint
+
 <div style="margin-left: 10px;">
 
 ▸   **getWorldPoint**<`Out`\>(`localPoint: IVec2Like, out: Out`) : `Out`
-
 
 
 
@@ -1587,37 +1309,24 @@ Converts a given point in this rigid body's local coordinate system to the world
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `localPoint` | `IVec2Like` | a point in local coordinates.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Out` | optional, the receiving point  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:456](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L456)&nbsp;
 ___
 ### getWorldVector
+
 <div style="margin-left: 10px;">
 
 ▸   **getWorldVector**<`Out`\>(`localVector: IVec2Like, out: Out`) : `Out`
-
 
 
 
@@ -1626,37 +1335,24 @@ Converts a given vector in this rigid body's local coordinate system to the worl
 
 
 
-
-<!---->
-<!--    #### Returns `Out` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `localVector` | `IVec2Like` | a vector in world coordinates.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Out` | optional, the receiving vector  |
 
 
-
 ##### Returns `Out`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:427](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L427)&nbsp;
 ___
 ### isAwake
+
 <div style="margin-left: 10px;">
 
 ▸   **isAwake**<`boolean`\> : `boolean`
-
 
 
 
@@ -1666,21 +1362,13 @@ Whether the rigid body is awake.
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:254](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L254)&nbsp;
 ___
 ### onFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onFocusInEditor**<`void`\> : `void`
@@ -1688,21 +1376,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:574](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L574)&nbsp;
 ___
 ### onLostFocusInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **onLostFocusInEditor**<`void`\> : `void`
@@ -1710,25 +1390,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:576](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L576)&nbsp;
 ___
 ### resetInEditor
+
 <div style="margin-left: 10px;">
 
 ▸   **resetInEditor**<`void`\> : `void`
-
 
 
 
@@ -1738,32 +1409,22 @@ This function is only called in editor.<br/>
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:583](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L583)&nbsp;
 ___
 ### schedule
+
 <div style="margin-left: 10px;">
 
 ▸   **schedule**<`void`\>(`callback: any, interval: number, repeat: number, delay: number`) : `void`
 
 
 
-
 **`en`** 
 Schedules a custom task.<br/>
 If the task is already scheduled, then the interval parameter will be updated without scheduling it again.
-
 
 
 
@@ -1780,45 +1441,26 @@ this.schedule((dt) => void log(`time: ${dt}`), 1);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `interval` | `number` | The time interval between each invocation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `repeat` | `number` | The repeat count of this task, the task will be invoked (repeat + 1) times, use [[macro.REPEAT_FOREVER]] to repeat a task forever  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:419](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L419)&nbsp;
 ___
 ### scheduleOnce
+
 <div style="margin-left: 10px;">
 
 ▸   **scheduleOnce**<`void`\>(`callback: any, delay: number`) : `void`
-
 
 
 
@@ -1826,14 +1468,11 @@ ___
 
 
 
-
 **`method`** scheduleOnce
 
 
 
-
 **`see`** [[schedule]]
-
 
 
 
@@ -1850,37 +1489,24 @@ this.scheduleOnce((dt) => void log(`time: ${dt}`), 2);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `callback` | `any` | The callback function of the task  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `delay` | `number` | The delay time for the first invocation, Unit: s  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:452](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L452)&nbsp;
 ___
 ### sleep
+
 <div style="margin-left: 10px;">
 
 ▸   **sleep**<`void`\> : `void`
-
 
 
 
@@ -1890,30 +1516,20 @@ Dormancy of rigid body.
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:280](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L280)&nbsp;
 ___
 ### unschedule
+
 <div style="margin-left: 10px;">
 
 ▸   **unschedule**<`void`\>(`callback_fn: any`) : `void`
 
 
 
-
 **`en`** Un-schedules a custom task.
-
 
 
 
@@ -1929,11 +1545,6 @@ this.unschedule(_callback);
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1941,26 +1552,20 @@ this.unschedule(_callback);
 | `callback_fn` | `any` | The callback function of the task  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L465)&nbsp;
 ___
 ### unscheduleAllCallbacks
+
 <div style="margin-left: 10px;">
 
 ▸   **unscheduleAllCallbacks**<`void`\> : `void`
 
 
 
-
 **`en`** unschedule all scheduled tasks.
-
 
 
 
@@ -1977,25 +1582,16 @@ this.unscheduleAllCallbacks();
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/components/component.ts:481](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/components/component.ts#L481)&nbsp;
 ___
 ### wakeUp
+
 <div style="margin-left: 10px;">
 
 ▸   **wakeUp**<`void`\> : `void`
-
 
 
 
@@ -2005,16 +1601,7 @@ Wake up the rigid body.
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/physics-2d/framework/components/rigid-body-2d.ts:268](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/framework/components/rigid-body-2d.ts#L268)&nbsp;

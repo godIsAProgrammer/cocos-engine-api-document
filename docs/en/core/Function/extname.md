@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`en`** Get the ext name of a path including '.', like '.png'.
-
 
 
 
@@ -28,7 +26,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `path` | `string` | - |
-
 
 #### Returns `string` 
 ___

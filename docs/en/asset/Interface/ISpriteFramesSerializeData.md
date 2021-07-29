@@ -24,9 +24,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:71](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L71)&nbsp;
-
 ___
 #### base
 
@@ -37,9 +35,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:69](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L69)&nbsp;
-
 ___
 #### capInsets
 
@@ -50,9 +46,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L76)&nbsp;
-
 ___
 #### image
 
@@ -63,9 +57,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:70](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L70)&nbsp;
-
 ___
 #### name
 
@@ -76,9 +68,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:68](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L68)&nbsp;
-
 ___
 #### offset
 
@@ -89,9 +79,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:73](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L73)&nbsp;
-
 ___
 #### originalSize
 
@@ -102,9 +90,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:74](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L74)&nbsp;
-
 ___
 #### packable
 
@@ -115,9 +101,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:79](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L79)&nbsp;
-
 ___
 #### rect
 
@@ -128,9 +112,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L72)&nbsp;
-
 ___
 #### rotated
 
@@ -141,9 +123,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:75](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L75)&nbsp;
-
 ___
 #### texture
 
@@ -154,9 +134,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:78](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L78)&nbsp;
-
 ___
 #### vertices
 
@@ -167,7 +145,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:77](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L77)&nbsp;
-
 ___

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 line-obb intersect detect.
 
@@ -19,11 +18,7 @@ line-obb intersect detect.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `line` | `Line` | 线段  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `obb` | `OBB` | 方向包围盒  |
-
 
 #### Returns `number` 0 或 非0
 

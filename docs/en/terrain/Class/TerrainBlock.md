@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Terrain block
 
 
@@ -48,7 +47,6 @@
 
 
 
-
 **`en`** get layers
 
 
@@ -66,7 +64,6 @@ ___
 
 ### lightmap
 <div style="margin-left: 10px;">
-
 
 
 
@@ -90,7 +87,6 @@ ___
 
 
 
-
 **`en`** get light map uv parameter
 
 
@@ -108,7 +104,6 @@ ___
 
 ### valid
 <div style="margin-left: 10px;">
-
 
 
 
@@ -136,30 +131,12 @@ ___
 • **new TerrainBlock**(`t: Terrain, i: number, j: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `t` | `Terrain` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `i` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `j` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:311](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L311)&nbsp;
@@ -171,6 +148,7 @@ ___
 ## Methods
 
 ### build
+
 <div style="margin-left: 10px;">
 
 ▸   **build**<`void`\> : `void`
@@ -178,21 +156,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:328](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L328)&nbsp;
 ___
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -200,25 +170,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:395](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L395)&nbsp;
 ___
 ### getIndex
+
 <div style="margin-left: 10px;">
 
 ▸   **getIndex**
-
 
 
 
@@ -227,34 +188,22 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:624](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L624)&nbsp;
 ___
 ### getLayer
+
 <div style="margin-left: 10px;">
 
 ▸   **getLayer**<`number`\>(`index: number`) : `number`
 
 
 
-
 **`en`** get layer
 
 
-
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
 
 #### Parameters
 
@@ -263,21 +212,16 @@ ___
 | `index` | `number` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:658](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L658)&nbsp;
 ___
 ### getMaxLayer
+
 <div style="margin-left: 10px;">
 
 ▸   **getMaxLayer**
-
 
 
 
@@ -286,23 +230,16 @@ ___
 
 
 
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:666](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L666)&nbsp;
 ___
 ### getRect
+
 <div style="margin-left: 10px;">
 
 ▸   **getRect**<`Rect`\> : `Rect`
-
 
 
 
@@ -311,25 +248,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Rect` -->
-<!---->
-
-
 ##### Returns `Rect`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:632](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L632)&nbsp;
 ___
 ### getTerrain
+
 <div style="margin-left: 10px;">
 
 ▸   **getTerrain**<`Terrain`\> : `Terrain`
-
 
 
 
@@ -338,21 +266,13 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Terrain` -->
-<!---->
-
-
 ##### Returns `Terrain`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:616](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L616)&nbsp;
 ___
 ### rebuild
+
 <div style="margin-left: 10px;">
 
 ▸   **rebuild**<`void`\> : `void`
@@ -360,31 +280,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:387](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L387)&nbsp;
 ___
 ### setBrushMaterial
+
 <div style="margin-left: 10px;">
 
 ▸   **setBrushMaterial**<`void`\>(`mtl: Material | null`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -393,21 +300,16 @@ ___
 | `mtl` | `Material \| null` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:558](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L558)&nbsp;
 ___
 ### setLayer
+
 <div style="margin-left: 10px;">
 
 ▸   **setLayer**<`void`\>(`index: number, layerId: number`) : `void`
-
 
 
 
@@ -415,33 +317,21 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `index` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `layerId` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:646](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L646)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\> : `void`
@@ -449,16 +339,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/terrain/terrain.ts:406](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/terrain/terrain.ts#L406)&nbsp;

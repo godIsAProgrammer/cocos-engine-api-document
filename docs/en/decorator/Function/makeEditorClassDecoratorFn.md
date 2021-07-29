@@ -8,13 +8,13 @@ ___
 ___
 
 
-
 **`en`** 
 Make a function which accept an argument value and return a class decorator.
 The decorator sets the editor property `propertyName`, on the decorated class, into that argument value.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `TValue` |
@@ -24,7 +24,6 @@ The decorator sets the editor property `propertyName`, on the decorated class, i
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `propertyName` | `string` | The editor property.  |
-
 
 ___
 

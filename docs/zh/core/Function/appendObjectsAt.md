@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`zh`** 
 在数组的指定索引上插入对象。
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,15 +23,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | 数组。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `objects` | - | 插入的所有对象。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `index` | `number` | 插入的索引。  |
-
 
 ___
 

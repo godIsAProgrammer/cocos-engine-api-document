@@ -15,8 +15,6 @@
 
 
 
-
-
 **`en`** View represents the game window.<br/>
 It's main task include: <br/>
  - Apply the design resolution policy to the UI Canvas<br/>
@@ -106,6 +104,9 @@ ___
 • **new View**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:146](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L146)&nbsp;
@@ -117,10 +118,10 @@ ___
 ## Methods
 
 ### adjustViewportMeta
+
 <div style="margin-left: 10px;">
 
 ▸   **adjustViewportMeta**<`void`\>(`enabled: boolean`) : `void`
-
 
 
 
@@ -132,11 +133,6 @@ Only useful on web
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -144,21 +140,16 @@ Only useful on web
 | `enabled` | `boolean` | Enable automatic modification to "viewport" meta  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:294](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L294)&nbsp;
 ___
 ### convertToLocationInView
+
 <div style="margin-left: 10px;">
 
 ▸   **convertToLocationInView**<`Vec2`\>(`tx: number, ty: number, relatedPos: any, out: Vec2`) : `Vec2`
-
 
 
 
@@ -166,45 +157,26 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `tx` | `number` | The X axis translation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `ty` | `number` | The Y axis translation  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `relatedPos` | `any` | The related position object including "left", "top", "width", "height" informations  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `out` | `Vec2` | The out object to save the conversion result  |
 
 
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:660](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L660)&nbsp;
 ___
 ### emit
+
 <div style="margin-left: 10px;">
 
 ▸   **emit**<`void`\>(`type: EventType, arg0: any, arg1: any, arg2: any, arg3: any, arg4: any`) : `void`
-
 
 
 
@@ -212,53 +184,28 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | event type  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg0` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg1` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg2` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg3` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `arg4` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:141](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L141)&nbsp;
 ___
 ### enableAutoFullScreen
+
 <div style="margin-left: 10px;">
 
 ▸   **enableAutoFullScreen**<`void`\>(`enabled: boolean`) : `void`
-
 
 
 
@@ -269,11 +216,6 @@ Only useful on web
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -281,21 +223,16 @@ Only useful on web
 | `enabled` | `boolean` | Enable or disable auto full screen on mobile devices  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:332](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L332)&nbsp;
 ___
 ### enableRetina
+
 <div style="margin-left: 10px;">
 
 ▸   **enableRetina**<`void`\>(`enabled: boolean`) : `void`
-
 
 
 
@@ -306,11 +243,6 @@ Only useful on web
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -318,21 +250,16 @@ Only useful on web
 | `enabled` | `boolean` | Enable or disable retina display  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:308](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L308)&nbsp;
 ___
 ### getCanvasSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getCanvasSize**<`Size`\> : `Size`
-
 
 
 
@@ -344,25 +271,16 @@ On web, it returns the size of the canvas element.
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:393](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L393)&nbsp;
 ___
 ### getDesignResolutionSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getDesignResolutionSize**<`Size`\> : `Size`
-
 
 
 
@@ -372,25 +290,16 @@ Default resolution size is the same as 'getFrameSize'.
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:585](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L585)&nbsp;
 ___
 ### getDevicePixelRatio
+
 <div style="margin-left: 10px;">
 
 ▸   **getDevicePixelRatio**<`number`\> : `number`
-
 
 
 
@@ -399,25 +308,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:648](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L648)&nbsp;
 ___
 ### getFrameSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getFrameSize**<`Size`\> : `Size`
-
 
 
 
@@ -429,30 +329,20 @@ On web, it returns the size of the canvas's outer DOM element.
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:406](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L406)&nbsp;
 ___
 ### getResolutionPolicy
+
 <div style="margin-left: 10px;">
 
 ▸   **getResolutionPolicy**<`ResolutionPolicy`\> : `ResolutionPolicy`
 
 
 
-
 **`en`** Returns the current resolution policy
-
 
 
 
@@ -462,25 +352,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `ResolutionPolicy` -->
-<!---->
-
-
 ##### Returns `ResolutionPolicy`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:465](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L465)&nbsp;
 ___
 ### getScaleX
+
 <div style="margin-left: 10px;">
 
 ▸   **getScaleX**<`number`\> : `number`
-
 
 
 
@@ -489,25 +370,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:632](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L632)&nbsp;
 ___
 ### getScaleY
+
 <div style="margin-left: 10px;">
 
 ▸   **getScaleY**<`number`\> : `number`
-
 
 
 
@@ -516,25 +388,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:640](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L640)&nbsp;
 ___
 ### getViewportRect
+
 <div style="margin-left: 10px;">
 
 ▸   **getViewportRect**<`Rect`\> : `Rect`
-
 
 
 
@@ -543,133 +406,88 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `Rect` -->
-<!---->
-
-
 ##### Returns `Rect`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:624](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L624)&nbsp;
 ___
 ### getVisibleOrigin
+
 <div style="margin-left: 10px;">
 
 ▸   **getVisibleOrigin**<`Vec2`\> : `Vec2`
 
 
 
-
 **`en`** Returns the visible origin of the view port.
 
 
 
 
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
-
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:447](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L447)&nbsp;
 ___
 ### getVisibleOriginInPixel
+
 <div style="margin-left: 10px;">
 
 ▸   **getVisibleOriginInPixel**<`Vec2`\> : `Vec2`
 
 
 
-
 **`en`** Returns the visible origin of the view port.
 
 
 
 
-<!---->
-<!--    #### Returns `Vec2` -->
-<!---->
-
-
 ##### Returns `Vec2`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:455](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L455)&nbsp;
 ___
 ### getVisibleSize
+
 <div style="margin-left: 10px;">
 
 ▸   **getVisibleSize**<`Size`\> : `Size`
 
 
 
-
 **`en`** Returns the visible area size of the view port.
 
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:430](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L430)&nbsp;
 ___
 ### getVisibleSizeInPixel
+
 <div style="margin-left: 10px;">
 
 ▸   **getVisibleSizeInPixel**<`Size`\> : `Size`
 
 
 
-
 **`en`** Returns the visible area size of the view port.
 
 
 
 
-<!---->
-<!--    #### Returns `Size` -->
-<!---->
-
-
 ##### Returns `Size`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:438](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L438)&nbsp;
 ___
 ### hasEventListener
+
 <div style="margin-left: 10px;">
 
 ▸   **hasEventListener**<`boolean`\>(`type: string, callback: undefined | , target: any`) : `boolean`
-
 
 
 
@@ -677,37 +495,22 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `string` | Event type.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `undefined \| ` | Callback function when event triggered.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `target` | `any` | Callback callee.  |
 
 
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:52](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L52)&nbsp;
 ___
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\> : `void`
@@ -715,25 +518,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:197](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L197)&nbsp;
 ___
 ### isAutoFullScreenEnabled
+
 <div style="margin-left: 10px;">
 
 ▸   **isAutoFullScreenEnabled**<`boolean`\> : `boolean`
-
 
 
 
@@ -744,26 +538,16 @@ Only useful on web
 
 
 
-<!---->
-<!--    #### Returns `boolean` Auto full screen enabled or not
--->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:353](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L353)&nbsp;
 ___
 ### isRetinaEnabled
+
 <div style="margin-left: 10px;">
 
 ▸   **isRetinaEnabled**<`boolean`\> : `boolean`
-
 
 
 
@@ -774,32 +558,22 @@ Only useful on web
 
 
 
-<!---->
-<!--    #### Returns `boolean` -->
-<!---->
-
-
 ##### Returns `boolean`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:319](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L319)&nbsp;
 ___
 ### off
+
 <div style="margin-left: 10px;">
 
 ▸   **off**<`void`\>(`type: EventType, callback: TFunction, thisArg: any`) : `void`
 
 
 
-
 **`en`** 
 Removes the listeners previously registered with the same type, callback, target and or useCapture,
 if only type is passed as parameter, all listeners registered with that type will be removed.
-
 
 
 
@@ -821,48 +595,31 @@ eventTarget.off('fire');
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type being removed.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback to remove.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:114](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L114)&nbsp;
 ___
 ### on
+
 <div style="margin-left: 10px;">
 
 ▸   **on**(`type: EventType, callback: TFunction, thisArg: any, once: undefined | false | true`)
 
 
 
-
 **`en`** 
 Register an callback of a specific event type on the EventTarget.
 This type of event should be triggered via `emit`.
-
 
 
 
@@ -879,50 +636,32 @@ eventTarget.on('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | The target (this object) to invoke the callback, can be null  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `once` | `undefined \| false \| true` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:72](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L72)&nbsp;
 ___
 ### once
+
 <div style="margin-left: 10px;">
 
 ▸   **once**(`type: EventType, callback: TFunction, thisArg: any`)
 
 
 
-
 **`en`** 
 Register an callback of a specific event type on the EventTarget,
 the callback will remove itself after the first time it is triggered.
-
 
 
 
@@ -939,50 +678,31 @@ eventTarget.once('fire', function () {
 
 
 
-
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `type` | `EventType` | A string representing the event type to listen for.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `callback` | `TFunction` | The callback that will be invoked when the event is dispatched.                             The callback is ignored if it is a duplicate (the callbacks are unique).  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thisArg` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:91](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L91)&nbsp;
 ___
 ### removeAll
+
 <div style="margin-left: 10px;">
 
 ▸   **removeAll**<`void`\>(`typeOrTarget: any`) : `void`
 
 
 
-
 **`en`** Removes all callbacks registered in a certain event type or all callbacks registered with a certain target
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -991,21 +711,16 @@ ___
 | `typeOrTarget` | `any` | The event type or target with which the listeners will be removed  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L133)&nbsp;
 ___
 ### resizeWithBrowserSize
+
 <div style="margin-left: 10px;">
 
 ▸   **resizeWithBrowserSize**<`void`\>(`enabled: boolean`) : `void`
-
 
 
 
@@ -1015,11 +730,6 @@ Useful only on web.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1027,54 +737,37 @@ Useful only on web.
 | `enabled` | `boolean` | Whether enable automatic resize with browser's resize event  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:228](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L228)&nbsp;
 ___
 ### setCanvasSize
+
 <div style="margin-left: 10px;">
 
 ▸   **setCanvasSize**<`void`\>(`width: number, height: number`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:365](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L365)&nbsp;
 ___
 ### setDesignResolutionSize
+
 <div style="margin-left: 10px;">
 
 ▸   **setDesignResolutionSize**<`void`\>(`width: number, height: number, resolutionPolicy: ResolutionPolicy | number`) : `void`
-
 
 
 
@@ -1089,41 +782,25 @@ The resolution policy include: <br/>
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | Design resolution width.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | Design resolution height.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `resolutionPolicy` | `ResolutionPolicy \| number` | The resolution policy desired  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:512](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L512)&nbsp;
 ___
 ### setFrameSize
+
 <div style="margin-left: 10px;">
 
 ▸   **setFrameSize**<`void`\>(`width: number, height: number`) : `void`
-
 
 
 
@@ -1132,37 +809,24 @@ On web, it sets the size of the canvas's outer DOM element.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` |   |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:418](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L418)&nbsp;
 ___
 ### setOrientation
+
 <div style="margin-left: 10px;">
 
 ▸   **setOrientation**<`void`\>(`orientation: number`) : `void`
-
 
 
 
@@ -1175,11 +839,6 @@ in native, you need to set the application orientation in native project setting
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1187,21 +846,16 @@ in native, you need to set the application orientation in native project setting
 | `orientation` | `number` | Possible values: macro.ORIENTATION_LANDSCAPE | macro.ORIENTATION_PORTRAIT | macro.ORIENTATION_AUTO  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:275](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L275)&nbsp;
 ___
 ### setRealPixelResolution
+
 <div style="margin-left: 10px;">
 
 ▸   **setRealPixelResolution**<`void`\>(`width: number, height: number, resolutionPolicy: ResolutionPolicy | number`) : `void`
-
 
 
 
@@ -1217,41 +871,25 @@ This API will do the following:
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `width` | `number` | Design resolution width.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | Design resolution height.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `resolutionPolicy` | `ResolutionPolicy \| number` | The resolution policy desired  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:604](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L604)&nbsp;
 ___
 ### setResizeCallback
+
 <div style="margin-left: 10px;">
 
 ▸   **setResizeCallback**<`void`\>(`callback:  | null`) : `void`
-
 
 
 
@@ -1263,11 +901,6 @@ Useful only on web.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1275,26 +908,20 @@ Useful only on web.
 | `callback` | ` \| null` | The callback function  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:256](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L256)&nbsp;
 ___
 ### setResolutionPolicy
+
 <div style="margin-left: 10px;">
 
 ▸   **setResolutionPolicy**<`void`\>(`resolutionPolicy: ResolutionPolicy | number`) : `void`
 
 
 
-
 **`en`** Sets the current resolution policy
-
 
 
 
@@ -1303,11 +930,6 @@ ___
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1315,21 +937,16 @@ ___
 | `resolutionPolicy` | `ResolutionPolicy \| number` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/platform/view.ts:474](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/platform/view.ts#L474)&nbsp;
 ___
 ### targetOff
+
 <div style="margin-left: 10px;">
 
 ▸   **targetOff**<`void`\>(`typeOrTarget: any`) : `void`
-
 
 
 
@@ -1340,11 +957,6 @@ It's only for removing all listeners (callback and target couple) registered on 
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1352,12 +964,7 @@ It's only for removing all listeners (callback and target couple) registered on 
 | `typeOrTarget` | `any` | The target to be searched for all related listeners  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/event/eventify.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/event/eventify.ts#L126)&nbsp;

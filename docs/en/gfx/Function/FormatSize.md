@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Get memory size of the specified fomat.
 
 
@@ -18,19 +17,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `format` | `Format` | The target format.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `width` | `number` | The target width.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | The target height.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `depth` | `number` | The target depth.  |
-
 
 #### Returns `number` 
 ___

@@ -34,9 +34,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:150](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L150)&nbsp;
-
 ___
 #### _short
 
@@ -47,9 +45,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:154](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L154)&nbsp;
-
 ___
 #### animatable
 
@@ -60,9 +56,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:127](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L127)&nbsp;
-
 ___
 #### displayName
 
@@ -73,9 +67,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L40)&nbsp;
-
 ___
 #### displayOrder
 
@@ -86,9 +78,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:45](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L45)&nbsp;
-
 ___
 #### editorOnly
 
@@ -99,9 +89,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:117](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L117)&nbsp;
-
 ___
 #### formerlySerializedAs
 
@@ -112,9 +100,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:112](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L112)&nbsp;
-
 ___
 #### max
 
@@ -125,9 +111,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:87](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L87)&nbsp;
-
 ___
 #### min
 
@@ -138,9 +122,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:82](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L82)&nbsp;
-
 ___
 #### multiline
 
@@ -151,9 +133,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:62](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L62)&nbsp;
-
 ___
 #### override
 
@@ -164,9 +144,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:122](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L122)&nbsp;
-
 ___
 #### radian
 
@@ -177,9 +155,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:137](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L137)&nbsp;
-
 ___
 #### range
 
@@ -190,14 +166,11 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:97](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L97)&nbsp;
-
 ___
 #### readonly
 
 <div style="margin-left: 10px;">
-
 
 
 
@@ -209,9 +182,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:70](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L70)&nbsp;
-
 ___
 #### serializable
 
@@ -222,9 +193,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:107](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L107)&nbsp;
-
 ___
 #### slide
 
@@ -235,9 +204,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L102)&nbsp;
-
 ___
 #### step
 
@@ -248,9 +215,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:92](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L92)&nbsp;
-
 ___
 #### tab
 
@@ -258,9 +223,7 @@ ___
 
 
 
-
 **`en`** The tab name where this property is organized into, on property inspector.
-
 
 
 
@@ -272,9 +235,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:57](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L57)&nbsp;
-
 ___
 #### tooltip
 
@@ -282,9 +243,7 @@ ___
 
 
 
-
 **`en`** Editor tooltip of this property.
-
 
 
 
@@ -296,9 +255,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L51)&nbsp;
-
 ___
 #### type
 
@@ -309,9 +266,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:30](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L30)&nbsp;
-
 ___
 #### unit
 
@@ -322,9 +277,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:132](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L132)&nbsp;
-
 ___
 #### visible
 
@@ -335,7 +288,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/data/utils/attribute-defines.ts:35](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/data/utils/attribute-defines.ts#L35)&nbsp;
-
 ___

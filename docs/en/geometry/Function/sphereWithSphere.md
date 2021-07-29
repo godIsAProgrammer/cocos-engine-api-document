@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 sphere-sphere intersect detect.
 
@@ -19,11 +18,7 @@ sphere-sphere intersect detect.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `sphere0` | `Sphere` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `sphere1` | `Sphere` | - |
-
 
 #### Returns `boolean` true or false
 

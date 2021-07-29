@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 A key frame in the curve.
 
@@ -31,7 +30,6 @@ A key frame in the curve.
 
 
 
-
 **`en`** In tangent value.
 
 
@@ -49,7 +47,6 @@ ___
 
 ### outTangent
 <div style="margin-left: 10px;">
-
 
 
 
@@ -73,7 +70,6 @@ ___
 
 
 
-
 **`en`** Current frame time.
 
 
@@ -91,7 +87,6 @@ ___
 
 ### value
 <div style="margin-left: 10px;">
-
 
 
 

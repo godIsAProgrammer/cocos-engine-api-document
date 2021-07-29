@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 包含所有顶点数据的渲染子网格，可以用来创建 [[InputAssembler]]。
 
 
@@ -81,7 +80,6 @@ ___
 
 
 
-
 **`zh`** 所有顶点属性。
 
 
@@ -103,7 +101,6 @@ ___
 
 
 
-
 **`zh`** 扁平化的顶点缓冲区。
 
 
@@ -122,7 +119,6 @@ ___
 
 ### geometricInfo
 <div style="margin-left: 10px;">
-
 
 
 
@@ -179,7 +175,6 @@ ___
 
 
 
-
 **`zh`** 使用的索引缓冲区，若未使用则无需指定。
 
 
@@ -198,7 +193,6 @@ ___
 
 ### indirectBuffer
 <div style="margin-left: 10px;">
-
 
 
 
@@ -223,7 +217,6 @@ ___
 
 
 
-
 **`zh`** 骨骼索引按映射表处理后的顶点缓冲。
 
 
@@ -245,7 +238,6 @@ ___
 
 
 
-
 **`zh`** 图元类型。
 
 
@@ -264,7 +256,6 @@ ___
 
 ### vertexBuffers
 <div style="margin-left: 10px;">
-
 
 
 
@@ -293,46 +284,14 @@ ___
 • **new RenderingSubMesh**(`vertexBuffers: undefined, attributes: undefined, primitiveMode: PrimitiveMode, indexBuffer: Buffer | null, indirectBuffer: Buffer | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `vertexBuffers` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `attributes` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `primitiveMode` | `PrimitiveMode` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `indexBuffer` | `` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `indirectBuffer` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L121)&nbsp;
@@ -344,6 +303,7 @@ ___
 ## Methods
 
 ### destroy
+
 <div style="margin-left: 10px;">
 
 ▸   **destroy**<`void`\> : `void`
@@ -351,31 +311,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:327](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L327)&nbsp;
 ___
 ### enableVertexIdChannel
+
 <div style="margin-left: 10px;">
 
 ▸   **enableVertexIdChannel**<`void`\>(`device: Device`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -384,17 +331,13 @@ ___
 | `device` | `Device` | Device used to create related rendering resources.  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:363](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L363)&nbsp;
 ___
 ### genFlatBuffers
+
 <div style="margin-left: 10px;">
 
 ▸   **genFlatBuffers**<`void`\> : `void`
@@ -402,16 +345,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/assets/rendering-sub-mesh.ts:223](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/assets/rendering-sub-mesh.ts#L223)&nbsp;

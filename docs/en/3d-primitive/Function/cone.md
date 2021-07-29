@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** 
 Generate a cone with radius 0.5, height 1, centered at origin,
 but may be repositioned through the `center` option.
@@ -20,15 +19,8 @@ but may be repositioned through the `center` option.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `radius` | `number` | 圆锥半径。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `height` | `number` | 圆锥高度。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `opts` | `RecursivePartial` | 圆锥参数选项。  |
-
 
 #### Returns `IGeometry` 
 ___

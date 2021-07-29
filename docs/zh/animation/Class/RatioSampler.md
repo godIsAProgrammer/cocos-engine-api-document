@@ -50,14 +50,10 @@ ___
 • **new RatioSampler**(`ratios: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `ratios` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-curve.ts:104](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-curve.ts#L104)&nbsp;
@@ -69,16 +65,12 @@ ___
 ## Methods
 
 ### sample
+
 <div style="margin-left: 10px;">
 
 ▸   **sample**<`number`\>(`ratio: number`) : `number`
 
 
-
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
 
 #### Parameters
 
@@ -87,12 +79,7 @@ ___
 | `ratio` | `number` | - |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/animation/animation-curve.ts:125](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/animation/animation-curve.ts#L125)&nbsp;

@@ -11,7 +11,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -212,6 +211,9 @@ ___
 • **new ForceOvertimeModule**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/force-overtime.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/force-overtime.ts#L106)&nbsp;
@@ -223,49 +225,33 @@ ___
 ## Methods
 
 ### animate
+
 <div style="margin-left: 10px;">
 
 ▸   **animate**<`void`\>(`p: any, dt: any`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `p` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `dt` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/force-overtime.ts:119](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/force-overtime.ts#L119)&nbsp;
 ___
 ### bindTarget
+
 <div style="margin-left: 10px;">
 
 ▸   **bindTarget**<`void`\>(`target: IParticleSystemRenderer`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -274,45 +260,28 @@ ___
 | `target` | `IParticleSystemRenderer` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/particle.ts:126](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/particle.ts#L126)&nbsp;
 ___
 ### update
+
 <div style="margin-left: 10px;">
 
 ▸   **update**<`void`\>(`space: any, worldTransform: any`) : `void`
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `space` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `worldTransform` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/particle/animator/force-overtime.ts:115](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/particle/animator/force-overtime.ts#L115)&nbsp;

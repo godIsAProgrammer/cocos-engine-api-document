@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`deprecated`** 
 
 
@@ -19,15 +18,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `positions` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `nms` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `length` | `number` | - |
-
 
 ___
 

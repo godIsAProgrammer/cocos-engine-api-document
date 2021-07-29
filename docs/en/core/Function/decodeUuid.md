@@ -8,10 +8,8 @@ ___
 ___
 
 
-
 **`en`** 
 Decode uuid, returns the original uuid
-
 
 
 
@@ -34,7 +32,6 @@ const originalUuid = decodeUuid(uuid); // fc991dd7-0033-4b80-9d41-c8a86a702e59
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `base64` | `string` | the encoded uuid  |
-
 
 #### Returns `string` the original uuid
 

@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/utils/text-utils.ts:48](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/utils/text-utils.ts#L48)&nbsp;
-
 ___
 #### next
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/utils/text-utils.ts:51](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/utils/text-utils.ts#L51)&nbsp;
-
 ___
 #### prev
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/utils/text-utils.ts:50](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/utils/text-utils.ts#L50)&nbsp;
-
 ___
 #### value
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/utils/text-utils.ts:49](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/utils/text-utils.ts#L49)&nbsp;
-
 ___

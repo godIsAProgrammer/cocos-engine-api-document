@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `options` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `isGetset` | `any` | - |
-
 
 ___
 

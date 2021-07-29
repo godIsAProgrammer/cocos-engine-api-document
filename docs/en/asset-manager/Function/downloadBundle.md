@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `nameOrUrl` | `string` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `options` | `IBundleOptions` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `onComplete` | `CompleteCallback` | - |
-
 
 #### Returns `void` 
 ___

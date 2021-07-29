@@ -22,10 +22,8 @@
 
 
 
-
 **`en`** 
 specify vertex attributes, use (positions|normals|uvs|colors) as keys
-
 
 
 
@@ -38,9 +36,7 @@ specify vertex attributes, use (positions|normals|uvs|colors) as keys
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L129)&nbsp;
-
 ___
 #### boundingRadius
 
@@ -48,10 +44,8 @@ ___
 
 
 
-
 **`en`** 
 Bounding sphere radius.
-
 
 
 
@@ -64,9 +58,7 @@ Bounding sphere radius.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:142](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L142)&nbsp;
-
 ___
 #### colors
 
@@ -74,10 +66,8 @@ ___
 
 
 
-
 **`en`** 
 Vertex colors.
-
 
 
 
@@ -90,9 +80,7 @@ Vertex colors.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L121)&nbsp;
-
 ___
 #### customAttributes
 
@@ -103,9 +91,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:131](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L131)&nbsp;
-
 ___
 #### doubleSided
 
@@ -113,10 +99,8 @@ ___
 
 
 
-
 **`en`** 
 whether rays casting from the back face of this geometry could collide with it
-
 
 
 
@@ -129,9 +113,7 @@ whether rays casting from the back face of this geometry could collide with it
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:190](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L190)&nbsp;
-
 ___
 #### indices
 
@@ -139,10 +121,8 @@ ___
 
 
 
-
 **`en`** 
 Geometry indices, if one needs indexed-draw.
-
 
 
 
@@ -155,9 +135,7 @@ Geometry indices, if one needs indexed-draw.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:174](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L174)&nbsp;
-
 ___
 #### maxPos
 
@@ -165,10 +143,8 @@ ___
 
 
 
-
 **`en`** 
 Max position.
-
 
 
 
@@ -181,9 +157,7 @@ Max position.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:162](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L162)&nbsp;
-
 ___
 #### minPos
 
@@ -191,10 +165,8 @@ ___
 
 
 
-
 **`en`** 
 Min position.
-
 
 
 
@@ -207,9 +179,7 @@ Min position.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:150](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L150)&nbsp;
-
 ___
 #### normals
 
@@ -217,10 +187,8 @@ ___
 
 
 
-
 **`en`** 
 Vertex normals.
-
 
 
 
@@ -233,9 +201,7 @@ Vertex normals.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:97](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L97)&nbsp;
-
 ___
 #### positions
 
@@ -243,10 +209,8 @@ ___
 
 
 
-
 **`en`** 
 Vertex positions.
-
 
 
 
@@ -259,9 +223,7 @@ Vertex positions.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:89](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L89)&nbsp;
-
 ___
 #### primitiveMode
 
@@ -269,10 +231,8 @@ ___
 
 
 
-
 **`en`** 
 Topology of the geometry vertices. Default is TRIANGLE_LIST.
-
 
 
 
@@ -285,9 +245,7 @@ Topology of the geometry vertices. Default is TRIANGLE_LIST.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:182](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L182)&nbsp;
-
 ___
 #### tangents
 
@@ -295,10 +253,8 @@ ___
 
 
 
-
 **`en`** 
 Vertex Tangents.
-
 
 
 
@@ -311,9 +267,7 @@ Vertex Tangents.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:113](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L113)&nbsp;
-
 ___
 #### uvs
 
@@ -321,10 +275,8 @@ ___
 
 
 
-
 **`en`** 
 Texture coordinates.
-
 
 
 
@@ -337,7 +289,5 @@ Texture coordinates.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/primitive/define.ts:105](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/primitive/define.ts#L105)&nbsp;
-
 ___

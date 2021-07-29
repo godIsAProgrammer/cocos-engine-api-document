@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`en`** 
 Copy an array.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,7 +23,6 @@ Copy an array.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | - |
-
 
 ___
 

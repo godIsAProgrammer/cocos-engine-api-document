@@ -67,22 +67,11 @@ ___
 • **new MemoryStatus**(`bufferSize: number, textureSize: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `bufferSize` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `textureSize` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1635](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1635)&nbsp;
@@ -94,16 +83,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: MemoryStatus`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -112,12 +97,7 @@ ___
 | `info` | `MemoryStatus` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1642](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1642)&nbsp;

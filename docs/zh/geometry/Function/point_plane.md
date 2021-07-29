@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 计算点和平面之间的距离。
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `point` | `Vec3` | 点。  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `plane_` | `Plane` | - |
-
 
 #### Returns `number` 距离。
 

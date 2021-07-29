@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `device` | `WebGL2Device` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `buffers` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `gpuTexture` | `IWebGL2GPUTexture` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `regions` | - | - |
-
 
 #### Returns `void` 
 ___

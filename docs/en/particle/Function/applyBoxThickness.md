@@ -13,11 +13,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `pos` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `thickness` | `any` | - |
-
 
 #### Returns `void` 
 ___

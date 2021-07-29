@@ -18,9 +18,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L41)&nbsp;
-
 ___
 #### colors
 
@@ -31,9 +29,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L40)&nbsp;
-
 ___
 #### indices
 
@@ -44,9 +40,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:44](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L44)&nbsp;
-
 ___
 #### segments
 
@@ -57,9 +51,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:39](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L39)&nbsp;
-
 ___
 #### uintVert
 
@@ -70,9 +62,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:43](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L43)&nbsp;
-
 ___
 #### vertices
 
@@ -83,7 +73,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureCache.ts:42](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureCache.ts#L42)&nbsp;
-
 ___

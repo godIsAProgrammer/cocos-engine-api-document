@@ -16,9 +16,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/depend-util.ts:39](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/depend-util.ts#L39)&nbsp;
-
 ___
 #### nativeDep
 
@@ -29,9 +27,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/depend-util.ts:38](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/depend-util.ts#L38)&nbsp;
-
 ___
 #### parsedFromExistAsset
 
@@ -42,9 +38,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/depend-util.ts:40](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/depend-util.ts#L40)&nbsp;
-
 ___
 #### persistDeps
 
@@ -55,7 +49,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/core/asset-manager/depend-util.ts:41](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/depend-util.ts#L41)&nbsp;
-
 ___

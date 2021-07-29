@@ -19,14 +19,11 @@
 
 
 
-
 **`en`** Bottom side border for sliced 9 frame.
 
 
 
-
 **`zh`** 九宫格精灵帧的下边界。
-
 
 
 
@@ -38,9 +35,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:127](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L127)&nbsp;
-
 ___
 #### borderLeft
 
@@ -48,14 +43,11 @@ ___
 
 
 
-
 **`en`** Left side border for sliced 9 frame.
 
 
 
-
 **`zh`** 九宫格精灵帧的左边界。
-
 
 
 
@@ -67,9 +59,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:133](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L133)&nbsp;
-
 ___
 #### borderRight
 
@@ -77,14 +67,11 @@ ___
 
 
 
-
 **`en`** Right side border for sliced 9 frame.
 
 
 
-
 **`zh`** 九宫格精灵帧的右边界。
-
 
 
 
@@ -96,9 +83,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:139](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L139)&nbsp;
-
 ___
 #### borderTop
 
@@ -106,14 +91,11 @@ ___
 
 
 
-
 **`en`** Top side border for sliced 9 frame.
 
 
 
-
 **`zh`** 九宫格精灵帧的上边界。
-
 
 
 
@@ -125,9 +107,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:121](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L121)&nbsp;
-
 ___
 #### isFlipUv
 
@@ -135,9 +115,7 @@ ___
 
 
 
-
 **`en`** Whether the uv is flipped
-
 
 
 
@@ -149,9 +127,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:149](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L149)&nbsp;
-
 ___
 #### isRotate
 
@@ -159,9 +135,7 @@ ___
 
 
 
-
 **`en`** Whether the content of sprite frame is rotated.
-
 
 
 
@@ -173,9 +147,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:144](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L144)&nbsp;
-
 ___
 #### offset
 
@@ -183,11 +155,9 @@ ___
 
 
 
-
 **`en`** The offset of the sprite frame center from the original center of the original rect.
 Sprite frame in an atlas texture could be trimmed for clipping the transparent pixels, so the trimmed rect is smaller than the original one,
 the offset defines the distance from the original center to the trimmed center.
-
 
 
 
@@ -200,9 +170,7 @@ the offset defines the distance from the original center to the trimmed center.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:115](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L115)&nbsp;
-
 ___
 #### originalSize
 
@@ -210,9 +178,7 @@ ___
 
 
 
-
 **`en`** The original size of the sprite frame
-
 
 
 
@@ -224,9 +190,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:102](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L102)&nbsp;
-
 ___
 #### rect
 
@@ -234,9 +198,7 @@ ___
 
 
 
-
 **`en`** The rect of the sprite frame in atlas texture
-
 
 
 
@@ -248,9 +210,7 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:107](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L107)&nbsp;
-
 ___
 #### texture
 
@@ -258,9 +218,7 @@ ___
 
 
 
-
 **`en`** The texture of the sprite frame, could be [[TextureBase]] or [[RenderTexture]]
-
 
 
 
@@ -272,7 +230,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/2d/assets/sprite-frame.ts:97](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/2d/assets/sprite-frame.ts#L97)&nbsp;
-
 ___

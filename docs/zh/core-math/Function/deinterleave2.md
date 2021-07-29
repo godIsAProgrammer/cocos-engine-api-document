@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 提取第 n 个交错分量。
 
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `n` | `number` | - |
-
 
 #### Returns `number` 
 ___

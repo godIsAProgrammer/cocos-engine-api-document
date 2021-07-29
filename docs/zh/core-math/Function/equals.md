@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 在glMatrix的绝对或相对容差范围内，测试参数是否具有近似相同的值。<br/>
 EPSILON(小于等于1.0的值采用绝对公差，大于1.0的值采用相对公差)
 
@@ -19,11 +18,7 @@ EPSILON(小于等于1.0的值采用绝对公差，大于1.0的值采用相对公
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `a` | `number` | The first number to test.  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `b` | `number` | The second number to test.  |
-
 
 #### Returns `boolean` True if the numbers are approximately equal, false otherwise.
 

@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`en`** Rounds down to previous power of 2.
 
 
@@ -18,7 +17,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `v` | `number` | - |
-
 
 #### Returns `number` 
 ___

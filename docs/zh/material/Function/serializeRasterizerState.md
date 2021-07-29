@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `rs` | `RasterizerState` | - |
 
-
 #### Returns `string` 
 ___
 

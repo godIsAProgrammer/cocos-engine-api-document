@@ -12,13 +12,11 @@
 
 
 
-
 **`en`** 
 The local point usage depends on the manifold type:
 - Physics2DManifoldType.Circles: the local center of circleB
 - Physics2DManifoldType.FaceA: the local center of circleB or the clip point of polygonB
 - Physics2DManifoldType.FaceB: the clip point of polygonA
-
 
 
 
@@ -34,9 +32,7 @@ The local point usage depends on the manifold type:
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:99](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L99)&nbsp;
-
 ___
 #### normalImpulse
 
@@ -44,10 +40,8 @@ ___
 
 
 
-
 **`en`** 
 Normal impulse.
-
 
 
 
@@ -60,9 +54,7 @@ Normal impulse.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:106](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L106)&nbsp;
-
 ___
 #### tangentImpulse
 
@@ -70,10 +62,8 @@ ___
 
 
 
-
 **`en`** 
 Tangent impulse.
-
 
 
 
@@ -86,7 +76,5 @@ Tangent impulse.
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/physics-2d/spec/i-physics-contact.ts:113](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/physics-2d/spec/i-physics-contact.ts#L113)&nbsp;
-
 ___

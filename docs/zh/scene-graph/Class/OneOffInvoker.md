@@ -13,7 +13,6 @@
 
 
 
-
 <div class="table-of-content">
 <h2>Table of contents</h2>
 
@@ -62,14 +61,10 @@ ___
 • **new OneOffInvoker**(`invokeFunc: any`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `invokeFunc` | `any` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L101)&nbsp;
@@ -81,16 +76,12 @@ ___
 ## Methods
 
 ### add
+
 <div style="margin-left: 10px;">
 
 ▸   **add**<`void`\>(`comp: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -99,27 +90,18 @@ ___
 | `comp` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:124](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L124)&nbsp;
 ___
 ### cancelInactive
+
 <div style="margin-left: 10px;">
 
 ▸   **cancelInactive**<`void`\>(`flagToClear: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -128,17 +110,13 @@ ___
 | `flagToClear` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:134](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L134)&nbsp;
 ___
 ### invoke
+
 <div style="margin-left: 10px;">
 
 ▸   **invoke**<`void`\> : `void`
@@ -146,31 +124,18 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:140](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L140)&nbsp;
 ___
 ### remove
+
 <div style="margin-left: 10px;">
 
 ▸   **remove**<`void`\>(`comp: any`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -179,12 +144,7 @@ ___
 | `comp` | `any` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/component-scheduler.ts:129](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/component-scheduler.ts#L129)&nbsp;

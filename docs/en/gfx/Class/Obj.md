@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** GFX base object.
 
 
@@ -51,14 +50,10 @@ ___
 • **new Obj**(`gfxType: ObjectType`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `gfxType` | `ObjectType` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1666](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1666)&nbsp;

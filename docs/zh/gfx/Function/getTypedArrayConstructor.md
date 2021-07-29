@@ -14,7 +14,6 @@ ___
 | :------: | :------: | :------: |
 | `info` | `FormatInfo` | - |
 
-
 #### Returns `TypedArrayConstructor` 
 ___
 

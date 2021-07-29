@@ -8,9 +8,7 @@ ___
 ___
 
 
-
 **`zh`** 获取文件名的主名称。
-
 
 
 
@@ -24,7 +22,6 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `fileName` | `string` | - |
-
 
 #### Returns `string` 
 ___

@@ -13,15 +13,8 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `targetString` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `startIndex` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `endIndex` | `any` | - |
-
 
 #### Returns `string` 
 ___

@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** Global fog info
 
 
@@ -57,7 +56,6 @@ ___
 
 
 
-
 **`en`** Enable global fog
 
 
@@ -76,7 +74,6 @@ ___
 
 ### fogAtten
 <div style="margin-left: 10px;">
-
 
 
 
@@ -101,7 +98,6 @@ ___
 
 
 
-
 **`en`** Global fog color
 
 
@@ -120,7 +116,6 @@ ___
 
 ### fogDensity
 <div style="margin-left: 10px;">
-
 
 
 
@@ -145,7 +140,6 @@ ___
 
 
 
-
 **`en`** Global fog end position, only for linear fog
 
 
@@ -164,7 +158,6 @@ ___
 
 ### fogRange
 <div style="margin-left: 10px;">
-
 
 
 
@@ -189,7 +182,6 @@ ___
 
 
 
-
 **`en`** Global fog start position, only for linear fog
 
 
@@ -208,7 +200,6 @@ ___
 
 ### fogTop
 <div style="margin-left: 10px;">
-
 
 
 
@@ -233,7 +224,6 @@ ___
 
 
 
-
 **`en`** Global fog type
 
 
@@ -253,16 +243,12 @@ ___
 ## Methods
 
 ### activate
+
 <div style="margin-left: 10px;">
 
 ▸   **activate**<`void`\>(`resource: Fog`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -271,12 +257,7 @@ ___
 | `resource` | `Fog` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/scene-graph/scene-globals.ts:370](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/scene-graph/scene-globals.ts#L370)&nbsp;

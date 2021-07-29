@@ -27,7 +27,6 @@
 
 
 
-
 **`zh`** 此挂点的目标骨骼路径。
 
 
@@ -46,7 +45,6 @@ ___
 
 ### target
 <div style="margin-left: 10px;">
-
 
 
 
@@ -75,22 +73,11 @@ ___
 • **new SpineSocket**(`path: string, target: Node | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `path` | `string` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `target` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/skeleton.ts:101](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/skeleton.ts#L101)&nbsp;

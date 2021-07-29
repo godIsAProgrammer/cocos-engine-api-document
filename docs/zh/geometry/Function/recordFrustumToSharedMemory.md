@@ -8,7 +8,6 @@ ___
 ___
 
 
-
 **`zh`** 
 记录 frustum 数据到共享内存。并不是每个 frustum 都是需要记录到共享内存的。
 
@@ -19,11 +18,7 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `handle` | `FrustumHandle` | The frustum handle  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `frstm` | `Frustum` | The frustum object  |
-
 
 #### Returns `void` 
 ___

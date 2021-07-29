@@ -8,12 +8,12 @@ ___
 ___
 
 
-
 **`en`** 
 Determines whether the array contains a specific element.
 
 
 #### Type parameters
+
 | Name |
 | :------ |
 | `T` |
@@ -23,11 +23,7 @@ Determines whether the array contains a specific element.
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `array` | - | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `value` | `T` | - |
-
 
 #### Returns `boolean` 返回数组是否包含指定的元素。
 

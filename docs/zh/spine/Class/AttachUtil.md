@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 挂点工具类
 
 
@@ -33,6 +32,9 @@
 • **new AttachUtil**()
 
 #### Parameters
+
+| Name | Type |
+| :------ | :------ |
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/attach-util.ts:22](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/attach-util.ts#L22)&nbsp;
@@ -44,16 +46,12 @@
 ## Methods
 
 ### init
+
 <div style="margin-left: 10px;">
 
 ▸   **init**<`void`\>(`skeletonComp: Skeleton`) : `void`
 
 
-
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
 
 #### Parameters
 
@@ -62,17 +60,13 @@
 | `skeletonComp` | `Skeleton` | - |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/attach-util.ts:31](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/attach-util.ts#L31)&nbsp;
 ___
 ### reset
+
 <div style="margin-left: 10px;">
 
 ▸   **reset**<`void`\> : `void`
@@ -80,16 +74,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/spine/attach-util.ts:38](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/spine/attach-util.ts#L38)&nbsp;

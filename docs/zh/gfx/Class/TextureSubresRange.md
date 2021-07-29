@@ -101,38 +101,13 @@ ___
 • **new TextureSubresRange**(`baseMipLevel: number, levelCount: number, baseArrayLayer: number, layerCount: number`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `baseMipLevel` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `levelCount` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `baseArrayLayer` | `number` |
-
-
-
-
-
-| Name | Type |
-| :------ | :------ |
 | `layerCount` | `number` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:797](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L797)&nbsp;
@@ -144,16 +119,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: TextureSubresRange`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -162,12 +133,7 @@ ___
 | `info` | `TextureSubresRange` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:806](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L806)&nbsp;

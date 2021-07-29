@@ -6,7 +6,6 @@
 
 
 
-
 **`zh`** 
 请求的相关信息集合
 
@@ -60,7 +59,6 @@ ___
 
 
 
-
 **`zh`** 
 资源的内容
 
@@ -81,7 +79,6 @@ ___
 
 ### ext
 <div style="margin-left: 10px;">
-
 
 
 
@@ -108,7 +105,6 @@ ___
 
 
 
-
 **`zh`** 
 资源的文件
 
@@ -129,7 +125,6 @@ ___
 
 ### info
 <div style="margin-left: 10px;">
-
 
 
 
@@ -156,7 +151,6 @@ ___
 
 
 
-
 **`zh`** 
 资源是否是原生资源
 
@@ -177,7 +171,6 @@ ___
 
 ### options
 <div style="margin-left: 10px;">
-
 
 
 
@@ -204,7 +197,6 @@ ___
 
 
 
-
 **`zh`** 
 请求的最终url
 
@@ -225,7 +217,6 @@ ___
 
 ### uuid
 <div style="margin-left: 10px;">
-
 
 
 
@@ -252,7 +243,6 @@ ___
 
 
 
-
 **`zh`** 
 请求的 id, 由 uuid 和 isNative 组合而成
 
@@ -273,10 +263,10 @@ ___
 ## Methods
 
 ### create
+
 <div style="margin-left: 10px;">
 
 ▸ `static`  **create**<`RequestItem`\> : `RequestItem`
-
 
 
 
@@ -287,27 +277,16 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `RequestItem` requestItem
-
--->
-<!---->
-
-
 ##### Returns `RequestItem`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/request-item.ts:67](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/request-item.ts#L67)&nbsp;
 ___
 ### recycle
+
 <div style="margin-left: 10px;">
 
 ▸   **recycle**<`void`\> : `void`
-
 
 
 
@@ -319,16 +298,7 @@ ___
 
 
 
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/asset-manager/request-item.ts:172](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/asset-manager/request-item.ts#L172)&nbsp;

@@ -13,23 +13,10 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `miter` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `lineA` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `lineB` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `halfThick` | `any` | - |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `maxMultiple` | `any` | - |
-
 
 #### Returns `number` 
 ___

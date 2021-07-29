@@ -50,14 +50,10 @@ ___
 • **new PipelineLayoutInfo**(`setLayouts: undefined`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `setLayouts` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1566](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1566)&nbsp;
@@ -69,16 +65,12 @@ ___
 ## Methods
 
 ### copy
+
 <div style="margin-left: 10px;">
 
 ▸   **copy**<`this`\>(`info: PipelineLayoutInfo`) : `this`
 
 
-
-
-<!---->
-<!--    #### Returns `this` -->
-<!---->
 
 #### Parameters
 
@@ -87,12 +79,7 @@ ___
 | `info` | `PipelineLayoutInfo` | - |
 
 
-
 ##### Returns `this`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/gfx/base/define.ts:1572](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/gfx/base/define.ts#L1572)&nbsp;

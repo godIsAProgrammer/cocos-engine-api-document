@@ -6,7 +6,6 @@
 
 
 
-
 **`en`** 
 Describe a curve in which three times Hermite interpolation is used for each adjacent key frame.
 
@@ -39,7 +38,6 @@ Describe a curve in which three times Hermite interpolation is used for each adj
 
 
 
-
 **`en`** 
 The key frame of the curve.
 
@@ -61,7 +59,6 @@ ___
 
 
 
-
 **`en`** 
 Cycle mode [[WrapMode]] when the sampling time exceeds the right end.
 
@@ -80,7 +77,6 @@ ___
 
 ### preWrapMode
 <div style="margin-left: 10px;">
-
 
 
 
@@ -109,14 +105,10 @@ ___
 • **new AnimationCurve**(`keyFrames: array<Keyframe> | null`)
 
 #### Parameters
+
 | Name | Type |
 | :------ | :------ |
 | `keyFrames` | `` |
-
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/curve.ts:150](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/curve.ts#L150)&nbsp;
@@ -128,10 +120,10 @@ ___
 ## Methods
 
 ### addKey
+
 <div style="margin-left: 10px;">
 
 ▸   **addKey**<`void`\>(`keyFrame: Keyframe`) : `void`
-
 
 
 
@@ -140,11 +132,6 @@ Add a keyframe.
 
 
 
-
-<!---->
-<!--    #### Returns `void` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -152,21 +139,16 @@ Add a keyframe.
 | `keyFrame` | `Keyframe` | 关键帧。  |
 
 
-
 ##### Returns `void`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/curve.ts:168](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/curve.ts#L168)&nbsp;
 ___
 ### evaluate
+
 <div style="margin-left: 10px;">
 
 ▸   **evaluate**<`number`\>(`time: number`) : `number`
-
 
 
 
@@ -175,11 +157,6 @@ Calculate the curve interpolation at a given point in time.
 
 
 
-
-<!---->
-<!--    #### Returns `number` -->
-<!---->
-
 #### Parameters
 
 | Name | Type | Description |
@@ -187,12 +164,7 @@ Calculate the curve interpolation at a given point in time.
 | `time` | `number` | 时间。  |
 
 
-
 ##### Returns `number`
-
-
-
-
 </div>
 
 ##### Defined in &nbsp;   [cocos/core/geometry/curve.ts:240](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/core/geometry/curve.ts#L240)&nbsp;

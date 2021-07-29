@@ -14,9 +14,7 @@
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:76](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L76)&nbsp;
-
 ___
 #### texture
 
@@ -27,7 +25,5 @@ ___
 
 </div>
 
-
 ##### Defined in &nbsp;   [cocos/dragon-bones/ArmatureDisplay.ts:77](https://github.com/cocos-creator/engine/blob/c7bf6b8a9/cocos/dragon-bones/ArmatureDisplay.ts#L77)&nbsp;
-
 ___

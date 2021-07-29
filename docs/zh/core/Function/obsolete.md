@@ -13,19 +13,9 @@ ___
 | Name | Type | Description |
 | :------: | :------: | :------: |
 | `object` | `any` | YourObject or YourClass.prototype  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `obsoleted` | `string` | "OldParam" or "YourClass.OldParam"  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `newExpr` | `string` | "NewParam" or "YourClass.NewParam"  |
-
-| Name | Type | Description |
-| :------: | :------: | :------: |
 | `writable` | - | - |
-
 
 #### Returns `void` 
 ___
